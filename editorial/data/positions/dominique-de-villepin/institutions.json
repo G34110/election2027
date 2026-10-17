@@ -4,34 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat de référence fait de la refonte institutionnelle son chantier signature : un « Big Bang » fondateur baptisé « la règle républicaine », adossé à sa volonté de « restaurer la fonction présidentielle » d'arbitre garant des institutions.",
-    "mesure_phare": "« Big Bang : la règle républicaine » — chantier fondateur",
+    "synthese": "« Le chemin gaulliste » (24/05/2026) : le candidat identifie trois menaces pour la démocratie libérale — l'illibéralisme (contournement de la Constitution par référendum article 11, sortie de la CEDH), « l'hyperparlementarisme livré aux égoïsmes partisans », et « l'indifférentisme constitutionnel » (loi d'habilitation par ordonnances accordée par référendum = « changement de régime », « gouvernement par décret »). Sa doctrine : restaurer le président « arbitre, au sens le plus exigeant du terme », au-dessus des partis, « dernier recours plutôt que premier réflexe », avec des compétences exceptionnelles en « riposte graduée » — et refus des référendums adossés aux législatives.",
+    "mesure_phare": "Président arbitre « au-dessus des partis » — refus des ordonnances/référendum-habilitation — parlementarisme raisonné",
     "type_mesure": "orientee",
     "source": {
-      "url_live": "https://lafrancehumaniste.fr/france2027",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Projet France 2027 — Les chantiers",
+      "url_live": "https://lafrancehumaniste.fr/articles/chemin-gaulliste.html",
+      "url_archive": "https://web.archive.org/web/20260928122842/https://lafrancehumaniste.fr/articles/chemin-gaulliste.html",
+      "titre": "« Le chemin gaulliste » — chronique du 24/05/2026 (chantier Institutions du Projet France 2027)",
       "date_verification": "2026-10-17",
-      "verbatim": "Big Bang : la règle républicaine"
+      "verbatim": "Le président, dans l'esprit de 1958, n'est pas le chef d'un camp, encore moins le porte-drapeau d'une majorité de circonstance, mais l'arbitre, au sens le plus exigeant du terme. Il se tient au-dessus des partis sans se croire au-dessus des Français."
     }
   },
-  "fil_du_temps": [
-    {
-      "date": "2026-03-27",
-      "position": "Cap donné au projet : « la France tout court, universelle et humaniste » — discours fondateur à la Sorbonne",
-      "verbatim": "Je suis venu vous parler de la France, parce que personne n'en parle plus vraiment. Pas de la nouvelle France, je n'y crois pas. Pas de la France de souche, elle n'existe pas. Non, la France tout court, celle qui nous unit.",
-      "source_url": "https://lafrancehumaniste.fr/articles/le-moment-francais-sorbonne.html",
-      "contexte": "Discours 'Le moment français', Conférence à La Sorbonne"
-    }
-  ],
-  "actes_passes": [
-    {
-      "date": "2003-02-14",
-      "acte": "Discours aux Nations Unies opposant la France à la guerre en Irak",
-      "mandat": "Ministre des Affaires étrangères",
-      "source_url": "https://www.diplomatie.gouv.fr/"
-    }
-  ]
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Audit 17/10/2026 : source remplacée par la chronique dédiée du chantier Institutions — doctrine complète (contient aussi une critique implicite de la méthode « dissolution + référendums » défendue par E. Philippe : « se croire de Gaulle et n'être que Coty »). Le chantier Fiscalité « Big Bang : la règle républicaine » (niches fiscales) relève de la fiche dette-déficits."
 }

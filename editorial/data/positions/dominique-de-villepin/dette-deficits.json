@@ -4,26 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat de référence qualifie la dette sociale de « bombe à retardement » et de « première cause d'insécurité » : il fait du retour à l'équilibre à moyen terme et de la soutenabilité des finances sociales « la clé de voûte de tout l'édifice », refusant à la fois « la protection à crédit » et la privatisation.",
-    "mesure_phare": "« La dette sociale est devenue une bombe à retardement » — retour à l'équilibre à moyen terme",
-    "type_mesure": "orientee",
+    "synthese": "Diagnostic : « la dette sociale est devenue une bombe à retardement, la première cause d'insécurité » — retour à l'équilibre à moyen terme érigé en « clé de voûte de tout l'édifice », refus de la « protection à crédit » comme des hausses générales d'impôts (« nous atteindrions un taux de 50 % de TVA que nous aurions encore des déficits »). Remède : une « loi d'extinction » des ~400 niches fiscales et sociales (~175 Md€/an), progressive et évaluée, dont le produit serait réparti en tiers : ~11 Md€ pour compenser les impacts sur l'emploi et les entreprises, ~11 Md€ pour des politiques publiques ciblées (emploi, recherche, logement, outre-mer), ~12 Md€ pour combler les déficits.",
+    "mesure_phare": "Extinction progressive des ~400 niches fiscales et sociales — ~34 Md€/an redirigés dont ~12 Md€ pour les déficits",
+    "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Vers une protection sociale rénovée — La France Humaniste",
+      "url_live": "https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine.html",
+      "url_archive": "https://web.archive.org/web/20260919214116/https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine.html",
+      "titre": "« Big Bang : la règle républicaine » — chronique du 28/08/2026 (chantier Fiscalité du Projet France 2027)",
       "date_verification": "2026-10-17",
-      "verbatim": "Rien de durable ne se construit sur des comptes en déséquilibre. Le retour à l'équilibre à moyen terme et la soutenabilité des finances sociales sont la clé de voûte de tout l'édifice."
+      "verbatim": "Les niches fiscales et sociales, aujourd'hui, représentent de l'ordre de 175 milliards par an. […] Un dernier tiers (12 milliards) servira à combler les déficits publics et à replacer l'État sur une trajectoire budgétaire crédible."
     }
   },
   "fil_du_temps": [],
-  "actes_passes": [
-    {
-      "date": "2005-2007",
-      "acte": "Politique de réduction de la dépense publique et privatisation partielle (cède des parts d'EDF/GDF) — bilan documenté à sourcer Legifrance/vie-publique",
-      "mandat": "Premier ministre",
-      "source_url": "https://www.vie-publique.fr/"
-    }
-  ]
+  "actes_passes": [],
+  "_note": "Audit 17/10/2026 : source remplacée (article protection-sociale → chronique « Big Bang » du chantier Fiscalité, mesures chiffrées). Exception conservée dans le texte : taux réduit de TVA sur produits essentiels et quotient familial."
 }

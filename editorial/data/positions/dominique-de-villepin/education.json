@@ -4,19 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat de référence inscrit l'école dans les chantiers du Projet France 2027 : « refonder l'école pour refaire société ».",
-    "mesure_phare": "« Refonder l'école pour refaire société »",
-    "type_mesure": "orientee",
+    "synthese": "« Refonder l'école pour refaire société » (01/09/2026) : troisième révolution de l'école après Ferry et Langevin-Wallon — la « Grande transmission » et la démocratisation des savoirs. Mesures : sanctuariser le budget de l'éducation nationale (revalorisé chaque année de l'inflation, avec maintien en proportion du PIB une fois le déficit sous 3 %) pour atteindre +20 % de dépenses réelles par élève sur 10 ans, consacrer les après-midis du primaire au lycée aux savoirs appliqués (travaux pratiques, création, sport), bâtir « davantage de commun » de 3 à 18 ans, remettre l'humain au centre.",
+    "mesure_phare": "Budget de l'éducation sanctuarisé (+20 % de dépenses réelles par élève sur 10 ans) — « Grande transmission »",
+    "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://lafrancehumaniste.fr/france2027",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Projet France 2027 — Les chantiers",
+      "url_live": "https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
+      "url_archive": "https://web.archive.org/web/20261015154601/https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
+      "titre": "« Refonder l'école pour refaire société » — chronique du 01/09/2026 (chantier Éducation du Projet France 2027)",
       "date_verification": "2026-10-17",
-      "verbatim": "Refonder l'école pour refaire société"
+      "verbatim": "Sanctuariser le budget de l'éducation nationale […] le revaloriser chaque année de l'inflation. […] Cela permettra à l'horizon de 10 ans l'augmentation des dépenses réelles par élèves d'au moins 20 %."
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "_note": "Audit 17/10/2026 : source remplacée (france2027 générique → chronique dédiée du chantier Éducation, avec mesures budgétaires chiffrées)."
 }

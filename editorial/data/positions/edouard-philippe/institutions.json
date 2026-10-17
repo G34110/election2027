@@ -1,25 +1,23 @@
 {
   "candidat_id": "edouard-philippe",
   "theme_id": "institutions",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
-  "fil_du_temps": [],
-  "actes_passes": [
-    {
-      "date": "2017-09",
-      "acte": "Lois pour la confiance dans la vie politique — premières lois de la 15e législature : interdiction du cumul des mandats dans le temps, fin des collaborateurs familiaux d'élus, réserve parlementaire supprimée",
-      "mandat": "Premier ministre (2017-2020)",
-      "source_url": "https://www.vie-publique.fr/discours/268115-edouard-philippe-9042019-bilan-grand-debat-national"
-    },
-    {
-      "date": "2019-04",
-      "acte": "Conduite du Grand débat national après la crise des Gilets jaunes et discours de bilan à l'Assemblée — « un mur de défiance qui sépare beaucoup de Français de ceux qui les représentent »",
-      "mandat": "Premier ministre (2017-2020)",
-      "source_url": "https://www.vie-publique.fr/discours/268115-edouard-philippe-9042019-bilan-grand-debat-national"
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Au congrès Horizons de Lille (mars 2025), le candidat a dévoilé sa « méthode » institutionnelle : dissoudre l'Assemblée nationale « qui a démontré qu'elle ne pouvait pas véritablement dégager de majorité pour agir », convoquer des élections législatives couplées à des référendums portant sur les retraites et sur l'organisation administrative du pays — dont l'inscription dans la Constitution d'une « règle d'or » budgétaire —, et prévoir la possibilité de recourir aux ordonnances.",
+    "mesure_phare": "Dissolution de l'Assemblée + référendums adossés aux législatives (retraites, règle d'or constitutionnelle, organisation administrative)",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://www.tf1info.fr/politique/ancien-premier-ministre-et-maire-du-havre-edouard-philippe-devoile-sa-feuille-de-route-en-cas-d-election-a-la-presidentielle-de-2027-2359655.html",
+      "url_archive": "https://web.archive.org/web/20260815170451/https://www.tf1info.fr/politique/ancien-premier-ministre-et-maire-du-havre-edouard-philippe-devoile-sa-feuille-de-route-en-cas-d-election-a-la-presidentielle-de-2027-2359655.html",
+      "titre": "TF1 Info — « Édouard Philippe dévoile sa feuille de route en cas d'élection à la présidentielle de 2027 » (16/03/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "Sur la base de ce projet, je consulterai les forces politiques et sociales. […] dissolution de l'Assemblée, élections législatives en juin adossées à un référendum portant sur les retraites et sur l'organisation administrative de notre pays, notamment l'inscription dans la Constitution d'une règle d'or budgétaire."
     }
-  ],
-  "_note": "Aucune proposition institutionnelle repérée dans les 4 priorités du site de campagne — position attendue. Actes passés documentés (confiance dans la vie politique, Grand débat)."
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Source secondaire : compte-rendu TF1 Info du discours du congrès Horizons — relais fidèle des propos du candidat, pas de verbatim officiel écrit. Aucun volet « institutions » publié sur edouardphilippe.fr/priorites à ce jour."
 }

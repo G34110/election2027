@@ -4,34 +4,27 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat de référence inscrit la politique étrangère dans « le chemin gaulliste » : indépendance et équilibre. Ancien chef de la diplomatie, il dénonce le risque de voir la France « confiée en 2027 » au RN et veut « proposer une alternative » sur la règle républicaine et la justice sociale.",
-    "mesure_phare": "« Le chemin gaulliste » — chantier diplomatique du Projet France 2027",
+    "synthese": "Le candidat de référence publie un « manifeste pour une Europe souveraine » : face au « Moment Munich » (pression américaine sur les régimes européens), au « Moment Davos » (détachement transatlantique) et au « Moment Iran » (guerre menée sans les Européens), il propose un conseil de sécurité européen harmonisant les politiques nationales, refusant à la fois le souverainisme de repli (« cheval de Troie ») et l'intégration de fuite — une souveraineté européenne « fondée sur le renforcement des souverainetés nationales ».",
+    "mesure_phare": "Conseil de sécurité européen — souveraineté européenne adossée aux souverainetés nationales",
     "type_mesure": "orientee",
     "source": {
-      "url_live": "https://lafrancehumaniste.fr/france2027",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Projet France 2027 — Les chantiers",
+      "url_live": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+      "url_archive": "https://web.archive.org/web/20261015154505/https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
+      "titre": "« Le moment européen : manifeste pour une Europe souveraine » — doctrine parue dans Le Grand Continent, 06/03/2026",
       "date_verification": "2026-10-17",
-      "verbatim": "Le chemin gaulliste"
+      "verbatim": "Il y a eu un « Moment Munich » en 2025 […] un « Moment Davos » en 2026 […] un « Moment Iran » avec le déclenchement de bombardements massifs par Israël et les États-Unis sur l'Iran. […] Nous ne pouvons plus compter que sur nous-mêmes."
     }
   },
-  "fil_du_temps": [
-    {
-      "date": "2003-02-14",
-      "position": "Opposition à l'intervention militaire en Irak — « le recours à la force n'est pas justifié aujourd'hui »",
-      "verbatim": "Dans ce temple des Nations Unies, nous sommes les gardiens d'un idéal, les gardiens d'une conscience. L'option de la guerre peut apparaître a priori la plus rapide. Mais n'oublions pas qu'après avoir gagné la guerre, il faut construire la paix.",
-      "source_url": "https://www.diplomatie.gouv.fr/",
-      "contexte": "Discours au Conseil de sécurité de l'ONU, ministre des Affaires étrangères"
-    }
-  ],
+  "fil_du_temps": [],
   "actes_passes": [
     {
-      "date": "2002-2005",
-      "acte": "Conduite de la diplomatie française — opposition à la guerre d'Irak, discours ONU du 14 février 2003",
+      "date": "2002-2004",
+      "acte": "Ministre des Affaires étrangères — discours du 14/02/2003 au Conseil de sécurité de l'ONU contre la guerre en Irak",
       "mandat": "Ministre des Affaires étrangères",
-      "source_url": "https://www.diplomatie.gouv.fr/"
+      "source_url": "https://www.vie-publique.fr/"
     }
-  ]
+  ],
+  "_note": "Audit 17/10/2026 : source remplacée (france2027 générique → chronique dédiée « moment européen », doctrine complète Europe/diplomatie)."
 }

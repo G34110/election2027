@@ -1,12 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "terrorisme",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le programme AEC (document officiel « A5-PROGRAMME-SITE », 02/2025) propose d'« élaborer une nouvelle stratégie antiterroriste » fondée sur les moyens humains plutôt que la surveillance technologique : sortir de « l'état d'urgence permanent » et revenir sur les dispositions jugées liberticides, renforcer le renseignement humain en revenant sur la fusion DST/RG, faciliter les poursuites contre le financement du terrorisme (déchéance des droits civiques comme peine principale, réquisition des entreprises collaborant avec les agresseurs), garantir le contrôle par le juge judiciaire des opérations antiterroristes, lutter contre l'embrigadement et renforcer la plateforme PHAROS.",
+    "mesure_phare": "Nouvelle stratégie antiterroriste : moyens humains du renseignement + sortie de l'état d'urgence permanent + contrôle par le juge",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://melenchon2027.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf",
+      "url_archive": "https://web.archive.org/web/20261009185808/https://melenchon2027.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf",
+      "titre": "L'Avenir en commun (éd. 2025) — « Sortir de l'état d'urgence permanent », mesure clé : « Élaborer une nouvelle stratégie antiterroriste »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Depuis trente ans, une loi contre le terrorisme a été adoptée tous les deux ans. […] Toutes ces lois avaient la même stratégie : lutter contre les attaques terroristes en réduisant les libertés individuelles et en misant sur la surveillance technologique. C'est un échec. Nous proposons de miser sur les moyens humains."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Aucune section dédiée à la lutte antiterroriste n'est publiée dans l'AEC éd. 2025 en ligne. La doctrine générale (diplomatie de la paix, coopération, défense souveraine) relève du ch. 16 mais sans volet antiterroriste explicite — cellule à documenter à la parution du livre complet (06/11/2026)."
+  "_note": "Version web des chapitres en cours de réactualisation sur melenchon2027.fr — le document PDF A5 (02/2025) hébergé sur le domaine officiel fait foi pour ce volet."
 }

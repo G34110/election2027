@@ -1,12 +1,23 @@
 {
   "candidat_id": "gabriel-attal",
   "theme_id": "crises-internationales",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le chantier « Frontières » ouvre sur une doctrine de puissance : soutien à l'Ukraine « sans relâche » (« si l'Ukraine tombe, Poutine ne s'arrêtera pas là »), amplification du réarmement engagé depuis 2017, quatre vecteurs de puissance (capacités militaires, réserves humaines et opérationnelles, outil industriel, alliances), dissuasion nucléaire comme « outil de puissance » (doctrine de dissuasion avancée), cyberdéfense face à la multiplication des attaques, et souveraineté économique contre « l'agressivité » des surcapacités chinoises (barrières commerciales ciblées, contrôle des investissements, impénétrabilité européenne des marchés publics).",
+    "mesure_phare": "« La puissance ne respecte que la puissance » — soutien à l'Ukraine + 4 vecteurs de puissance + souveraineté face à la Chine",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/frontieres",
+      "url_archive": "https://web.archive.org/web/20261014160637/https://attalpresident.fr/programme/frontieres",
+      "titre": "Frontières — chantier capital 03, volet « Faire le choix de la puissance dans un monde hostile »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Dans ce monde brutal, la puissance ne respecte que la puissance. Alors nous serons puissants. Nous allons continuer sans relâche à soutenir l'Ukraine."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Aucun chantier international/défense publié sur attalpresident.fr à ce jour (chantiers en ligne : école, travail & salaires, frontières, IA, dettes). La page « Frontières » traite de puissance sous l'angle migratoire, pas des crises internationales."
+  "_note": "Corrigé le 17/10/2026 : le volet « puissance dans un monde hostile » de la page Frontières constitue bien une doctrine internationale — cellule initialement classée attendue par erreur."
 }

@@ -11,7 +11,7 @@
     "type_mesure": "orientee",
     "source": {
       "url_live": "https://lafrancehumaniste.fr/france2027",
-      "url_archive": "https://web.archive.org/",
+      "url_archive": "https://web.archive.org/web/20260919214128/https://lafrancehumaniste.fr/france2027",
       "titre": "Projet France 2027 — chantier Sécurité",
       "date_verification": "2026-10-17",
       "verbatim": ""
@@ -26,5 +26,5 @@
       "source_url": "https://www.interieur.gouv.fr/"
     }
   ],
-  "_note": "Positions sécurité documentées via votons-2027/france-vote — verbatim du chantier officiel à extraire (page en 403 au fetch). Statut non_sourcee jusqu'au verbatim primaire."
+  "_note": "Audit 17/10/2026 : les mesures « sécurité » agrégées (votons-2027, france-vote) relèvent de la défense européenne, pas de la délinquance ; la chronique « La République contre la violence » traite de violence politique. Le Projet France 2027 mentionne un chantier sécurité dont le verbatim n'est pas extractible (403 au fetch). Statut non_sourcee conservé — positions synthétisées d'après agrégateurs, à confirmer sur verbatim primaire."
 }

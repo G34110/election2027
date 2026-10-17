@@ -4,14 +4,14 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat fait de l'éducation « la mère des batailles » et sa priorité absolue, avec l'objectif de reprendre en dix ans l'une des premières places du classement PISA.",
-    "mesure_phare": "École priorité absolue — objectif : premier rang du classement PISA en 10 ans",
+    "synthese": "Le candidat fait de l'éducation « la mère des batailles » et sa priorité absolue : objectif de reprendre en dix ans l'une des premières places du classement PISA, rétablissement du « Choc des savoirs », moins de 20 élèves par classe en primaire (opportunité de la baisse démographique, −1,7 million d'élèves d'ici 10 ans), interdiction des réseaux sociaux pour les moins de 15 ans.",
+    "mesure_phare": "Premier rang PISA en 10 ans — moins de 20 élèves par classe en primaire — réseaux sociaux interdits <15 ans",
     "type_mesure": "chiffree",
     "source": {
       "url_live": "https://attalpresident.fr/programme/education",
-      "url_archive": "https://web.archive.org/",
+      "url_archive": "https://web.archive.org/web/20261014160155/https://attalpresident.fr/programme/education",
       "titre": "École : la priorité absolue — attalpresident.fr",
       "date_verification": "2026-10-17",
       "verbatim": "Je fixe pour notre système éducatif un objectif simple : reprendre en dix ans l'une des premières places du classement PISA."
