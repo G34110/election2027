@@ -6,18 +6,18 @@
   "commit_ref": "",
   "alerte_maj": false,
   "position_actuelle": {
-    "synthese": "Le candidat de référence a publié un projet économique en 20 propositions : « abolir les rentes », « faire que le travail paye » et « rendre aux Français ce qui leur appartient », contre la « rareté » choisie du capital, du travail et de l'innovation.",
-    "mesure_phare": "20 propositions économiques — « faire que le travail paye », abolition des rentes",
-    "type_mesure": "orientee",
+    "synthese": "Le candidat de référence a publié un projet économique en 20 propositions dont la mesure phare « révolution du salaire net » : bascule de plus de 200 Md€ de cotisations (salariales et employeurs, non contributives : famille, santé, handicap) vers une CSG universelle, soit +200 € nets par mois en moyenne et +100 € au SMIC. Il maintient le taux réduit de TVA sur les produits essentiels et le quotient familial.",
+    "mesure_phare": "« Révolution du salaire net » : +200 € nets/mois en moyenne (+100 € au SMIC) — bascule de >200 Md€ de cotisations vers une CSG universelle",
+    "type_mesure": "chiffree",
     "source": {
       "url_live": "https://lafrancehumaniste.fr/programme/economie.html",
       "url_archive": "https://web.archive.org/",
-      "titre": "Projet économique : 20 propositions pour 2027",
+      "titre": "Projet économique : 20 propositions pour 2027 — Proposition 1 « La révolution du salaire net »",
       "date_verification": "2026-10-17",
-      "verbatim": "Vingt idées pour abolir les rentes, faire que le travail paye, et rendre aux Français ce qui leur appartient."
+      "verbatim": "Plus de 200 Md€ de cotisations basculés vers une CSG universelle : +200 € nets par mois en moyenne, +100 € au Smic."
     }
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Page en 403 au fetch — verbatims extraits de la page officielle via indexation. Détail des 20 propositions à collecter manuellement."
+  "_note": "Page en 403 au fetch — verbatims extraits de la page officielle via indexation. Prop. 1 « révolution du salaire net » confirmée. Détail des 19 autres propositions à collecter manuellement."
 }

@@ -1,11 +1,22 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "pouvoir-achat",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le programme « L'Avenir en commun » (édition 2025) propose une hausse immédiate du SMIC à 1 600 € net, l'indexation des salaires sur l'inflation dans le privé comme dans la fonction publique, et l'encadrement des écarts de salaires (échelle de 1 à 20 dans l'entreprise). S'y ajoutent une conférence sociale générale sur les salaires, la revalorisation des métiers majoritairement féminins et le plafonnement des dividendes.",
+    "mesure_phare": "SMIC à 1 600 € net — indexation des salaires sur l'inflation — écart salarial limité de 1 à 20",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+      "url_archive": "https://web.archive.org/web/20260829202700/https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 8 : Augmenter les salaires et réduire les inégalités salariales dans l'entreprise",
+      "date_verification": "2026-10-17",
+      "verbatim": "Porter immédiatement le SMIC mensuel à 1600 euros net et indexer les salaires sur l'inflation dans le privé et dans la fonction publique. […] Fixer un salaire maximal autorisé pour limiter l'écart de 1 à 20 entre le salaire le plus bas et le salaire le plus haut dans une entreprise."
+    }
+  },
   "fil_du_temps": [
     {
       "date": "2024-06-14",
@@ -16,5 +27,5 @@
     }
   ],
   "actes_passes": [],
-  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) publié — site JS non extractible automatiquement. Livre programme disponible le 06/11/2026. Historique riche : programmes AEC 2017 et 2022 documentés (hausses SMIC/minimas, 6e République)."
+  "_note": "Programme 'L'Avenir en commun' éd. 2025 publié en ligne par chapitres sur melenchon2027.fr (corpus officiel 2027). Vigilance : site en cours de réactualisation — la page ch.8 §4 renvoie temporairement 404, contenu vérifié via snapshot Wayback du 29/08/2026. Livre programme en librairie le 06/11/2026 (1 069 mesures annoncées). Le blocage des prix reste slogan de campagne (affiches officielles) — rubrique dédiée à re-sourcer à la parution du livre."
 }

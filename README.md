@@ -33,6 +33,13 @@ python -m http.server 8727 --directory site/maquettes
 python -c "import json,glob; [json.load(open(f,encoding='utf-8')) for f in glob.glob('editorial/data/**/*.json',recursive=True)]; print('JSON valides')"
 ```
 
+## Déploiement (OVH mutualisé)
+
+- **URL cible** : `https://election2027.cvbusiness.fr`
+- Multisite : sous-domaine `election2027` de `cvbusiness.fr` → dossier `www/`
+- Upload FTP : contenu de `site/maquettes/` → `/www/` (identifiants dans Espace client → FTP-SSH)
+- Certificat SSL : Let's Encrypt gratuit à activer dans l'espace client
+
 ## Principes invariants
 
 - Toute position citée porte une **source primaire** (site officiel candidat/parti, source gouvernementale) — `statut: sourcee | attendue | non_sourcee | contradictoire`, jamais de cellule vide.

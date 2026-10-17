@@ -4,10 +4,10 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose de rééquilibrer le financement du modèle social pour augmenter le salaire net des actifs : heures supplémentaires exonérées de cotisations et d'impôt (environ 1 000 €/an au SMIC pour deux heures de plus par semaine), sortie des 35 heures décidée en entreprise, et un « pacte fiscal » de 50 Md€ de baisses d'impôts de production.",
-    "mesure_phare": "Travail supplémentaire exonéré (~1 000 €/an au SMIC) — pacte fiscal 50 Md€ pour les entreprises",
+    "synthese": "Le candidat propose de rééquilibrer le financement du modèle social « pour qu'il ne repose plus uniquement sur le travail » et augmenter le salaire net des actifs : heures supplémentaires exonérées de cotisations et d'impôt (environ 1 000 €/an au SMIC pour deux heures de plus par semaine), zéro cotisation patronale au-delà de la 37e heure, sortie des 35 heures décidée en entreprise, et un « pacte fiscal » de 50 Md€ de baisses d'impôts de production.",
+    "mesure_phare": "Travail supplémentaire exonéré (~1 000 €/an au SMIC) — zéro cotisation patronale au-delà de la 37e h — pacte fiscal 50 Md€",
     "type_mesure": "chiffree",
     "source": {
       "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",

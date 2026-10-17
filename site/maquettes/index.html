@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comparer 2027 — Les programmes, thème par thème, sourcés</title>
+<style>
+  :root {
+    --fond: #faf9f7; --surface: #ffffff; --encre: #1d2129; --encre-2: #555b66;
+    --filet: #e4e1dc; --ref-fond: #f0efec;
+    --ok: #1f7a4d; --attente: #8a5a00; --gris: #6b7280; --accent: #3a4a63;
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  .hero { padding:2rem 1rem 1.4rem; max-width:1200px; margin:0 auto; }
+  .hero h1 { font-size:1.8rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.6rem; }
+  .hero p { color:var(--encre-2); max-width:65ch; font-size:.95rem; }
+  .hero .methode { font-size:.75rem; margin-top:.9rem; }
+  .hero .methode a { color:var(--accent); }
+
+  .section { max-width:1200px; margin:0 auto; padding:0 1rem 1.6rem; }
+  .section h2 { font-size:1.15rem; margin-bottom:.2rem; }
+  .section .intro { font-size:.8rem; color:var(--encre-2); margin-bottom:.9rem; }
+
+  .grille-themes { display:grid; gap:.7rem; grid-template-columns:1fr; }
+  @media (min-width:600px){ .grille-themes { grid-template-columns:1fr 1fr; } }
+  @media (min-width:1000px){ .grille-themes { grid-template-columns:repeat(3,1fr); } }
+
+  .theme { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.9rem 1rem; display:flex; flex-direction:column; gap:.4rem; text-decoration:none; color:inherit; transition:border-color .15s; }
+  .theme:hover { border-color:var(--accent); }
+  .theme .top { display:flex; justify-content:space-between; align-items:baseline; gap:.6rem; }
+  .theme .titre { font-weight:700; font-size:.95rem; }
+  .theme .pct { font-size:.8rem; font-weight:700; color:var(--accent); white-space:nowrap; }
+  .theme .meta { font-size:.72rem; color:var(--encre-2); }
+  .theme .badge-demo { font-size:.65rem; font-weight:700; color:var(--attente); background:#f7ecd8; border-radius:4px; padding:.15rem .45rem; align-self:flex-start; margin-top:.2rem; }
+  .theme.live { border-left:3px solid var(--ok); }
+  .theme .badge-live { font-size:.65rem; font-weight:700; color:var(--ok); background:#e9f4ee; border-radius:4px; padding:.15rem .45rem; align-self:flex-start; margin-top:.2rem; }
+
+  .cands { display:grid; gap:.6rem; grid-template-columns:repeat(2,1fr); }
+  @media (min-width:700px){ .cands { grid-template-columns:repeat(3,1fr); } }
+  @media (min-width:1100px){ .cands { grid-template-columns:repeat(6,1fr); } }
+  .cand { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.7rem .8rem; font-size:.82rem; }
+  .cand .n { font-weight:700; font-size:.88rem; }
+  .cand .p { color:var(--encre-2); font-size:.72rem; }
+  .cand.ref { background:var(--ref-fond); border:1.5px solid var(--accent); }
+  .etiquette-ref { font-size:.58rem; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:.08rem .3rem; display:inline-block; margin-top:.3rem; }
+
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:1200px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <div class="logo">Comparer <span>2027</span></div>
+  <nav>
+    <a href="#">Thèmes</a>
+    <a href="#">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Les programmes des candidats, thème par thème.</h1>
+    <p>Un site citoyen et neutre : chaque position est résumée sans éditorialisation, citée verbatim et reliée à sa source officielle — site de campagne, parti, ou document public. Cinq candidats issus des sondages, comparés entre eux et à un candidat de référence.</p>
+    <div class="methode"><a href="#">Lire la méthode et la charte éditoriale →</a></div>
+  </section>
+
+  <section class="section">
+    <h2>Les 12 thèmes qui préoccupent les Français</h2>
+    <p class="intro">Classement mécanique issu du baromètre Ipsos/BVA « La Tribune Dimanche » — octobre 2026 (règle §1 du protocole de gouvernance).</p>
+
+    <div class="grille-themes">
+      <a class="theme live" href="theme-pouvoir-achat.html">
+        <div class="top"><span class="titre">Pouvoir d'achat</span><span class="pct">54&nbsp;%</span></div>
+        <div class="meta">Économie · 1re préoccupation</div>
+        <span class="badge-live">Maquette disponible</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Système social (santé, retraites)</span><span class="pct">44&nbsp;%</span></div>
+        <div class="meta">Société · 2e préoccupation</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Dette et déficits publics</span><span class="pct">33&nbsp;%</span></div>
+        <div class="meta">Économie · 3e préoccupation</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Délinquance et sécurité</span><span class="pct">29&nbsp;%</span></div>
+        <div class="meta">Sécurité · 4e préoccupation</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Environnement et climat</span><span class="pct">27&nbsp;%</span></div>
+        <div class="meta">Environnement · 5e préoccupation</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Immigration</span><span class="pct">—</span></div>
+        <div class="meta">Société · thème le plus clivant des programmes</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Crises internationales</span><span class="pct">—</span></div>
+        <div class="meta">International · Ukraine, Proche-Orient</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Inégalités sociales</span><span class="pct">—</span></div>
+        <div class="meta">Société · 8e préoccupation mesurée</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Système scolaire</span><span class="pct">—</span></div>
+        <div class="meta">Éducation · 9e préoccupation mesurée</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Emploi et chômage</span><span class="pct">—</span></div>
+        <div class="meta">Économie · inquiétude en progression</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Menace terroriste</span><span class="pct">—</span></div>
+        <div class="meta">Sécurité · 11e préoccupation mesurée</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+      <a class="theme" href="#">
+        <div class="top"><span class="titre">Institutions et vie démocratique</span><span class="pct">—</span></div>
+        <div class="meta">Institutions · critère « programmes candidats »</div>
+        <span class="badge-demo">Maquette à venir</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Les six candidats comparés</h2>
+    <p class="intro">Cinq issus du classement mécanique des sondages (§2.1) + le candidat de référence, choix éditorial déclaré (§2.6).</p>
+    <div class="cands">
+      <div class="cand"><div class="n">Marine Le Pen</div><div class="p">Rassemblement National</div></div>
+      <div class="cand"><div class="n">Jean-Luc Mélenchon</div><div class="p">La France Insoumise</div></div>
+      <div class="cand"><div class="n">Édouard Philippe</div><div class="p">Horizons</div></div>
+      <div class="cand"><div class="n">Raphaël Glucksmann</div><div class="p">Place Publique / PS</div></div>
+      <div class="cand"><div class="n">Gabriel Attal</div><div class="p">Renaissance</div></div>
+      <div class="cand ref"><div class="n">Dominique de Villepin</div><div class="p">La France humaniste</div><span class="etiquette-ref">Référence</span></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="#">Mur des sources</a> · <a href="#">Journal des mises à jour</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

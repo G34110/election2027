@@ -4,19 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat fait de la hausse des salaires un chantier capital : « le travail doit permettre de vivre, pas seulement de survivre ». La stratégie complète — annoncée sur trois leviers — n'est pas encore publiée.",
-    "mesure_phare": "« Un vrai choc pour les salaires » — stratégie détaillée à paraître",
+    "synthese": "Le candidat fait de la hausse des salaires son « chantier capital » n°2, via trois leviers désormais publiés : l'investissement dans la productivité et l'innovation (le salaire médian français serait de 3 300 € net au lieu de 2 200 € avec la trajectoire américaine), la poursuite de la politique de l'offre avec une refonte du Code du travail en « constitution du travail », et la réduction des charges salariales pour augmenter le net. Mesures associées : suppression du plafond légal d'heures supplémentaires (220 h/an), livret d'épargne « garde d'enfant » (modèle livret A) et 200 000 professionnels de la petite enfance formés d'ici 2030.",
+    "mesure_phare": "« Un vrai choc pour les salaires » — 3 leviers : productivité, plein emploi, charges salariales allégées",
     "type_mesure": "orientee",
     "source": {
       "url_live": "https://attalpresident.fr/programme/travail-salaires",
       "url_archive": "https://web.archive.org/",
-      "titre": "Travail & salaires — attalpresident.fr",
+      "titre": "Travail & salaires — chantier capital 02, attalpresident.fr",
       "date_verification": "2026-10-17",
-      "verbatim": "Le travail doit payer. Le travail doit permettre de vivre, pas seulement de survivre. Notre combat : faire monter les salaires."
+      "verbatim": "Nous allons agir sur trois leviers. […] Nous y arriverons enfin en réduisant les charges salariales pour faire monter le salaire net. Nos dépenses sociales ne peuvent plus reposer autant sur les Français qui travaillent."
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "_note": "Page enrichie depuis la v1 : les trois leviers sont décrits mais la hausse de salaire n'est pas chiffrée — statut 'orientee' conservé jusqu'au programme détaillé."
 }

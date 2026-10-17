@@ -4,20 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "La candidate défend le pouvoir d'achat par la baisse des taxes plutôt que par la hausse des salaires : baisse de la TVA sur l'énergie (à 5,5%, mesure portée depuis 2022), restitution aux ménages des 5 Md€ de subventions aux éoliennes, exonérations de cotisations ciblées pour encourager les hausses de salaires.",
-    "mesure_phare": "Baisse de la TVA sur l'énergie à 5,5% — restitution des subventions éoliennes (5 Md€)",
+    "synthese": "La candidate défend le pouvoir d'achat par la baisse des taxes et l'allègement des charges : hausse des salaires de 10% (jusqu'à 3 SMIC) exonérée de cotisations patronales, TVA sur l'énergie ramenée de 20% à 5,5%, restitution aux ménages des 5 Md€ de subventions aux éoliennes. S'y ajoutent l'exonération d'impôt sur le revenu des jeunes actifs jusqu'à 30 ans, une part fiscale complète dès le deuxième enfant et la réindexation des retraites sur l'inflation (minimum vieillesse à 1 000 €).",
+    "mesure_phare": "Hausse des salaires de 10% exonérée de cotisations patronales (jusqu'à 3 SMIC) — TVA énergie à 5,5%",
     "type_mesure": "chiffree",
     "source": {
       "url_live": "https://rassemblementnational.fr/22-mesures",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Les 22 mesures du Rassemblement National — mesure 12",
+      "url_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
+      "titre": "Les 22 mesures du Rassemblement National — mesures 4, 5, 7, 8, 9 et 12",
       "date_verification": "2026-10-17",
-      "verbatim": "Assurer notre indépendance énergétique pour baisser la facture des Français. — Rendre aux ménages les 5 milliards de subventions versées notamment aux éoliennes."
+      "verbatim": "Permettre aux entreprises une hausse des salaires de 10% (jusqu'à 3 smic) en exonérant cette augmentation de cotisations patronales."
     }
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "TVA énergie 5,5% : mesure rapportée par Le JDD (24/06/2024) — verbatim officiel du détail de la mesure à extraire de la page (JS)."
+  "_note": "Source : page « Les 22 mesures » (corpus présidentielle 2022) toujours en ligne sur le site officiel RN — programme 2027 non encore publié, à re-sourcer à sa parution. Page compressée non extractible en direct, contenu vérifié via snapshot Wayback du 03/10/2026."
 }
