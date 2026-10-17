@@ -1,12 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "delinquance",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le programme propose une « politique de justice efficace » et une « police de proximité au service de la sûreté des citoyens » : orientation annuelle de la politique pénale par le Parlement, mécanisme contraignant de régulation carcérale pour en finir avec la surpopulation, doublement des effectifs de lutte contre la délinquance financière (suppression du verrou de Bercy et de la convention judiciaire d'intérêt public), rattachement de la police judiciaire à l'autorité judiciaire.",
+    "mesure_phare": "Police de proximité — régulation carcérale contraignante — renfort de la lutte contre la délinquance financière",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre7/s7/",
+      "url_archive": "https://web.archive.org/web/20260514081442/https://melenchon2027.fr/programme2025/livre/chapitre7/s7/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 7 §7 « Une politique de justice efficace » (+ §8 « Une police de proximité au service de la sûreté des citoyens »)",
+      "date_verification": "2026-10-17",
+      "verbatim": "En finir avec la surpopulation carcérale par la mise en place d'un mécanisme contraignant de régulation carcérale et assurer aux personnes détenues les moyens de se réinsérer dans notre société."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) — extraction manuelle requise."
+  "_note": "Section §8 « police de proximité » non capturée par la Wayback (titre confirmé au sommaire du ch.7) — verbatim tiré de §7 (justice). Approche distincte : prévention et efficacité judiciaire plutôt que durcissement des peines."
 }

@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "dette-deficits",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat aborde les finances publiques sous l'angle de la justice fiscale : « un système plus juste, au service de la redistribution et de la solidarité », avec la taxation des « méga-héritages » comme mesure de financement annoncée (~15 Md€ évoqués publiquement, non repris dans le programme en ligne). Aucune trajectoire de déficit chiffrée publiée à ce jour.",
+    "mesure_phare": "Justice fiscale comme levier de cohésion — taxe « méga-héritages » (~15 Md€ annoncés)",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 03 : Justice sociale et pouvoir d'achat, point 3",
+      "date_verification": "2026-10-17",
+      "verbatim": "Faire de la justice fiscale un levier de cohésion : un système plus juste, au service de la redistribution et de la solidarité."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Pas de trajectoire budgétaire chiffrée publiée. Le montant ~15 Md€ provient de déclarations médiatiques (TF1) — source primaire programme à rattraper au chiffrage."
+}

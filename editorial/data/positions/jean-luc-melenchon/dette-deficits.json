@@ -1,0 +1,23 @@
+{
+  "candidat_id": "jean-luc-melenchon",
+  "theme_id": "dette-deficits",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat a publié ses orientations budgétaires pour 2027 (document « Comment nous allons remettre de l'ordre dans les comptes publics », 14/10/2026) : augmenter d'un peu plus de 100 Md€ les recettes fiscales « uniquement en faisant contribuer les plus riches » pour financer un peu plus de 80 Md€ de dépenses d'urgence (services publics, pouvoir d'achat, planification écologique), une partie de la réforme fiscale étant affectée à la réduction du déficit. Diagnostic : les « cadeaux au capital » expliqueraient pour moitié le déficit actuel, après +1 300 Md€ de dette sous le quinquennat Macron.",
+    "mesure_phare": "+100 Md€ de recettes fiscales sur les plus riches — ~80 Md€ de dépenses d'urgence",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Comment nous allons remettre de l'ordre dans les comptes publics — orientations budgétaires 2027 (conférence de presse Mélenchon/Coquerel, 14/10/2026)",
+      "date_verification": "2026-10-17",
+      "verbatim": "Nous proposons d'augmenter d'un peu plus de 100 milliards d'euros les recettes fiscales pour l'année prochaine — uniquement en faisant contribuer les plus riches. Les dépenses d'urgence que nous proposons pour les services publics, le pouvoir d'achat et la planification écologique représentent un peu plus de 80 milliards d'euros."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Document d'orientations budgétaires 2027 — pas un chiffrage complet du programme (mention explicite). PDF non extractible automatiquement (anti-bot) — verbatim confirmé via indexation du document officiel."
+}

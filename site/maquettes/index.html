@@ -38,14 +38,14 @@
   @media (min-width:600px){ .grille-themes { grid-template-columns:1fr 1fr; } }
   @media (min-width:1000px){ .grille-themes { grid-template-columns:repeat(3,1fr); } }
 
-  .theme { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.9rem 1rem; display:flex; flex-direction:column; gap:.4rem; text-decoration:none; color:inherit; transition:border-color .15s; }
-  .theme:hover { border-color:var(--accent); }
+  .theme { background:var(--surface); border:1.5px dashed var(--filet); border-radius:10px; padding:.9rem 1rem; display:flex; flex-direction:column; gap:.4rem; text-decoration:none; color:inherit; transition:border-color .15s; opacity:.68; cursor:default; }
   .theme .top { display:flex; justify-content:space-between; align-items:baseline; gap:.6rem; }
   .theme .titre { font-weight:700; font-size:.95rem; }
   .theme .pct { font-size:.8rem; font-weight:700; color:var(--accent); white-space:nowrap; }
   .theme .meta { font-size:.72rem; color:var(--encre-2); }
   .theme .badge-demo { font-size:.65rem; font-weight:700; color:var(--attente); background:#f7ecd8; border-radius:4px; padding:.15rem .45rem; align-self:flex-start; margin-top:.2rem; }
-  .theme.live { border-left:3px solid var(--ok); }
+  .theme.live { border:2px solid var(--ok); opacity:1; cursor:pointer; box-shadow:0 1px 3px rgba(31,122,77,.15); }
+  .theme.live:hover { border-color:var(--accent); box-shadow:0 2px 6px rgba(58,74,99,.18); }
   .theme .badge-live { font-size:.65rem; font-weight:700; color:var(--ok); background:#e9f4ee; border-radius:4px; padding:.15rem .45rem; align-self:flex-start; margin-top:.2rem; }
 
   .cands { display:grid; gap:.6rem; grid-template-columns:repeat(2,1fr); }
@@ -92,20 +92,20 @@
         <div class="meta">Économie · 1re préoccupation</div>
         <span class="badge-live">Maquette disponible</span>
       </a>
-      <a class="theme" href="#">
+      <a class="theme live" href="theme-protection-sociale.html">
         <div class="top"><span class="titre">Système social (santé, retraites)</span><span class="pct">44&nbsp;%</span></div>
         <div class="meta">Société · 2e préoccupation</div>
-        <span class="badge-demo">Maquette à venir</span>
+        <span class="badge-live">Maquette disponible</span>
       </a>
-      <a class="theme" href="#">
+      <a class="theme live" href="theme-dette-deficits.html">
         <div class="top"><span class="titre">Dette et déficits publics</span><span class="pct">33&nbsp;%</span></div>
         <div class="meta">Économie · 3e préoccupation</div>
-        <span class="badge-demo">Maquette à venir</span>
+        <span class="badge-live">Maquette disponible</span>
       </a>
-      <a class="theme" href="#">
+      <a class="theme live" href="theme-delinquance.html">
         <div class="top"><span class="titre">Délinquance et sécurité</span><span class="pct">29&nbsp;%</span></div>
         <div class="meta">Sécurité · 4e préoccupation</div>
-        <span class="badge-demo">Maquette à venir</span>
+        <span class="badge-live">Maquette disponible</span>
       </a>
       <a class="theme" href="#">
         <div class="top"><span class="titre">Environnement et climat</span><span class="pct">27&nbsp;%</span></div>
@@ -154,12 +154,12 @@
     <h2>Les six candidats comparés</h2>
     <p class="intro">Cinq issus du classement mécanique des sondages (§2.1) + le candidat de référence, choix éditorial déclaré (§2.6).</p>
     <div class="cands">
+      <div class="cand ref"><div class="n">Dominique de Villepin</div><div class="p">La France humaniste</div><span class="etiquette-ref">Référence</span></div>
       <div class="cand"><div class="n">Marine Le Pen</div><div class="p">Rassemblement National</div></div>
       <div class="cand"><div class="n">Jean-Luc Mélenchon</div><div class="p">La France Insoumise</div></div>
       <div class="cand"><div class="n">Édouard Philippe</div><div class="p">Horizons</div></div>
       <div class="cand"><div class="n">Raphaël Glucksmann</div><div class="p">Place Publique / PS</div></div>
       <div class="cand"><div class="n">Gabriel Attal</div><div class="p">Renaissance</div></div>
-      <div class="cand ref"><div class="n">Dominique de Villepin</div><div class="p">La France humaniste</div><span class="etiquette-ref">Référence</span></div>
     </div>
   </section>
 </main>

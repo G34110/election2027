@@ -1,11 +1,22 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "protection-sociale",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Retraites : abrogation de la réforme Macron, retour au départ à 60 ans à taux plein pour 40 annuités, pensions de carrière complète portées au moins au SMIC revalorisé, minimum vieillesse au niveau du seuil de pauvreté, indexation des retraites sur les salaires et suppression de la décote. Santé : « 100 % Sécu » — remboursement intégral des soins prescrits et intégration des mutuelles dans la Sécurité sociale, reconstruction de l'hôpital public avec remplacement de l'ONDAM par un objectif national des besoins (ONBAM).",
+    "mesure_phare": "Retraite à 60 ans / 40 annuités — pensions carrière complète ≥ SMIC — « 100 % Sécu » (soins prescrits remboursés à 100 %)",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+      "url_archive": "https://web.archive.org/web/20260907170933/https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 8 §8 « Garantir une retraite digne » + ch. 15 §2 « Faire passer la santé d'abord »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Abroger la réforme d'Emmanuel Macron passant l'âge de départ à la retraite à 64 ans et restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations. […] Instaurer le « 100 % Sécu » en remboursant à 100 % les soins de santé prescrits et en intégrant les mutuelles dans la Sécurité sociale."
+    }
+  },
   "fil_du_temps": [
     {
       "date": "2024-06-14",
@@ -16,5 +27,5 @@
     }
   ],
   "actes_passes": [],
-  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) — extraction manuelle requise. Positions historiques documentées : retour à la retraite à 60 ans, 100% santé. À sourcer primaire."
+  "_note": "Double source primaire : ch.8 §8 (retraites, archive 07/09/2026) et ch.15 §2 (santé, archive 06/06/2026) de l'AEC éd. 2025 sur melenchon2027.fr. Le « 100 % Sécu » est repris du programme : remboursement à 100 % des soins prescrits, mutuelles intégrées à la Sécurité sociale, ONDAM remplacé par un ONBAM."
 }

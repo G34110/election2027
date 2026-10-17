@@ -1,0 +1,23 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "protection-sociale",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Sur les retraites, le candidat veut déplacer le débat de l'âge de départ vers la durée de cotisation et instaurer un « droit au travail » pour les seniors. La santé n'est pas adressée dans les quatre chantiers publiés (école, travail & salaires, frontières, IA) ; la dépense sociale est traitée via la réforme de l'assurance chômage (+100 000 emplois annoncés) et la réduction des charges salariales.",
+    "mesure_phare": "Retraites : la durée de cotisation plutôt que l'âge de départ — santé non adressée dans les chantiers publiés",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/travail-salaires",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Travail & salaires — chantier capital 02, § « Repenser les retraites et libérer les forces du travail »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Pour augmenter le taux d'emploi des seniors, l'enjeu ne sera plus l'âge de départ à la retraite, mais la durée de cotisation."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Cellule partielle : la page « chantier » aborde les retraites sous l'angle emploi. Aucun contenu santé publié à ce jour — à compléter à la parution du programme détaillé."
+}

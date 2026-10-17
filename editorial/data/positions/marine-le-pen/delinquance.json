@@ -4,19 +4,20 @@
   "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "La sécurité est présentée comme la priorité du quinquennat, avec un volet spécifique consacré à l'éradication des réseaux « islamistes » sur le territoire national.",
-    "mesure_phare": "Sécurité « priorité du quinquennat »",
-    "type_mesure": "orientee",
+    "synthese": "La sécurité est présentée comme la priorité du quinquennat : rétablissement des peines planchers, suppression des réductions et aménagements de peine (en particulier pour les violences contre les personnes), présomption de légitime défense pour les forces de l'ordre, doublement du nombre de magistrats, 85 000 places de prison en 2027, perpétuité réelle, et inscription des harceleurs de rue au fichier des délinquants sexuels.",
+    "mesure_phare": "Peines planchers rétablies — 85 000 places de prison — doublement des magistrats — perpétuité réelle",
+    "type_mesure": "chiffree",
     "source": {
       "url_live": "https://rassemblementnational.fr/22-mesures",
-      "url_archive": "https://web.archive.org/",
-      "titre": "Les 22 mesures du Rassemblement National — mesures 2 et 3",
+      "url_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 3 (et mesure 2 pour les réseaux « islamistes »)",
       "date_verification": "2026-10-17",
-      "verbatim": "Faire de la sécurité partout et pour tous une priorité du quinquennat."
+      "verbatim": "Faire de la sécurité partout et pour tous une priorité du quinquennat. Rétablir les peines planchers pour que tout criminel et délinquant aient une sanction. […] Atteindre 85 000 places de prison en 2027. Établir une perpétuité réelle."
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "_note": "Corpus présidentielle 2022 toujours en ligne — programme 2027 non publié, à re-sourcer à sa parution. Verbatim enrichi depuis l'archive du 03/10/2026."
 }

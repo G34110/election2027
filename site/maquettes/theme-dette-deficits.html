@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dette et déficits publics — Comparaison des programmes | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô thème ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:1200px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.5rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce[data-d="fort"]{ border-color:var(--attente); color:var(--attente); }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:60ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Matrice : scroll-snap horizontal sur mobile, grille sur desktop ── */
+  .matrice-wrap { padding:0 1rem 1.4rem; max-width:1440px; margin:0 auto; }
+  .matrice { display:grid; grid-auto-flow:column; grid-auto-columns:minmax(280px,86vw); gap:.8rem; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:.6rem; }
+  @media (min-width:1100px){
+    .matrice { grid-auto-flow:initial; grid-template-columns:1.05fr repeat(5,1fr); overflow:visible; }
+  }
+  .carte { scroll-snap-align:start; background:var(--surface); border:1px solid var(--filet); border-radius:10px; display:flex; flex-direction:column; min-width:0; }
+
+  /* Indice de swipe — mobile uniquement */
+  .swipe-hint { display:flex; justify-content:flex-end; gap:.4rem; font-size:.7rem; color:var(--encre-2); padding:.3rem .2rem 0; }
+  .swipe-hint .fleche { display:inline-block; }
+  @media (min-width:1100px){ .swipe-hint { display:none; } }
+  .carte.reference { background:var(--ref-fond); border:2px solid var(--accent); }
+  .carte-tete { padding:.85rem .95rem .7rem; border-bottom:1px solid var(--filet); }
+  .carte.reference .carte-tete { border-bottom-color:var(--accent); }
+  .nom { font-weight:700; font-size:1rem; }
+  .parti { font-size:.75rem; color:var(--encre-2); }
+  .etiquette-ref { font-size:.62rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:.1rem .35rem; display:inline-block; margin-top:.35rem; }
+
+  .corps { padding:.85rem .95rem; display:flex; flex-direction:column; gap:.75rem; flex:1; }
+
+  .badges { display:flex; flex-wrap:wrap; gap:.4rem; font-size:.7rem; }
+  .badge { display:inline-flex; align-items:center; gap:.28rem; border-radius:4px; padding:.18rem .5rem; font-weight:600; }
+  .badge::before { content:''; width:.5rem; height:.5rem; border-radius:50%; background:currentColor; }
+  .b-sourcee { color:var(--ok); background:#e9f4ee; }
+  .b-attendue { color:var(--attente); background:#f7ecd8; }
+  .b-nonsourcee { color:var(--gris); background:#ececec; }
+  .b-chiffree { color:var(--accent); background:#e9edf3; }
+  .b-chiffree::before { content:none; }
+  .b-orientee { color:var(--encre-2); background:var(--fond); }
+  .b-orientee::before { content:none; }
+
+  .synthese { font-size:.9rem; }
+  .mesure { background:var(--fond); border-left:3px solid var(--accent); padding:.55rem .7rem; font-size:.82rem; font-weight:600; }
+  .verbatim { font-family:var(--serif); font-style:italic; font-size:.88rem; color:var(--encre-2); padding:.55rem .7rem; border-left:3px solid var(--filet); background:#fdfdfb; }
+
+  .cellule-vide { color:var(--encre-2); font-size:.85rem; font-style:italic; }
+  .cellule-vide .cellule-note { font-style:normal; font-size:.78rem; color:var(--gris); }
+
+  /* ── Source : triple ancrage ── */
+  .source { margin-top:auto; padding:.6rem .95rem; border-top:1px dashed var(--filet); font-size:.72rem; color:var(--encre-2); display:flex; flex-direction:column; gap:.25rem; }
+  .source a { color:var(--accent); word-break:break-all; }
+  .source .verif { color:var(--gris); }
+
+  /* ── Fil du temps ── */
+  .fdt { max-width:1200px; margin:0 auto; padding:0 1rem 2rem; }
+  .fdt h2 { font-size:1.05rem; margin-bottom:.6rem; }
+  .fdt-item { background:var(--surface); border:1px solid var(--filet); border-left:3px solid var(--accent); border-radius:6px; padding:.7rem .9rem; font-size:.85rem; margin-bottom:.5rem; }
+  .fdt-item .qui { font-weight:600; font-size:.75rem; color:var(--encre-2); }
+  .fdt-item .date { color:var(--gris); font-size:.72rem; margin-left:.4rem; }
+  .fdt-item .verbatim { margin-top:.4rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; gap:1.5rem; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  @media (prefers-reduced-motion: reduce){ .matrice{ scroll-snap-type:none; } }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="#">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Économie / Dette et déficits</div>
+    <h1>Dette et déficits publics</h1>
+    <div class="metas">
+      <span class="puce">3e préoccupation — 33&nbsp;% <em>(BVA, oct. 2026)</em></span>
+      <span class="puce">Tendance ↗ hausse</span>
+      <span class="puce">◆ Divergence moyenne entre candidats</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Diagnostic partagé (dette jugée insoutenable) mais remèdes opposés : coupes ciblées UE/immigration/agences + impôt sur les fortunes financières (Le Pen — chiffré, ~36 Md€), règle d'or constitutionnelle + fonctionnaires réduits (Philippe — chiffré, −250 000), hausse des impôts sur les plus riches (Mélenchon — chiffré, +100 Md€ de recettes), « propositions toutes financées » (Attal — non chiffré), justice fiscale (Glucksmann — non chiffré) et retour à l'équilibre à moyen terme pour la colonne de référence (Villepin — orienté).</p>
+  </section>
+
+  <div class="matrice-wrap">
+    <section class="matrice" aria-label="Comparaison des candidats sur la dette et les déficits">
+
+      <!-- Dominique de Villepin — RÉFÉRENCE -->
+      <article class="carte reference">
+        <div class="carte-tete">
+          <div class="nom">Dominique de Villepin</div>
+          <div class="parti">La France humaniste</div>
+          <span class="etiquette-ref">Référence</span>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">La « dette sociale » est désignée comme « bombe à retardement » : équilibre budgétaire comme boussole à moyen terme, refus à la fois de la protection « à crédit » et de la privatisation des services publics, démocratie budgétaire et lisibilité du chiffrage des propositions.</p>
+          <div class="mesure">Équilibre à moyen terme — refus du « tout-dette » comme de la privatisation sociale</div>
+          <div class="verbatim">« La justice sociale ne peut plus s'appuyer sur la fuite en avant de la dette ; elle doit s'ancrer dans la responsabilité, dans la clarté, dans le courage budgétaire. »</div>
+        </div>
+        <div class="source">
+          <a href="https://lafrancehumaniste.fr/articles/protection-sociale.html">lafrancehumaniste.fr/articles/protection-sociale</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026</span>
+        </div>
+      </article>
+
+      <!-- Marine Le Pen -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Marine Le Pen</div>
+          <div class="parti">Rassemblement National</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">Contre-budget chiffré : ~36 Md€ d'économies nettes (50 Md€ de baisse de dépenses pour 14 Md€ de baisses de recettes) — contribution UE −8,7 Md€, subventions aux agences −20 % (7,7 Md€), tarifs de rachat d'électricité −7,2 Md€, aide au développement −2,3 Md€, prestations de solidarité réservées aux étrangers ayant 5 ans de travail (6,1 Md€), dotations régions/EPCI −5 Md€ ; recettes nouvelles via un impôt sur les fortunes financières (~4 Md€).</p>
+          <div class="mesure">Contre-budget ~36 Md€ nets — UE −8,7 Md€, agences −7,7 Md€, IFF ~4 Md€</div>
+          <div class="verbatim">« Baisse de la contribution de la France à l'UE : 8,7 Md€. Baisser de 20 % les affectations financières ou les subventions à certaines agences et organismes : 7,7 Md€. Réserver le bénéfice des prestations de solidarité aux étrangers ayant au moins 5 ans ETP travaillés en France : 6,1 Md€. »</div>
+        </div>
+        <div class="source">
+          <a href="https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf">rassemblementnational.fr — Contre-budget (PDF)</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — exercice budgétaire 2026</span>
+        </div>
+      </article>
+
+      <!-- Jean-Luc Mélenchon -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Jean-Luc Mélenchon</div>
+          <div class="parti">La France Insoumise</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">Orientations budgétaires 2027 (doc. du 14/10/2026) : +100 Md€ de recettes fiscales « uniquement en faisant contribuer les plus riches », finançant ~80 Md€ de dépenses d'urgence (services publics, pouvoir d'achat, planification écologique), une partie de la réforme fiscale affectée à la réduction du déficit. Diagnostic : les « cadeaux au capital » expliqueraient la moitié du déficit.</p>
+          <div class="mesure">+100 Md€ de recettes sur les plus riches — ~80 Md€ de dépenses d'urgence</div>
+          <div class="verbatim">« Nous proposons d'augmenter d'un peu plus de 100 milliards d'euros les recettes fiscales pour l'année prochaine — uniquement en faisant contribuer les plus riches. Les dépenses d'urgence […] représentent un peu plus de 80 milliards d'euros. »</div>
+        </div>
+        <div class="source">
+          <a href="https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf">melenchon2027.fr — « Remettre de l'ordre dans les comptes publics »</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — orientations, pas un chiffrage complet</span>
+        </div>
+      </article>
+
+      <!-- Édouard Philippe -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Édouard Philippe</div>
+          <div class="parti">Horizons</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">Priorité n°1 : « Assainir nos finances publiques » — règle d'or budgétaire constitutionnelle, objectif de ramener le déficit de 5 % à 2 % du PIB, réduction des effectifs de la fonction publique de 250 000 agents pour consolider les régimes sociaux.</p>
+          <div class="mesure">Règle d'or constitutionnelle — déficit 5 % → 2 % — 250 000 fonctionnaires en moins</div>
+          <div class="verbatim">« Assainir nos finances publiques […] : réduire les effectifs de la fonction publique de 250 000 pour consolider les régimes sociaux, […] règle d'or budgétaire dans la Constitution »</div>
+        </div>
+        <div class="source">
+          <a href="https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere">edouardphilippe.fr/priorites/…-plus-prospere</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026</span>
+        </div>
+      </article>
+
+      <!-- Raphaël Glucksmann -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Raphaël Glucksmann</div>
+          <div class="parti">Place Publique / PS</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">Les finances publiques sont abordées via la justice fiscale : « un système plus juste, au service de la redistribution », avec la taxation des « méga-héritages » comme mesure de financement (~15 Md€ évoqués dans les médias, non repris dans le programme en ligne). Aucune trajectoire de déficit chiffrée publiée.</p>
+          <div class="mesure">Justice fiscale — taxe « méga-héritages » (~15 Md€ annoncés)</div>
+          <div class="verbatim">« Faire de la justice fiscale un levier de cohésion : un système plus juste, au service de la redistribution et de la solidarité. »</div>
+        </div>
+        <div class="source">
+          <a href="https://raphaelglucksmann.eu/programme.html">raphaelglucksmann.eu/programme</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — chiffrage à paraître</span>
+        </div>
+      </article>
+
+      <!-- Gabriel Attal -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Gabriel Attal</div>
+          <div class="parti">Renaissance</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">« La dette : la défiancer pour financer l'essentiel » — la dette de l'État présentée comme le premier « héritage à résorber ». Toutes les propositions de campagne seront chiffrées et financées par des économies (lutte contre la fraude, suppression d'agences) et trois priorités budgétaires : éducation, défense, agriculture. Aucun chiffrage global publié.</p>
+          <div class="mesure">Toutes propositions chiffrées et financées — priorités : éducation, défense, agriculture</div>
+          <div class="verbatim">« Chacune des propositions de Gabriel Attal sera chiffrée et financée par des économies dans les dépenses. »</div>
+        </div>
+        <div class="source">
+          <a href="https://attalpresident.fr/programme/dette-de-letat">attalpresident.fr/programme/dette-de-letat</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — chiffrage non publié à cette date</span>
+        </div>
+      </article>
+
+    </section>
+    <div class="swipe-hint" aria-hidden="true">Glisser pour comparer <span class="fleche">⟵</span></div>
+  </div>
+
+  <section class="fdt" aria-label="Fil du temps">
+    <h2>Fil du temps — contexte documenté</h2>
+    <div class="fdt-item">
+      <span class="qui">Édouard Philippe</span><span class="date">juillet 2017 → février 2020 — Premier ministre</span>
+      <div class="verbatim">Promesse de ramener le déficit sous les 3 % du PIB « dès 2017 ». Bilan : le déficit public atteint 3,0 % du PIB en 2019 — cible tenue — avant la dégradation liée au Covid (−9,1 % en 2020, hors quinquennat de gestion courante). <a href="https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/discours-de-philippe">Source</a></div>
+    </div>
+    <div class="fdt-item">
+      <span class="qui">Marine Le Pen / groupe RN</span><span class="date">23/10/2025 puis 06/10/2026 — conférences de presse</span>
+      <div class="verbatim">Contre-budget 2026 présenté au Parlement (~36 Md€ d'économies nettes) ; trajectoire budgétaire réitérée le 06/10/2026 avec Jordan Bardella et Jean-Philippe Tanguy — à distinguer d'un programme présidentiel 2027, non publié à ce jour.</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="note-methode">
+      <strong>Comparaison neutre.</strong> Six positions — cinq candidats issus des sondages + le candidat de référence (<a href="#">règle §2.6</a>). Chaque position est sourcée sur un site officiel ; les verbatims sont cités sans éditorialisation. Statuts : <em>Sourcée / Attendue / Non sourcée</em>.
+    </div>
+    <div>
+      <a href="#">Mur des sources</a> · <a href="#">Journal des mises à jour</a> · <a href="#">Charte éditoriale</a><br>
+      <span class="verif">Cellules vérifiées le 17/10/2026 — Maquette v0.1</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

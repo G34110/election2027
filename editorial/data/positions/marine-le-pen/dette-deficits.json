@@ -1,12 +1,23 @@
 {
   "candidat_id": "marine-le-pen",
   "theme_id": "dette-deficits",
-  "statut": "non_sourcee",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "La candidate et le groupe RN ont présenté un « contre-budget » chiffré : environ 36 Md€ d'économies nettes (50 Md€ de baisse des dépenses pour 14 Md€ de baisses de recettes). Principaux postes : contribution de la France à l'UE (−8,7 Md€), subventions d'agences et organismes (−20 %, 7,7 Md€), tarifs préférentiels de rachat d'électricité (−7,2 Md€), aide publique au développement (−2,3 Md€), prestations de solidarité réservées aux étrangers ayant 5 ans de travail en ETP (6,1 Md€), dotation aux régions et EPCI (−5 Md€). Recettes nouvelles : impôt sur les fortunes financières (~4 Md€) et taxe sur les transactions financières intra-journalières.",
+    "mesure_phare": "Contre-budget : ~36 Md€ d'économies nettes — UE −8,7 Md€, agences −7,7 Md€, IFF ~4 Md€",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "url_archive": "https://web.archive.org/web/2026/https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
+      "titre": "GRN — Contre-budget 2026 (document officiel, présenté en conférence de presse le 23/10/2025, trajectoire réitérée le 06/10/2026)",
+      "date_verification": "2026-10-17",
+      "verbatim": "Baisse de la contribution de la France à l'UE : 8,7 Md€. Baisser de 20 % les affectations financières ou les subventions à certaines agences et organismes : 7,7 Md€. Réserver le bénéfice des prestations de solidarité aux étrangers ayant au moins 5 ans ETP travaillés en France : 6,1 Md€."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Un « contre-budget » officiel RN existe (économies ciblant contribution UE, immigration, agences, aide au développement + nouvelles taxes financières type IFF) — URL primaire du document officiel à localiser sur rassemblementnational.fr/documents/ avant passage en 'sourcee'. Position connue, source primaire en cours."
+  "_note": "Contre-budget parlementaire (exercice 2026, base PLF 2026) — document du groupe RN, à distinguer d'un programme présidentiel 2027. Conférence de présentation de la trajectoire budgétaire tenue le 06/10/2026 (Le Pen, Bardella, Tanguy). Le total « 36 Md€ net / 50 Md€ dépenses / 14 Md€ recettes » provient de la présentation publique (conférence de presse). Verbatims chiffrés extraits du tableau officiel du document."
 }

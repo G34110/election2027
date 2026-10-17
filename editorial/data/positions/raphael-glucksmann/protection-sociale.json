@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "protection-sociale",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat inscrit la protection sociale dans son axe « Justice sociale et pouvoir d'achat » : renforcer les services publics (santé, école, transports) au plus près des territoires et garantir un accès équitable partout. Aucun objectif chiffré publié — le site indique « objectif chiffré à préciser ».",
+    "mesure_phare": "Services publics renforcés (santé, école, transports) — accès équitable sur tout le territoire",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 03 : Justice sociale et pouvoir d'achat, point 2",
+      "date_verification": "2026-10-17",
+      "verbatim": "Renforcer les services publics au plus près des territoires : santé, école, transports — garantir un accès équitable partout."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Retraites non adressées dans les 6 axes publiés. Le chiffrage du programme est annoncé « au fil de la campagne » — à re-vérifier."
+}
