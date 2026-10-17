@@ -2,27 +2,35 @@
   "id": "marine-le-pen",
   "nom": "Marine Le Pen",
   "parti": "Rassemblement National",
-  "statut": "declare",
-  "role": "concurrent",
+  "statut": "pressenti",
   "remplace_par": null,
   "photo_url": "/assets/candidats/marine-le-pen.jpg",
+  "naissance": {
+    "date": "5 août 1968",
+    "lieu": "Neuilly-sur-Seine"
+  },
   "liens_officiels": {
-    "site_campagne": "https://rassemblementnational.fr",
-    "parti_url": "https://rassemblementnational.fr",
-    "programme_pdf": "https://rassemblementnational.fr/documents/202406-programme.pdf",
-    "programme_pdf_archive": "https://web.archive.org/",
+    "site_campagne": "https://rassemblementnational.fr/",
+    "parti_url": "https://rassemblementnational.fr/",
+    "programme_pdf": "https://rassemblementnational.fr/22-mesures",
+    "programme_pdf_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
     "derniere_verification": "2026-10-17"
   },
   "parcours": {
+    "chapo": "Avocate de formation, élue présidente du Front national en 2011 puis du Rassemblement National. Trois fois candidate à la présidentielle — deux fois au second tour (2017, 2022). Présidente du groupe RN à l'Assemblée depuis 2022. Jamais membre d'un exécutif.",
     "etudes": [
-      "Études de droit — Université Paris II Panthéon-Assas (licence de droit, maîtrise de droit des affaires, DEA de droit pénal)"
+      "Années 1980 — Lycée Florent Schmitt (Saint-Cloud) puis classes préparatoires littéraires au lycée Pasteur (Neuilly-sur-Seine)",
+      "Fin années 1980-1990 — Université Paris II Panthéon-Assas : licence de droit, DEA de droit pénal et DESS de droit pénal appliqué"
     ],
     "militantisme": [
-      "Rejoint le Front National en 1986 — adhérente puis membre du bureau national",
-      "Présidente du Front National (2011-2021), rebaptisé Rassemblement National en 2018"
+      "1986 — Adhère au Front national à 18 ans ; intègre le bureau exécutif en 2000",
+      "16/01/2011 — Élue présidente du FN au congrès de Tours (67,65 % face à Bruno Gollnisch)",
+      "2018 — Le Front national devient le Rassemblement National (congrès de Lille)",
+      "Depuis 2021 — Présidente du groupe RN à l'Assemblée ; Jordan Bardella préside le parti"
     ],
     "experiences_pro": [
-      "Avocate au barreau de Paris (1991-1998) — source : fiche AN"
+      "1992-1998 — Avocate au barreau de Paris : permanences d'aide juridictionnelle, dont auprès d'étrangers en situation irrégulière",
+      "1998-2004 — Directrice juridique du Front national puis carrière politique à temps plein"
     ],
     "mandats": [
       { "fonction": "Conseillère régionale d'Île-de-France", "debut": "2004", "fin": "2010" },
@@ -30,7 +38,20 @@
       { "fonction": "Conseillère régionale du Nord-Pas-de-Calais", "debut": "2010", "fin": "2017" },
       { "fonction": "Députée du Pas-de-Calais (11e circ.)", "debut": "2017", "fin": "" },
       { "fonction": "Présidente du groupe RN à l'Assemblée nationale", "debut": "2022", "fin": "" }
+    ],
+    "moments_cles": [
+      { "date": "2011", "evenement": "Élue présidente du Front national — succède à son père et engage la « dédiabolisation »", "source_url": "https://fr.wikipedia.org/wiki/Marine_Le_Pen" },
+      { "date": "2012", "evenement": "Première candidature présidentielle : 17,9 % au premier tour (3e)", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2012" },
+      { "date": "Août 2015", "evenement": "Fait exclure Jean-Marie Le Pen du parti qu'il a fondé — rupture définitive", "source_url": "https://fr.wikipedia.org/wiki/Jean-Marie_Le_Pen" },
+      { "date": "Mai 2017", "evenement": "Second tour face à Emmanuel Macron : 33,9 %", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017" },
+      { "date": "Avril 2022", "evenement": "Second tour face à Emmanuel Macron : 41,45 % — record historique de l'extrême droite", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022" },
+      { "date": "31 mars 2025", "evenement": "Condamnée en première instance dans l'affaire des assistants parlementaires européens : 5 ans d'inéligibilité avec exécution provisoire — appel en cours", "source_url": "https://fr.wikipedia.org/wiki/Affaire_des_assistants_parlementaires_du_Front_national_au_Parlement_europ%C3%A9en" }
+    ],
+    "sources": [
+      "https://www.assemblee-nationale.fr/",
+      "https://rassemblementnational.fr/",
+      "https://www.vie-publique.fr/"
     ]
   },
-  "_note_collecte": "Candidate déclarée du RN — rendue éligible par arrêt d'appel du 07/07/2026 (arrêt à sourcer). Jordan Bardella testé en hypothèse de substitution dans certains sondages — vigilance statut 'remplace'. Sources parcours : assemblee-nationale.fr/dyn/deputes/PA720614 (mandats, profession), sycomore."
+  "_note_collecte": "Faits marquants sourcés le 17/10/2026 — liens détail vérifiés."
 }

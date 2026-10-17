@@ -5,6 +5,10 @@
   "statut": "pressenti",
   "remplace_par": null,
   "photo_url": "/assets/candidats/slug-du-candidat.jpg",
+  "naissance": {
+    "date": "JJ mois AAAA",
+    "lieu": "Ville (pays si étranger)"
+  },
   "liens_officiels": {
     "site_campagne": "https://",
     "parti_url": "https://",

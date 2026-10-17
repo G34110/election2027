@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jean-Luc Mélenchon — Parcours | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:900px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.25rem; }
+  .sous-titre { font-size:.95rem; color:var(--encre-2); margin-bottom:.7rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce.ref { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:70ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Sections ── */
+  .bloc { max-width:900px; margin:0 auto; padding:0 1rem 1.4rem; }
+  .bloc h2 { font-size:1.15rem; margin:.6rem 0 .8rem; display:flex; align-items:center; gap:.5rem; }
+  .bloc h2::after { content:''; flex:1; height:1px; background:var(--filet); }
+
+  /* ── Frise chronologique ── */
+  .timeline { border-left:2px solid var(--filet); margin-left:.4rem; }
+  .etape { position:relative; padding:0 0 1.05rem 1.3rem; }
+  .etape::before { content:''; position:absolute; left:-6px; top:.45rem; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--surface); }
+  .etape .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .etape .titre { font-weight:600; font-size:.95rem; margin:.1rem 0 .15rem; }
+  .etape .detail { font-size:.85rem; color:var(--encre-2); }
+  .etape.majeur .titre { color:var(--accent); }
+  .etape.majeur::before { background:var(--ok); width:12px; height:12px; left:-7px; }
+
+  /* ── Carte moment clé ── */
+  .moments { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.7rem; }
+  .moment { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.8rem .9rem; }
+  .moment .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .moment .titre { font-weight:600; font-size:.92rem; margin:.15rem 0 .25rem; }
+  .moment .detail { font-size:.82rem; color:var(--encre-2); }
+
+  /* ── Sources ── */
+  .sources { max-width:900px; margin:0 auto; padding:0 1rem 2rem; font-size:.75rem; color:var(--encre-2); }
+  .sources a { color:var(--accent); word-break:break-all; }
+  .sources li { margin-bottom:.3rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:900px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .moment a.lien { display:inline-block; margin-top:.35rem; font-size:.78rem; font-weight:600; color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="index.html">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Candidats / Jean-Luc Mélenchon</div>
+    <h1>Jean-Luc Mélenchon</h1>
+    <p class="sous-titre">La France Insoumise — né(e) le 19 août 1951 à Tanger (Maroc)</p>
+    <div class="metas">
+      <span class="puce">Statut : déclaré</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Professeur de lettres puis journaliste, élu depuis 1983 : sénateur de l'Essonne à 35 ans, ministre délégué à l'Enseignement professionnel sous Jospin, trois fois candidat à la présidentielle (2012, 2017, 2022) — à moins de deux points du second tour en 2017 et 2022. Cofondateur du Parti de gauche (2008) puis de La France insoumise (2016).</p>
+  </section>
+
+  <section class="bloc">
+    <h2>Études et formation</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Jusqu&#x27;en 1962</div>
+        <div class="detail">Enfance au Maroc (Tanger puis Casablanca) ; la famille s&#x27;installe en France en 1962</div>
+      </div>
+      <div class="etape">
+        <div class="date">Années 1970</div>
+        <div class="detail">Licence de lettres et diplôme d&#x27;études supérieures de philosophie, Université de Franche-Comté (Besançon)</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience professionnelle</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1970-1980</div>
+        <div class="detail">Professeur de lettres dans le secondaire (Lons-le-Saunier puis Corbeil-Essonnes)</div>
+      </div>
+      <div class="etape">
+        <div class="date">Années 1980</div>
+        <div class="detail">Journaliste dans la presse régionale jurassienne, puis carrière politique et élective</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Engagement politique</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1970</div>
+        <div class="detail">Militant de l&#x27;OCI (courant lambertiste) avant d&#x27;adhérer au Parti socialiste en 1976</div>
+      </div>
+      <div class="etape">
+        <div class="date">2008</div>
+        <div class="detail">Quitte le PS au congrès de Reims ; cofonde le Parti de gauche puis le Front de gauche</div>
+      </div>
+      <div class="etape">
+        <div class="date">Février 2016</div>
+        <div class="detail">Fonde La France insoumise, mouvement dont il reste la figure centrale</div>
+      </div>
+      <div class="etape">
+        <div class="date">2025</div>
+        <div class="detail">Réédition du programme « L&#x27;Avenir en commun » (éd. 2025) ; candidat déclaré à 2027</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Mandats et fonctions</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1983 – 1995</div>
+        <div class="detail">Conseiller municipal de Massy</div>
+      </div>
+      <div class="etape">
+        <div class="date">1986 – 2000</div>
+        <div class="detail">Sénateur de l&#x27;Essonne</div>
+      </div>
+      <div class="etape">
+        <div class="date">2000-03 – 2002-05</div>
+        <div class="detail">Ministre délégué à l&#x27;Enseignement professionnel (gvt Jospin)</div>
+      </div>
+      <div class="etape">
+        <div class="date">2004 – 2010</div>
+        <div class="detail">Sénateur de l&#x27;Essonne</div>
+      </div>
+      <div class="etape">
+        <div class="date">2009 – 2017</div>
+        <div class="detail">Député européen</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017 – 2022</div>
+        <div class="detail">Député des Bouches-du-Rhône</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Les grands moments</h2>
+    <div class="moments">
+      <div class="moment">
+        <div class="date">1986</div>
+        <div class="titre">Élu sénateur de l&#x27;Essonne à 35 ans</div>
+        <div class="detail">l&#x27;un des plus jeunes sénateurs de la Ve République</div>
+        <a class="lien" href="https://www.senat.fr/">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2000-2002</div>
+        <div class="titre">Ministre délégué à l&#x27;Enseignement professionnel (gouvernement Jospin)</div>
+        <div class="detail">son seul passage à l&#x27;exécutif</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2005</div>
+        <div class="titre">Chef de file du « non » de gauche au référendum sur le traité constitutionnel européen</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2008</div>
+        <div class="titre">Quitte le Parti socialiste et fonde le Parti de gauche</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Parti_de_gauche_(France)">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2017</div>
+        <div class="titre">19,58 % au premier tour</div>
+        <div class="detail">à environ 700 000 voix du second tour</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2018-2019</div>
+        <div class="titre">Perquisition au siège de LFI</div>
+        <div class="detail">« La République, c&#x27;est moi ! » ; condamné en décembre 2019 à 3 mois avec sursis pour rébellion</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2022</div>
+        <div class="titre">21,95 % au premier tour (NUPES)</div>
+        <div class="detail">à environ 460 000 voix du second tour</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022">Détail →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://melenchon2027.fr/">https://melenchon2027.fr/</a></li>
+      <li><a href="https://www.senat.fr/">https://www.senat.fr/</a></li>
+      <li><a href="https://www.assemblee-nationale.fr/">https://www.assemblee-nationale.fr/</a></li>
+    </ul>
+    <p class="note-methode">Vie privée volontairement exclue de cette fiche — seuls les éléments publics et documentés (études, carrière, mandats, faits politiques) sont retenus, conformément à la charte du site. Chaque fait marquant est assorti d'un lien de détail.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

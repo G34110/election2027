@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gabriel Attal — Parcours | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:900px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.25rem; }
+  .sous-titre { font-size:.95rem; color:var(--encre-2); margin-bottom:.7rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce.ref { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:70ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Sections ── */
+  .bloc { max-width:900px; margin:0 auto; padding:0 1rem 1.4rem; }
+  .bloc h2 { font-size:1.15rem; margin:.6rem 0 .8rem; display:flex; align-items:center; gap:.5rem; }
+  .bloc h2::after { content:''; flex:1; height:1px; background:var(--filet); }
+
+  /* ── Frise chronologique ── */
+  .timeline { border-left:2px solid var(--filet); margin-left:.4rem; }
+  .etape { position:relative; padding:0 0 1.05rem 1.3rem; }
+  .etape::before { content:''; position:absolute; left:-6px; top:.45rem; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--surface); }
+  .etape .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .etape .titre { font-weight:600; font-size:.95rem; margin:.1rem 0 .15rem; }
+  .etape .detail { font-size:.85rem; color:var(--encre-2); }
+  .etape.majeur .titre { color:var(--accent); }
+  .etape.majeur::before { background:var(--ok); width:12px; height:12px; left:-7px; }
+
+  /* ── Carte moment clé ── */
+  .moments { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.7rem; }
+  .moment { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.8rem .9rem; }
+  .moment .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .moment .titre { font-weight:600; font-size:.92rem; margin:.15rem 0 .25rem; }
+  .moment .detail { font-size:.82rem; color:var(--encre-2); }
+
+  /* ── Sources ── */
+  .sources { max-width:900px; margin:0 auto; padding:0 1rem 2rem; font-size:.75rem; color:var(--encre-2); }
+  .sources a { color:var(--accent); word-break:break-all; }
+  .sources li { margin-bottom:.3rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:900px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .moment a.lien { display:inline-block; margin-top:.35rem; font-size:.78rem; font-weight:600; color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="index.html">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Candidats / Gabriel Attal</div>
+    <h1>Gabriel Attal</h1>
+    <p class="sous-titre">Renaissance — né(e) le 16 mars 1989 à Clamart</p>
+    <div class="metas">
+      <span class="puce">Statut : déclaré</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Formé à Sciences Po, engagé d'abord auprès du PS puis chez En Marche dès 2017. Secrétaire d'État à 29 ans, porte-parole du gouvernement pendant le COVID, ministre de l'Éducation (Choc des savoirs) puis Premier ministre à 34 ans — le plus jeune de la Ve République — de janvier à septembre 2024. Patron de Renaissance, candidat déclaré 2027.</p>
+  </section>
+
+  <section class="bloc">
+    <h2>Études et formation</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1990-2000</div>
+        <div class="detail">École alsacienne, établissement privé du 6e arrondissement de Paris</div>
+      </div>
+      <div class="etape">
+        <div class="date">2007-2012</div>
+        <div class="detail">Sciences Po Paris, études de droit public ; stages au Parlement européen et auprès de Marisol Touraine</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience professionnelle</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">2012-2015</div>
+        <div class="detail">Assistant parlementaire puis conseiller de Marisol Touraine au ministère de la Santé</div>
+      </div>
+      <div class="etape">
+        <div class="date">Depuis 2018</div>
+        <div class="detail">Carrière gouvernementale quasi continue : secrétaire d&#x27;État, porte-parole, ministre, Premier ministre</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Engagement politique</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">2006</div>
+        <div class="detail">Participe au mouvement étudiant contre le CPE ; engagé ensuite auprès du PS</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017</div>
+        <div class="detail">Rejoint En Marche dès la présidentielle ; devient une figure de la macronie</div>
+      </div>
+      <div class="etape">
+        <div class="date">2024</div>
+        <div class="detail">Président du groupe Renaissance à l&#x27;Assemblée puis secrétaire général du parti</div>
+      </div>
+      <div class="etape">
+        <div class="date">2026</div>
+        <div class="detail">Candidat déclaré 2027 : 4 chantiers « capitaux » + 2 « dettes » publiés sur attalpresident.fr</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Mandats et fonctions</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">2014 – 2018</div>
+        <div class="detail">Conseiller municipal de Vanves</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017 – 2020</div>
+        <div class="detail">Député des Hauts-de-Seine (10e circ.)</div>
+      </div>
+      <div class="etape">
+        <div class="date">2020-07 – 2022-05</div>
+        <div class="detail">Porte-parole du Gouvernement</div>
+      </div>
+      <div class="etape">
+        <div class="date">2022-05 – 2023-07</div>
+        <div class="detail">Ministre délégué aux Comptes publics</div>
+      </div>
+      <div class="etape">
+        <div class="date">2023-07 – 2024-01</div>
+        <div class="detail">Ministre de l&#x27;Éducation nationale et de la Jeunesse</div>
+      </div>
+      <div class="etape">
+        <div class="date">2024-01 – 2024-09</div>
+        <div class="detail">Premier ministre</div>
+      </div>
+      <div class="etape">
+        <div class="date">2024-09 – en cours</div>
+        <div class="detail">Député des Hauts-de-Seine + Président du groupe Renaissance à l&#x27;AN</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Les grands moments</h2>
+    <div class="moments">
+      <div class="moment">
+        <div class="date">2018</div>
+        <div class="titre">Secrétaire d&#x27;État auprès du ministre de l&#x27;Éducation à 29 ans</div>
+        <div class="detail">lance le Service national universel (SNU)</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Service_national_universel">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2020-2022</div>
+        <div class="titre">Porte-parole du gouvernement Castex pendant la crise COVID</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Gabriel_Attal">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2023-2024</div>
+        <div class="titre">Ministre de l&#x27;Éducation nationale : « Choc des savoirs », interdiction de l&#x27;abaya, groupes de niveau</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Gabriel_Attal">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">9 janvier 2024</div>
+        <div class="titre">Premier ministre à 34 ans</div>
+        <div class="detail">le plus jeune de la Ve République</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">Septembre 2024</div>
+        <div class="titre">Quitte Matignon après la dissolution et la nomination de Michel Barnier ; reprend Renaissance</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Gouvernement_Michel_Barnier">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2026</div>
+        <div class="titre">Candidat déclaré 2027</div>
+        <div class="detail">programme en chantiers publié sur attalpresident.fr</div>
+        <a class="lien" href="https://attalpresident.fr/programme">Détail →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/gabriel-attal">https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/gabriel-attal</a></li>
+      <li><a href="https://attalpresident.fr/">https://attalpresident.fr/</a></li>
+      <li><a href="https://www.assemblee-nationale.fr/">https://www.assemblee-nationale.fr/</a></li>
+    </ul>
+    <p class="note-methode">Vie privée volontairement exclue de cette fiche — seuls les éléments publics et documentés (études, carrière, mandats, faits politiques) sont retenus, conformément à la charte du site. Chaque fait marquant est assorti d'un lien de détail.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

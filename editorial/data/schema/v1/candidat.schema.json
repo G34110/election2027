@@ -29,6 +29,14 @@
       "description": "candidat_id du remplaçant si statut=remplace — filiation documentée (Protocole §2.4)"
     },
     "photo_url": { "type": "string" },
+    "naissance": {
+      "type": "object",
+      "description": "Date et lieu de naissance — donnée publique de carte d'identité (#14)",
+      "properties": {
+        "date": { "type": "string" },
+        "lieu": { "type": "string" }
+      }
+    },
     "liens_officiels": {
       "type": "object",
       "required": ["parti_url", "derniere_verification"],

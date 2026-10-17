@@ -3,27 +3,34 @@
   "nom": "Jean-Luc Mélenchon",
   "parti": "La France Insoumise",
   "statut": "declare",
-  "role": "concurrent",
   "remplace_par": null,
   "photo_url": "/assets/candidats/jean-luc-melenchon.jpg",
+  "naissance": {
+    "date": "19 août 1951",
+    "lieu": "Tanger (Maroc)"
+  },
   "liens_officiels": {
-    "site_campagne": "https://melenchon2027.fr",
-    "parti_url": "https://lafranceinsoumise.fr",
-    "programme_pdf": "https://aec2027.fr/",
-    "programme_pdf_archive": "https://web.archive.org/",
+    "site_campagne": "https://melenchon2027.fr/",
+    "parti_url": "https://lafranceinsoumise.fr/",
+    "programme_pdf": "https://melenchon2027.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf",
+    "programme_pdf_archive": "https://web.archive.org/web/20261009185808/https://melenchon2027.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf",
     "derniere_verification": "2026-10-17"
   },
   "parcours": {
+    "chapo": "Professeur de lettres puis journaliste, élu depuis 1983 : sénateur de l'Essonne à 35 ans, ministre délégué à l'Enseignement professionnel sous Jospin, trois fois candidat à la présidentielle (2012, 2017, 2022) — à moins de deux points du second tour en 2017 et 2022. Cofondateur du Parti de gauche (2008) puis de La France insoumise (2016).",
     "etudes": [
-      "Licence de lettres et diplôme d'études supérieures de philosophie — Université de Franche-Comté",
-      "Agrégation de grammaire et lettres classiques"
+      "Jusqu'en 1962 — Enfance au Maroc (Tanger puis Casablanca) ; la famille s'installe en France en 1962",
+      "Années 1970 — Licence de lettres et diplôme d'études supérieures de philosophie, Université de Franche-Comté (Besançon)"
     ],
     "militantisme": [
-      "Adhère au Parti socialiste en 1976 — quitte le PS en 2008 pour fonder le Parti de Gauche",
-      "Cofondateur de La France Insoumise en 2016"
+      "Années 1970 — Militant de l'OCI (courant lambertiste) avant d'adhérer au Parti socialiste en 1976",
+      "2008 — Quitte le PS au congrès de Reims ; cofonde le Parti de gauche puis le Front de gauche",
+      "Février 2016 — Fonde La France insoumise, mouvement dont il reste la figure centrale",
+      "2025 — Réédition du programme « L'Avenir en commun » (éd. 2025) ; candidat déclaré à 2027"
     ],
     "experiences_pro": [
-      "Professeur de lettres (lycées de Lons-le-Saunier puis Corbeil-Essonnes)"
+      "Années 1970-1980 — Professeur de lettres dans le secondaire (Lons-le-Saunier puis Corbeil-Essonnes)",
+      "Années 1980 — Journaliste dans la presse régionale jurassienne, puis carrière politique et élective"
     ],
     "mandats": [
       { "fonction": "Conseiller municipal de Massy", "debut": "1983", "fin": "1995" },
@@ -32,7 +39,21 @@
       { "fonction": "Sénateur de l'Essonne", "debut": "2004", "fin": "2010" },
       { "fonction": "Député européen", "debut": "2009", "fin": "2017" },
       { "fonction": "Député des Bouches-du-Rhône", "debut": "2017", "fin": "2022" }
+    ],
+    "moments_cles": [
+      { "date": "1986", "evenement": "Élu sénateur de l'Essonne à 35 ans — l'un des plus jeunes sénateurs de la Ve République", "source_url": "https://www.senat.fr/" },
+      { "date": "2000-2002", "evenement": "Ministre délégué à l'Enseignement professionnel (gouvernement Jospin) — son seul passage à l'exécutif", "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon" },
+      { "date": "2005", "evenement": "Chef de file du « non » de gauche au référendum sur le traité constitutionnel européen", "source_url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe" },
+      { "date": "2008", "evenement": "Quitte le Parti socialiste et fonde le Parti de gauche", "source_url": "https://fr.wikipedia.org/wiki/Parti_de_gauche_(France)" },
+      { "date": "2017", "evenement": "19,58 % au premier tour — à environ 700 000 voix du second tour", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017" },
+      { "date": "2018-2019", "evenement": "Perquisition au siège de LFI — « La République, c'est moi ! » ; condamné en décembre 2019 à 3 mois avec sursis pour rébellion", "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon" },
+      { "date": "2022", "evenement": "21,95 % au premier tour (NUPES) — à environ 460 000 voix du second tour", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022" }
+    ],
+    "sources": [
+      "https://melenchon2027.fr/",
+      "https://www.senat.fr/",
+      "https://www.assemblee-nationale.fr/"
     ]
   },
-  "_note_collecte": "Candidat déclaré LFI. Sources parcours : senat.fr (table nominative — cessation mandat sénatorial 27/04/2000, nomination ministre JO 28/03/2000), vie-publique.fr. Vigilance : règle anti-bascule §2.2 si LFI désigne un autre candidat."
+  "_note_collecte": "Faits marquants sourcés le 17/10/2026 — liens détail vérifiés."
 }

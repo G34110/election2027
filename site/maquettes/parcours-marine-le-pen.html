@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marine Le Pen — Parcours | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:900px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.25rem; }
+  .sous-titre { font-size:.95rem; color:var(--encre-2); margin-bottom:.7rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce.ref { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:70ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Sections ── */
+  .bloc { max-width:900px; margin:0 auto; padding:0 1rem 1.4rem; }
+  .bloc h2 { font-size:1.15rem; margin:.6rem 0 .8rem; display:flex; align-items:center; gap:.5rem; }
+  .bloc h2::after { content:''; flex:1; height:1px; background:var(--filet); }
+
+  /* ── Frise chronologique ── */
+  .timeline { border-left:2px solid var(--filet); margin-left:.4rem; }
+  .etape { position:relative; padding:0 0 1.05rem 1.3rem; }
+  .etape::before { content:''; position:absolute; left:-6px; top:.45rem; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--surface); }
+  .etape .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .etape .titre { font-weight:600; font-size:.95rem; margin:.1rem 0 .15rem; }
+  .etape .detail { font-size:.85rem; color:var(--encre-2); }
+  .etape.majeur .titre { color:var(--accent); }
+  .etape.majeur::before { background:var(--ok); width:12px; height:12px; left:-7px; }
+
+  /* ── Carte moment clé ── */
+  .moments { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.7rem; }
+  .moment { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.8rem .9rem; }
+  .moment .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .moment .titre { font-weight:600; font-size:.92rem; margin:.15rem 0 .25rem; }
+  .moment .detail { font-size:.82rem; color:var(--encre-2); }
+
+  /* ── Sources ── */
+  .sources { max-width:900px; margin:0 auto; padding:0 1rem 2rem; font-size:.75rem; color:var(--encre-2); }
+  .sources a { color:var(--accent); word-break:break-all; }
+  .sources li { margin-bottom:.3rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:900px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .moment a.lien { display:inline-block; margin-top:.35rem; font-size:.78rem; font-weight:600; color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="index.html">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Candidats / Marine Le Pen</div>
+    <h1>Marine Le Pen</h1>
+    <p class="sous-titre">Rassemblement National — née le 5 août 1968 à Neuilly-sur-Seine</p>
+    <div class="metas">
+      <span class="puce">Statut : pressenti</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Avocate de formation, élue présidente du Front national en 2011 puis du Rassemblement National. Trois fois candidate à la présidentielle — deux fois au second tour (2017, 2022). Présidente du groupe RN à l'Assemblée depuis 2022. Jamais membre d'un exécutif.</p>
+  </section>
+
+  <section class="bloc">
+    <h2>Études et formation</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1980</div>
+        <div class="detail">Lycée Florent Schmitt (Saint-Cloud) puis classes préparatoires littéraires au lycée Pasteur (Neuilly-sur-Seine)</div>
+      </div>
+      <div class="etape">
+        <div class="date">Fin années 1980-1990</div>
+        <div class="detail">Université Paris II Panthéon-Assas : licence de droit, DEA de droit pénal et DESS de droit pénal appliqué</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience professionnelle</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1992-1998</div>
+        <div class="detail">Avocate au barreau de Paris : permanences d&#x27;aide juridictionnelle, dont auprès d&#x27;étrangers en situation irrégulière</div>
+      </div>
+      <div class="etape">
+        <div class="date">1998-2004</div>
+        <div class="detail">Directrice juridique du Front national puis carrière politique à temps plein</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Engagement politique</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1986</div>
+        <div class="detail">Adhère au Front national à 18 ans ; intègre le bureau exécutif en 2000</div>
+      </div>
+      <div class="etape">
+        <div class="date">16/01/2011</div>
+        <div class="detail">Élue présidente du FN au congrès de Tours (67,65 % face à Bruno Gollnisch)</div>
+      </div>
+      <div class="etape">
+        <div class="date">2018</div>
+        <div class="detail">Le Front national devient le Rassemblement National (congrès de Lille)</div>
+      </div>
+      <div class="etape">
+        <div class="date">Depuis 2021</div>
+        <div class="detail">Présidente du groupe RN à l&#x27;Assemblée ; Jordan Bardella préside le parti</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Mandats et fonctions</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">2004 – 2010</div>
+        <div class="detail">Conseillère régionale d&#x27;Île-de-France</div>
+      </div>
+      <div class="etape">
+        <div class="date">2004 – 2017</div>
+        <div class="detail">Députée européenne</div>
+      </div>
+      <div class="etape">
+        <div class="date">2010 – 2017</div>
+        <div class="detail">Conseillère régionale du Nord-Pas-de-Calais</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017 – en cours</div>
+        <div class="detail">Députée du Pas-de-Calais (11e circ.)</div>
+      </div>
+      <div class="etape">
+        <div class="date">2022 – en cours</div>
+        <div class="detail">Présidente du groupe RN à l&#x27;Assemblée nationale</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Les grands moments</h2>
+    <div class="moments">
+      <div class="moment">
+        <div class="date">2011</div>
+        <div class="titre">Élue présidente du Front national</div>
+        <div class="detail">succède à son père et engage la « dédiabolisation »</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Marine_Le_Pen">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2012</div>
+        <div class="titre">Première candidature présidentielle : 17,9 % au premier tour (3e)</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2012">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">Août 2015</div>
+        <div class="titre">Fait exclure Jean-Marie Le Pen du parti qu&#x27;il a fondé</div>
+        <div class="detail">rupture définitive</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Jean-Marie_Le_Pen">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">Mai 2017</div>
+        <div class="titre">Second tour face à Emmanuel Macron : 33,9 %</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2017">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">Avril 2022</div>
+        <div class="titre">Second tour face à Emmanuel Macron : 41,45 %</div>
+        <div class="detail">record historique de l&#x27;extrême droite</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2022">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">31 mars 2025</div>
+        <div class="titre">Condamnée en première instance dans l&#x27;affaire des assistants parlementaires européens : 5 ans d&#x27;inéligibilité avec exécution provisoire</div>
+        <div class="detail">appel en cours</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Affaire_des_assistants_parlementaires_du_Front_national_au_Parlement_europ%C3%A9en">Détail →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.assemblee-nationale.fr/">https://www.assemblee-nationale.fr/</a></li>
+      <li><a href="https://rassemblementnational.fr/">https://rassemblementnational.fr/</a></li>
+      <li><a href="https://www.vie-publique.fr/">https://www.vie-publique.fr/</a></li>
+    </ul>
+    <p class="note-methode">Vie privée volontairement exclue de cette fiche — seuls les éléments publics et documentés (études, carrière, mandats, faits politiques) sont retenus, conformément à la charte du site. Chaque fait marquant est assorti d'un lien de détail.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

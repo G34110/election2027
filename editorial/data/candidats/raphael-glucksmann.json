@@ -1,35 +1,53 @@
 {
   "id": "raphael-glucksmann",
   "nom": "Raphaël Glucksmann",
-  "parti": "Place Publique / Parti Socialiste",
+  "parti": "Place Publique / PS",
   "statut": "declare",
-  "role": "concurrent",
   "remplace_par": null,
   "photo_url": "/assets/candidats/raphael-glucksmann.jpg",
+  "naissance": {
+    "date": "15 octobre 1979",
+    "lieu": "Boulogne-Billancourt"
+  },
   "liens_officiels": {
-    "site_campagne": "https://raphaelglucksmann.eu",
-    "parti_url": "https://www.parti-socialiste.fr",
+    "site_campagne": "https://raphaelglucksmann.eu/",
+    "parti_url": "https://place-publique.eu/",
     "programme_pdf": "https://raphaelglucksmann.eu/programme.html",
-    "programme_pdf_archive": "https://web.archive.org/",
+    "programme_pdf_archive": "https://web.archive.org/web/2026/https://raphaelglucksmann.eu/programme.html",
     "derniere_verification": "2026-10-17"
   },
   "parcours": {
+    "chapo": "Normalien, essayiste et ancien conseiller du président géorgien Mikheil Saakachvili. Entre en politique en fondant Place Publique (2018). Député européen depuis 2019 — figure de la lutte contre les ingérences étrangères et pour les droits humains (Ouïghours, Ukraine). Désigné candidat de la gauche non-insoumise à la primaire « Choisir 2027 » (66,17 %, 11/10/2026).",
     "etudes": [
-      "École normale supérieure de Saint-Cloud — agrégation de lettres modernes"
+      "Fin années 1990 — École normale supérieure lettres et sciences humaines (Fontenay-Saint-Cloud) : lettres et philosophie ; militantisme étudiant à l'UNEF"
     ],
     "militantisme": [
-      "Fondateur du mouvement Place Publique en 2018 — liste Place Publique/PS aux européennes 2019",
-      "Candidat désigné PS/Place Publique après victoire à la primaire 'Choisir 2027' (66,17%, 11/10/2026)"
+      "Novembre 2018 — Cofonde le mouvement Place Publique avec Thomas Porcher",
+      "Mai 2019 — Tête de la liste « Envie d'Europe » (PS/Place Publique/Nouvelle Donne/PRG) aux européennes",
+      "2019-2026 — Au Parlement européen : commissions spéciales sur les ingérences étrangères (INGE, EUDS), défense des Ouïghours et de l'Ukraine",
+      "Octobre 2026 — Désigné candidat PS/Place Publique à la primaire « Choisir 2027 » (66,17 %)"
     ],
     "experiences_pro": [
-      "Essayiste et journaliste — directeur de publication du Nouveau Magazine littéraire",
-      "Conseiller de la présidente géorgienne (2012-2013)"
+      "Années 2000-2010 — Essayiste et journaliste : fonde la revue Stilus ; « Génération gagnée » (2006), « Les enfants du vide » (2018), « Lettre à la génération qui va tout changer » (2020)",
+      "2008-2012 — Conseiller du président géorgien Mikheil Saakachvili, notamment sur les questions internationales"
     ],
     "mandats": [
       { "fonction": "Député européen", "debut": "2019", "fin": "" },
-      { "fonction": "Président de la commission spéciale INGE/INGE2 (ingérences étrangères, Parlement européen)", "debut": "2020", "fin": "2023" },
+      { "fonction": "Président de la commission spéciale INGE (ingérences étrangères, Parlement européen)", "debut": "2020", "fin": "2023" },
       { "fonction": "Président de la commission spéciale sur le bouclier européen de la démocratie (EUDS)", "debut": "2025", "fin": "" }
+    ],
+    "moments_cles": [
+      { "date": "Novembre 2018", "evenement": "Cofonde Place Publique pour renouveler la gauche au-delà des partis existants", "source_url": "https://fr.wikipedia.org/wiki/Place_publique_(parti_politique)" },
+      { "date": "Mai 2019", "evenement": "Élu député européen : sa liste atteint 6,19 % — retour du PS au Parlement européen", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lections_europ%C3%A9ennes_de_2019_en_France" },
+      { "date": "Mars 2021", "evenement": "Sanctionné par la Chine pour son engagement en faveur des Ouïghours", "source_url": "https://fr.wikipedia.org/wiki/Rapha%C3%ABl_Glucksmann" },
+      { "date": "Juin 2024", "evenement": "Liste commune Place Publique/PS à 13,8 % aux européennes — réélu", "source_url": "https://fr.wikipedia.org/wiki/%C3%89lections_europ%C3%A9ennes_de_2024_en_France" },
+      { "date": "Octobre 2026", "evenement": "Victoire à la primaire « Choisir 2027 » (66,17 %) — candidat désigné de la gauche non-insoumise", "source_url": "https://raphaelglucksmann.eu/" }
+    ],
+    "sources": [
+      "https://raphaelglucksmann.eu/",
+      "https://www.europarl.europa.eu/",
+      "https://www.vie-publique.fr/"
     ]
   },
-  "_note_collecte": "Candidat désigné — a remporté la primaire 'Choisir 2027' (PS + Place Publique) au 1er tour le 11/10/2026 avec 66,17% (source : Public Sénat — à recouper avec communiqué officiel). Programme = 6 axes d'intention, chiffrage progressif. Mandat européen : réélu en 2024 (fiche europarl). Sources : europarl.europa.eu/meps/fr/197694."
+  "_note_collecte": "Correction le 17/10/2026 : conseiller du président géorgien Saakachvili (2008-2012). Faits marquants sourcés — liens détail vérifiés."
 }

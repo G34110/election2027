@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Édouard Philippe — Parcours | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:900px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.25rem; }
+  .sous-titre { font-size:.95rem; color:var(--encre-2); margin-bottom:.7rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce.ref { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:70ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Sections ── */
+  .bloc { max-width:900px; margin:0 auto; padding:0 1rem 1.4rem; }
+  .bloc h2 { font-size:1.15rem; margin:.6rem 0 .8rem; display:flex; align-items:center; gap:.5rem; }
+  .bloc h2::after { content:''; flex:1; height:1px; background:var(--filet); }
+
+  /* ── Frise chronologique ── */
+  .timeline { border-left:2px solid var(--filet); margin-left:.4rem; }
+  .etape { position:relative; padding:0 0 1.05rem 1.3rem; }
+  .etape::before { content:''; position:absolute; left:-6px; top:.45rem; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--surface); }
+  .etape .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .etape .titre { font-weight:600; font-size:.95rem; margin:.1rem 0 .15rem; }
+  .etape .detail { font-size:.85rem; color:var(--encre-2); }
+  .etape.majeur .titre { color:var(--accent); }
+  .etape.majeur::before { background:var(--ok); width:12px; height:12px; left:-7px; }
+
+  /* ── Carte moment clé ── */
+  .moments { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.7rem; }
+  .moment { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.8rem .9rem; }
+  .moment .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .moment .titre { font-weight:600; font-size:.92rem; margin:.15rem 0 .25rem; }
+  .moment .detail { font-size:.82rem; color:var(--encre-2); }
+
+  /* ── Sources ── */
+  .sources { max-width:900px; margin:0 auto; padding:0 1rem 2rem; font-size:.75rem; color:var(--encre-2); }
+  .sources a { color:var(--accent); word-break:break-all; }
+  .sources li { margin-bottom:.3rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:900px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  .moment a.lien { display:inline-block; margin-top:.35rem; font-size:.78rem; font-weight:600; color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="index.html">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Candidats / Édouard Philippe</div>
+    <h1>Édouard Philippe</h1>
+    <p class="sous-titre">Horizons — né(e) le 28 novembre 1970 à Rouen</p>
+    <div class="metas">
+      <span class="puce">Statut : déclaré</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Énarque et conseiller d'État passé par le privé (Areva), maire du Havre depuis 2010. Premier ministre d'Emmanuel Macron pendant trois ans (2017-2020), le plus long de son quinquennat. Fondateur d'Horizons (2021), candidat déclaré à 2027 avec un programme en quatre priorités.</p>
+  </section>
+
+  <section class="bloc">
+    <h2>Études et formation</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1970-1980</div>
+        <div class="detail">Enfance à Rouen ; scolarité secondaire à Bonn puis à Paris</div>
+      </div>
+      <div class="etape">
+        <div class="date">Début 1990</div>
+        <div class="detail">Classes préparatoires littéraires au lycée Henri-IV, puis Sciences Po Paris</div>
+      </div>
+      <div class="etape">
+        <div class="date">1995-1997</div>
+        <div class="detail">ENA, promotion « Marc Bloch »</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience professionnelle</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1997-2004</div>
+        <div class="detail">Conseiller d&#x27;État : auditeur puis maître des requêtes (section du contentieux)</div>
+      </div>
+      <div class="etape">
+        <div class="date">2004-2007</div>
+        <div class="detail">Avocat associé au sein du cabinet Debevoise &amp; Plimpton</div>
+      </div>
+      <div class="etape">
+        <div class="date">2007-2010</div>
+        <div class="detail">Directeur des affaires publiques du groupe Areva</div>
+      </div>
+      <div class="etape">
+        <div class="date">Depuis 2010</div>
+        <div class="detail">Carrière élective et ministérielle quasi continue</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Engagement politique</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Années 1990</div>
+        <div class="detail">Bref passage au Parti socialiste (courant rocardien) avant de rejoindre le RPR</div>
+      </div>
+      <div class="etape">
+        <div class="date">2002-2017</div>
+        <div class="detail">Cadre de l&#x27;UMP/LR, proche d&#x27;Alain Juppé dont il coordonne la primaire de 2016</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017</div>
+        <div class="detail">Rejoint Emmanuel Macron : nommé Premier ministre</div>
+      </div>
+      <div class="etape">
+        <div class="date">Octobre 2021</div>
+        <div class="detail">Fonde Horizons ; congrès fondateur de Lille (mars 2025) : méthode « dissolution + référendums »</div>
+      </div>
+      <div class="etape">
+        <div class="date">2026</div>
+        <div class="detail">Candidat déclaré 2027 (« Avec Édouard 2027 ») : 4 priorités publiées</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Mandats et fonctions</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1998 – 2004</div>
+        <div class="detail">Conseiller régional de Haute-Normandie</div>
+      </div>
+      <div class="etape">
+        <div class="date">2008 – 2010</div>
+        <div class="detail">Conseiller général de Seine-Maritime</div>
+      </div>
+      <div class="etape">
+        <div class="date">2010 – 2017</div>
+        <div class="detail">Maire du Havre</div>
+      </div>
+      <div class="etape">
+        <div class="date">2012 – 2017</div>
+        <div class="detail">Député de Seine-Maritime</div>
+      </div>
+      <div class="etape">
+        <div class="date">2017-05 – 2020-07</div>
+        <div class="detail">Premier ministre</div>
+      </div>
+      <div class="etape">
+        <div class="date">2020 – en cours</div>
+        <div class="detail">Maire du Havre</div>
+      </div>
+      <div class="etape">
+        <div class="date">2025 – 2026</div>
+        <div class="detail">Ministre de la Justice</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Les grands moments</h2>
+    <div class="moments">
+      <div class="moment">
+        <div class="date">2010</div>
+        <div class="titre">Devient maire du Havre à la démission d&#x27;Antoine Rufenacht</div>
+        <div class="detail">réélu en 2014 et 2020</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/%C3%89douard_Philippe">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">29 mai 2017</div>
+        <div class="titre">Nommé Premier ministre par Emmanuel Macron</div>
+        <div class="detail">venu de la droite, il reste trois ans à Matignon</div>
+        <a class="lien" href="https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/edouard-philippe">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2018-2019</div>
+        <div class="titre">Crise des Gilets jaunes : abandon de la taxe carbone, Grand débat national</div>
+        <div class="detail">puis réforme des retraites et grèves de décembre</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2020</div>
+        <div class="titre">Gestion de la première vague de COVID-19 et du confinement</div>
+        <div class="detail">quitte Matignon le 3 juillet</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_en_France">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2021</div>
+        <div class="titre">Fonde Horizons, parti de la droite macroniste</div>
+        <a class="lien" href="https://fr.wikipedia.org/wiki/Horizons">Détail →</a>
+      </div>
+      <div class="moment">
+        <div class="date">2025-2026</div>
+        <div class="titre">Ministre de la Justice, puis candidat déclaré à la présidentielle 2027</div>
+        <a class="lien" href="https://www.edouardphilippe.fr/">Détail →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/edouard-philippe">https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/edouard-philippe</a></li>
+      <li><a href="https://www.edouardphilippe.fr/">https://www.edouardphilippe.fr/</a></li>
+      <li><a href="https://www.vie-publique.fr/">https://www.vie-publique.fr/</a></li>
+    </ul>
+    <p class="note-methode">Vie privée volontairement exclue de cette fiche — seuls les éléments publics et documentés (études, carrière, mandats, faits politiques) sont retenus, conformément à la charte du site. Chaque fait marquant est assorti d'un lien de détail.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

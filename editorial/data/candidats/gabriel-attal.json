@@ -3,27 +3,34 @@
   "nom": "Gabriel Attal",
   "parti": "Renaissance",
   "statut": "declare",
-  "role": "concurrent",
   "remplace_par": null,
   "photo_url": "/assets/candidats/gabriel-attal.jpg",
+  "naissance": {
+    "date": "16 mars 1989",
+    "lieu": "Clamart"
+  },
   "liens_officiels": {
-    "site_campagne": "https://attalpresident.fr",
-    "parti_url": "https://renaissance-parti.fr",
-    "programme_pdf": "https://attalpresident.fr/",
-    "programme_pdf_archive": "https://web.archive.org/",
+    "site_campagne": "https://attalpresident.fr/",
+    "parti_url": "https://renaissance-parti.fr/",
+    "programme_pdf": "https://attalpresident.fr/programme",
+    "programme_pdf_archive": "https://web.archive.org/web/2026/https://attalpresident.fr/",
     "derniere_verification": "2026-10-17"
   },
   "parcours": {
+    "chapo": "Formé à Sciences Po, engagé d'abord auprès du PS puis chez En Marche dès 2017. Secrétaire d'État à 29 ans, porte-parole du gouvernement pendant le COVID, ministre de l'Éducation (Choc des savoirs) puis Premier ministre à 34 ans — le plus jeune de la Ve République — de janvier à septembre 2024. Patron de Renaissance, candidat déclaré 2027.",
     "etudes": [
-      "Sciences Po Paris — études de droit public"
+      "Années 1990-2000 — École alsacienne, établissement privé du 6e arrondissement de Paris",
+      "2007-2012 — Sciences Po Paris, études de droit public ; stages au Parlement européen et auprès de Marisol Touraine"
     ],
     "militantisme": [
-      "Adhère au Parti socialiste (années 2000) — travaille pour Marisol Touraine (cabinet santé, 2012-2017)",
-      "Rejoint En Marche en 2017 — porte-parole puis secrétaire général de Renaissance"
+      "2006 — Participe au mouvement étudiant contre le CPE ; engagé ensuite auprès du PS",
+      "2017 — Rejoint En Marche dès la présidentielle ; devient une figure de la macronie",
+      "2024 — Président du groupe Renaissance à l'Assemblée puis secrétaire général du parti",
+      "2026 — Candidat déclaré 2027 : 4 chantiers « capitaux » + 2 « dettes » publiés sur attalpresident.fr"
     ],
     "experiences_pro": [
-      "Assistant parlementaire au Sénat et auprès de députés PS",
-      "Directeur de cabinet du maire de Vanves"
+      "2012-2015 — Assistant parlementaire puis conseiller de Marisol Touraine au ministère de la Santé",
+      "Depuis 2018 — Carrière gouvernementale quasi continue : secrétaire d'État, porte-parole, ministre, Premier ministre"
     ],
     "mandats": [
       { "fonction": "Conseiller municipal de Vanves", "debut": "2014", "fin": "2018" },
@@ -33,7 +40,20 @@
       { "fonction": "Ministre de l'Éducation nationale et de la Jeunesse", "debut": "2023-07", "fin": "2024-01" },
       { "fonction": "Premier ministre", "debut": "2024-01", "fin": "2024-09" },
       { "fonction": "Député des Hauts-de-Seine + Président du groupe Renaissance à l'AN", "debut": "2024-09", "fin": "" }
+    ],
+    "moments_cles": [
+      { "date": "2018", "evenement": "Secrétaire d'État auprès du ministre de l'Éducation à 29 ans — lance le Service national universel (SNU)", "source_url": "https://fr.wikipedia.org/wiki/Service_national_universel" },
+      { "date": "2020-2022", "evenement": "Porte-parole du gouvernement Castex pendant la crise COVID", "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal" },
+      { "date": "2023-2024", "evenement": "Ministre de l'Éducation nationale : « Choc des savoirs », interdiction de l'abaya, groupes de niveau", "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal" },
+      { "date": "9 janvier 2024", "evenement": "Premier ministre à 34 ans — le plus jeune de la Ve République", "source_url": "https://fr.wikipedia.org/wiki/Gouvernement_Gabriel_Attal" },
+      { "date": "Septembre 2024", "evenement": "Quitte Matignon après la dissolution et la nomination de Michel Barnier ; reprend Renaissance", "source_url": "https://fr.wikipedia.org/wiki/Gouvernement_Michel_Barnier" },
+      { "date": "2026", "evenement": "Candidat déclaré 2027 — programme en chantiers publié sur attalpresident.fr", "source_url": "https://attalpresident.fr/programme" }
+    ],
+    "sources": [
+      "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/gabriel-attal",
+      "https://attalpresident.fr/",
+      "https://www.assemblee-nationale.fr/"
     ]
   },
-  "_note_collecte": "5e place disputée avec Bruno Retailleau (~7-9% vs ~7-8%). Règle anti-bascule : Attal confirmé dans le top 5 seulement si 2 révisions hebdo consécutives le maintiennent. Sinon créer la fiche bruno-retailleau."
+  "_note_collecte": "Faits marquants sourcés le 17/10/2026 — liens détail vérifiés."
 }

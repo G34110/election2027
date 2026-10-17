@@ -6,6 +6,10 @@
   "role": "reference",
   "remplace_par": null,
   "photo_url": "/assets/candidats/dominique-de-villepin.jpg",
+  "naissance": {
+    "date": "14 novembre 1953",
+    "lieu": "Rabat (Maroc)"
+  },
   "liens_officiels": {
     "site_campagne": "https://lafrancehumaniste.fr/france2027",
     "parti_url": "https://lafrancehumaniste.fr",
@@ -37,18 +41,58 @@
       "Écrivain : une vingtaine d'ouvrages — « Les Cent-Jours ou l'esprit de sacrifice » (2001), « Éloge des voleurs de feu » (2003), « Un autre monde » (2003), « Mémoire de paix pour temps de guerre » (2015)"
     ],
     "mandats": [
-      { "fonction": "Secrétaire général de la présidence de la République", "debut": "1995", "fin": "2002" },
-      { "fonction": "Ministre des Affaires étrangères", "debut": "2002-05", "fin": "2004-03" },
-      { "fonction": "Ministre de l'Intérieur, de la Sécurité intérieure et des Libertés locales", "debut": "2004-03", "fin": "2005-05" },
-      { "fonction": "Premier ministre", "debut": "2005-05", "fin": "2007-05" }
+      {
+        "fonction": "Secrétaire général de la présidence de la République",
+        "debut": "1995",
+        "fin": "2002"
+      },
+      {
+        "fonction": "Ministre des Affaires étrangères",
+        "debut": "2002-05",
+        "fin": "2004-03"
+      },
+      {
+        "fonction": "Ministre de l'Intérieur, de la Sécurité intérieure et des Libertés locales",
+        "debut": "2004-03",
+        "fin": "2005-05"
+      },
+      {
+        "fonction": "Premier ministre",
+        "debut": "2005-05",
+        "fin": "2007-05"
+      }
     ],
     "moments_cles": [
-      { "date": "2003-02-14", "evenement": "Discours au Conseil de sécurité de l'ONU opposant la France à la guerre en Irak — moment de notoriété internationale" },
-      { "date": "2005-05-31", "evenement": "Nommé Premier ministre au lendemain du « non » au référendum européen — sans jamais avoir été élu" },
-      { "date": "2006-04", "evenement": "Crise du CPE : retrait du Contrat première embauche après des semaines de manifestations" },
-      { "date": "2010-2011", "evenement": "Affaire Clearstream : relaxé en première instance (28/01/2010), relaxe confirmée en appel (14/09/2011)" },
-      { "date": "2012-03", "evenement": "Retrait de sa candidature à la présidentielle 2012, faute des 500 parrainages" },
-      { "date": "2025-2026", "evenement": "Création de La France humaniste puis du Projet France 2027 — chroniques doctrinales publiées (règle républicaine, chemin gaulliste, Europe souveraine)" }
+      {
+        "date": "2003-02-14",
+        "evenement": "Discours au Conseil de sécurité de l'ONU opposant la France à la guerre en Irak — moment de notoriété internationale",
+        "source_url": "https://www.vie-publique.fr/discours/185168-declaration-de-m-dominique-de-villepin-ministre-des"
+      },
+      {
+        "date": "2005-05-31",
+        "evenement": "Nommé Premier ministre au lendemain du « non » au référendum européen — sans jamais avoir été élu",
+        "source_url": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/dominique-de-villepin"
+      },
+      {
+        "date": "2006-04",
+        "evenement": "Crise du CPE : retrait du Contrat première embauche après des semaines de manifestations",
+        "source_url": "https://fr.wikipedia.org/wiki/Contrat_premi%C3%A8re_embauche"
+      },
+      {
+        "date": "2010-2011",
+        "evenement": "Affaire Clearstream : relaxé en première instance (28/01/2010), relaxe confirmée en appel (14/09/2011)",
+        "source_url": "https://fr.wikipedia.org/wiki/Affaire_Clearstream_2"
+      },
+      {
+        "date": "2012-03",
+        "evenement": "Retrait de sa candidature à la présidentielle 2012, faute des 500 parrainages",
+        "source_url": "https://fr.wikipedia.org/wiki/Dominique_de_Villepin"
+      },
+      {
+        "date": "2025-2026",
+        "evenement": "Création de La France humaniste puis du Projet France 2027 — chroniques doctrinales publiées (règle républicaine, chemin gaulliste, Europe souveraine)",
+        "source_url": "https://lafrancehumaniste.fr/france2027"
+      }
     ],
     "sources": [
       "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/dominique-de-villepin",
