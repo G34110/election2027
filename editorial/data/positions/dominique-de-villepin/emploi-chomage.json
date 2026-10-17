@@ -1,25 +1,23 @@
 {
   "candidat_id": "dominique-de-villepin",
   "theme_id": "emploi-chomage",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
-  "fil_du_temps": [],
-  "actes_passes": [
-    {
-      "date": "2006-03-31",
-      "acte": "Loi n° 2006-396 pour l'égalité des chances instaurant le contrat première embauche (CPE) pour les moins de 26 ans — promulguée puis non appliquée après la mobilisation nationale et la déclaration de Jacques Chirac du 31 mars 2006",
-      "mandat": "Premier ministre (2005-2007)",
-      "source_url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000268539"
-    },
-    {
-      "date": "2005-08",
-      "acte": "Contrat nouvelles embauches (CNE) pour les entreprises de moins de 20 salariés, créé par ordonnances après habilitation — validé par le Conseil constitutionnel (décision 2005-521 DC) puis abrogé en 2008",
-      "mandat": "Premier ministre (2005-2007)",
-      "source_url": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2005521dc/doc.pdf"
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat veut « remettre le travail au centre du pacte républicain » : redonner sens au droit au travail du préambule constitutionnel (au-delà de l'indemnisation), abandonner la réforme actuelle de l'assurance-chômage pour reprendre la concertation, et fusionner allocations chômage, crédits de formation et ressources dispersées en un nouvel instrument d'émancipation. Chômage >7 % présenté comme un fléau oublié du débat public.",
+    "mesure_phare": "« Droit au travail » réhabilité — fusion des allocations chômage/formation en un instrument unique",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/un-nouveau-monde-du-travail.html",
+      "url_archive": "https://web.archive.org/web/20260830154232/https://lafrancehumaniste.fr/articles/un-nouveau-monde-du-travail.html",
+      "titre": "Chronique « Un nouveau monde du travail » (08/12/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "Il est nécessaire d'abandonner le projet actuel de réforme de l'assurance-chômage qui vient à contre-temps et de reprendre la concertation. Le droit au travail ne peut se résumer à un droit à la compensation de la perte de travail."
     }
-  ],
-  "_note": "CPE : loi votée mais jamais appliquée (non-application annoncée par le PR le 10/04/2006) — cas riche pour le Baromètre Promesse/Réalité. Voir aussi sa défense du CPE devant l'AN le 04/04/2006 (vie-publique.fr/discours/161276)."
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chronique doctrinale — dispositif détaillé attendu dans le programme. Voir aussi pouvoir-achat : « révolution du salaire net » (+200 €/mois) comme levier sur la valeur du travail."
 }

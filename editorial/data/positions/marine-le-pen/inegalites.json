@@ -1,0 +1,23 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "inegalites",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "La candidate aborde les inégalités par le soutien aux familles : part fiscale complète dès le deuxième enfant, doublement du soutien aux mères isolées, prêt à 0 % transformé en subvention au 3e enfant, suppression des impôts sur l'héritage direct pour les familles modestes et les classes moyennes, exonération des donations parents/grands-parents jusqu'à 100 000 € par enfant tous les dix ans.",
+    "mesure_phare": "Part fiscale dès le 2e enfant — héritage direct exonéré pour familles modestes/classes moyennes",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 8 « Soutenir les familles françaises »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Instituer une part fiscale complète dès le deuxième enfant. […] Supprimer les impôts sur l'héritage direct pour les familles modestes et les classes moyennes."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Corpus 2022 en ligne — pas de volet « inégalités » dédié : la lecture RN du sujet passe par la famille et la « priorité nationale ». Programme 2027 à paraître."
+}

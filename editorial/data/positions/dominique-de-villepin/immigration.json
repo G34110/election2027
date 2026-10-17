@@ -1,12 +1,30 @@
 {
   "candidat_id": "dominique-de-villepin",
   "theme_id": "immigration",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
-  "fil_du_temps": [],
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat refuse le « piège identitaire » : il conteste l'assimilation de l'immigration à la délinquance et de l'islam à l'islamisme, dénonce la transformation de la laïcité en « frontière » et défend une République universaliste. Aucune mesure de politique migratoire (flux, asile, intégration) n'est publiée à ce jour.",
+    "mesure_phare": "Refus du « piège identitaire » — pas de mesure migratoire chiffrée publiée",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/la-france-face-au-piege-identitaire.html",
+      "url_archive": "https://web.archive.org/web/20260821172521/https://lafrancehumaniste.fr/articles/la-france-face-au-piege-identitaire.html",
+      "titre": "Chronique « La France face au piège identitaire » (16/11/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "L'immigration, la sécurité, la culture, les modes de vie se confondent dans un même récit de menace. La confusion devient système : la peur circule d'un sujet à l'autre."
+    }
+  },
+  "fil_du_temps": [
+    {
+      "date": "2004-2005",
+      "position": "Ministre de l'Intérieur : création du Conseil français du culte musulman (CFCM) pour organiser le culte musulman dans le cadre républicain",
+      "source_url": "https://www.vie-publique.fr/",
+      "contexte": "Acte de gestion — Ministère de l'Intérieur"
+    }
+  ],
   "actes_passes": [],
-  "_note": "Le programme LFH comporte un thème Immigration (8 thèmes officiels) — contenu non encore extrait (page en 403). À collecter manuellement."
+  "_note": "Position sourcée sur une chronique doctrinale — le volet « politique migratoire » du programme (visas, asile, titres de séjour) n'est pas publié. Cellule à enrichir dès parution du programme détaillé."
 }

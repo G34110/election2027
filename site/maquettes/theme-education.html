@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Éducation — Comparaison des programmes | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô thème ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:1200px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.5rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce[data-d="fort"]{ border-color:var(--attente); color:var(--attente); }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:60ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Matrice : scroll-snap horizontal sur mobile, grille sur desktop ── */
+  .matrice-wrap { padding:0 1rem 1.4rem; max-width:1440px; margin:0 auto; }
+  .matrice { display:grid; grid-auto-flow:column; grid-auto-columns:minmax(280px,86vw); gap:.8rem; overflow-x:auto; scroll-snap-type:x mandatory; padding-bottom:.6rem; }
+  @media (min-width:1100px){
+    .matrice { grid-auto-flow:initial; grid-template-columns:1.05fr repeat(5,1fr); overflow:visible; }
+  }
+  .carte { scroll-snap-align:start; background:var(--surface); border:1px solid var(--filet); border-radius:10px; display:flex; flex-direction:column; min-width:0; }
+
+  /* Indice de swipe — mobile uniquement */
+  .swipe-hint { display:flex; justify-content:flex-end; gap:.4rem; font-size:.7rem; color:var(--encre-2); padding:.3rem .2rem 0; }
+  .swipe-hint .fleche { display:inline-block; }
+  @media (min-width:1100px){ .swipe-hint { display:none; } }
+  .carte.reference { background:var(--ref-fond); border:2px solid var(--accent); }
+  .carte-tete { padding:.85rem .95rem .7rem; border-bottom:1px solid var(--filet); }
+  .carte.reference .carte-tete { border-bottom-color:var(--accent); }
+  .nom { font-weight:700; font-size:1rem; }
+  .parti { font-size:.75rem; color:var(--encre-2); }
+  .etiquette-ref { font-size:.62rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:.1rem .35rem; display:inline-block; margin-top:.35rem; }
+
+  .corps { padding:.85rem .95rem; display:flex; flex-direction:column; gap:.75rem; flex:1; }
+
+  .badges { display:flex; flex-wrap:wrap; gap:.4rem; font-size:.7rem; }
+  .badge { display:inline-flex; align-items:center; gap:.28rem; border-radius:4px; padding:.18rem .5rem; font-weight:600; }
+  .badge::before { content:''; width:.5rem; height:.5rem; border-radius:50%; background:currentColor; }
+  .b-sourcee { color:var(--ok); background:#e9f4ee; }
+  .b-attendue { color:var(--attente); background:#f7ecd8; }
+  .b-nonsourcee { color:var(--gris); background:#ececec; }
+  .b-chiffree { color:var(--accent); background:#e9edf3; }
+  .b-chiffree::before { content:none; }
+  .b-orientee { color:var(--encre-2); background:var(--fond); }
+  .b-orientee::before { content:none; }
+
+  .synthese { font-size:.9rem; }
+  .mesure { background:var(--fond); border-left:3px solid var(--accent); padding:.55rem .7rem; font-size:.82rem; font-weight:600; }
+  .verbatim { font-family:var(--serif); font-style:italic; font-size:.88rem; color:var(--encre-2); padding:.55rem .7rem; border-left:3px solid var(--filet); background:#fdfdfb; }
+
+  .cellule-vide { color:var(--encre-2); font-size:.85rem; font-style:italic; }
+  .cellule-vide .cellule-note { font-style:normal; font-size:.78rem; color:var(--gris); }
+
+  /* ── Source : triple ancrage ── */
+  .source { margin-top:auto; padding:.6rem .95rem; border-top:1px dashed var(--filet); font-size:.72rem; color:var(--encre-2); display:flex; flex-direction:column; gap:.25rem; }
+  .source a { color:var(--accent); word-break:break-all; }
+  .source .verif { color:var(--gris); }
+
+  /* ── Fil du temps ── */
+  .fdt { max-width:1200px; margin:0 auto; padding:0 1rem 2rem; }
+  .fdt h2 { font-size:1.05rem; margin-bottom:.6rem; }
+  .fdt-item { background:var(--surface); border:1px solid var(--filet); border-left:3px solid var(--accent); border-radius:6px; padding:.7rem .9rem; font-size:.85rem; margin-bottom:.5rem; }
+  .fdt-item .qui { font-weight:600; font-size:.75rem; color:var(--encre-2); }
+  .fdt-item .date { color:var(--gris); font-size:.72rem; margin-left:.4rem; }
+  .fdt-item .verbatim { margin-top:.4rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:1200px; margin:0 auto; display:flex; flex-wrap:wrap; gap:1.5rem; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  @media (prefers-reduced-motion: reduce){ .matrice{ scroll-snap-type:none; } }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="#">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Société / Éducation</div>
+    <h1>Éducation</h1>
+    <div class="metas">
+      <span class="puce">9e préoccupation mesurée — <em>(BVA, oct. 2026)</em></span>
+      <span class="puce" data-d="fort">◆ Approches divergentes</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Cinq approches sourcées : « refonder l'école pour refaire société » chez Villepin, réf. ; restauration de la « transmission des savoirs » chez Le Pen ; objectif PISA chiffré et école « mère des batailles » chez Attal ; « école de la liberté et de l'exigence » avec enseignants revalorisés de 20&nbsp;% chez Philippe ; plan de sauvetage de l'école publique chez Glucksmann ; éradication de l'illettrisme et « école globale » chez Mélenchon.</p>
+  </section>
+
+  <div class="matrice-wrap">
+    <section class="matrice" aria-label="Comparaison des candidats sur l'éducation">
+
+      <!-- Dominique de Villepin — RÉFÉRENCE -->
+      <article class="carte reference">
+        <div class="carte-tete">
+          <div class="nom">Dominique de Villepin</div>
+          <div class="parti">La France humaniste</div>
+          <span class="etiquette-ref">Référence</span>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">L'école figure dans les chantiers du Projet France 2027 : « refonder l'école pour refaire société ». Détail des mesures attendu dans le volet chiffré du programme.</p>
+          <div class="mesure">« Refonder l'école pour refaire société »</div>
+          <div class="verbatim">« Refonder l'école pour refaire société »</div>
+        </div>
+        <div class="source">
+          <a href="https://lafrancehumaniste.fr/france2027">lafrancehumaniste.fr/france2027 — Projet France 2027</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — mesures détaillées à paraître</span>
+        </div>
+      </article>
+
+      <!-- Marine Le Pen -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Marine Le Pen</div>
+          <div class="parti">Rassemblement National</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">La candidate propose de restaurer le système éducatif autour de sa « mission de transmission des savoirs », avec un accent mis sur l'autorité et la revalorisation du métier enseignant dans le corpus des 22 mesures.</p>
+          <div class="mesure">Restauration de l'école — transmission des savoirs</div>
+          <div class="verbatim">« Restaurer notre système éducatif pour qu'il retrouve sa mission de transmission des savoirs. »</div>
+        </div>
+        <div class="source">
+          <a href="https://rassemblementnational.fr/22-mesures">rassemblementnational.fr/22-mesures</a>
+          <a href="https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — corpus 2022</span>
+        </div>
+      </article>
+
+      <!-- Jean-Luc Mélenchon -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Jean-Luc Mélenchon</div>
+          <div class="parti">La France Insoumise</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">« Élever le niveau d'instruction » : éradication de l'illettrisme à l'horizon 2027 (jeunes sortis du système scolaire et adultes), création d'un service public de la petite enfance, reconstruction d'une « école globale » pour l'égalité et l'émancipation, refondation de l'enseignement supérieur.</p>
+          <div class="mesure">Éradication de l'illettrisme d'ici 2027 — service public de la petite enfance — « école globale »</div>
+          <div class="verbatim">« Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2027. »</div>
+        </div>
+        <div class="source">
+          <a href="https://melenchon2027.fr/programme2025/livre/chapitre5/s1/">melenchon2027.fr — AEC éd. 2025, ch. 5 §1</a>
+          <a href="https://web.archive.org/web/20260519224946/https://melenchon2027.fr/programme2025/livre/chapitre5/s1/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026</span>
+        </div>
+      </article>
+
+      <!-- Édouard Philippe -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Édouard Philippe</div>
+          <div class="parti">Horizons</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">« Une école de la liberté et de l'exigence » : chefs d'établissement devenus « véritables patrons » (méthodes, horaires, uniforme, discipline, recrutement), primaire concentrée sur les fondamentaux, augmentation de 20 % de la rémunération moyenne des enseignants sur le quinquennat, écoles normales recréées.</p>
+          <div class="mesure">+20 % de rémunération enseignants sur le quinquennat — chefs d'établissement « patrons »</div>
+          <div class="verbatim">« Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière. »</div>
+        </div>
+        <div class="source">
+          <a href="https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants">edouardphilippe.fr/priorites/…-ses-enfants</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026</span>
+        </div>
+      </article>
+
+      <!-- Raphaël Glucksmann -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Raphaël Glucksmann</div>
+          <div class="parti">Place Publique / PS</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-orientee">Orientée</span></div>
+          <p class="synthese">« Plan de sauvetage de l'école publique » sur 5 ans : hausse de la rémunération des enseignants, réduction du nombre d'élèves par classe en primaire et rénovation du bâti scolaire, complété par l'apprentissage tout au long de la vie.</p>
+          <div class="mesure">Plan de sauvetage de l'école publique sur 5 ans</div>
+          <div class="verbatim">« Investir dans l'école, la recherche et la formation : soutenir l'apprentissage tout au long de la vie. »</div>
+        </div>
+        <div class="source">
+          <a href="https://raphaelglucksmann.eu/programme.html">raphaelglucksmann.eu/programme</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026 — chiffrage à paraître</span>
+        </div>
+      </article>
+
+      <!-- Gabriel Attal -->
+      <article class="carte">
+        <div class="carte-tete">
+          <div class="nom">Gabriel Attal</div>
+          <div class="parti">Renaissance</div>
+        </div>
+        <div class="corps">
+          <div class="badges"><span class="badge b-sourcee">Sourcée</span><span class="badge b-chiffree">Chiffrée</span></div>
+          <p class="synthese">L'éducation est présentée comme « la mère des batailles » et la priorité absolue du candidat, avec un objectif chiffré : reprendre en dix ans l'une des premières places du classement PISA.</p>
+          <div class="mesure">École « priorité absolue » — objectif : premier rang du classement PISA en 10 ans</div>
+          <div class="verbatim">« Je fixe pour notre système éducatif un objectif simple : reprendre en dix ans l'une des premières places du classement PISA. »</div>
+        </div>
+        <div class="source">
+          <a href="https://attalpresident.fr/programme/education">attalpresident.fr/programme/education</a>
+          <a href="https://web.archive.org/">↳ archive web.archive.org</a>
+          <span class="verif">Vérifié le 17/10/2026</span>
+        </div>
+      </article>
+
+    </section>
+    <div class="swipe-hint" aria-hidden="true">Glisser pour comparer <span class="fleche">⟵</span></div>
+  </div>
+
+  <section class="fdt" aria-label="Fil du temps">
+    <h2>Fil du temps — contexte documenté</h2>
+    <div class="fdt-item">
+      <span class="qui">Gabriel Attal</span><span class="date">2024-2026</span>
+      <div class="verbatim">L'école est le premier « chantier capital » publié sur le site du candidat — l'objectif PISA en est la mesure phare chiffrée. <a href="https://attalpresident.fr/programme/education">Source</a></div>
+    </div>
+    <div class="fdt-item">
+      <span class="qui">Édouard Philippe</span><span class="date">2026 — priorité enfance</span>
+      <div class="verbatim">Le volet école figure dans la priorité « Pour une France plus attentive à ses enfants », aux côtés de la politique familiale.</div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="note-methode">
+      <strong>Comparaison neutre.</strong> Six positions — cinq candidats issus des sondages + le candidat de référence (<a href="#">règle §2.6</a>). Chaque position est sourcée sur un site officiel ; les verbatims sont cités sans éditorialisation. Statuts : <em>Sourcée / Attendue / Non sourcée</em>.
+    </div>
+    <div>
+      <a href="#">Mur des sources</a> · <a href="#">Journal des mises à jour</a> · <a href="#">Charte éditoriale</a><br>
+      <span class="verif">Cellules vérifiées le 17/10/2026 — Maquette v0.1</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

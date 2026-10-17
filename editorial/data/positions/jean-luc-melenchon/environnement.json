@@ -1,12 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "environnement",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "La planification écologique est la méthode centrale du programme : inscription de la « règle verte » dans la Constitution (ne pas prélever plus que ce que la nature reconstitue), lois cadres de planification écologique et démocratique, Conseil à la planification écologique, objectif de −65 % d'émissions de GES en 2030 (au lieu de −50 %), comptabilité carbone obligatoire certifiée pour les entreprises émettrices, « crime climatique » de dissimulation, moratoire sur les grands projets jugés inutiles et écocidaires.",
+    "mesure_phare": "« Règle verte » dans la Constitution — −65 % d'émissions en 2030 — moratoire sur les grands projets",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+      "url_archive": "https://web.archive.org/web/20260905143519/https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 12 §1 « La bifurcation écologique pour une société de l'harmonie »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Inscrire dans la Constitution le principe de la « règle verte », selon laquelle on ne prélève pas davantage à la nature que ce qu'elle est en état de reconstituer. […] Relever les ambitions climatiques de la France avec pour objectif une baisse de 65 % des émissions en 2030 (au lieu de 50 % actuellement)."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "L'AEC 2027 décrit sa méthode : 'faire face à l'urgence sociale et répondre à la crise de la civilisation humaine ouverte par le changement climatique et le retour de la guerre généralisée' (melenchon2027.fr). Détail des mesures : extraction manuelle requise."
+  "_note": "Chapitres 12-14 de l'AEC éd. 2025 consacrés à l'écologie (planification, bifurcation, biens communs). Source primaire archivée — site en réactualisation."
 }

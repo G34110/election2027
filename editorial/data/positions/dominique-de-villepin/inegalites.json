@@ -1,0 +1,23 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "inegalites",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat place la lutte contre la pauvreté au cœur de l'enjeu démocratique : 9,5 millions de personnes sous le seuil de pauvreté, pauvreté des travailleurs comme « double trahison du pacte républicain », et appel à traiter la pauvreté comme un phénomène structurel exigeant de « réformer la société en profondeur » plutôt que par aumône ou compassion.",
+    "mesure_phare": "Pauvreté érigée en priorité politique — « Parlement des pauvres » évoqué, mesures à détailler",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/le-scandale-de-la-pauvrete.html",
+      "url_archive": "https://web.archive.org/web/20260821172534/https://lafrancehumaniste.fr/articles/le-scandale-de-la-pauvrete.html",
+      "titre": "Chronique « Le scandale de la pauvreté : relevons le défi du bien commun » (31/10/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "La pauvreté […] doit donc demeurer l'une des priorités de la politique, tant que persistera cette simple question : comment est-il seulement possible que certains n'aient rien, quand d'autres possèdent tant ?"
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chronique doctrinale — mesures concrètes non publiées. Évocation d'un « Parlement des pauvres » comme dispositif de représentation."
+}

@@ -1,0 +1,30 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "emploi-chomage",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le chantier « Travail & salaires » promet une nouvelle réforme de l'assurance-chômage « pour que travailler rapporte toujours plus que ne pas travailler », avec +100 000 emplois affichés à la clé, et un « droit au travail » pour les seniors (durée de cotisation plutôt qu'âge de départ). Le taux d'emploi est présenté comme l'un des trois leviers de la stratégie salariale.",
+    "mesure_phare": "Nouvelle réforme de l'assurance-chômage — +100 000 emplois annoncés",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/travail-salaires",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Travail & salaires — chantier capital 02",
+      "date_verification": "2026-10-17",
+      "verbatim": "Pour que travailler rapporte toujours plus que ne pas travailler […] une réforme de l'assurance-chômage qui permettrait de créer 100 000 emplois supplémentaires."
+    }
+  },
+  "fil_du_temps": [
+    {
+      "date": "2024-01-30",
+      "position": "Premier ministre : défense de la réforme de l'assurance-chômage (dégressivité pour les cadres, durcissement des règles) menée sous le gouvernement Borne",
+      "source_url": "https://www.vie-publique.fr/",
+      "contexte": "Gouvernement Attal — janvier à septembre 2024"
+    }
+  ],
+  "actes_passes": [],
+  "_note": "Le chiffrage « 100 000 emplois » est affiché sur la page du chantier — mécanisme détaillé attendu dans le programme complet."
+}

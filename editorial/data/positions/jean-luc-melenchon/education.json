@@ -1,25 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "education",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
-  "fil_du_temps": [],
-  "actes_passes": [
-    {
-      "date": "2000-03-27",
-      "acte": "Nommé ministre délégué à l'Enseignement professionnel dans le gouvernement Jospin (auprès de Jack Lang) — bilan des neuf premiers mois du ministère présenté dans sa déclaration du 1er décembre 2000",
-      "mandat": "Ministre délégué à l'Enseignement professionnel (2000-2002)",
-      "source_url": "https://www.vie-publique.fr/discours/159463-declaration-de-m-jean-luc-melenchon-ministre-delegue-lenseignement"
-    },
-    {
-      "date": "2002-02-01",
-      "acte": "Engagement d'une charte déontologique contre la pression publicitaire des marques à l'école (interview Le Figaro — 'Les entreprises et leurs marques frappent aux portes de l'école')",
-      "mandat": "Ministre délégué à l'Enseignement professionnel (2000-2002)",
-      "source_url": "https://www.vie-publique.fr/discours/129407-interview-de-m-jean-luc-melenchon-ministre-delegue-lenseignement-pr"
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "« Élever le niveau d'instruction » : éradication de l'illettrisme à l'horizon 2027 (jeunes sortis du système scolaire et adultes), création d'un service public de la petite enfance, reconstruction d'une « école globale » pour l'égalité et l'émancipation, refondation de l'enseignement supérieur, ambition scientifique nationale et création d'une « conscription pour le secours collectif ».",
+    "mesure_phare": "Éradication de l'illettrisme d'ici 2027 — service public de la petite enfance — « école globale »",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+      "url_archive": "https://web.archive.org/web/20260519224946/https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 5 « Élever le niveau d'instruction » §1",
+      "date_verification": "2026-10-17",
+      "verbatim": "Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2027."
     }
-  ],
-  "_note": "Ancien sénateur socialiste de l'Essonne (1986-2000, réélu 1995-2004) — source : senat.fr table nominative. Programme 2027 attendu (AEC, livre le 06/11/2026)."
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chapitre 5 (7 sections : illettrisme, petite enfance, école globale, qualification, nation scientifique, supérieur, conscription secours collectif). Chiffrage des moyens à rattraper dans les sections suivantes."
 }

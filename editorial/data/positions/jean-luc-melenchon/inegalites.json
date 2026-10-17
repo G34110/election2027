@@ -1,0 +1,23 @@
+{
+  "candidat_id": "jean-luc-melenchon",
+  "theme_id": "inegalites",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le « partage des richesses » structure le programme : mise au pas de la finance (taxe réelle sur les transactions financières, séparation banques d'affaires/de dépôt, contrôle des mouvements de capitaux, interdiction des produits dérivés toxiques), « révolution fiscale » au profit des plus modestes, éradication de la pauvreté et écart salarial plafonné de 1 à 20 dans l'entreprise.",
+    "mesure_phare": "Mise au pas de la finance + « révolution fiscale » — écart salarial 1 à 20",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+      "url_archive": "https://web.archive.org/web/20260905143642/https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 6 « Partage des richesses » §1 « Mettre au pas la finance »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Instaurer une taxe réelle sur les transactions financières. Séparer les banques d'affaires et de détail. Contrôler les mouvements de capitaux."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Voir aussi ch. 7 §4 « Éradiquer la pauvreté » (garantie dignité) et ch. 8 §4 (écarts salariaux 1-20, indexation salaires). La « révolution fiscale » (ch. 6 §5) détaille ISF/impôt progressif — archive à rattraper."
+}

@@ -1,0 +1,23 @@
+{
+  "candidat_id": "jean-luc-melenchon",
+  "theme_id": "crises-internationales",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "« Diplomatie altermondialiste pour la paix » : retrait immédiat du commandement intégré de l'OTAN puis de l'organisation par étapes, action internationale non alignée, refus des alliances militaires permanentes (y compris Asie-Pacifique), nouvelle entente altermondialiste, réseau diplomatique rétabli, renforcement de l'ONU, relance du désarmement (participation en observateur au TIAN), protectionnisme écologique plutôt que libre-échange, relation avec l'Afrique « basée sur la souveraineté des peuples ».",
+    "mesure_phare": "Sortie du commandement intégré de l'OTAN puis de l'organisation — non-alignement — désarmement",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+      "url_archive": "https://web.archive.org/web/20260826085650/https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 16 §1 « Assumer l'indépendance de la France dans le monde »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même. […] Sortir la France de l'isolement occidental et recommencer à parler au monde entier en refusant la doctrine du « choc des civilisations »."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chapitre 16 « Une diplomatie altermondialiste pour la paix » (12 sections : ONU, droit international, protectionnisme écologique, migrations, Afrique, francophonie). Sur l'Ukraine : soutien à la protection ONU/AIEA des réacteurs nucléaires (§2)."
+}

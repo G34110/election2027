@@ -1,0 +1,23 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "terrorisme",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Dans la priorité « Pour une France plus sûre », la lutte antiterroriste est adossée à la guerre contre le narcotrafic : alignement du régime d'application des peines des grands narcotrafiquants sur celui des terroristes, DGSI mobilisée sur le narcotrafic et grande réforme du renseignement économique et financier pour tracer les fonds, et combat « sans concession » contre l'islamisme et les organisations affiliées aux Frères musulmans.",
+    "mesure_phare": "Peines des narcotrafiquants alignées sur celles des terroristes — DGSI sur le narco — combat contre l'islamisme",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus sûre — « Éradiquer le fléau du narcotrafic » + « Reprendre le contrôle de nos frontières »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Un choc de fermeté pénale : alignement du régime de l'application des peines des grands narcotrafiquants sur celui des terroristes. […] Combattre sans concession l'islamisme et les organisations affiliées aux Frères musulmans."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Pas de volet antiterroriste dédié : le programme le traite dans le cadre narcotrafic (régime pénal assimilé) et islamisme (frontières). Pas de mesure chiffrée spécifique."
+}

@@ -1,0 +1,23 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "terrorisme",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat appelle à « ne pas relâcher la lutte antiterroriste » dans le cadre de l'État de droit : consolider les acquis du PNAT et de la DGSI, garantir la stabilité juridique contre l'inflation des lois d'exception, renforcer la prévention — présentée comme le point faible — avec près de 70 % de suspects mineurs et une radicalisation en ligne, responsabiliser les plateformes, et mener la bataille financière en suivant les flux d'argent. Action extérieure pour la stabilité du Moyen-Orient et du Sahel.",
+    "mesure_phare": "Antiterrorisme dans l'État de droit — prévention et lutte financière plutôt que lois d'exception",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/la-lutte-antiterroriste.html",
+      "url_archive": "https://web.archive.org/web/20260516055329/https://lafrancehumaniste.fr/articles/la-lutte-antiterroriste.html",
+      "titre": "Chronique « Ne pas relâcher la lutte antiterroriste » (15/11/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "La lutte contre le terrorisme ne peut être efficace qu'à condition de rester fidèle à l'État de droit. C'est son ancrage et sa légitimité."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chronique du 15/11/2025 (10 ans du 13-Novembre). Insiste sur la prévention (70 % de suspects mineurs cités) et la responsabilisation des plateformes — contraste assumé avec les politiques « sans limites » (Gaza, Tchétchénie, Patriot Act cités en contre-exemples)."
+}

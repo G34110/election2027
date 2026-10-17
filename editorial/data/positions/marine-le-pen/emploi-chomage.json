@@ -1,0 +1,23 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "emploi-chomage",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le programme cible l'entrée dans la vie active des jeunes : chèque-formation mensuel de 200 à 300 € pour les apprentis, alternants et leurs employeurs, exonération d'impôt sur le revenu pour tous les jeunes actifs jusqu'à 30 ans, exonération d'impôt sur les sociétés pendant 5 ans pour les entrepreneurs de moins de 30 ans. L'accès à l'emploi est par ailleurs lié à la « priorité nationale » (accès prioritaire au logement social et à l'emploi).",
+    "mesure_phare": "Chèque-formation 200-300 € — IR à 0 pour les actifs <30 ans — priorité nationale à l'emploi",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 7 « Encourager les projets des jeunes et leur entrée dans la vie active »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Créer un chèque-formation mensuel de 200 à 300 € pour les apprentis, les alternants et leurs employeurs. Exonérer d'impôt sur le revenu tous les jeunes actifs jusqu'à 30 ans pour qu'ils restent en France."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Corpus 2022 — pas de réforme structurelle de l'assurance-chômage publiée dans les 22 mesures."
+}

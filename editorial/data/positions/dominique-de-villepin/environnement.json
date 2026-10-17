@@ -1,12 +1,23 @@
 {
   "candidat_id": "dominique-de-villepin",
   "theme_id": "environnement",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de la « bifurcation écologique » la condition de la prospérité économique : règles claires avec seuils écologiques précis, incitations fiscales reflétant le coût réel de la pollution, redistribution sociale de la transition, nouvel indice de « prospérité durable » remplaçant le seul PIB, et objectif de 700 000 à 800 000 emplois nets créés d'ici 2050.",
+    "mesure_phare": "Seuils écologiques + fiscalité incitative + indice de « prospérité durable » — 700 000 à 800 000 emplois nets d'ici 2050",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/la-bifurcation-ecologique.html",
+      "url_archive": "https://web.archive.org/web/20260830154232/https://lafrancehumaniste.fr/articles/la-bifurcation-ecologique.html",
+      "titre": "Chronique « La bifurcation écologique, condition de notre prospérité économique » (24/08/2025)",
+      "date_verification": "2026-10-17",
+      "verbatim": "La régulation économique au service de l'écologie n'est pas une option, mais une condition. […] Au lieu de voir l'écologie comme un obstacle, voyons-la comme une opportunité."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chantiers LFH existants : écologie + souveraineté agricole et alimentaire (8 thèmes officiels du programme) — extraction à faire depuis lafrancehumaniste.fr."
+  "_note": "Doctrine développée en chroniques estivales 2025 (adaptation du territoire, bifurcation) — volet chiffré du programme 2027 à paraître. Le chiffre 700-800 000 emplois nets est une projection citée, non un engagement chiffré de programme."
 }

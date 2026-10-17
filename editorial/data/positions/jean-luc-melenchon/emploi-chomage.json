@@ -1,20 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "emploi-chomage",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
-  "fil_du_temps": [
-    {
-      "date": "2024-06-14",
-      "position": "Retour aux 35 heures effectives et 32 heures dans les métiers pénibles ou de nuit ; abrogation des réformes de l'assurance chômage et des lois travail ; rétablissement du « principe de faveur »",
-      "verbatim": "Abroger les réformes de l'assurance chômage.",
-      "source_url": "https://lafranceinsoumise.fr/comparateur-programmes/",
-      "contexte": "Programme du Nouveau Front Populaire (législatives 2024) — documenté sur le site officiel LFI"
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Le programme propose une « garantie d'emploi » : tout chômeur de longue durée se verra proposer — sur la base du volontariat — un emploi utile à la transition écologique ou à l'action sociale, rémunéré au moins au SMIC revalorisé. Complété par le rétablissement d'une assurance-chômage « protectrice », une « sécurité sociale professionnelle » et la réduction du temps de travail (« travailler tous, travailler moins, travailler mieux »).",
+    "mesure_phare": "Garantie d'emploi : emploi ≥ SMIC proposé à tout chômeur de longue durée (volontariat)",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+      "url_archive": "https://web.archive.org/web/20260829202703/https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 8 §1 « Établir la garantie d'emploi »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Créer une garantie d'emploi : tout chômeur de longue durée pourra se voir proposer d'être embauché au moins au SMIC revalorisé dans un secteur d'urgence."
     }
-  ],
+  },
+  "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Position 2027 en attente du programme AEC — extraction manuelle requise."
+  "_note": "Ch. 8 sections liées : §3 « un emploi stable pour chacun », §5 « assurance-chômage protectrice », §6 « sécurité sociale professionnelle ». Sondage cité par la source : 87 % favorables (Harris, mai 2021)."
 }

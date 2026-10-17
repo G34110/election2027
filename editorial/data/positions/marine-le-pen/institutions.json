@@ -1,0 +1,23 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "institutions",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Instauration du Référendum d'Initiative Citoyenne (RIC) et mise en place de la proportionnelle aux élections — les deux mesures institutionnelles phares du corpus en ligne. Le référendum est par ailleurs présenté comme l'instrument central sur l'immigration (« donner la parole aux Français par référendum »).",
+    "mesure_phare": "Référendum d'Initiative Citoyenne (RIC) + proportionnelle",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/web/20261003214140/https://rassemblementnational.fr/22-mesures",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 11",
+      "date_verification": "2026-10-17",
+      "verbatim": "Instaurer le Référendum d'Initiative Citoyenne et mettre en place la proportionnelle."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Corpus 2022 — le recours au référendum est aussi un thème transversal (immigration, mesure 1). Détails des modalités du RIC non précisés dans les 22 mesures."
+}

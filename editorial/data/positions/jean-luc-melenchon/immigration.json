@@ -1,12 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "immigration",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "« Politique migratoire humaniste et réaliste » : agir sur les causes des migrations (guerres, accords commerciaux, climat), faciliter l'accès aux visas et régulariser travailleurs, étudiants et parents d'enfants scolarisés, instituer la carte de séjour de dix ans comme titre de référence, créer un statut de « détresse environnementale », suspendre le règlement Dublin et renégocier le Touquet, abroger les dernières lois asile et immigration, garantir le droit d'asile et l'AME, en finir avec le « délit de solidarité ». Droit du sol intégral rétabli sur tout le territoire et droit de vote des étrangers aux élections locales.",
+    "mesure_phare": "Carte de séjour de 10 ans comme référence — régularisations — abrogation des lois asile-immigration — statut « détresse environnementale »",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre16/s7/",
+      "url_archive": "https://web.archive.org/web/20260821172156/https://melenchon2027.fr/programme2025/livre/chapitre16/s7/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 16 §7 « Pour une politique migratoire humaniste et réaliste »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Faciliter l'accès aux visas, régulariser les travailleurs, étudiants, parents d'enfants scolarisés et instituer la carte de séjour de dix ans comme titre de séjour de référence. […] Abroger les dernières lois asile et immigration."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) — extraction manuelle requise."
+  "_note": "Le volet nationalité/discriminations est au ch. 10 §2 (droit du sol intégral, récépissé de contrôle d'identité, vote des étrangers aux locales). Approche « traiter les causes » via le chapitre diplomatie."
 }

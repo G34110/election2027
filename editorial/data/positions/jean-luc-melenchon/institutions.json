@@ -1,12 +1,23 @@
 {
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "institutions",
-  "statut": "attendue",
+  "statut": "sourcee",
   "maj_le": "2026-10-17",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "Premier chapitre du programme : « Le pouvoir au peuple » — convocation d'une Assemblée constituante pour passer à la 6e République, engagée par référendum (article 11) ; parlementaires en exercice exclus de l'Assemblée, délégués non candidats aux élections suivantes, projet de Constitution soumis à référendum après deux ans de travaux. Objectif affiché : « abolir la monarchie présidentielle » et permettre l'intervention populaire.",
+    "mesure_phare": "Assemblée constituante et 6e République par référendum",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+      "url_archive": "https://web.archive.org/web/20260829200304/https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+      "titre": "L'Avenir en commun (éd. 2025) — ch. 1 §1 « Réunir une Assemblée constituante pour passer à la 6e République »",
+      "date_verification": "2026-10-17",
+      "verbatim": "Convoquer une Constituante pour passer à la 6e République […] Le projet de Constitution proposé par l'Assemblée constituante sera soumis à référendum après deux ans de travaux."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Position historique signature : la 6e République (AEC 2017, 2022). À sourcer primaire depuis le programme 2027."
+  "_note": "Mesure fondatrice de l'AEC depuis 2017 — reconduite en §1 du chapitre 1. Sondage cité par la source : 63 % favorables à un processus constituant (Ifop, 2024)."
 }
