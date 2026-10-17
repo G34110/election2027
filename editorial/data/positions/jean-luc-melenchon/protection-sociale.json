@@ -1,0 +1,20 @@
+{
+  "candidat_id": "jean-luc-melenchon",
+  "theme_id": "protection-sociale",
+  "statut": "attendue",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": null,
+  "fil_du_temps": [
+    {
+      "date": "2024-06-14",
+      "position": "Abrogation immédiate des décrets d'application de la réforme passant l'âge de départ à 64 ans ; aller vers la retraite à 60 ans ; AAH au niveau du SMIC ; garantie d'autonomie sous le seuil de pauvreté",
+      "verbatim": "Aller vers la retraite à 60 ans […] Porter l'allocation aux adultes handicapés (AAH) au niveau du SMIC.",
+      "source_url": "https://lafranceinsoumise.fr/comparateur-programmes/",
+      "contexte": "Programme du Nouveau Front Populaire (législatives 2024) — documenté sur le site officiel LFI"
+    }
+  ],
+  "actes_passes": [],
+  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) — extraction manuelle requise. Positions historiques documentées : retour à la retraite à 60 ans, 100% santé. À sourcer primaire."
+}

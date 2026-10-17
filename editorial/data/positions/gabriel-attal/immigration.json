@@ -1,0 +1,22 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "immigration",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat place les frontières dans ses « chantiers capitaux » sous l'angle de la puissance : protection des frontières adossée à quatre « vecteurs de puissance » (réserves humaines, outil industriel, alliances).",
+    "mesure_phare": "Frontières « vitales » à protéger — adossées à une politique de puissance",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/frontieres",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Frontières — attalpresident.fr",
+      "date_verification": "2026-10-17",
+      "verbatim": "Nos frontières sont vitales, elles doivent être protégées."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

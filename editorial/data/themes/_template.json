@@ -1,0 +1,17 @@
+{
+  "id": "slug-du-theme",
+  "domaine": "societe",
+  "titre": "Libellé affiché du thème",
+  "statut": "actif",
+  "date_ajout": "AAAA-MM-JJ",
+  "badge": "nouveau",
+  "criteres_entree": {
+    "medias_nationaux": false,
+    "programmes_candidats": false,
+    "top_sondages": false
+  },
+  "semaines_hors_criteres": 0,
+  "tendance": "stable",
+  "divergence": "moyen",
+  "sources_sondages": []
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://election2027/schema/v1/theme.schema.json",
+  "title": "Thème",
+  "description": "Thème de comparaison — gouverné mécaniquement (#21, Protocole §1)",
+  "type": "object",
+  "required": ["id", "domaine", "titre", "statut", "date_ajout", "criteres_entree"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug immuable (#81)"
+    },
+    "domaine": {
+      "type": "string",
+      "description": "Niveau 1 : economie | societe | international | environnement | institutions | securite | sante | education… (#17)"
+    },
+    "titre": { "type": "string" },
+    "statut": {
+      "type": "string",
+      "enum": ["actif", "emergent", "archive"],
+      "description": "Cycle de vie du thème (#26, Protocole §1.4)"
+    },
+    "date_ajout": { "type": "string", "format": "date" },
+    "badge": {
+      "type": ["string", "null"],
+      "enum": ["nouveau", null],
+      "description": "Affiché pendant 14 jours après date_ajout (#19)"
+    },
+    "criteres_entree": {
+      "type": "object",
+      "description": "≥2/3 critères requis pour statut=actif (#25, Protocole §1.1)",
+      "required": ["medias_nationaux", "programmes_candidats", "top_sondages"],
+      "properties": {
+        "medias_nationaux": { "type": "boolean" },
+        "programmes_candidats": { "type": "boolean" },
+        "top_sondages": { "type": "boolean" }
+      }
+    },
+    "semaines_hors_criteres": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 0,
+      "description": "Compteur pour la règle des 4 semaines consécutives (Protocole §1.4)"
+    },
+    "tendance": {
+      "type": "string",
+      "enum": ["hausse", "stable", "baisse"],
+      "description": "Recalcul hebdomadaire entre les 2 derniers sondages (#33)"
+    },
+    "divergence": {
+      "type": "string",
+      "enum": ["fort", "moyen", "faible"],
+      "description": "Niveau de divergence entre candidats — calculé (#15)"
+    },
+    "sources_sondages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Ids des sondages qui mesurent ce thème (#82)"
+    }
+  }
+}

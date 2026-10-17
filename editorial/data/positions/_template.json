@@ -1,0 +1,23 @@
+{
+  "candidat_id": "slug-du-candidat",
+  "theme_id": "slug-du-theme",
+  "statut": "attendue",
+  "maj_le": "AAAA-MM-JJ",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "",
+    "mesure_phare": "",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://",
+      "url_archive": "https://web.archive.org/",
+      "titre": "",
+      "date_publication": "AAAA-MM-JJ",
+      "date_verification": "AAAA-MM-JJ",
+      "verbatim": ""
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

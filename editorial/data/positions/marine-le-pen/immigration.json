@@ -1,0 +1,23 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "immigration",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La candidate propose de soumettre la politique migratoire à référendum et d'inscrire une « priorité nationale » dans la loi, réservant l'accès prioritaire des Français à certaines prestations sociales, au logement et à l'emploi.",
+    "mesure_phare": "Référendum sur l'immigration — « priorité nationale »",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 1",
+      "date_verification": "2026-10-17",
+      "verbatim": "Arrêter l'immigration incontrôlée en donnant la parole aux Français par référendum."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "url_archive à générer par le pipeline (#73). Compléter : fin du droit du sol, plafonnement titres de séjour — verbatims page officielle à extraire manuellement (page JS)."
+}

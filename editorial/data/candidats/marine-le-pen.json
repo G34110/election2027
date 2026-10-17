@@ -1,0 +1,36 @@
+{
+  "id": "marine-le-pen",
+  "nom": "Marine Le Pen",
+  "parti": "Rassemblement National",
+  "statut": "declare",
+  "role": "concurrent",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/marine-le-pen.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://rassemblementnational.fr",
+    "parti_url": "https://rassemblementnational.fr",
+    "programme_pdf": "https://rassemblementnational.fr/documents/202406-programme.pdf",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "Études de droit — Université Paris II Panthéon-Assas (licence de droit, maîtrise de droit des affaires, DEA de droit pénal)"
+    ],
+    "militantisme": [
+      "Rejoint le Front National en 1986 — adhérente puis membre du bureau national",
+      "Présidente du Front National (2011-2021), rebaptisé Rassemblement National en 2018"
+    ],
+    "experiences_pro": [
+      "Avocate au barreau de Paris (1991-1998) — source : fiche AN"
+    ],
+    "mandats": [
+      { "fonction": "Conseillère régionale d'Île-de-France", "debut": "2004", "fin": "2010" },
+      { "fonction": "Députée européenne", "debut": "2004", "fin": "2017" },
+      { "fonction": "Conseillère régionale du Nord-Pas-de-Calais", "debut": "2010", "fin": "2017" },
+      { "fonction": "Députée du Pas-de-Calais (11e circ.)", "debut": "2017", "fin": "" },
+      { "fonction": "Présidente du groupe RN à l'Assemblée nationale", "debut": "2022", "fin": "" }
+    ]
+  },
+  "_note_collecte": "Candidate déclarée du RN — rendue éligible par arrêt d'appel du 07/07/2026 (arrêt à sourcer). Jordan Bardella testé en hypothèse de substitution dans certains sondages — vigilance statut 'remplace'. Sources parcours : assemblee-nationale.fr/dyn/deputes/PA720614 (mandats, profession), sycomore."
+}

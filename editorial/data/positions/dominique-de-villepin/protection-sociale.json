@@ -1,0 +1,23 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "protection-sociale",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence veut « ranimer l'élan humaniste de 1945 » pour refonder la Sécurité sociale : passage d'une logique de réparation à une logique de prévention, refus de la privatisation de la santé, et transformation de la Caisse nationale de solidarité pour l'autonomie en caisse de Sécurité sociale à part entière. Sur les retraites : abrogation de la réforme de 2023, retour à 62 ans ou moins, conférence sociale + convention citoyenne avec référendum possible à 18 mois.",
+    "mesure_phare": "Refonte de la Sécurité sociale sur la prévention — abrogation réforme retraites 2023 via convention citoyenne",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Vers une protection sociale rénovée — La France Humaniste",
+      "date_verification": "2026-10-17",
+      "verbatim": "La justice sociale ne peut plus s'appuyer sur la fuite en avant de la dette ; elle doit s'ancrer dans la responsabilité, dans la clarté, dans le courage budgétaire."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Retraites (abrogation réforme 2023, 62 ans, convention citoyenne + référendum 18 mois) : documenté via 'Le chemin gaulliste' (24/05/2026) — verbatim page officielle à recouper. CNSA→caisse Sécu : source votons-2027 d'après LFH."
+}

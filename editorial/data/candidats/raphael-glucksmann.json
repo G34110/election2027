@@ -1,0 +1,35 @@
+{
+  "id": "raphael-glucksmann",
+  "nom": "Raphaël Glucksmann",
+  "parti": "Place Publique / Parti Socialiste",
+  "statut": "declare",
+  "role": "concurrent",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/raphael-glucksmann.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://raphaelglucksmann.eu",
+    "parti_url": "https://www.parti-socialiste.fr",
+    "programme_pdf": "https://raphaelglucksmann.eu/programme.html",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "École normale supérieure de Saint-Cloud — agrégation de lettres modernes"
+    ],
+    "militantisme": [
+      "Fondateur du mouvement Place Publique en 2018 — liste Place Publique/PS aux européennes 2019",
+      "Candidat désigné PS/Place Publique après victoire à la primaire 'Choisir 2027' (66,17%, 11/10/2026)"
+    ],
+    "experiences_pro": [
+      "Essayiste et journaliste — directeur de publication du Nouveau Magazine littéraire",
+      "Conseiller de la présidente géorgienne (2012-2013)"
+    ],
+    "mandats": [
+      { "fonction": "Député européen", "debut": "2019", "fin": "" },
+      { "fonction": "Président de la commission spéciale INGE/INGE2 (ingérences étrangères, Parlement européen)", "debut": "2020", "fin": "2023" },
+      { "fonction": "Président de la commission spéciale sur le bouclier européen de la démocratie (EUDS)", "debut": "2025", "fin": "" }
+    ]
+  },
+  "_note_collecte": "Candidat désigné — a remporté la primaire 'Choisir 2027' (PS + Place Publique) au 1er tour le 11/10/2026 avec 66,17% (source : Public Sénat — à recouper avec communiqué officiel). Programme = 6 axes d'intention, chiffrage progressif. Mandat européen : réélu en 2024 (fiche europarl). Sources : europarl.europa.eu/meps/fr/197694."
+}

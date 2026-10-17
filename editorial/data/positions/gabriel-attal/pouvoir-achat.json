@@ -1,0 +1,22 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "pouvoir-achat",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de la hausse des salaires un chantier capital : « le travail doit permettre de vivre, pas seulement de survivre ». La stratégie complète — annoncée sur trois leviers — n'est pas encore publiée.",
+    "mesure_phare": "« Un vrai choc pour les salaires » — stratégie détaillée à paraître",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/travail-salaires",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Travail & salaires — attalpresident.fr",
+      "date_verification": "2026-10-17",
+      "verbatim": "Le travail doit payer. Le travail doit permettre de vivre, pas seulement de survivre. Notre combat : faire monter les salaires."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

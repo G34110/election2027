@@ -1,0 +1,22 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "environnement",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de la « justice climatique » un axe majeur : une transition écologique qui protège d'abord les ménages les plus modestes, investissements dans les industries de demain, préservation de la biodiversité, de l'eau et des ressources.",
+    "mesure_phare": "« Justice climatique » — transition qui protège d'abord les plus modestes",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 04 : Justice climatique et transition juste",
+      "date_verification": "2026-10-17",
+      "verbatim": "Ne pas opposer la fin du mois et la fin du monde : une transition qui protège d'abord les plus modestes."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

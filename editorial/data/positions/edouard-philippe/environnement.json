@@ -1,0 +1,23 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "environnement",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose « une écologie à impact » : relance du nucléaire (8 EPR supplémentaires en plus des 6 prévus), prix du carbone aux frontières européennes, concentration sur fret/rénovation/grande industrie, capture de carbone, et adaptation via une « DATAR 2.0 » et un fonds unique de 2 Md€/an.",
+    "mesure_phare": "8 EPR supplémentaires — prix carbone aux frontières — fonds adaptation 2 Md€/an",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus conquérante — Pour une écologie à impact",
+      "date_verification": "2026-10-17",
+      "verbatim": "Assurer notre souveraineté énergétique en relançant le nucléaire (lancement de 8 EPR supplémentaires en plus des 6 déjà prévus), en développant les renouvelables et en électrifiant massivement nos usages."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Position sécurité climatique conservée dans la page 'sûre' (Canadairs, réserves communales) — complément du même programme."
+}

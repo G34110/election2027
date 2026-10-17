@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "pouvoir-achat",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat axe son projet sur la dignité du travail et la justice fiscale : augmentation de la rémunération nette des actifs financée par la taxation des « méga-héritages » (les 1% des plus gros héritages, ~15 Md€ annoncés sur TF1), aides ciblées (chèque énergie) plutôt que baisses générales de taxes.",
+    "mesure_phare": "Taxe « méga-héritages » (~15 Md€) reversée sur les fiches de paie — aides ciblées",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 03 : Justice sociale et pouvoir d'achat",
+      "date_verification": "2026-10-17",
+      "verbatim": "Garantir que le travail permette de vivre dignement. […] Protéger le pouvoir d'achat des ménages les plus modestes : agir sur les dépenses contraintes qui pèsent sur le quotidien."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Chiffrage héritages (~15 Md€, 'les 1% des plus gros héritages') : déclaration TF1 reprise par Public Sénat — source primaire officielle à rattraper quand le programme chiffré sera publié (le site indique 'objectif chiffré à préciser')."
+}

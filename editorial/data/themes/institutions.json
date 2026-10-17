@@ -1,0 +1,14 @@
+{
+  "id": "institutions",
+  "domaine": "institutions",
+  "titre": "Institutions et vie démocratique",
+  "statut": "actif",
+  "date_ajout": "2026-10-17",
+  "badge": "nouveau",
+  "criteres_entree": { "medias_nationaux": true, "programmes_candidats": true, "top_sondages": false },
+  "semaines_hors_criteres": 0,
+  "tendance": "stable",
+  "divergence": "moyen",
+  "sources_sondages": [],
+  "_note": "Thème éditorial — remplit le critère 'programmes_candidats' (réforme institutionnelle proposée par plusieurs candidats, dont le référentiel 'règle républicaine' de Villepin) + couverture médiatique de la crise politique 2024-2026"
+}

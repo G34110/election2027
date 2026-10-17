@@ -1,0 +1,23 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "pouvoir-achat",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence a publié un projet économique en 20 propositions : « abolir les rentes », « faire que le travail paye » et « rendre aux Français ce qui leur appartient », contre la « rareté » choisie du capital, du travail et de l'innovation.",
+    "mesure_phare": "20 propositions économiques — « faire que le travail paye », abolition des rentes",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/programme/economie.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Projet économique : 20 propositions pour 2027",
+      "date_verification": "2026-10-17",
+      "verbatim": "Vingt idées pour abolir les rentes, faire que le travail paye, et rendre aux Français ce qui leur appartient."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Page en 403 au fetch — verbatims extraits de la page officielle via indexation. Détail des 20 propositions à collecter manuellement."
+}

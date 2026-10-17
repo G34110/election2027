@@ -1,0 +1,16 @@
+{
+  "id": "sond-AAAA-WSS-institut",
+  "institut": "IFOP",
+  "statut": "publie",
+  "url_dementi": null,
+  "date_publication": "AAAA-MM-JJ",
+  "question_verbatim": "",
+  "echantillon": 0,
+  "type_sondage": "preoccupations",
+  "resultats": [
+    { "theme_id": "slug-du-theme", "label": "Libellé dans le sondage", "pct": 0 }
+  ],
+  "url_source": "https://",
+  "integre_le": "AAAA-MM-JJ",
+  "commit_integration": ""
+}

@@ -1,0 +1,39 @@
+{
+  "id": "gabriel-attal",
+  "nom": "Gabriel Attal",
+  "parti": "Renaissance",
+  "statut": "declare",
+  "role": "concurrent",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/gabriel-attal.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://attalpresident.fr",
+    "parti_url": "https://renaissance-parti.fr",
+    "programme_pdf": "https://attalpresident.fr/",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "Sciences Po Paris — études de droit public"
+    ],
+    "militantisme": [
+      "Adhère au Parti socialiste (années 2000) — travaille pour Marisol Touraine (cabinet santé, 2012-2017)",
+      "Rejoint En Marche en 2017 — porte-parole puis secrétaire général de Renaissance"
+    ],
+    "experiences_pro": [
+      "Assistant parlementaire au Sénat et auprès de députés PS",
+      "Directeur de cabinet du maire de Vanves"
+    ],
+    "mandats": [
+      { "fonction": "Conseiller municipal de Vanves", "debut": "2014", "fin": "2018" },
+      { "fonction": "Député des Hauts-de-Seine (10e circ.)", "debut": "2017", "fin": "2020" },
+      { "fonction": "Porte-parole du Gouvernement", "debut": "2020-07", "fin": "2022-05" },
+      { "fonction": "Ministre délégué aux Comptes publics", "debut": "2022-05", "fin": "2023-07" },
+      { "fonction": "Ministre de l'Éducation nationale et de la Jeunesse", "debut": "2023-07", "fin": "2024-01" },
+      { "fonction": "Premier ministre", "debut": "2024-01", "fin": "2024-09" },
+      { "fonction": "Député des Hauts-de-Seine + Président du groupe Renaissance à l'AN", "debut": "2024-09", "fin": "" }
+    ]
+  },
+  "_note_collecte": "5e place disputée avec Bruno Retailleau (~7-9% vs ~7-8%). Règle anti-bascule : Attal confirmé dans le top 5 seulement si 2 révisions hebdo consécutives le maintiennent. Sinon créer la fiche bruno-retailleau."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "terrorisme",
+  "domaine": "securite",
+  "titre": "Menace terroriste",
+  "statut": "actif",
+  "date_ajout": "2026-10-17",
+  "badge": "nouveau",
+  "criteres_entree": { "medias_nationaux": true, "programmes_candidats": true, "top_sondages": true },
+  "semaines_hors_criteres": 0,
+  "tendance": "stable",
+  "divergence": "faible",
+  "sources_sondages": ["sond-2026-W41-bva"],
+  "_note": "11e préoccupation mesurée"
+}

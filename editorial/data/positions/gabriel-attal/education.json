@@ -1,0 +1,41 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "education",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de l'éducation « la mère des batailles » et sa priorité absolue, avec l'objectif de reprendre en dix ans l'une des premières places du classement PISA.",
+    "mesure_phare": "École priorité absolue — objectif : premier rang du classement PISA en 10 ans",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/education",
+      "url_archive": "https://web.archive.org/",
+      "titre": "École : la priorité absolue — attalpresident.fr",
+      "date_verification": "2026-10-17",
+      "verbatim": "Je fixe pour notre système éducatif un objectif simple : reprendre en dix ans l'une des premières places du classement PISA."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2023-2024",
+      "acte": "Ministre de l'Éducation nationale — interdiction de l'abaya à l'école, expérimentation de l'uniforme, groupes de niveau",
+      "mandat": "Ministre de l'Éducation nationale (juillet 2023 - janvier 2024)",
+      "source_url": "https://www.education.gouv.fr/"
+    },
+    {
+      "date": "2023-12-05",
+      "acte": "Lancement du « Choc des savoirs » : dossier de presse officiel — évaluations nationales renforcées, redoublement décidé par les professeurs, manuels labellisés obligatoires en maths et français au primaire, nouvelle épreuve de mathématiques au bac",
+      "mandat": "Ministre de l'Éducation nationale (2023-2024)",
+      "source_url": "https://www.education.gouv.fr/sites/default/files/document/Choc%20des%20savoirs%20%3A%20%C3%A9lever%20le%20niveau%20de%20notre%20%C3%89cole-366837.pdf"
+    },
+    {
+      "date": "2024-09",
+      "acte": "Généralisation des « groupes de besoins » en français et mathématiques en 6e et 5e à la rentrée 2024 (extension 4e/3e prévue 2025) — vademecum officiel Eduscol",
+      "mandat": "Ministre de l'Éducation nationale (2023-2024)",
+      "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/vademecum-mettre-en-place-les-groupes-de-besoins-105525.pdf"
+    }
+  ]
+}

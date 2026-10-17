@@ -1,0 +1,37 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "crises-internationales",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence inscrit la politique étrangère dans « le chemin gaulliste » : indépendance et équilibre. Ancien chef de la diplomatie, il dénonce le risque de voir la France « confiée en 2027 » au RN et veut « proposer une alternative » sur la règle républicaine et la justice sociale.",
+    "mesure_phare": "« Le chemin gaulliste » — chantier diplomatique du Projet France 2027",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/france2027",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Projet France 2027 — Les chantiers",
+      "date_verification": "2026-10-17",
+      "verbatim": "Le chemin gaulliste"
+    }
+  },
+  "fil_du_temps": [
+    {
+      "date": "2003-02-14",
+      "position": "Opposition à l'intervention militaire en Irak — « le recours à la force n'est pas justifié aujourd'hui »",
+      "verbatim": "Dans ce temple des Nations Unies, nous sommes les gardiens d'un idéal, les gardiens d'une conscience. L'option de la guerre peut apparaître a priori la plus rapide. Mais n'oublions pas qu'après avoir gagné la guerre, il faut construire la paix.",
+      "source_url": "https://www.diplomatie.gouv.fr/",
+      "contexte": "Discours au Conseil de sécurité de l'ONU, ministre des Affaires étrangères"
+    }
+  ],
+  "actes_passes": [
+    {
+      "date": "2002-2005",
+      "acte": "Conduite de la diplomatie française — opposition à la guerre d'Irak, discours ONU du 14 février 2003",
+      "mandat": "Ministre des Affaires étrangères",
+      "source_url": "https://www.diplomatie.gouv.fr/"
+    }
+  ]
+}

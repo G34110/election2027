@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://election2027/schema/v1/candidat.schema.json",
+  "title": "Candidat",
+  "description": "Fiche candidat — carte d'identité politique (#14) + bandeau programme officiel (#75)",
+  "type": "object",
+  "required": ["id", "nom", "statut", "liens_officiels"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug immuable (#81)"
+    },
+    "nom": { "type": "string" },
+    "parti": { "type": "string" },
+    "statut": {
+      "type": "string",
+      "enum": ["pressenti", "declare", "retire", "remplace"],
+      "description": "Cycle de vie gouverné (#83, Protocole §2.4)"
+    },
+    "role": {
+      "type": "string",
+      "enum": ["concurrent", "reference"],
+      "default": "concurrent",
+      "description": "concurrent = top 5 gouverné par sondages | reference = 6e candidat fixe, référentiel transversal (Protocole §2.6)"
+    },
+    "remplace_par": {
+      "type": "string",
+      "description": "candidat_id du remplaçant si statut=remplace — filiation documentée (Protocole §2.4)"
+    },
+    "photo_url": { "type": "string" },
+    "liens_officiels": {
+      "type": "object",
+      "required": ["parti_url", "derniere_verification"],
+      "properties": {
+        "site_campagne": { "type": "string", "format": "uri" },
+        "parti_url": { "type": "string", "format": "uri" },
+        "programme_pdf": { "type": "string", "format": "uri" },
+        "programme_pdf_archive": { "type": "string", "format": "uri" },
+        "derniere_verification": { "type": "string", "format": "date" }
+      }
+    },
+    "parcours": {
+      "type": "object",
+      "description": "Carte d'identité politique (#14)",
+      "properties": {
+        "etudes": { "type": "array", "items": { "type": "string" } },
+        "militantisme": { "type": "array", "items": { "type": "string" } },
+        "experiences_pro": { "type": "array", "items": { "type": "string" } },
+        "mandats": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["fonction", "debut"],
+            "properties": {
+              "fonction": { "type": "string" },
+              "debut": { "type": "string" },
+              "fin": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

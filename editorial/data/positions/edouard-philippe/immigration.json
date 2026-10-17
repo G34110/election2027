@@ -1,0 +1,29 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "immigration",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat affiche un objectif de division par deux de l'immigration : suspension du regroupement familial pour le quinquennat, quotas migratoires, liste annuelle de pays sûrs votée par le Parlement, fin de l'« asile à vie », dénonciation de l'accord franco-algérien de 1968 et suspension du droit du sol à Mayotte.",
+    "mesure_phare": "Diviser par deux l'immigration — quotas + suspension regroupement familial + droit du sol suspendu à Mayotte",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus sûre — Reprendre le contrôle de nos frontières",
+      "date_verification": "2026-10-17",
+      "verbatim": "Un objectif clair : diviser par deux l'immigration dans notre pays."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2018-08",
+      "acte": "Loi « pour une immigration maîtrisée et un droit d'asile effectif » (loi Collomb) : allongement de la rétention administrative, accélération des procédures d'asile — votée sous son gouvernement",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.vie-publique.fr/dossier/284446-les-lois-de-la-quinzieme-legislature-2017-2022"
+    }
+  ]
+}

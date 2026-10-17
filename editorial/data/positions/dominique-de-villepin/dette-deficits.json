@@ -1,0 +1,29 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "dette-deficits",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence qualifie la dette sociale de « bombe à retardement » et de « première cause d'insécurité » : il fait du retour à l'équilibre à moyen terme et de la soutenabilité des finances sociales « la clé de voûte de tout l'édifice », refusant à la fois « la protection à crédit » et la privatisation.",
+    "mesure_phare": "« La dette sociale est devenue une bombe à retardement » — retour à l'équilibre à moyen terme",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Vers une protection sociale rénovée — La France Humaniste",
+      "date_verification": "2026-10-17",
+      "verbatim": "Rien de durable ne se construit sur des comptes en déséquilibre. Le retour à l'équilibre à moyen terme et la soutenabilité des finances sociales sont la clé de voûte de tout l'édifice."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2005-2007",
+      "acte": "Politique de réduction de la dépense publique et privatisation partielle (cède des parts d'EDF/GDF) — bilan documenté à sourcer Legifrance/vie-publique",
+      "mandat": "Premier ministre",
+      "source_url": "https://www.vie-publique.fr/"
+    }
+  ]
+}

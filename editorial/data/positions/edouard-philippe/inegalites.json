@@ -1,0 +1,22 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "inegalites",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose une « nouvelle politique familiale » : allocation familiale unique dès le premier enfant (350€, dégressive selon revenu), suppression de l'impôt sur le revenu pendant les 3 premières années de l'enfant pour les classes moyennes, prêt à taux zéro par naissance et temps partiel parental à 80% payés 100% pendant 2 mois.",
+    "mesure_phare": "Allocation familiale unique 350€ — impôt 0 pendant 3 ans pour les classes moyennes",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus attentive à ses enfants — Pour une nouvelle politique familiale",
+      "date_verification": "2026-10-17",
+      "verbatim": "Créer une allocation familiale unique dès le premier enfant, à hauteur de 350€, en fusionnant les dispositifs existants trop complexes et trop éparpillés, dégressive avec le revenu."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

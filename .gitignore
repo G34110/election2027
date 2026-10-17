@@ -1,0 +1,16 @@
+# Dépendances & build (futur site)
+node_modules/
+dist/
+build/
+
+# Système / éditeur
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+
+# Brouillons locaux
+*.tmp
+~$*

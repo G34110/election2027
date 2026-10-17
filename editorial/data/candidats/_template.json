@@ -1,0 +1,23 @@
+{
+  "id": "slug-du-candidat",
+  "nom": "Prénom Nom",
+  "parti": "Nom du parti ou formation",
+  "statut": "pressenti",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/slug-du-candidat.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://",
+    "parti_url": "https://",
+    "programme_pdf": "https://",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "AAAA-MM-JJ"
+  },
+  "parcours": {
+    "etudes": ["…"],
+    "militantisme": ["…"],
+    "experiences_pro": ["…"],
+    "mandats": [
+      { "fonction": "…", "debut": "AAAA", "fin": "AAAA" }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "edouard-philippe",
+  "nom": "Édouard Philippe",
+  "parti": "Horizons",
+  "statut": "declare",
+  "role": "concurrent",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/edouard-philippe.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://www.edouardphilippe.fr",
+    "parti_url": "https://horizonsleparti.fr",
+    "programme_pdf": "https://www.edouardphilippe.fr/priorites",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "Sciences Po Paris, après une hypokhâgne — bac au lycée français de Bonn (Allemagne)",
+      "ENA, promotion « Marc Bloch » (admis 1995)"
+    ],
+    "militantisme": [
+      "Membre du Parti socialiste dans les années 1990, proche de Michel Rocard",
+      "Rejoint l'UMP/LR (2002-2017) puis fonde Horizons en 2021"
+    ],
+    "experiences_pro": [
+      "Haut fonctionnaire au Conseil d'État (auditeur, maître des requêtes) — droit des marchés publics",
+      "Directeur des affaires publiques du groupe Areva (2007-2010)"
+    ],
+    "mandats": [
+      { "fonction": "Conseiller régional de Haute-Normandie", "debut": "1998", "fin": "2004" },
+      { "fonction": "Conseiller général de Seine-Maritime", "debut": "2008", "fin": "2010" },
+      { "fonction": "Maire du Havre", "debut": "2010", "fin": "2017" },
+      { "fonction": "Député de Seine-Maritime", "debut": "2012", "fin": "2017" },
+      { "fonction": "Premier ministre", "debut": "2017-05", "fin": "2020-07" },
+      { "fonction": "Maire du Havre", "debut": "2020", "fin": "" },
+      { "fonction": "Ministre de la Justice", "debut": "2025", "fin": "2026" }
+    ]
+  },
+  "_note_collecte": "Déclaré le 03/09/2024 — le premier candidat officiel. Programme détaillé : edouardphilippe.fr/priorites (4 volets, 117 propositions). Source bio : info.gouv.fr 'Les anciens Premiers ministres de la Ve République'."
+}

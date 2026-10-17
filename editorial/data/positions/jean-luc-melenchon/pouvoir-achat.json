@@ -1,0 +1,20 @@
+{
+  "candidat_id": "jean-luc-melenchon",
+  "theme_id": "pouvoir-achat",
+  "statut": "attendue",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": null,
+  "fil_du_temps": [
+    {
+      "date": "2024-06-14",
+      "position": "Blocage des prix des produits de première nécessité (alimentation, énergie, carburants) ; SMIC à 1 600 € net ; indexation des salaires sur l'inflation ; hausse de 10% du point d'indice des fonctionnaires",
+      "verbatim": "Bloquer les prix des produits de première nécessité dans l'alimentation, l'énergie et les carburants.",
+      "source_url": "https://lafranceinsoumise.fr/comparateur-programmes/",
+      "contexte": "Programme du Nouveau Front Populaire (législatives 2024) — documenté sur le site officiel LFI"
+    }
+  ],
+  "actes_passes": [],
+  "_note": "Programme 'L'Avenir en commun' (aec2027.fr) publié — site JS non extractible automatiquement. Livre programme disponible le 06/11/2026. Historique riche : programmes AEC 2017 et 2022 documentés (hausses SMIC/minimas, 6e République)."
+}

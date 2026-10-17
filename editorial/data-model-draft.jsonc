@@ -1,0 +1,119 @@
+// ================================================================
+// DATA MODEL DRAFT — Site Présidentielle 2027
+// Brainstorming Session #2 — 17 octobre 2026
+// Convention : un fichier = une cellule (#77), ids = slugs stables (#81)
+//
+// Arborescence cible :
+// data/
+// ├── candidats/{slug}.json
+// ├── themes/{slug}.json
+// ├── positions/{candidat_slug}/{theme_slug}.json
+// ├── sondages/{id}.json
+// └── schema/v1/*.schema.json     // validation CI (#85)
+// ================================================================
+{
+  // ─── positions/{candidat_id}/{theme_id}.json ───────────────
+  // La cellule canonique : tout ce que le site sait sur la
+  // position d'un candidat sur un thème (#76)
+  "positions/marine-le-pen/logement.json": {
+    "candidat_id": "marine-le-pen",
+    "theme_id": "logement",
+    "statut": "sourcee",            // sourcee | non_sourcee | attendue | contradictoire (#78)
+    "maj_le": "2026-10-12",
+    "commit_ref": "a1b2c3d",        // alimente Journal des MàJ + Historique + Newsletter (#84)
+    "alerte_maj": false,            // badge "Position mise à jour" (#22)
+
+    "position_actuelle": {
+      "synthese": "2-3 phrases neutres, formulées sans qualificatif",
+      "mesure_phare": "La mesure concrète mise en avant par le candidat",
+      "type_mesure": "chiffree",    // chiffree | orientee (#54)
+      "source": {                   // triple ancrage (#79)
+        "url_live": "https://site-officiel-ou-parti/…",            // (#71)
+        "url_archive": "https://web.archive.org/…",                // (#73)
+        "titre": "Programme officiel — section Logement",
+        "date_publication": "2026-06-15",
+        "date_verification": "2026-10-12",
+        "verbatim": "Citation exacte de la source primaire"
+      }
+    },
+
+    "fil_du_temps": [               // donnée, pas UI (#80) — alimente #6, #53, #64
+      {
+        "date": "2022-04-01",
+        "position": "Ancienne position synthétisée",
+        "verbatim": "Citation sourcée de l'époque",
+        "source_url": "https://web.archive.org/…",
+        "contexte": "Contexte factuel neutre (optionnel)"
+      }
+    ],
+
+    "actes_passes": [               // Baromètre Promesse/Réalité (#4)
+      {
+        "date": "2019-03",
+        "acte": "Acte concret documenté",
+        "mandat": "Fonction occupée au moment de l'acte",
+        "source_url": "https://…"
+      }
+    ]
+  },
+
+  // ─── candidats/{candidat_id}.json ──────────────────────────
+  "candidats/marine-le-pen.json": {
+    "id": "marine-le-pen",          // slug immuable (#81)
+    "nom": "Marine Le Pen",
+    "parti": "Rassemblement National",
+    "statut": "declare",            // pressenti | declare | retire | remplace (#83)
+    "photo_url": "/assets/candidats/marine-le-pen.jpg",
+
+    "liens_officiels": {            // Bandeau Programme Officiel (#75)
+      "site_campagne": "https://…",
+      "parti_url": "https://rassemblementnational.fr",
+      "programme_pdf": "https://…",
+      "programme_pdf_archive": "https://web.archive.org/…",
+      "derniere_verification": "2026-10-12"
+    },
+
+    "parcours": {                   // Carte d'identité politique (#14)
+      "etudes": [],
+      "militantisme": [],
+      "experiences_pro": [],
+      "mandats": []
+    }
+  },
+
+  // ─── themes/{theme_id}.json ────────────────────────────────
+  "themes/logement.json": {
+    "id": "logement",               // slug immuable (#81)
+    "domaine": "societe",           // niveau 1 (#17)
+    "titre": "Logement",
+    "statut": "actif",              // actif | emergent | archive (#26)
+    "date_ajout": "2026-09-01",
+    "badge": null,                  // "nouveau" pendant X jours (#19)
+
+    "criteres_entree": {            // ≥2/3 requis (#25)
+      "medias_nationaux": true,
+      "programmes_candidats": true,
+      "top_sondages": false
+    },
+
+    "tendance": "hausse",           // hausse | stable | baisse (#33) — recalcul hebdo (#32)
+    "divergence": "fort",           // fort | moyen | faible (#15) — calculé
+    "sources_sondages": ["sond-2026-W40-ifop"]   // jointure vers sondages (#82)
+  },
+
+  // ─── sondages/{sondage_id}.json ────────────────────────────
+  "sondages/sond-2026-W40-ifop.json": {
+    "id": "sond-2026-W40-ifop",
+    "institut": "IFOP",             // enum : IFOP | BVA | OpinionWay | Harris | Elabe (#31)
+    "date_publication": "2026-10-05",
+    "question_verbatim": "Question exacte posée dans l'enquête",
+    "echantillon": 1500,
+    "resultats": [
+      { "theme_id": "pouvoir-achat", "pct": 34 },
+      { "theme_id": "immigration", "pct": 28 }
+    ],
+    "url_source": "https://…",
+    "integre_le": "2026-10-12",
+    "commit_integration": "e4f5g6"
+  }
+}

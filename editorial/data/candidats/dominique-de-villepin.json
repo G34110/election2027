@@ -1,0 +1,37 @@
+{
+  "id": "dominique-de-villepin",
+  "nom": "Dominique de Villepin",
+  "parti": "La France humaniste",
+  "statut": "pressenti",
+  "role": "reference",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/dominique-de-villepin.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://lafrancehumaniste.fr/france2027",
+    "parti_url": "https://lafrancehumaniste.fr",
+    "programme_pdf": "https://lafrancehumaniste.fr/france2027",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "Sciences Po Paris",
+      "ENA, promotion Voltaire"
+    ],
+    "militantisme": [
+      "Cadre du RPR — directeur de cabinet de Jacques Chirac (1995), secrétaire général de l'Élysée (1995-2002)",
+      "Fondateur du mouvement La France humaniste (juin 2025)"
+    ],
+    "experiences_pro": [
+      "Diplomate de carrière — Quai d'Orsay, ambassade (Madagascar, États-Unis, Inde), chef de cabinet du MAE",
+      "Essayiste et professeur — enseignements sur la diplomatie ; avocat (cabinet Villepin International)"
+    ],
+    "mandats": [
+      { "fonction": "Secrétaire général de l'Élysée", "debut": "1995", "fin": "2002" },
+      { "fonction": "Ministre des Affaires étrangères", "debut": "2002-05", "fin": "2004-03" },
+      { "fonction": "Ministre de l'Intérieur", "debut": "2004-03", "fin": "2005-05" },
+      { "fonction": "Premier ministre", "debut": "2005-05", "fin": "2007-05" }
+    ]
+  },
+  "_note_collecte": "Candidat de RÉFÉRENCE (Protocole §2.6) — 6e colonne permanente, hors gouvernance du top 5. A déclaré 'Je veux être candidat' le 30/08/2026 (BFM) sans officialisation — statut pressenti. Actes passés très riches : exécutif 2002-2007, discours ONU 2003, CPE 2006. Projet France 2027 : 8 chantiers, 117 mesures (votons-2027)."
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://election2027/schema/v1/sondage.schema.json",
+  "title": "Sondage institutionnel",
+  "description": "Une publication d'un institut éligible (#31, #82)",
+  "type": "object",
+  "required": ["id", "institut", "date_publication", "question_verbatim", "resultats", "url_source", "integre_le", "statut"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^sond-[0-9]{4}-W[0-9]{2}-[a-z]+$",
+      "description": "Format : sond-AAAA-WSS-institut"
+    },
+    "institut": {
+      "type": "string",
+      "enum": ["IFOP", "BVA", "OpinionWay", "Harris Interactive", "Elabe"],
+      "description": "Liste blanche des instituts éligibles (Charte §2.3)"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["publie", "retracte"],
+      "description": "Rétractation = donnée de première classe (#92)"
+    },
+    "url_dementi": {
+      "type": "string",
+      "format": "uri",
+      "description": "Lien vers le démenti si statut=retracte (#92)"
+    },
+    "date_publication": { "type": "string", "format": "date" },
+    "question_verbatim": {
+      "type": "string",
+      "description": "Question exacte posée — affichée en info-bulle (#34)"
+    },
+    "echantillon": { "type": "integer", "minimum": 1 },
+    "type_sondage": {
+      "type": "string",
+      "enum": ["preoccupations", "intention_vote", "opinion"],
+      "description": "preoccupations → gouverne les thèmes | intention_vote → gouverne le top 5 candidats (#86)"
+    },
+    "resultats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "theme_id": {
+            "type": "string",
+            "description": "Jointure vers themes/ (#82) — si type_sondage=preoccupations"
+          },
+          "candidat_id": {
+            "type": "string",
+            "description": "Jointure vers candidats/ — si type_sondage=intention_vote"
+          },
+          "label": { "type": "string" },
+          "pct": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "required": ["pct"]
+      }
+    },
+    "url_source": { "type": "string", "format": "uri" },
+    "integre_le": { "type": "string", "format": "date" },
+    "commit_integration": { "type": "string" }
+  }
+}

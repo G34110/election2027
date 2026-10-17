@@ -1,0 +1,25 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "institutions",
+  "statut": "attendue",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": null,
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2017-09",
+      "acte": "Lois pour la confiance dans la vie politique — premières lois de la 15e législature : interdiction du cumul des mandats dans le temps, fin des collaborateurs familiaux d'élus, réserve parlementaire supprimée",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.vie-publique.fr/discours/268115-edouard-philippe-9042019-bilan-grand-debat-national"
+    },
+    {
+      "date": "2019-04",
+      "acte": "Conduite du Grand débat national après la crise des Gilets jaunes et discours de bilan à l'Assemblée — « un mur de défiance qui sépare beaucoup de Français de ceux qui les représentent »",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.vie-publique.fr/discours/268115-edouard-philippe-9042019-bilan-grand-debat-national"
+    }
+  ],
+  "_note": "Aucune proposition institutionnelle repérée dans les 4 priorités du site de campagne — position attendue. Actes passés documentés (confiance dans la vie politique, Grand débat)."
+}

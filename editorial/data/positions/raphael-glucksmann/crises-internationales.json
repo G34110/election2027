@@ -1,0 +1,36 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "crises-internationales",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de « l'Europe puissance » le cœur de son projet : souveraineté industrielle, énergétique et de défense à l'échelle européenne, défense de l'État de droit face aux ingérences étrangères, et une France « puissance de paix » soutenant les peuples qui luttent pour leur liberté.",
+    "mesure_phare": "Europe puissance — souveraineté industrielle, énergétique et de défense au niveau européen",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 02 : Une Europe puissance et démocratique + Axe 05 : paix",
+      "date_verification": "2026-10-17",
+      "verbatim": "Faire de l'Europe une puissance qui protège ses citoyens : peser dans le monde et défendre nos intérêts communs face aux empires."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2020-2023",
+      "acte": "Élu président de la commission spéciale sur l'ingérence étrangère dans les processus démocratiques de l'UE (INGE, puis INGE 2) — rapport final sur la désinformation et la protection des élections européennes 2024",
+      "mandat": "Député européen (2019-)",
+      "source_url": "https://www.europarl.europa.eu/news/fr/press-room/20220509IPR29109/la-commission-speciale-sur-l-ingerence-etrangere-reprend-ses-travaux"
+    },
+    {
+      "date": "2019-",
+      "acte": "Membre de la commission des affaires étrangères et de la commission du commerce international du Parlement européen",
+      "mandat": "Député européen (2019-)",
+      "source_url": "https://www.europarl.europa.eu/meps/fr/197694/RAPHAEL_GLUCKSMANN/history/9"
+    }
+  ],
+  "_note": "Mesure chiffrée rapportée (fonds européen de défense 500 Md€ via emprunt commun) — à sourcer sur la page officielle quand le chiffrage du programme sera publié."
+}

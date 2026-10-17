@@ -1,0 +1,23 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "pouvoir-achat",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La candidate défend le pouvoir d'achat par la baisse des taxes plutôt que par la hausse des salaires : baisse de la TVA sur l'énergie (à 5,5%, mesure portée depuis 2022), restitution aux ménages des 5 Md€ de subventions aux éoliennes, exonérations de cotisations ciblées pour encourager les hausses de salaires.",
+    "mesure_phare": "Baisse de la TVA sur l'énergie à 5,5% — restitution des subventions éoliennes (5 Md€)",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 12",
+      "date_verification": "2026-10-17",
+      "verbatim": "Assurer notre indépendance énergétique pour baisser la facture des Français. — Rendre aux ménages les 5 milliards de subventions versées notamment aux éoliennes."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "TVA énergie 5,5% : mesure rapportée par Le JDD (24/06/2024) — verbatim officiel du détail de la mesure à extraire de la page (JS)."
+}

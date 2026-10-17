@@ -1,0 +1,35 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "dette-deficits",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose d'inscrire une « règle d'or » de maîtrise des déficits dans la Constitution via référendum, de ramener le déficit de plus de 5% à 2% du PIB en fin de quinquennat, et de supprimer un tiers des départs à la retraite de fonctionnaires (plus de 250 000 postes).",
+    "mesure_phare": "Règle d'or constitutionnelle — déficit ramené à 2% du PIB — 250 000 postes de fonctionnaires en moins",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus prospère — Rétablir nos comptes pour retrouver notre souveraineté",
+      "date_verification": "2026-10-17",
+      "verbatim": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum, et ramener le déficit de plus de 5% à 2% du PIB à la fin du quinquennat."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2017-2018",
+      "acte": "Réforme fiscale du premier quinquennat : suppression de l'ISF remplacé par l'IFI, hausse de la CSG de 1,7 point finançant la suppression des cotisations salariales maladie et chômage (~3 points), suppression de la taxe d'habitation pour 80% des contribuables, transformation du CICE en allègements pérennes de cotisations",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.info.gouv.fr/actualite/edouard-philippe-les-francais-ont-envie-d-une-transformation-en-profondeur"
+    },
+    {
+      "date": "2020-06",
+      "acte": "Déficit public 2019 établi à 3,0% du PIB (2,1% hors effet de la transformation du CICE) ; dette publique stable à 98,1% du PIB — avant la crise sanitaire",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/15/textes/l15b2899_projet-loi.pdf"
+    }
+  ]
+}

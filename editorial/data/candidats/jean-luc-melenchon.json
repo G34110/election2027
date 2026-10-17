@@ -1,0 +1,38 @@
+{
+  "id": "jean-luc-melenchon",
+  "nom": "Jean-Luc Mélenchon",
+  "parti": "La France Insoumise",
+  "statut": "declare",
+  "role": "concurrent",
+  "remplace_par": null,
+  "photo_url": "/assets/candidats/jean-luc-melenchon.jpg",
+  "liens_officiels": {
+    "site_campagne": "https://melenchon2027.fr",
+    "parti_url": "https://lafranceinsoumise.fr",
+    "programme_pdf": "https://aec2027.fr/",
+    "programme_pdf_archive": "https://web.archive.org/",
+    "derniere_verification": "2026-10-17"
+  },
+  "parcours": {
+    "etudes": [
+      "Licence de lettres et diplôme d'études supérieures de philosophie — Université de Franche-Comté",
+      "Agrégation de grammaire et lettres classiques"
+    ],
+    "militantisme": [
+      "Adhère au Parti socialiste en 1976 — quitte le PS en 2008 pour fonder le Parti de Gauche",
+      "Cofondateur de La France Insoumise en 2016"
+    ],
+    "experiences_pro": [
+      "Professeur de lettres (lycées de Lons-le-Saunier puis Corbeil-Essonnes)"
+    ],
+    "mandats": [
+      { "fonction": "Conseiller municipal de Massy", "debut": "1983", "fin": "1995" },
+      { "fonction": "Sénateur de l'Essonne", "debut": "1986", "fin": "2000" },
+      { "fonction": "Ministre délégué à l'Enseignement professionnel (gvt Jospin)", "debut": "2000-03", "fin": "2002-05" },
+      { "fonction": "Sénateur de l'Essonne", "debut": "2004", "fin": "2010" },
+      { "fonction": "Député européen", "debut": "2009", "fin": "2017" },
+      { "fonction": "Député des Bouches-du-Rhône", "debut": "2017", "fin": "2022" }
+    ]
+  },
+  "_note_collecte": "Candidat déclaré LFI. Sources parcours : senat.fr (table nominative — cessation mandat sénatorial 27/04/2000, nomination ministre JO 28/03/2000), vie-publique.fr. Vigilance : règle anti-bascule §2.2 si LFI désigne un autre candidat."
+}

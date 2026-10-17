@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "delinquance",
+  "statut": "non_sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat veut « faire de la sécurité une priorité de la gauche républicaine » : police de proximité moderne et programme d'intervention rapide de prévention de la délinquance dans les quartiers prioritaires (positions documentées via le parti Place Publique).",
+    "mesure_phare": "Police de proximité + prévention de la délinquance",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — à compléter",
+      "date_verification": "2026-10-17",
+      "verbatim": ""
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Positions documentées via textes Place Publique (civiqo) — verbatim primaire en attente de la publication du programme détaillé."
+}

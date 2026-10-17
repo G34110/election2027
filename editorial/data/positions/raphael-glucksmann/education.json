@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "education",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose un « plan de sauvetage de l'école publique » sur 5 ans : hausse de la rémunération des enseignants, réduction du nombre d'élèves par classe en primaire et rénovation du bâti scolaire.",
+    "mesure_phare": "Plan de sauvetage de l'école publique sur 5 ans",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 06 : Jeunesse, éducation et culture",
+      "date_verification": "2026-10-17",
+      "verbatim": "Investir dans l'école, la recherche et la formation : soutenir l'apprentissage tout au long de la vie."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Plan école détaillé sur TF1 (rémunération enseignants, classes réduites primaire, rénovation bâti) — à recouper avec la publication chiffrée du programme."
+}

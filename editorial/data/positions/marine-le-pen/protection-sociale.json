@@ -1,0 +1,30 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "protection-sociale",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La candidate propose un plan de soutien d'urgence pour la santé de 20 Md€. Sur les retraites : réindexation sur l'inflation, minimum vieillesse revalorisé à 1 000 €/mois, refus de tout allongement de l'âge de départ et retraite à 60 ans pour les carrières commencées avant 20 ans avec 40 annuités.",
+    "mesure_phare": "Plan santé 20 Md€ — minimum vieillesse 1 000 € — retraite à 60 ans pour les carrières précoces",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du Rassemblement National — mesures 9 et 14",
+      "date_verification": "2026-10-17",
+      "verbatim": "Garantir à nos aînés une retraite sereine et digne. — Réindexer les retraites sur l'inflation […] Revaloriser le minimum vieillesse à 1 000 € par mois et augmenter les petites retraites. — Refuser tout allongement de l'âge de départ à la retraite."
+    }
+  },
+  "fil_du_temps": [
+    {
+      "date": "2024-06-25",
+      "position": "Jordan Bardella évoque sur TF1 un âge de départ de 66 ans pour un salarié ayant commencé sa carrière à 24 ans — position rapportée différemment dans le programme",
+      "verbatim": "",
+      "source_url": "https://lafranceinsoumise.fr/comparateur-programmes/",
+      "contexte": "Position documentée par un tiers — verbatim officiel à sourcer. La position RN sur les retraites a évolué plusieurs fois entre 2022 et 2026."
+    }
+  ],
+  "actes_passes": []
+}

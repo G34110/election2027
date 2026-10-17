@@ -1,0 +1,30 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "delinquance",
+  "statut": "non_sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence défend un alourdissement des peines pour les crimes violents, mais refuse les automatismes (peines planchers automatiques) et insiste sur les causes sociales de la délinquance.",
+    "mesure_phare": "Peines alourdies pour crimes violents — refus des automatismes",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/france2027",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Projet France 2027 — chantier Sécurité",
+      "date_verification": "2026-10-17",
+      "verbatim": ""
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2004-2005",
+      "acte": "Ministre de l'Intérieur — création du Conseil français du culte musulman (CFCM), plan de prévention de la délinquance",
+      "mandat": "Ministre de l'Intérieur",
+      "source_url": "https://www.interieur.gouv.fr/"
+    }
+  ],
+  "_note": "Positions sécurité documentées via votons-2027/france-vote — verbatim du chantier officiel à extraire (page en 403 au fetch). Statut non_sourcee jusqu'au verbatim primaire."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sond-2026-W42-opinionway",
+  "institut": "OpinionWay",
+  "statut": "publie",
+  "url_dementi": null,
+  "date_publication": "2026-10-15",
+  "question_verbatim": "Si le premier tour de l'élection présidentielle avait lieu dimanche prochain, pour lequel des candidats suivants y aurait-il le plus de chances que vous votiez ?",
+  "echantillon": 1043,
+  "type_sondage": "intention_vote",
+  "hypothese": "Hypothèse 1 — Gabriel Attal et Édouard Philippe candidats (interviews 13-14 octobre 2026)",
+  "resultats": [
+    { "candidat_id": "marine-le-pen", "label": "Marine Le Pen", "pct": 35 },
+    { "candidat_id": "jean-luc-melenchon", "label": "Jean-Luc Mélenchon", "pct": 14 },
+    { "candidat_id": "raphael-glucksmann", "label": "Raphaël Glucksmann", "pct": 13 },
+    { "candidat_id": "edouard-philippe", "label": "Édouard Philippe", "pct": 12 },
+    { "candidat_id": "gabriel-attal", "label": "Gabriel Attal", "pct": 7 },
+    { "candidat_id": "bruno-retailleau", "label": "Bruno Retailleau", "pct": 7 },
+    { "label": "Éric Zemmour", "pct": 4 },
+    { "label": "Marine Tondelier", "pct": 3 },
+    { "label": "Fabien Roussel", "pct": 3 },
+    { "label": "Nicolas Dupont-Aignan", "pct": 2 },
+    { "label": "Nathalie Arthaud", "pct": 1 },
+    { "label": "N'expriment pas d'intention de vote", "pct": 15 }
+  ],
+  "url_source": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-Les-Echos-et-Radio-Classique-Barometre-Presitrack-2027-Vague-3-Octobre-2026.pdf",
+  "integre_le": "2026-10-17",
+  "commit_integration": ""
+}

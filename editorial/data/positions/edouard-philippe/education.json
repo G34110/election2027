@@ -1,0 +1,23 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "education",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose « une école de la liberté et de l'exigence » : chefs d'établissement devenus « véritables patrons » (méthodes, horaires, uniforme, discipline, recrutement), primaire concentrée sur les fondamentaux, augmentation de 20% de la rémunération moyenne des enseignants sur le quinquennat, recréation des écoles normales, téléphones interdits école+collège, service public universel de soutien scolaire (assistant IA + brigades).",
+    "mesure_phare": "+20% rémunération enseignants sur le quinquennat — chefs d'établissement « patrons » — écoles normales recréées",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus attentive à ses enfants — Pour une école de la liberté et de l'exigence",
+      "date_verification": "2026-10-17",
+      "verbatim": "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Volet protection de l'enfance également documenté (Inspection nationale de l'enfance, Sarah's law, imprescriptibilité crimes sur mineur) — même page source."
+}

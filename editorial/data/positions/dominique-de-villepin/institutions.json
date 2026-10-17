@@ -1,0 +1,37 @@
+{
+  "candidat_id": "dominique-de-villepin",
+  "theme_id": "institutions",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat de référence fait de la refonte institutionnelle son chantier signature : un « Big Bang » fondateur baptisé « la règle républicaine », adossé à sa volonté de « restaurer la fonction présidentielle » d'arbitre garant des institutions.",
+    "mesure_phare": "« Big Bang : la règle républicaine » — chantier fondateur",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://lafrancehumaniste.fr/france2027",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Projet France 2027 — Les chantiers",
+      "date_verification": "2026-10-17",
+      "verbatim": "Big Bang : la règle républicaine"
+    }
+  },
+  "fil_du_temps": [
+    {
+      "date": "2026-03-27",
+      "position": "Cap donné au projet : « la France tout court, universelle et humaniste » — discours fondateur à la Sorbonne",
+      "verbatim": "Je suis venu vous parler de la France, parce que personne n'en parle plus vraiment. Pas de la nouvelle France, je n'y crois pas. Pas de la France de souche, elle n'existe pas. Non, la France tout court, celle qui nous unit.",
+      "source_url": "https://lafrancehumaniste.fr/articles/le-moment-francais-sorbonne.html",
+      "contexte": "Discours 'Le moment français', Conférence à La Sorbonne"
+    }
+  ],
+  "actes_passes": [
+    {
+      "date": "2003-02-14",
+      "acte": "Discours aux Nations Unies opposant la France à la guerre en Irak",
+      "mandat": "Ministre des Affaires étrangères",
+      "source_url": "https://www.diplomatie.gouv.fr/"
+    }
+  ]
+}

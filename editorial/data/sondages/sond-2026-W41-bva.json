@@ -1,0 +1,20 @@
+{
+  "id": "sond-2026-W41-bva",
+  "institut": "BVA",
+  "statut": "publie",
+  "url_dementi": null,
+  "date_publication": "2026-10-10",
+  "question_verbatim": "Parmi les enjeux suivants, quels sont les trois qui vous préoccupent le plus à titre personnel ?",
+  "type_sondage": "preoccupations",
+  "note": "Baromètre politique Ipsos bva-CESI École d'ingénieurs pour La Tribune Dimanche — octobre 2026. Seules les valeurs publiées dans la synthèse sont intégrées.",
+  "resultats": [
+    { "theme_id": "pouvoir-achat", "label": "Les difficultés en termes de pouvoir d'achat", "pct": 54 },
+    { "theme_id": "protection-sociale", "label": "L'avenir du système social (santé, retraites...)", "pct": 44 },
+    { "theme_id": "dette-deficits", "label": "Le niveau de la dette et des déficits", "pct": 33 },
+    { "theme_id": "delinquance", "label": "Le niveau de la délinquance", "pct": 29 },
+    { "theme_id": "environnement", "label": "La protection de l'environnement", "pct": 27 }
+  ],
+  "url_source": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
+  "integre_le": "2026-10-17",
+  "commit_integration": ""
+}

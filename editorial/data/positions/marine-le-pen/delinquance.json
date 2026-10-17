@@ -1,0 +1,22 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "delinquance",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La sécurité est présentée comme la priorité du quinquennat, avec un volet spécifique consacré à l'éradication des réseaux « islamistes » sur le territoire national.",
+    "mesure_phare": "Sécurité « priorité du quinquennat »",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du Rassemblement National — mesures 2 et 3",
+      "date_verification": "2026-10-17",
+      "verbatim": "Faire de la sécurité partout et pour tous une priorité du quinquennat."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

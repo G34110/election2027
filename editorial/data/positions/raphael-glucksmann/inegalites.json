@@ -1,0 +1,22 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "inegalites",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat place la réduction des inégalités « entre territoires et générations » au centre de son axe justice sociale, avec la justice fiscale comme « levier de cohésion » et l'égalité femmes-hommes.",
+    "mesure_phare": "Réduction des inégalités territoires/générations — justice fiscale comme levier",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 03 : Justice sociale et pouvoir d'achat",
+      "date_verification": "2026-10-17",
+      "verbatim": "Réduire les inégalités entre territoires et générations : et faire progresser l'égalité réelle entre les femmes et les hommes."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

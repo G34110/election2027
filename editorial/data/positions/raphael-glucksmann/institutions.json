@@ -1,0 +1,29 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "institutions",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose de « rénover nos institutions » pour les rendre « plus lisibles, plus stables et plus responsables devant le pays », de renforcer la participation démocratique et de garantir l'indépendance des contre-pouvoirs et de la justice.",
+    "mesure_phare": "Rénovation des institutions + protection des contre-pouvoirs",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme — Axe 05 : Démocratie, institutions et paix",
+      "date_verification": "2026-10-17",
+      "verbatim": "Rénover nos institutions : les rendre plus lisibles, plus stables et plus responsables devant le pays."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2025-2026",
+      "acte": "Président de la commission spéciale sur le bouclier européen de la démocratie (EUDS) du Parlement européen — a voté le rapport recommandant un Centre européen de résilience démocratique financé en partie par les plateformes",
+      "mandat": "Député européen (2019-)",
+      "source_url": "https://www.europarl.europa.eu/meps/fr/197694/RAPHAEL_GLUCKSMANN/home"
+    }
+  ]
+}

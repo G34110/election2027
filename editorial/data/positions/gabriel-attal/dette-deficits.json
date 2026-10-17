@@ -1,0 +1,29 @@
+{
+  "candidat_id": "gabriel-attal",
+  "theme_id": "dette-deficits",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat fait de la « dette de l'État » une dette à résorber : engagement que toutes les propositions de campagne seront financées, trois priorités budgétaires fixées (éducation, écologie, défense) pour recentrer les débats.",
+    "mesure_phare": "« Aucune promesse dont nous ne pourrions pas garantir le respect » — toutes propositions financées",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://attalpresident.fr/programme/dette-de-letat",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Dette publique : la priorité de Gabriel Attal — attalpresident.fr",
+      "date_verification": "2026-10-17",
+      "verbatim": "Toutes les propositions que nous formulerons durant la campagne seront financées. Nous ne ferons aucune promesse dont nous ne pourrions pas garantir le respect."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2024",
+      "acte": "Baisse de 10 milliards d'euros du budget des ministères + réforme de l'assurance chômage (4 Md€ d'économies) — non entrée en vigueur suite à la dissolution",
+      "mandat": "Premier ministre",
+      "source_url": "https://attalpresident.fr/programme/dette-de-letat"
+    }
+  ]
+}

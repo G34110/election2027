@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://election2027/schema/v1/position.schema.json",
+  "title": "Position candidat × thème",
+  "description": "La cellule canonique : tout ce que le site sait sur la position d'un candidat sur un thème (idée #76)",
+  "type": "object",
+  "required": ["candidat_id", "theme_id", "statut", "maj_le"],
+  "properties": {
+    "candidat_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug immuable du candidat (#81)"
+    },
+    "theme_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Slug immuable du thème (#81)"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["sourcee", "non_sourcee", "attendue", "contradictoire"],
+      "description": "Enum de statut — le vide n'existe pas (#78)"
+    },
+    "maj_le": { "type": "string", "format": "date" },
+    "commit_ref": {
+      "type": "string",
+      "description": "Référence du commit de dernière modification (#84)"
+    },
+    "alerte_maj": {
+      "type": "boolean",
+      "default": false,
+      "description": "Badge 'Position mise à jour' (#22)"
+    },
+    "position_actuelle": {
+      "type": "object",
+      "required": ["synthese", "source"],
+      "properties": {
+        "synthese": {
+          "type": "string",
+          "description": "2-3 phrases neutres, sans qualificatif (Charte §2.1)"
+        },
+        "mesure_phare": {
+          "type": "string",
+          "description": "La mesure concrète mise en avant par le candidat"
+        },
+        "type_mesure": {
+          "type": "string",
+          "enum": ["chiffree", "orientee"],
+          "description": "Badge objectif (#54)"
+        },
+        "source": {
+          "type": "object",
+          "description": "Triple ancrage obligatoire (#79)",
+          "required": ["url_live", "url_archive", "date_verification"],
+          "properties": {
+            "url_live": {
+              "type": "string",
+              "format": "uri",
+              "description": "Site officiel candidat/parti (#71)"
+            },
+            "url_archive": {
+              "type": "string",
+              "format": "uri",
+              "description": "Snapshot web.archive.org (#73)"
+            },
+            "titre": { "type": "string" },
+            "date_publication": { "type": "string", "format": "date" },
+            "date_verification": { "type": "string", "format": "date" },
+            "verbatim": {
+              "type": "string",
+              "description": "Citation exacte de la source primaire"
+            }
+          }
+        }
+      }
+    },
+    "fil_du_temps": {
+      "type": "array",
+      "description": "Historique des positions — donnée, pas UI (#80)",
+      "items": {
+        "type": "object",
+        "required": ["date", "position", "source_url"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "position": { "type": "string" },
+          "verbatim": { "type": "string" },
+          "source_url": { "type": "string", "format": "uri" },
+          "contexte": { "type": "string", "description": "Contexte factuel neutre" }
+        }
+      }
+    },
+    "actes_passes": {
+      "type": "array",
+      "description": "Baromètre Promesse/Réalité (#4)",
+      "items": {
+        "type": "object",
+        "required": ["date", "acte", "source_url"],
+        "properties": {
+          "date": { "type": "string" },
+          "acte": { "type": "string" },
+          "mandat": { "type": "string" },
+          "source_url": { "type": "string", "format": "uri" }
+        }
+      }
+    }
+  }
+}

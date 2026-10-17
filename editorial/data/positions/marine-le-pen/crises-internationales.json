@@ -1,0 +1,36 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "crises-internationales",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La candidate propose de porter le budget de la défense à 55 milliards d'euros à l'horizon 2027 et prône un « réarmement » doctrinal : retrait du commandement intégré de l'OTAN et rediscussion des coopérations structurantes avec l'Allemagne.",
+    "mesure_phare": "Budget défense 55 Md€ à l'horizon 2027 — retrait du commandement intégré de l'OTAN",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du RN — mesure 20 + document projet 'La Défense : réarmer la France-puissance'",
+      "date_verification": "2026-10-17",
+      "verbatim": "Porter le budget de la défense à 55 milliards d'euros à l'horizon 2027."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2024-07-19",
+      "acte": "Présidente du groupe Rassemblement National à l'Assemblée nationale (depuis le 19 juillet 2024, et du 29 juin 2022 au 9 juin 2024) — membre de la commission des affaires étrangères",
+      "mandat": "Députée du Pas-de-Calais (2017-, en cours)",
+      "source_url": "https://www.assemblee-nationale.fr/dyn/deputes/PA720614/fonctions"
+    },
+    {
+      "date": "2004-2017",
+      "acte": "Députée européenne — 3 mandats au Parlement européen",
+      "mandat": "Députée européenne",
+      "source_url": "https://www2.assemblee-nationale.fr/sycomore/fiche/19249"
+    }
+  ],
+  "_note": "Source complémentaire : rassemblementnational.fr/documents/projet/projet-la-defense.pdf (retrait commandement intégré OTAN, dialogue Russie, arrêt coopérations Allemagne)."
+}

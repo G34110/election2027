@@ -1,0 +1,23 @@
+{
+  "candidat_id": "raphael-glucksmann",
+  "theme_id": "immigration",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose une convention citoyenne sur l'immigration : des citoyens tirés au sort, représentatifs, confrontés aux données démographiques, économiques et sécuritaires, dont les propositions seront soumises au débat démocratique.",
+    "mesure_phare": "Convention citoyenne sur l'immigration — citoyens tirés au sort",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://raphaelglucksmann.eu/programme.html",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Le programme + ouvrage 'Nous avons encore envie' (mai 2026)",
+      "date_verification": "2026-10-17",
+      "verbatim": "Au lieu de fuir le débat migratoire, nous l'assumerons et nous organiserons une convention citoyenne."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [],
+  "_note": "Verbatim issu de l'ouvrage du candidat ('Nous avons encore envie', mai 2026) rapporté par Public Sénat — la convention citoyenne n'apparaît pas encore sur la page programme officielle (provisoire). À recouper à la prochaine publication."
+}

@@ -1,0 +1,22 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "crises-internationales",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose de porter les réservistes de 45 000 à 250 000, le service militaire volontaire à 50 000 places par an, un plan munitions (700 000 obus/an à l'échelle allemande), la massification des drones tactiques et une nouvelle LPM « de la massification ».",
+    "mesure_phare": "250 000 réservistes — nouvelle LPM « de la massification »",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus sûre — Massifier nos armées",
+      "date_verification": "2026-10-17",
+      "verbatim": "Porter le nombre de réservistes de 45 000 à 250 000 et le service militaire volontaire de 3 000 à 50 000 places par an."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

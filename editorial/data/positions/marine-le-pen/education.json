@@ -1,0 +1,22 @@
+{
+  "candidat_id": "marine-le-pen",
+  "theme_id": "education",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "La candidate propose de restaurer le système éducatif autour de sa « mission de transmission des savoirs ».",
+    "mesure_phare": "Restauration de l'école — transmission des savoirs",
+    "type_mesure": "orientee",
+    "source": {
+      "url_live": "https://rassemblementnational.fr/22-mesures",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Les 22 mesures du Rassemblement National — mesure 15",
+      "date_verification": "2026-10-17",
+      "verbatim": "Restaurer notre système éducatif pour qu'il retrouve sa mission de transmission des savoirs."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": []
+}

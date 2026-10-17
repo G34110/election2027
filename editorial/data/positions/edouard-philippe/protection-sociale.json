@@ -1,0 +1,36 @@
+{
+  "candidat_id": "edouard-philippe",
+  "theme_id": "protection-sociale",
+  "statut": "sourcee",
+  "maj_le": "2026-10-17",
+  "commit_ref": "",
+  "alerte_maj": false,
+  "position_actuelle": {
+    "synthese": "Le candidat propose de porter progressivement l'âge de départ à la retraite à 65 ans et la durée de cotisation à 45 ans en moins de dix ans, de généraliser la retraite par capitalisation collective et d'ouvrir un plan d'épargne retraite à chaque Français (premier versement de l'État de 500 €).",
+    "mesure_phare": "Retraite à 65 ans / 45 ans de cotisation — capitalisation collective généralisée",
+    "type_mesure": "chiffree",
+    "source": {
+      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+      "url_archive": "https://web.archive.org/",
+      "titre": "Pour une France plus prospère — Assurer l'avenir des générations futures",
+      "date_verification": "2026-10-17",
+      "verbatim": "Sauver nos retraites sans hausse des cotisations ni baisse générale des pensions : porter progressivement l'âge de départ à 65 ans et la durée de cotisation à 45 ans en moins de dix ans, pour ceux qui le peuvent."
+    }
+  },
+  "fil_du_temps": [],
+  "actes_passes": [
+    {
+      "date": "2019-2020",
+      "acte": "Portage de la réforme des retraites vers un « système universel par points » (projet de loi présenté en décembre 2019) — suspendue sans être adoptée à l'arrivée de la crise sanitaire en mars 2020",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.vie-publique.fr/dossier/284446-les-lois-de-la-quinzieme-legislature-2017-2022"
+    },
+    {
+      "date": "2017-10",
+      "acte": "Revalorisation des pensions au niveau de l'inflation annoncée dès octobre 2017",
+      "mandat": "Premier ministre (2017-2020)",
+      "source_url": "https://www.info.gouv.fr/actualite/edouard-philippe-les-francais-ont-envie-d-une-transformation-en-profondeur"
+    }
+  ],
+  "_note": "Fil du temps riche : réforme universelle par points (2019-2020, avortée COVID) → retraite à 65 ans + capitalisation collective (2026). Évolution de position documentée — mérite une entrée fil_du_temps dédiée lors d'une prochaine passe."
+}
