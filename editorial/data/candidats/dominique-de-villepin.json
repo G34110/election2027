@@ -10,28 +10,51 @@
     "site_campagne": "https://lafrancehumaniste.fr/france2027",
     "parti_url": "https://lafrancehumaniste.fr",
     "programme_pdf": "https://lafrancehumaniste.fr/france2027",
-    "programme_pdf_archive": "https://web.archive.org/",
+    "programme_pdf_archive": "https://web.archive.org/web/20260919214128/https://lafrancehumaniste.fr/france2027",
     "derniere_verification": "2026-10-17"
   },
   "parcours": {
     "etudes": [
-      "Sciences Po Paris",
-      "ENA, promotion Voltaire"
+      "Collège français de Caracas (Venezuela) — enfance à l'étranger (Maroc, Venezuela, États-Unis)",
+      "Retour en France en 1968 — lycée Le Caousou (Toulouse), baccalauréat à 16 ans (mention assez bien)",
+      "Licence de droit (Université Paris-Assas / Paris II) et licence de lettres (Université de Nanterre / Paris X)",
+      "Institut d'études politiques de Paris (Sciences Po)",
+      "ENA, promotion Voltaire (1978-1980) — promotion de François Hollande, Ségolène Royal, Jean-Pierre Jouyet",
+      "Service militaire : Marine nationale, à bord du porte-avions Clemenceau"
     ],
     "militantisme": [
-      "Cadre du RPR — directeur de cabinet de Jacques Chirac (1995), secrétaire général de l'Élysée (1995-2002)",
-      "Fondateur du mouvement La France humaniste (juin 2025)"
+      "Adhérent du RPR dès 1977 — proche de Jacques Chirac",
+      "Fondateur de République Solidaire (juin 2010) — quitte la présidence en septembre 2011 ; quitte l'UMP en février 2011",
+      "Fondateur du mouvement La France humaniste (juin 2025) — Projet France 2027 (8 chantiers publiés)",
+      "« Je veux être candidat » à la présidentielle 2027 (BFM, 30/08/2026) — officialisation attendue, plusieurs centaines de parrainages revendiqués"
     ],
     "experiences_pro": [
-      "Diplomate de carrière — Quai d'Orsay, ambassade (Madagascar, États-Unis, Inde), chef de cabinet du MAE",
-      "Essayiste et professeur — enseignements sur la diplomatie ; avocat (cabinet Villepin International)"
+      "Diplomate : secrétaire des Affaires étrangères, direction des affaires africaines et malgaches au Quai d'Orsay (1980-1984)",
+      "Ambassade de France à Washington (1984-1989) puis ambassade de France à New Delhi (1989-1992)",
+      "Directeur de cabinet d'Alain Juppé, ministre des Affaires étrangères (1993-1995, gouvernement Balladur)",
+      "Secrétaire général de la présidence de la République (1995-2002) — haute fonction publique",
+      "Avocat d'affaires au barreau de Paris (depuis 2008) — fondateur du cabinet de conseil Villepin International",
+      "Écrivain : une vingtaine d'ouvrages — « Les Cent-Jours ou l'esprit de sacrifice » (2001), « Éloge des voleurs de feu » (2003), « Un autre monde » (2003), « Mémoire de paix pour temps de guerre » (2015)"
     ],
     "mandats": [
-      { "fonction": "Secrétaire général de l'Élysée", "debut": "1995", "fin": "2002" },
+      { "fonction": "Secrétaire général de la présidence de la République", "debut": "1995", "fin": "2002" },
       { "fonction": "Ministre des Affaires étrangères", "debut": "2002-05", "fin": "2004-03" },
-      { "fonction": "Ministre de l'Intérieur", "debut": "2004-03", "fin": "2005-05" },
+      { "fonction": "Ministre de l'Intérieur, de la Sécurité intérieure et des Libertés locales", "debut": "2004-03", "fin": "2005-05" },
       { "fonction": "Premier ministre", "debut": "2005-05", "fin": "2007-05" }
+    ],
+    "moments_cles": [
+      { "date": "2003-02-14", "evenement": "Discours au Conseil de sécurité de l'ONU opposant la France à la guerre en Irak — moment de notoriété internationale" },
+      { "date": "2005-05-31", "evenement": "Nommé Premier ministre au lendemain du « non » au référendum européen — sans jamais avoir été élu" },
+      { "date": "2006-04", "evenement": "Crise du CPE : retrait du Contrat première embauche après des semaines de manifestations" },
+      { "date": "2010-2011", "evenement": "Affaire Clearstream : relaxé en première instance (28/01/2010), relaxe confirmée en appel (14/09/2011)" },
+      { "date": "2012-03", "evenement": "Retrait de sa candidature à la présidentielle 2012, faute des 500 parrainages" },
+      { "date": "2025-2026", "evenement": "Création de La France humaniste puis du Projet France 2027 — chroniques doctrinales publiées (règle républicaine, chemin gaulliste, Europe souveraine)" }
+    ],
+    "sources": [
+      "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/dominique-de-villepin",
+      "https://www.interieur.gouv.fr/ministere/lhistoire-du-ministere/ministres-de-linterieur-de-1790-a-nos-jours/depuis-1982/dominique-de-villepin",
+      "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-je-me-bats-pour-etre-candidat-declare-dominique-de-villepin-qui-revendique-plusieurs-centaines-de-parrainages_8169629.html"
     ]
   },
-  "_note_collecte": "Candidat de RÉFÉRENCE (Protocole §2.6) — 6e colonne permanente, hors gouvernance du top 5. A déclaré 'Je veux être candidat' le 30/08/2026 (BFM) sans officialisation — statut pressenti. Actes passés très riches : exécutif 2002-2007, discours ONU 2003, CPE 2006. Projet France 2027 : 8 chantiers, 117 mesures (votons-2027)."
+  "_note_collecte": "Candidat de RÉFÉRENCE (Protocole §2.6) — 6e colonne permanente, hors gouvernance du top 5. A déclaré 'Je veux être candidat' le 30/08/2026 (BFM) sans officialisation — statut pressenti. Parcours enrichi le 17/10/2026 d'après info.gouv.fr et interieur.gouv.fr : correction du poste Madagascar (direction des affaires africaines et malgaches, pas ambassade) ; ajout études détaillées, service militaire, moments clés. Jamais élu au suffrage universel — 3e PM de la Ve dans ce cas (après Pompidou et Barre)."
 }

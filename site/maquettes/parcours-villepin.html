@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dominique de Villepin — Parcours | Comparer 2027</title>
+<style>
+  /* ── Maquette : palette neutre, couleur = donnée ────────────────── */
+  :root {
+    --fond: #faf9f7;           /* crème */
+    --surface: #ffffff;
+    --encre: #1d2129;          /* ardoise quasi-noire */
+    --encre-2: #555b66;
+    --filet: #e4e1dc;
+    --ref-fond: #f0efec;       /* colonne référence : gris chaud, sans couleur partisane */
+    --ok: #1f7a4d;             /* sourcée */
+    --attente: #8a5a00;        /* attendue */
+    --gris: #6b7280;           /* non sourcée */
+    --accent: #3a4a63;         /* accent données, désaturé */
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: 'Marianne', -apple-system, 'Segoe UI', Roboto, sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { font-size:16px; }
+  body { font-family:var(--sans); background:var(--fond); color:var(--encre); line-height:1.55; }
+
+  /* ── En-tête ── */
+  .entete { background:var(--surface); border-bottom:1px solid var(--filet); padding:.9rem 1rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+  .logo { font-weight:700; font-size:1.05rem; letter-spacing:-.01em; }
+  a.logo { color:inherit; text-decoration:none; }
+  a.logo:hover { text-decoration:underline; }
+  .logo span { color:var(--accent); }
+  .entete nav { display:flex; gap:.9rem; font-size:.82rem; }
+  .entete nav a { color:var(--encre-2); text-decoration:none; }
+  .entete nav a:hover { text-decoration:underline; }
+  @media (max-width:600px){ .entete nav a:not(:first-child){ display:none; } }
+
+  /* ── Chapô ── */
+  .chapo { padding:1.4rem 1rem 1rem; max-width:900px; margin:0 auto; }
+  .fil-ariane { font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }
+  .fil-ariane a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .fil-ariane a:hover { text-decoration:underline; }
+  .chapo h1 { font-size:1.7rem; line-height:1.15; letter-spacing:-.01em; margin-bottom:.25rem; }
+  .sous-titre { font-size:.95rem; color:var(--encre-2); margin-bottom:.7rem; }
+  .metas { display:flex; flex-wrap:wrap; gap:.45rem; font-size:.75rem; margin-bottom:.9rem; }
+  .puce { display:inline-flex; align-items:center; gap:.3rem; background:var(--surface); border:1px solid var(--filet); border-radius:999px; padding:.2rem .6rem; color:var(--encre-2); }
+  .puce.ref { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .resume3 { font-size:.95rem; color:var(--encre-2); max-width:70ch; }
+  .resume3 strong { color:var(--encre); font-weight:600; }
+
+  /* ── Sections ── */
+  .bloc { max-width:900px; margin:0 auto; padding:0 1rem 1.4rem; }
+  .bloc h2 { font-size:1.15rem; margin:.6rem 0 .8rem; display:flex; align-items:center; gap:.5rem; }
+  .bloc h2::after { content:''; flex:1; height:1px; background:var(--filet); }
+
+  /* ── Frise chronologique ── */
+  .timeline { border-left:2px solid var(--filet); margin-left:.4rem; }
+  .etape { position:relative; padding:0 0 1.05rem 1.3rem; }
+  .etape::before { content:''; position:absolute; left:-6px; top:.45rem; width:10px; height:10px; border-radius:50%; background:var(--accent); border:2px solid var(--surface); }
+  .etape .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .etape .titre { font-weight:600; font-size:.95rem; margin:.1rem 0 .15rem; }
+  .etape .detail { font-size:.85rem; color:var(--encre-2); }
+  .etape.majeur .titre { color:var(--accent); }
+  .etape.majeur::before { background:var(--ok); width:12px; height:12px; left:-7px; }
+
+  /* ── Carte moment clé ── */
+  .moments { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:.7rem; }
+  .moment { background:var(--surface); border:1px solid var(--filet); border-radius:10px; padding:.8rem .9rem; }
+  .moment .date { font-size:.72rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); }
+  .moment .titre { font-weight:600; font-size:.92rem; margin:.15rem 0 .25rem; }
+  .moment .detail { font-size:.82rem; color:var(--encre-2); }
+
+  /* ── Sources ── */
+  .sources { max-width:900px; margin:0 auto; padding:0 1rem 2rem; font-size:.75rem; color:var(--encre-2); }
+  .sources a { color:var(--accent); word-break:break-all; }
+  .sources li { margin-bottom:.3rem; }
+
+  /* ── Pied ── */
+  footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
+  footer .wrap { max-width:900px; margin:0 auto; }
+  footer a { color:var(--accent); }
+  .note-methode { max-width:70ch; }
+
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a class="logo" href="index.html">Comparer <span>2027</span></a>
+  <nav>
+    <a href="index.html">Thèmes</a>
+    <a href="#">Candidats</a>
+    <a href="#">Méthode</a>
+    <a href="#">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section class="chapo">
+    <div class="fil-ariane"><a href="index.html">← Accueil</a> · Candidats / Dominique de Villepin</div>
+    <h1>Dominique de Villepin</h1>
+    <p class="sous-titre">La France humaniste — né le 14 novembre 1953 à Rabat (Maroc)</p>
+    <div class="metas">
+      <span class="puce ref">Candidat de référence — choix éditorial déclaré (§2.6)</span>
+      <span class="puce">Statut : pressenti — « Je veux être candidat » (BFM, 30/08/2026)</span>
+    </div>
+    <p class="resume3"><strong>Ce qu'il faut retenir.</strong> Diplomate de carrière passé par Washington et New Delhi, secrétaire général de l'Élysée de Jacques Chirac (1995-2002), deux fois ministre puis Premier ministre (2005-2007) <strong>sans jamais avoir été élu</strong>. Son discours à l'ONU contre la guerre en Irak (14/02/2003) reste son moment de notoriété internationale. Essayiste et avocat d'affaires, il a fondé La France humaniste en 2025 et déroule un « Projet France 2027 » en chroniques doctrinales.</p>
+  </section>
+
+  <section class="bloc">
+    <h2>Études et formation</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">Enfance — jusqu'en 1968</div>
+        <div class="titre">Scolarité à l'étranger puis retour en France</div>
+        <div class="detail">Jeunesse passée au Maroc, au Venezuela (Collège français de Caracas) et aux États-Unis. Retour en France en 1968 : lycée jésuite Le Caousou à Toulouse — baccalauréat à 16 ans (mention assez bien).</div>
+      </div>
+      <div class="etape">
+        <div class="date">Années 1970</div>
+        <div class="titre">Double licence — droit et lettres</div>
+        <div class="detail">Licence de droit à Paris-Assas (Paris II) et licence de lettres à l'Université de Nanterre (Paris X), puis Institut d'études politiques de Paris (Sciences Po).</div>
+      </div>
+      <div class="etape">
+        <div class="date">1978 – 1980</div>
+        <div class="titre">ENA, promotion Voltaire</div>
+        <div class="detail">Sorti 25e d'une promotion qui compte aussi François Hollande, Ségolène Royal, Renaud Donnedieu de Vabres et Jean-Pierre Jouyet.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Service national</div>
+        <div class="titre">Marine nationale</div>
+        <div class="detail">Service militaire accompli à bord du porte-avions Clemenceau.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience professionnelle</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1980 – 1984</div>
+        <div class="titre">Entrée au Quai d'Orsay</div>
+        <div class="detail">Secrétaire des Affaires étrangères, direction des affaires africaines et malgaches — début d'une carrière diplomatique de vingt ans.</div>
+      </div>
+      <div class="etape">
+        <div class="date">1984 – 1989</div>
+        <div class="titre">Ambassade de France à Washington</div>
+        <div class="detail">Poste diplomatique aux États-Unis pendant les années Reagan.</div>
+      </div>
+      <div class="etape">
+        <div class="date">1989 – 1992</div>
+        <div class="titre">Ambassade de France à New Delhi</div>
+        <div class="detail">Poste diplomatique en Inde.</div>
+      </div>
+      <div class="etape">
+        <div class="date">1993 – 1995</div>
+        <div class="titre">Directeur de cabinet d'Alain Juppé</div>
+        <div class="detail">Au ministère des Affaires étrangères du gouvernement Balladur — c'est là qu'il se lie durablement à Jacques Chirac.</div>
+      </div>
+      <div class="etape">
+        <div class="date">1995 – 2002</div>
+        <div class="titre">Secrétaire général de la présidence de la République</div>
+        <div class="detail">Numéro deux de l'Élysée pendant sept ans — bras droit de Jacques Chirac, y compris pendant la cohabitation (1997-2002).</div>
+      </div>
+      <div class="etape">
+        <div class="date">Depuis 2008</div>
+        <div class="titre">Avocat d'affaires et conseil international</div>
+        <div class="detail">Inscrit au barreau de Paris ; fonde le cabinet de conseil Villepin International, qui accompagne entreprises et États.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Depuis 1998</div>
+        <div class="titre">Essayiste, historien et poète</div>
+        <div class="detail">Une vingtaine d'ouvrages : <em>Les Cent-Jours ou l'esprit de sacrifice</em> (2001), <em>Éloge des voleurs de feu</em> (2003), <em>Un autre monde</em> (2003), <em>Mémoire de paix pour temps de guerre</em> (2015), ainsi que des essais sur la peinture et la poésie.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Expérience politique</h2>
+    <div class="timeline">
+      <div class="etape">
+        <div class="date">1977</div>
+        <div class="titre">Adhésion au RPR</div>
+        <div class="detail">Militant puis cadre du parti gaulliste — fidélité à Jacques Chirac, dont il partagera les décisions à partir de 1995.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Mai 2002 – mars 2004</div>
+        <div class="titre">Ministre des Affaires étrangères</div>
+        <div class="detail">Gouvernements Raffarin — il porte la position française de refus de la guerre en Irak sur la scène du Conseil de sécurité de l'ONU.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Mars 2004 – mai 2005</div>
+        <div class="titre">Ministre de l'Intérieur</div>
+        <div class="detail">Gouvernements Raffarin II et III — création du Conseil français du culte musulman (CFCM), rénovation de la politique de sécurité intérieure.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Mai 2005 – mai 2007</div>
+        <div class="titre">Premier ministre</div>
+        <div class="detail">Nommé le 31 mai 2005 au lendemain du « non » au référendum européen — troisième chef de gouvernement de la Ve République à n'avoir jamais été élu (après Pompidou et Barre). Mandat marqué par la baisse du chômage et la crise du CPE.</div>
+      </div>
+      <div class="etape">
+        <div class="date">2010 – 2011</div>
+        <div class="titre">République Solidaire, puis départ de l'UMP</div>
+        <div class="detail">Fonde son propre parti en juin 2010 ; quitte l'UMP en février 2011 et la présidence de RS en septembre 2011.</div>
+      </div>
+      <div class="etape">
+        <div class="date">Janv. – mars 2012</div>
+        <div class="titre">Candidat à la présidentielle 2012</div>
+        <div class="detail">Première — et jusqu'ici seule — candidature à un suffrage universel ; il retire sa candidature le 16 mars 2012, faute des 500 parrainages requis.</div>
+      </div>
+      <div class="etape">
+        <div class="date">2025 – 2026</div>
+        <div class="titre">La France humaniste et le Projet France 2027</div>
+        <div class="detail">Crée son mouvement en juin 2025, puis déroule un projet doctrinal en chroniques (règle républicaine, chemin gaulliste, Europe souveraine, école). « Je veux être candidat » (BFM, 30/08/2026) — collecte de parrainages en cours.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloc">
+    <h2>Les grands moments</h2>
+    <div class="moments">
+      <div class="moment">
+        <div class="date">14 février 2003</div>
+        <div class="titre">Le discours de l'ONU</div>
+        <div class="detail">Devant le Conseil de sécurité, il oppose la France à la guerre en Irak — applaudissement rare dans l'hémicycle onusien et notoriété internationale durable.</div>
+      </div>
+      <div class="moment">
+        <div class="date">31 mai 2005</div>
+        <div class="titre">Premier ministre sans élection</div>
+        <div class="detail">Nommé au lendemain du « non » au traité constitutionnel européen — l'un des rares chefs de gouvernement de la Ve jamais passé par le suffrage universel.</div>
+      </div>
+      <div class="moment">
+        <div class="date">Avril 2006</div>
+        <div class="titre">Le recul du CPE</div>
+        <div class="detail">Après des semaines de manifestations massives, le Contrat première embauche est retiré — séquence qui fragilise durablement son image.</div>
+      </div>
+      <div class="moment">
+        <div class="date">2010 – 2011</div>
+        <div class="titre">L'affaire Clearstream</div>
+        <div class="detail">Accusé de complicité de dénonciation calomnieuse, il est relaxé en première instance (janvier 2010) puis en appel (septembre 2011) — acquittement définitif.</div>
+      </div>
+      <div class="moment">
+        <div class="date">Mars 2012</div>
+        <div class="titre">Le retrait de 2012</div>
+        <div class="detail">Candidat déclaré à la présidentielle, il renonce faute de parrainages — épisode qui marque la difficulté d'une candidature sans appareil.</div>
+      </div>
+      <div class="moment">
+        <div class="date">2025 – 2026</div>
+        <div class="titre">Le retour par la doctrine</div>
+        <div class="detail">La France humaniste et le Projet France 2027 : « Big Bang » républicain, chemin gaulliste, Europe souveraine — une candidature construite par les chroniques plutôt que par l'appareil.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sources">
+    <h2>Sources</h2>
+    <ul>
+      <li><a href="https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/dominique-de-villepin">info.gouv.fr — biographie officielle des Premiers ministres de la Ve République</a></li>
+      <li><a href="https://www.interieur.gouv.fr/ministere/lhistoire-du-ministere/ministres-de-linterieur-de-1790-a-nos-jours/depuis-1982/dominique-de-villepin">interieur.gouv.fr — fiche ministre de l'Intérieur</a></li>
+      <li><a href="https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-je-me-bats-pour-etre-candidat-declare-dominique-de-villepin-qui-revendique-plusieurs-centaines-de-parrainages_8169629.html">franceinfo — « Je me bats pour être candidat » (30/08/2026)</a></li>
+      <li><a href="https://web.archive.org/web/20260919214128/https://lafrancehumaniste.fr/france2027">archive web.archive.org — Projet France 2027 (lafrancehumaniste.fr)</a></li>
+    </ul>
+    <p class="note-methode">Vie privée volontairement exclue de cette fiche — seuls les éléments publics et documentés (études, carrière, mandats, faits politiques) sont retenus, conformément à la charte du site.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br>Maquette v0.1 — projet en construction
+  </div>
+</footer>
+
+</body>
+</html>

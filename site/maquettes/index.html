@@ -55,6 +55,7 @@
   .cand .n { font-weight:700; font-size:.88rem; }
   .cand .p { color:var(--encre-2); font-size:.72rem; }
   .cand.ref { background:var(--ref-fond); border:1.5px solid var(--accent); }
+      a.cand:hover { border-color:var(--accent); }
   .etiquette-ref { font-size:.58rem; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:4px; padding:.08rem .3rem; display:inline-block; margin-top:.3rem; }
 
   footer { border-top:1px solid var(--filet); background:var(--surface); padding:1.2rem 1rem; font-size:.78rem; color:var(--encre-2); }
@@ -154,7 +155,7 @@
     <h2>Les six candidats comparés</h2>
     <p class="intro">Cinq issus du classement mécanique des sondages (§2.1) + le candidat de référence, choix éditorial déclaré (§2.6).</p>
     <div class="cands">
-      <div class="cand ref"><div class="n">Dominique de Villepin</div><div class="p">La France humaniste</div><span class="etiquette-ref">Référence</span></div>
+      <a class="cand ref" href="parcours-villepin.html" style="color:inherit;text-decoration:none;display:block;"><div class="n">Dominique de Villepin</div><div class="p">La France humaniste</div><span class="etiquette-ref">Référence</span><div class="p" style="margin-top:.3rem;color:var(--accent);">Son parcours →</div></a>
       <div class="cand"><div class="n">Marine Le Pen</div><div class="p">Rassemblement National</div></div>
       <div class="cand"><div class="n">Jean-Luc Mélenchon</div><div class="p">La France Insoumise</div></div>
       <div class="cand"><div class="n">Édouard Philippe</div><div class="p">Horizons</div></div>
