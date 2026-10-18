@@ -9,8 +9,7 @@ import json, re, glob, html
 
 AGES = ['Jeunes', 'Actifs', 'Retraités']
 CLS = ['populaires', 'moyennes', 'aisées', 'très hauts patrimoines']
-CLS_SHORT = {'populaires': 'populaires', 'moyennes': 'moyennes',
-             'aisées': 'aisées', 'très hauts patrimoines': 'très hauts patrimoines'}
+CLS_LBL = ['classes populaires', 'classes moyennes', 'classes aisées', 'très hauts patrimoines']
 
 def canon_cells(pub):
     """Retourne (cells, transversal) : cells = set de (age_idx, cls_idx) ou None."""
@@ -61,13 +60,14 @@ def merge_labels(cells):
             i = j + 1
     out = []
     for run, aset in sorted(runs.items(), key=lambda kv: (min(kv[1]), kv[0][0])):
-        ages = ' & '.join(AGES[a] for a in sorted(aset))
+        age_lbls = [AGES[a] for a in sorted(aset)]
+        ages = age_lbls[0] + ''.join(' & ' + a.lower() for a in age_lbls[1:])
         if len(run) == 1:
-            cls_lbl = CLS_SHORT[CLS[run[0]]]
+            cls_lbl = CLS_LBL[run[0]]
         elif len(run) == 2:
-            cls_lbl = CLS_SHORT[CLS[run[0]]].replace('populaires','pop.').replace('moyennes','moy.') + ' & ' + CLS_SHORT[CLS[run[1]]].replace('moyennes','moy.').replace('aisées','aisées').replace('très hauts patrimoines','très hauts patr.')
+            cls_lbl = CLS_LBL[run[0]] + ' & ' + CLS_LBL[run[1]].replace('classes ', '')
         else:
-            cls_lbl = CLS_SHORT[CLS[run[0]]].replace('populaires','pop.').replace('moyennes','moy.') + ' à ' + CLS_SHORT[CLS[run[-1]]].replace('moyennes','moy.').replace('aisées','aisées')
+            cls_lbl = CLS_LBL[run[0]] + ' à ' + CLS_LBL[run[-1]].replace('classes ', '')
         out.append(f'{ages} — {cls_lbl}')
     return out
 
