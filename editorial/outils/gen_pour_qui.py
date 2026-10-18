@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Regenere site/maquettes/pour-qui.html : matrice publics x candidats,
-a partir du champ 'publics' des fiches positions."""
-import json, glob, html, collections, re
+"""Regenere site/maquettes/pour-qui.html : matrice publics x candidats.
+Grille pure : age (jeunes/actifs/retraites) x classe sociale (populaires/
+moyennes/aisees/tres hauts patrimoines). Les publics qui ne relevent ni de
+l'age ni de la classe (entreprises, professions, collectifs, immigres,
+victimes...) n'apparaissent pas dans la matrice.
+Source : champ 'publics' des fiches positions."""
+import json, glob, html, collections
 
 CANDS = [
  ('dominique-de-villepin','Dominique de Villepin'),
@@ -18,51 +22,60 @@ THEMES = {
  'crises-internationales':'Crises intern.','inegalites':'Inégalités',
  'education':'Éducation','emploi-chomage':'Emploi','terrorisme':'Terrorisme','institutions':'Institutions'
 }
-ROWS = [
- ('Jeunes actifs & apprentis', ['jeunes','apprenti','étudiant','<30']),
- ('Élèves & petite enfance', ['élève','petite enfance','illettrisme','parents de jeunes enfants']),
- ('Actifs, salariés & chômeurs', ['actif','salarié','chômeur','demandeur','seniors actifs','seniors','travailleur','corps diplomatique','fonctionnaire']),
- ('Enseignants & école', ['enseignant']),
- ('Classes moyennes', ['classes moyennes']),
- ('Ménages modestes & pauvreté', ['modeste','bas salaires','pauvreté']),
- ('Familles', ['famille','mères isolées','parents']),
- ('Retraités & personnes âgées', ['retraité','personnes âgées','épargnants retraite','futurs retraités']),
- ('Femmes', ['femmes']),
- ('Malades & usagers des services publics', ['malade','usager','soignant']),
- ('Hauts revenus, patrimoines & finance', ['aisé','patrimoine','hauts salaires','hauts revenus','riches','niches','finance']),
- ('Entreprises & filières', ['entreprise','filière','industrie','importateur','employeur','chefs d\'','éolienne','secteurs carbonés','pollueurs']),
- ('Immigrés, étrangers & réfugiés', ['immigré','étranger','réfugié','déplacé','demandeur d\'asile']),
- ('Nationaux', ['nationaux']),
- ('Contribuables, cotisants & acteurs publics', ['contribuable','cotisant','agences','organismes','dépense sociale','prestations','bénéficiaires de la redistribution','services publics']),
- ('Armées, sécurité, justice & défense', ['armée','réserviste','défense','policier','justice','magistrat','prison','renseignement','sécurité','forces de sécurité','diplomatique','droits humains','défenseurs']),
- ('Victimes & quartiers', ['victime','quartier']),
- ('Délinquants & réseaux ciblés', ['délinquant','détenu','narcotrafiquant','réseaux islamistes','associations']),
- ('Territoires, ménages & consommateurs', ['territoire','rural','ménages','consommateur']),
- ('Générations futures', ['générations futures']),
- ('Citoyens & libertés', ['citoyen','électeur','contre-pouvoir','libertés','partenaires','alliés','ukraine']),
-]
+
+AGES = [('J','Jeunes (<30 ans)'), ('A','Actifs (30-64 ans)'), ('R','Retraités (65 ans et +)')]
+CLASSES = [('pop','populaires'), ('moy','moyennes'), ('ais','aisées'), ('tha','très hauts patrimoines')]
+def g(a, c):
+    return f'{dict(AGES)[a]} — {dict(CLASSES)[c]}'
+ROWS_GRID = [g(a,c) for a,_ in AGES for c,_ in CLASSES]
+
 def canon(pub):
+    """Retourne les lignes de la grille age x classe, ou [] si hors grille."""
     p = pub.lower()
-    for label, keys in ROWS:
-        if any(k in p for k in keys): return label
-    return None
+    # ultra-riches (actifs + retraites : le patrimoine concerne les deux)
+    if any(k in p for k in ['très hauts patrimoines','les plus riches','méga','finance & hauts revenus']):
+        return [g('A','tha'), g('R','tha')]
+    # aises / patrimoine / hauts revenus
+    if any(k in p for k in ['aisé','hauts salaires','patrimoine','niches','fortunes']):
+        return [g('A','ais'), g('R','ais')]
+    # jeunes
+    if any(k in p for k in ['jeunes','apprenti','<30','étudiant']):
+        return [g('J','pop'), g('J','moy')]
+    # seniors encore actifs / futurs retraites / epargnants -> actifs moyens
+    if any(k in p for k in ['seniors','futurs retraités','épargnants retraite']):
+        return [g('A','moy')]
+    # retraites & personnes agees : classes populaires + moyennes par defaut
+    if any(k in p for k in ['minimum vieillesse','retraité','personnes âgées']):
+        return [g('R','pop'), g('R','moy')]
+    # classes moyennes explicites
+    if 'classes moyennes' in p:
+        return [g('A','moy')]
+    # populaires / bas revenus / précaires
+    if any(k in p for k in ['modeste','bas salaires','pauvreté','chômeur','demandeur','illettrisme','dépense sociale','redistribution']):
+        return [g('A','pop')]
+    # professions d'Etat rattachées a leur classe ordinaire
+    if any(k in p for k in ['enseignant','magistrat','corps diplomatique','défenseurs']):
+        return [g('A','moy')]
+    if any(k in p for k in ['policier','sécurité','armée','réserviste','justice','prison','renseignement','fonctionnaire']):
+        return [g('A','pop'), g('A','moy')]
+    # actifs generiques : toutes classes sauf ultra-riches
+    if any(k in p for k in ['actif','salarié','travailleur','cotisant','contribuable']):
+        return [g('A','pop'), g('A','moy'), g('A','ais')]
+    # hors grille : entreprises, immigrés, familles, victimes, délinquants,
+    # malades, territoires, citoyens, partenaires, générations futures...
+    return []
 
 cells = collections.defaultdict(lambda: collections.defaultdict(list))
-extra_rows = []
 for path in glob.glob('editorial/data/positions/*/*.json'):
     d = json.load(open(path, encoding='utf-8'))
     pubs = d.get('publics')
     if not pubs: continue
     cid, theme = d['candidat_id'], d['theme_id']
     for p in pubs:
-        row = canon(p['public'])
-        if row is None:
-            row = p['public']
-            if row not in [r for r,_ in ROWS] and row not in extra_rows:
-                extra_rows.append(row)
-        cells[row][cid].append((THEMES.get(theme, theme), p['sens'], p['fondement']))
+        for row in canon(p['public']):
+            cells[row][cid].append((THEMES.get(theme, theme), p['sens'], p['fondement']))
 
-ordered = [r for r,_ in ROWS if r in cells] + extra_rows
+ordered = [r for r in ROWS_GRID if r in cells]
 
 def cell_html(entries):
     if not entries: return '<td class="vide">—</td>'
@@ -116,7 +129,7 @@ page = f'''<!DOCTYPE html>
   th, td {{ border:1px solid var(--filet); padding:.55rem .6rem; text-align:left; vertical-align:top; }}
   thead th {{ background:var(--ref-fond); font-size:.78rem; }}
   thead th:first-child {{ background:var(--surface); }}
-  tbody th {{ font-size:.82rem; background:var(--ref-fond); width:12rem; }}
+  tbody th {{ font-size:.78rem; background:var(--ref-fond); width:14rem; }}
   td.vide {{ color:#b8b4ad; text-align:center; }}
   .mini {{ font-size:.72rem; white-space:nowrap; }}
   .mini.bene {{ color:var(--ok); }}
@@ -144,7 +157,7 @@ page = f'''<!DOCTYPE html>
   <section class="chapo">
     <div class="fil-ariane"><a href="index.html">← Accueil</a> · Analyse / Pour qui ?</div>
     <h1>Pour qui profitent les programmes ?</h1>
-    <p class="resume3">Matrice des publics visés par les mesures de chaque candidat, tous thèmes confondus. <strong>Règle éditoriale</strong> : un public n'apparaît que s'il est la cible explicite d'une mesure sourcée ou d'une analyse économique externe (OFCE, IPP, Asterès, Fondation Jean-Jaurès…) signalée par †. Les cellules <em>attendue</em> ou <em>non sourcée</em> ne sont pas qualifiées.</p>
+    <p class="resume3">Matrice des publics visés par les mesures de chaque candidat, tous thèmes confondus, croisée <strong>âge × classe sociale</strong> — jeunes / actifs / retraités × populaires / moyennes / aisées / très hauts patrimoines. <strong>Règle éditoriale</strong> : un public n'apparaît que s'il est la cible explicite d'une mesure sourcée ou d'une analyse économique externe signalée par †. Les publics qui ne relèvent ni de l'âge ni de la classe (entreprises, professions, territoires…) et les cellules <em>attendue</em> ou <em>non sourcée</em> ne figurent pas dans cette matrice.</p>
   </section>
 
   <section class="bloc">
