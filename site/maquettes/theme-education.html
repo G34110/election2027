@@ -107,6 +107,14 @@
 
   @media (prefers-reduced-motion: reduce){ .matrice{ scroll-snap-type:none; } }
   :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  /* ── Pour qui : publics impactés ── */
+  .publics { display:flex; flex-wrap:wrap; gap:.3rem; align-items:center; font-size:.72rem; }
+  .publics .lbl { font-size:.62rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--encre-2); }
+  .chip { background:var(--ref-fond); border:1px solid var(--filet); border-radius:999px; padding:.1rem .55rem; }
+  .chip.contrib { background:transparent; border-style:dashed; color:var(--encre-2); }
+  .chip.ext { border-color:var(--accent); }
+  .publics a.src-analyse { color:var(--accent); font-size:.68rem; text-decoration:none; }
+  .publics a.src-analyse:hover { text-decoration:underline; }
 </style>
 </head>
 <body>
@@ -146,6 +154,7 @@
           <p class="synthese">« Refonder l'école pour refaire société » : une troisième révolution après Ferry et Langevin-Wallon — la « Grande transmission ». Budget de l'éducation sanctuarisé (revalorisé chaque année de l'inflation, puis maintenu en part de PIB) pour +20 % de dépenses réelles par élève sur 10 ans, après-midis consacrés aux savoirs appliqués, « davantage de commun » de 3 à 18 ans.</p>
           <div class="mesure">Budget éducation sanctuarisé — +20 % de dépenses réelles par élève sur 10 ans</div>
           <div class="verbatim">« Sanctuariser le budget de l'éducation nationale […] le revaloriser chaque année de l'inflation. […] Cela permettra à l'horizon de 10 ans l'augmentation des dépenses réelles par élèves d'au moins 20 %. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Élèves</span><span class="chip">Enseignants</span></div>
         </div>
         <div class="source">
           <a href="https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html">lafrancehumaniste.fr — chronique du 01/09/2026</a>
@@ -165,6 +174,7 @@
           <p class="synthese">La candidate propose de restaurer le système éducatif autour de sa « mission de transmission des savoirs », avec un accent mis sur l'autorité et la revalorisation du métier enseignant dans le corpus des 22 mesures.</p>
           <div class="mesure">Restauration de l'école — transmission des savoirs</div>
           <div class="verbatim">« Restaurer notre système éducatif pour qu'il retrouve sa mission de transmission des savoirs. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Élèves</span></div>
         </div>
         <div class="source">
           <a href="https://rassemblementnational.fr/22-mesures">rassemblementnational.fr/22-mesures</a>
@@ -184,6 +194,7 @@
           <p class="synthese">« Élever le niveau d'instruction » : éradication de l'illettrisme à l'horizon 2027 (jeunes sortis du système scolaire et adultes), création d'un service public de la petite enfance, reconstruction d'une « école globale » pour l'égalité et l'émancipation, refondation de l'enseignement supérieur.</p>
           <div class="mesure">Éradication de l'illettrisme d'ici 2027 — service public de la petite enfance — « école globale »</div>
           <div class="verbatim">« Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2027. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Élèves & étudiants</span><span class="chip">Parents de jeunes enfants</span><span class="chip">Adultes en illettrisme</span></div>
         </div>
         <div class="source">
           <a href="https://melenchon2027.fr/programme2025/livre/chapitre5/s1/">melenchon2027.fr — AEC éd. 2025, ch. 5 §1</a>
@@ -203,6 +214,7 @@
           <p class="synthese">« Une école de la liberté et de l'exigence » : chefs d'établissement devenus « véritables patrons » (méthodes, horaires, uniforme, discipline, recrutement), primaire concentrée sur les fondamentaux, augmentation de 20 % de la rémunération moyenne des enseignants sur le quinquennat, écoles normales recréées.</p>
           <div class="mesure">+20 % de rémunération enseignants sur le quinquennat — chefs d'établissement « patrons »</div>
           <div class="verbatim">« Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour la porter au moins au niveau de la moyenne européenne, notamment en milieu de carrière. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Enseignants</span><span class="chip">Élèves</span><span class="chip">Chefs d'établissement</span></div>
         </div>
         <div class="source">
           <a href="https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants">edouardphilippe.fr/priorites/…-ses-enfants</a>
@@ -222,6 +234,7 @@
           <p class="synthese">« Plan de sauvetage de l'école publique » sur 5 ans : hausse de la rémunération des enseignants, réduction du nombre d'élèves par classe en primaire et rénovation du bâti scolaire, complété par l'apprentissage tout au long de la vie.</p>
           <div class="mesure">Plan de sauvetage de l'école publique sur 5 ans</div>
           <div class="verbatim">« Investir dans l'école, la recherche et la formation : soutenir l'apprentissage tout au long de la vie. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Enseignants</span><span class="chip">Élèves</span></div>
         </div>
         <div class="source">
           <a href="https://raphaelglucksmann.eu/programme.html">raphaelglucksmann.eu/programme</a>
@@ -241,6 +254,7 @@
           <p class="synthese">L'éducation est présentée comme « la mère des batailles » et la priorité absolue : objectif de reprendre en dix ans l'une des premières places du classement PISA, rétablissement du « Choc des savoirs », moins de 20 élèves par classe en primaire (baisse démographique : −1,7 million d'élèves d'ici 10 ans), interdiction des réseaux sociaux pour les moins de 15 ans.</p>
           <div class="mesure">Premier rang PISA en 10 ans — moins de 20 élèves par classe en primaire — réseaux sociaux interdits &lt;15 ans</div>
           <div class="verbatim">« Je fixe pour notre système éducatif un objectif simple : reprendre en dix ans l'une des premières places du classement PISA. »</div>
+          <div class="publics"><span class="lbl">Pour qui</span><span class="chip">Élèves</span><span class="chip">Enseignants</span></div>
         </div>
         <div class="source">
           <a href="https://attalpresident.fr/programme/education">attalpresident.fr/programme/education</a>

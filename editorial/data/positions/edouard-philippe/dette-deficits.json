@@ -31,5 +31,19 @@
       "mandat": "Premier ministre (2017-2020)",
       "source_url": "https://www.assemblee-nationale.fr/dyn/15/textes/l15b2899_projet-loi.pdf"
     }
+  ],
+  "publics": [
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "déficit ramené à 2 % du PIB en fin de quinquennat"
+    },
+    {
+      "public": "Fonctionnaires",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "suppression d'un tiers des départs à la retraite (−250 000 postes)"
+    }
   ]
 }

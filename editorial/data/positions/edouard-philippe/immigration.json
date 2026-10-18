@@ -25,5 +25,19 @@
       "mandat": "Premier ministre (2017-2020)",
       "source_url": "https://www.vie-publique.fr/dossier/284446-les-lois-de-la-quinzieme-legislature-2017-2022"
     }
+  ],
+  "publics": [
+    {
+      "public": "Immigrés & demandeurs d'asile",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "division par deux : regroupement familial suspendu, quotas, fin de l'asile à vie"
+    },
+    {
+      "public": "Nationaux",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "priorité affichée sur les flux"
+    }
   ]
 }

@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "url_archive à générer par le pipeline (#73). Compléter : fin du droit du sol, plafonnement titres de séjour — verbatims page officielle à extraire manuellement (page JS)."
+  "_note": "url_archive à générer par le pipeline (#73). Compléter : fin du droit du sol, plafonnement titres de séjour — verbatims page officielle à extraire manuellement (page JS).",
+  "publics": [
+    {
+      "public": "Nationaux",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "« priorité nationale » : prestations, logement, emploi réservés"
+    },
+    {
+      "public": "Immigrés & étrangers",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "accès restreint aux prestations sociales"
+    }
+  ]
 }

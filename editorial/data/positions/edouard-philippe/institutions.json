@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Source secondaire : compte-rendu TF1 Info du discours du congrès Horizons — relais fidèle des propos du candidat, pas de verbatim officiel écrit. Aucun volet « institutions » publié sur edouardphilippe.fr/priorites à ce jour."
+  "_note": "Source secondaire : compte-rendu TF1 Info du discours du congrès Horizons — relais fidèle des propos du candidat, pas de verbatim officiel écrit. Aucun volet « institutions » publié sur edouardphilippe.fr/priorites à ce jour.",
+  "publics": [
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "référendums adossés aux législatives"
+    }
+  ]
 }

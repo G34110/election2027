@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Mesure fondatrice de l'AEC depuis 2017 — reconduite en §1 du chapitre 1. Sondage cité par la source : 63 % favorables à un processus constituant (Ifop, 2024)."
+  "_note": "Mesure fondatrice de l'AEC depuis 2017 — reconduite en §1 du chapitre 1. Sondage cité par la source : 63 % favorables à un processus constituant (Ifop, 2024).",
+  "publics": [
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "Assemblée constituante, 6e République"
+    }
+  ]
 }

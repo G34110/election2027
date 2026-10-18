@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Doctrine développée en chroniques estivales 2025 (adaptation du territoire, bifurcation) — volet chiffré du programme 2027 à paraître. Le chiffre 700-800 000 emplois nets est une projection citée, non un engagement chiffré de programme."
+  "_note": "Doctrine développée en chroniques estivales 2025 (adaptation du territoire, bifurcation) — volet chiffré du programme 2027 à paraître. Le chiffre 700-800 000 emplois nets est une projection citée, non un engagement chiffré de programme.",
+  "publics": [
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "seuils écologiques et prospérité durable"
+    },
+    {
+      "public": "Ménages modestes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "redistribution sociale de la transition"
+    },
+    {
+      "public": "Pollueurs",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "incitations fiscales au coût réel de la pollution"
+    }
+  ]
 }

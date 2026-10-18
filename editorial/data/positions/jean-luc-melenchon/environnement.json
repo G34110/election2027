@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chapitres 12-14 de l'AEC éd. 2025 consacrés à l'écologie (planification, bifurcation, biens communs). Source primaire archivée — site en réactualisation."
+  "_note": "Chapitres 12-14 de l'AEC éd. 2025 consacrés à l'écologie (planification, bifurcation, biens communs). Source primaire archivée — site en réactualisation.",
+  "publics": [
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "règle verte constitutionnelle, −65 % CO₂ en 2030"
+    },
+    {
+      "public": "Secteurs carbonés",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "planification écologique contraignante"
+    }
+  ]
 }

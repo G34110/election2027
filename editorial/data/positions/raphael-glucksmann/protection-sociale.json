@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Retraites non adressées dans les 6 axes publiés. Le chiffrage du programme est annoncé « au fil de la campagne » — à re-vérifier."
+  "_note": "Retraites non adressées dans les 6 axes publiés. Le chiffrage du programme est annoncé « au fil de la campagne » — à re-vérifier.",
+  "publics": [
+    {
+      "public": "Usagers des services publics",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "santé, école, transports renforcés au plus près des territoires"
+    },
+    {
+      "public": "Territoires ruraux & éloignés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "accès équitable partout"
+    }
+  ]
 }

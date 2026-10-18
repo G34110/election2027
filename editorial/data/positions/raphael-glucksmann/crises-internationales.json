@@ -32,5 +32,19 @@
       "source_url": "https://www.europarl.europa.eu/meps/fr/197694/RAPHAEL_GLUCKSMANN/history/9"
     }
   ],
-  "_note": "Mesure chiffrée rapportée (fonds européen de défense 500 Md€ via emprunt commun) — à sourcer sur la page officielle quand le chiffrage du programme sera publié."
+  "_note": "Mesure chiffrée rapportée (fonds européen de défense 500 Md€ via emprunt commun) — à sourcer sur la page officielle quand le chiffrage du programme sera publié.",
+  "publics": [
+    {
+      "public": "Défense européenne",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "souveraineté industrielle, énergétique et militaire"
+    },
+    {
+      "public": "Défenseurs des droits humains",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "lutte contre les ingérences, « puissance de paix »"
+    }
+  ]
 }

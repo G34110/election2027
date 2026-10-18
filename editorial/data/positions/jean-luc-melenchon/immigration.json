@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Le volet nationalité/discriminations est au ch. 10 §2 (droit du sol intégral, récépissé de contrôle d'identité, vote des étrangers aux locales). Approche « traiter les causes » via le chapitre diplomatie."
+  "_note": "Le volet nationalité/discriminations est au ch. 10 §2 (droit du sol intégral, récépissé de contrôle d'identité, vote des étrangers aux locales). Approche « traiter les causes » via le chapitre diplomatie.",
+  "publics": [
+    {
+      "public": "Travailleurs & étudiants étrangers",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "visas facilités, régularisations, carte de séjour 10 ans"
+    },
+    {
+      "public": "Réfugiés & déplacés climatiques",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "statut de « détresse environnementale », AME rétablie"
+    }
+  ]
 }

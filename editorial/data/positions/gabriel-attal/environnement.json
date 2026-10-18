@@ -18,5 +18,25 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Ménages",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "rénovation thermique, véhicule électrique accessible"
+    },
+    {
+      "public": "Filières industrielles vertes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "décarbonation industrielle"
+    },
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "« dette écologique » : −5 %/an d'émissions jusqu'en 2030"
+    }
+  ]
 }

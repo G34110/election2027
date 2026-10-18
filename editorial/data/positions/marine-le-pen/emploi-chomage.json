@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corpus 2022 — pas de réforme structurelle de l'assurance-chômage publiée dans les 22 mesures."
+  "_note": "Corpus 2022 — pas de réforme structurelle de l'assurance-chômage publiée dans les 22 mesures.",
+  "publics": [
+    {
+      "public": "Jeunes actifs (<30 ans)",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "IR à 0, chèque-formation 200-300 € pour apprentis"
+    },
+    {
+      "public": "Apprentis & leurs employeurs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "chèque-formation mensuel"
+    },
+    {
+      "public": "Jeunes entrepreneurs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "IS exonéré 5 ans"
+    }
+  ]
 }

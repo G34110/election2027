@@ -18,5 +18,19 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Victimes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "courtes peines dès la 1re infraction, arsenal pénal renforcé"
+    },
+    {
+      "public": "Délinquants",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "peines planchers, suppression du juge d'application des peines"
+    }
+  ]
 }

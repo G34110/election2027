@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corrigé le 17/10/2026 : la page Frontières contient bien un volet immigration détaillé — première version de la fiche trop restrictive."
+  "_note": "Corrigé le 17/10/2026 : la page Frontières contient bien un volet immigration détaillé — première version de la fiche trop restrictive.",
+  "publics": [
+    {
+      "public": "Immigrés de travail",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "préférence travail, système à points (modèle canadien)"
+    },
+    {
+      "public": "Familles d'immigrés",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "regroupement familial « qui doit diminuer »"
+    }
+  ]
 }

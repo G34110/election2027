@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chapitre 5 (7 sections : illettrisme, petite enfance, école globale, qualification, nation scientifique, supérieur, conscription secours collectif). Chiffrage des moyens à rattraper dans les sections suivantes."
+  "_note": "Chapitre 5 (7 sections : illettrisme, petite enfance, école globale, qualification, nation scientifique, supérieur, conscription secours collectif). Chiffrage des moyens à rattraper dans les sections suivantes.",
+  "publics": [
+    {
+      "public": "Élèves & étudiants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "école globale, refondation du supérieur"
+    },
+    {
+      "public": "Parents de jeunes enfants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "service public de la petite enfance"
+    },
+    {
+      "public": "Adultes en illettrisme",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "éradication à l'horizon 2027"
+    }
+  ]
 }

@@ -27,5 +27,25 @@
     }
   ],
   "actes_passes": [],
-  "_note": "Double source primaire : ch.8 §8 (retraites, archive 07/09/2026) et ch.15 §2 (santé, archive 06/06/2026) de l'AEC éd. 2025 sur melenchon2027.fr. Le « 100 % Sécu » est repris du programme : remboursement à 100 % des soins prescrits, mutuelles intégrées à la Sécurité sociale, ONDAM remplacé par un ONBAM."
+  "_note": "Double source primaire : ch.8 §8 (retraites, archive 07/09/2026) et ch.15 §2 (santé, archive 06/06/2026) de l'AEC éd. 2025 sur melenchon2027.fr. Le « 100 % Sécu » est repris du programme : remboursement à 100 % des soins prescrits, mutuelles intégrées à la Sécurité sociale, ONDAM remplacé par un ONBAM.",
+  "publics": [
+    {
+      "public": "Retraités",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "retour à 60 ans/40 annuités, pensions ≥ SMIC, minimum vieillesse au seuil de pauvreté"
+    },
+    {
+      "public": "Malades",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "« 100 % Sécu »"
+    },
+    {
+      "public": "Cotisants & employeurs",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "financement de la couverture intégrale"
+    }
+  ]
 }

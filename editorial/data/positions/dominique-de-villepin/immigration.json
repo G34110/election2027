@@ -26,5 +26,13 @@
     }
   ],
   "actes_passes": [],
-  "_note": "Position sourcée sur une chronique doctrinale — le volet « politique migratoire » du programme (visas, asile, titres de séjour) n'est pas publié. Cellule à enrichir dès parution du programme détaillé."
+  "_note": "Position sourcée sur une chronique doctrinale — le volet « politique migratoire » du programme (visas, asile, titres de séjour) n'est pas publié. Cellule à enrichir dès parution du programme détaillé.",
+  "publics": [
+    {
+      "public": "Immigrés & étrangers",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "défense de l'universalisme républicain contre le « piège identitaire »"
+    }
+  ]
 }

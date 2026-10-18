@@ -26,5 +26,25 @@
     }
   ],
   "actes_passes": [],
-  "_note": "Le chiffrage « 100 000 emplois » est affiché sur la page du chantier — mécanisme détaillé attendu dans le programme complet."
+  "_note": "Le chiffrage « 100 000 emplois » est affiché sur la page du chantier — mécanisme détaillé attendu dans le programme complet.",
+  "publics": [
+    {
+      "public": "Seniors",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "« droit au travail » : durée de cotisation plutôt qu'âge"
+    },
+    {
+      "public": "Chômeurs",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "réforme pour que « travailler rapporte toujours plus »"
+    },
+    {
+      "public": "Demandeurs d'emploi",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "+100 000 emplois affichés"
+    }
+  ]
 }

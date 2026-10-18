@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Pas de trajectoire budgétaire chiffrée publiée. Le montant ~15 Md€ provient de déclarations médiatiques (TF1) — source primaire programme à rattraper au chiffrage."
+  "_note": "Pas de trajectoire budgétaire chiffrée publiée. Le montant ~15 Md€ provient de déclarations médiatiques (TF1) — source primaire programme à rattraper au chiffrage.",
+  "publics": [
+    {
+      "public": "Très hauts patrimoines",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "taxe « méga-héritages » (~15 Md€ annoncés)"
+    },
+    {
+      "public": "Bénéficiaires de la redistribution",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "fiscalité au service de la solidarité"
+    }
+  ]
 }

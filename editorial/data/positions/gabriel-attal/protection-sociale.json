@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Cellule partielle : la page « chantier » aborde les retraites sous l'angle emploi. Aucun contenu santé publié à ce jour — à compléter à la parution du programme détaillé."
+  "_note": "Cellule partielle : la page « chantier » aborde les retraites sous l'angle emploi. Aucun contenu santé publié à ce jour — à compléter à la parution du programme détaillé.",
+  "publics": [
+    {
+      "public": "Seniors actifs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "droit au travail, durée de cotisation plutôt qu'âge"
+    },
+    {
+      "public": "Bénéficiaires de la dépense sociale",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "cadre budgétaire de réduction de la dépense"
+    }
+  ]
 }

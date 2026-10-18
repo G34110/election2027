@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corpus 2022 — le recours au référendum est aussi un thème transversal (immigration, mesure 1). Détails des modalités du RIC non précisés dans les 22 mesures."
+  "_note": "Corpus 2022 — le recours au référendum est aussi un thème transversal (immigration, mesure 1). Détails des modalités du RIC non précisés dans les 22 mesures.",
+  "publics": [
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "RIC et proportionnelle"
+    }
+  ]
 }

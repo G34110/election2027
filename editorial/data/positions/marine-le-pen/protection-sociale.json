@@ -26,5 +26,19 @@
       "contexte": "Position documentée par un tiers — verbatim officiel à sourcer. La position RN sur les retraites a évolué plusieurs fois entre 2022 et 2026."
     }
   ],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Retraités",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "réindexation inflation, minimum vieillesse 1 000 €, 60 ans carrières précoces"
+    },
+    {
+      "public": "Malades & soignants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "plan d'urgence santé de 20 Md€"
+    }
+  ]
 }

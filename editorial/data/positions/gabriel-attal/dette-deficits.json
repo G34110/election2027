@@ -25,5 +25,19 @@
       "mandat": "Premier ministre",
       "source_url": "https://attalpresident.fr/programme/dette-de-letat"
     }
+  ],
+  "publics": [
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "« zéro déficit en 10 ans maximum »"
+    },
+    {
+      "public": "Bénéficiaires de la dépense sociale",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "effort porté d'abord sur la dépense sociale"
+    }
   ]
 }

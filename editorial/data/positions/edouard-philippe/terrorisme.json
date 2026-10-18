@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Pas de volet antiterroriste dédié : le programme le traite dans le cadre narcotrafic (régime pénal assimilé) et islamisme (frontières). Pas de mesure chiffrée spécifique."
+  "_note": "Pas de volet antiterroriste dédié : le programme le traite dans le cadre narcotrafic (régime pénal assimilé) et islamisme (frontières). Pas de mesure chiffrée spécifique.",
+  "publics": [
+    {
+      "public": "Forces de renseignement",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "DGSI mobilisée sur le narcotrafic"
+    },
+    {
+      "public": "Narcotrafiquants",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "régime des peines aligné sur celui des terroristes"
+    }
+  ]
 }

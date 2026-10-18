@@ -25,5 +25,13 @@
       "mandat": "Député européen (2019-)",
       "source_url": "https://www.europarl.europa.eu/meps/fr/197694/RAPHAEL_GLUCKSMANN/home"
     }
+  ],
+  "publics": [
+    {
+      "public": "Citoyens & contre-pouvoirs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "participation démocratique, indépendance de la justice"
+    }
   ]
 }

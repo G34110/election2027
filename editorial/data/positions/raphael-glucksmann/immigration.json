@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Verbatim issu de l'ouvrage du candidat ('Nous avons encore envie', mai 2026) rapporté par Public Sénat — la convention citoyenne n'apparaît pas encore sur la page programme officielle (provisoire). À recouper à la prochaine publication."
+  "_note": "Verbatim issu de l'ouvrage du candidat ('Nous avons encore envie', mai 2026) rapporté par Public Sénat — la convention citoyenne n'apparaît pas encore sur la page programme officielle (provisoire). À recouper à la prochaine publication.",
+  "publics": [
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "convention citoyenne tirée au sort"
+    }
+  ]
 }

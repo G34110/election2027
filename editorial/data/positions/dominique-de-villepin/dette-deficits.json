@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Audit 17/10/2026 : source remplacée (article protection-sociale → chronique « Big Bang » du chantier Fiscalité, mesures chiffrées). Exception conservée dans le texte : taux réduit de TVA sur produits essentiels et quotient familial."
+  "_note": "Audit 17/10/2026 : source remplacée (article protection-sociale → chronique « Big Bang » du chantier Fiscalité, mesures chiffrées). Exception conservée dans le texte : taux réduit de TVA sur produits essentiels et quotient familial.",
+  "publics": [
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "retour à l'équilibre des comptes publics"
+    },
+    {
+      "public": "Bénéficiaires de niches fiscales",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "extinction des ~400 niches (~175 Md€/an)"
+    }
+  ]
 }

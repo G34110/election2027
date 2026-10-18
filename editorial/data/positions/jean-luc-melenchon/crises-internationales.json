@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chapitre 16 « Une diplomatie altermondialiste pour la paix » (12 sections : ONU, droit international, protectionnisme écologique, migrations, Afrique, francophonie). Sur l'Ukraine : soutien à la protection ONU/AIEA des réacteurs nucléaires (§2)."
+  "_note": "Chapitre 16 « Une diplomatie altermondialiste pour la paix » (12 sections : ONU, droit international, protectionnisme écologique, migrations, Afrique, francophonie). Sur l'Ukraine : soutien à la protection ONU/AIEA des réacteurs nucléaires (§2).",
+  "publics": [
+    {
+      "public": "Corps diplomatique",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "réseau diplomatique rétabli"
+    },
+    {
+      "public": "Alliés atlantiques",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "retrait du commandement intégré de l'OTAN puis de l'organisation"
+    }
+  ]
 }

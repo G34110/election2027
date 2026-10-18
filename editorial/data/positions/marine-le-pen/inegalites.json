@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corpus 2022 en ligne — pas de volet « inégalités » dédié : la lecture RN du sujet passe par la famille et la « priorité nationale ». Programme 2027 à paraître."
+  "_note": "Corpus 2022 en ligne — pas de volet « inégalités » dédié : la lecture RN du sujet passe par la famille et la « priorité nationale ». Programme 2027 à paraître.",
+  "publics": [
+    {
+      "public": "Familles",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "part fiscale dès le 2e enfant, prêt 0 % devenu subvention au 3e"
+    },
+    {
+      "public": "Mères isolées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "soutien doublé"
+    },
+    {
+      "public": "Familles modestes & classes moyennes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "héritage direct désimposé"
+    }
+  ]
 }

@@ -37,5 +37,19 @@
       "mandat": "Ministre de l'Éducation nationale (2023-2024)",
       "source_url": "https://eduscol.education.gouv.fr/sites/default/files/document/vademecum-mettre-en-place-les-groupes-de-besoins-105525.pdf"
     }
+  ],
+  "publics": [
+    {
+      "public": "Élèves",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "<20 élèves par classe en primaire, Choc des savoirs rétabli"
+    },
+    {
+      "public": "Enseignants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "reconnaissance du métier (objectif PISA 10 ans)"
+    }
   ]
 }

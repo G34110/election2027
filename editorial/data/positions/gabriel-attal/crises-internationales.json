@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corrigé le 17/10/2026 : le volet « puissance dans un monde hostile » de la page Frontières constitue bien une doctrine internationale — cellule initialement classée attendue par erreur."
+  "_note": "Corrigé le 17/10/2026 : le volet « puissance dans un monde hostile » de la page Frontières constitue bien une doctrine internationale — cellule initialement classée attendue par erreur.",
+  "publics": [
+    {
+      "public": "Armées & réserve",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "amplification du réarmement, réserves opérationnelles"
+    },
+    {
+      "public": "Ukraine & partenaires",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "soutien « sans relâche »"
+    }
+  ]
 }

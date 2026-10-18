@@ -18,5 +18,25 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Ménages modestes & territoires",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "réduction des inégalités « entre territoires et générations »"
+    },
+    {
+      "public": "Femmes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "égalité femmes-hommes"
+    },
+    {
+      "public": "Hauts revenus & patrimoines",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "justice fiscale redistributive"
+    }
+  ]
 }

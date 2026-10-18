@@ -18,5 +18,13 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Réservistes & armées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "250 000 réservistes, service volontaire 50 000/an, munitions"
+    }
+  ]
 }

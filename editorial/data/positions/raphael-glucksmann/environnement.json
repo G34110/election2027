@@ -18,5 +18,25 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Ménages modestes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "transition protégeant d'abord les plus modestes"
+    },
+    {
+      "public": "Industries de demain",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "investissements dans les filières vertes"
+    },
+    {
+      "public": "Générations futures",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "justice climatique, biodiversité"
+    }
+  ]
 }

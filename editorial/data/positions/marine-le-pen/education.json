@@ -18,5 +18,13 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Élèves",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "mission de transmission des savoirs restaurée"
+    }
+  ]
 }

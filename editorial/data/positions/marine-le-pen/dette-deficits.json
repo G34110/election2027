@@ -19,5 +19,31 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Contre-budget parlementaire (exercice 2026, base PLF 2026) — document du groupe RN, à distinguer d'un programme présidentiel 2027. Conférence de présentation de la trajectoire budgétaire tenue le 06/10/2026 (Le Pen, Bardella, Tanguy). Le total « 36 Md€ net / 50 Md€ dépenses / 14 Md€ recettes » provient de la présentation publique (conférence de presse). Verbatims chiffrés extraits du tableau officiel du document."
+  "_note": "Contre-budget parlementaire (exercice 2026, base PLF 2026) — document du groupe RN, à distinguer d'un programme présidentiel 2027. Conférence de présentation de la trajectoire budgétaire tenue le 06/10/2026 (Le Pen, Bardella, Tanguy). Le total « 36 Md€ net / 50 Md€ dépenses / 14 Md€ recettes » provient de la présentation publique (conférence de presse). Verbatims chiffrés extraits du tableau officiel du document.",
+  "publics": [
+    {
+      "public": "Contribuables",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "baisses de recettes ciblées (TVA, énergie)"
+    },
+    {
+      "public": "Agences & organismes publics",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "subventions réduites de 20 % (−7,7 Md€)"
+    },
+    {
+      "public": "Étrangers bénéficiaires de prestations",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "−6,1 Md€ sur les prestations sociales aux étrangers"
+    },
+    {
+      "public": "Patrimoines financiers",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "impôt sur les fortunes financières (~4 Md€)"
+    }
+  ]
 }

@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Volet protection de l'enfance également documenté (Inspection nationale de l'enfance, Sarah's law, imprescriptibilité crimes sur mineur) — même page source."
+  "_note": "Volet protection de l'enfance également documenté (Inspection nationale de l'enfance, Sarah's law, imprescriptibilité crimes sur mineur) — même page source.",
+  "publics": [
+    {
+      "public": "Enseignants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "+20 % de rémunération moyenne sur le quinquennat"
+    },
+    {
+      "public": "Élèves",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "primaire concentrée sur les fondamentaux"
+    },
+    {
+      "public": "Chefs d'établissement",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "autonomie : méthodes, horaires, recrutement"
+    }
+  ]
 }

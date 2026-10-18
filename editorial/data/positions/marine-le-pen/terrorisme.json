@@ -18,5 +18,19 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Réseaux islamistes",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "éradication des idéologies et de leurs réseaux"
+    },
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "priorité sécuritaire affichée"
+    }
+  ]
 }

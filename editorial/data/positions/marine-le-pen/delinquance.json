@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Corpus présidentielle 2022 toujours en ligne — programme 2027 non publié, à re-sourcer à sa parution. Verbatim enrichi depuis l'archive du 03/10/2026."
+  "_note": "Corpus présidentielle 2022 toujours en ligne — programme 2027 non publié, à re-sourcer à sa parution. Verbatim enrichi depuis l'archive du 03/10/2026.",
+  "publics": [
+    {
+      "public": "Victimes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "peines planchers, présomption de légitime défense pour les forces de l'ordre"
+    },
+    {
+      "public": "Magistrats & prisons",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "doublement des magistrats, 85 000 places"
+    },
+    {
+      "public": "Délinquants",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "suppression des réductions et aménagements de peine"
+    }
+  ]
 }

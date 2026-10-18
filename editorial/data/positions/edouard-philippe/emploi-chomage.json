@@ -25,5 +25,25 @@
       "mandat": "Premier ministre (2017-2020)",
       "source_url": "https://www.info.gouv.fr/actualite/edouard-philippe-les-francais-ont-envie-d-une-transformation-en-profondeur"
     }
+  ],
+  "publics": [
+    {
+      "public": "Chômeurs <50 ans",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "indemnisation ramenée à 12 mois max (vs 18)"
+    },
+    {
+      "public": "Salariés en arrêt maladie",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "3 jours de carence, privé comme public"
+    },
+    {
+      "public": "Entreprises",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "période incompressible arrêt/rupture conventionnelle"
+    }
   ]
 }

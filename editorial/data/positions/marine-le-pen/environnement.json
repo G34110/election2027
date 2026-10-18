@@ -18,5 +18,25 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Filières nucléaire, hydro & hydrogène",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "indépendance énergétique"
+    },
+    {
+      "public": "Filière éolienne",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "arrêt des nouveaux parcs, démantèlement progressif"
+    },
+    {
+      "public": "Consommateurs d'énergie",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "sortie du marché européen de l'électricité (prix visés)"
+    }
+  ]
 }

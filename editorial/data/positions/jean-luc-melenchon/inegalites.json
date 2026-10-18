@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Voir aussi ch. 7 §4 « Éradiquer la pauvreté » (garantie dignité) et ch. 8 §4 (écarts salariaux 1-20, indexation salaires). La « révolution fiscale » (ch. 6 §5) détaille ISF/impôt progressif — archive à rattraper."
+  "_note": "Voir aussi ch. 7 §4 « Éradiquer la pauvreté » (garantie dignité) et ch. 8 §4 (écarts salariaux 1-20, indexation salaires). La « révolution fiscale » (ch. 6 §5) détaille ISF/impôt progressif — archive à rattraper.",
+  "publics": [
+    {
+      "public": "Ménages modestes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "révolution fiscale au profit des plus modestes"
+    },
+    {
+      "public": "Finance & hauts revenus",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "taxe sur les transactions, contrôle des capitaux"
+    }
+  ]
 }

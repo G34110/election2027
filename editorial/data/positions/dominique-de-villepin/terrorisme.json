@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chronique du 15/11/2025 (10 ans du 13-Novembre). Insiste sur la prévention (70 % de suspects mineurs cités) et la responsabilisation des plateformes — contraste assumé avec les politiques « sans limites » (Gaza, Tchétchénie, Patriot Act cités en contre-exemples)."
+  "_note": "Chronique du 15/11/2025 (10 ans du 13-Novembre). Insiste sur la prévention (70 % de suspects mineurs cités) et la responsabilisation des plateformes — contraste assumé avec les politiques « sans limites » (Gaza, Tchétchénie, Patriot Act cités en contre-exemples).",
+  "publics": [
+    {
+      "public": "Forces de sécurité & renseignement",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "consolidation PNAT/DGSI, prévention renforcée"
+    },
+    {
+      "public": "Libertés publiques",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "stabilité juridique, pas d'inflation des lois d'exception"
+    }
+  ]
 }

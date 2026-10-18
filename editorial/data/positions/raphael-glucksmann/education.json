@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Plan école détaillé sur TF1 (rémunération enseignants, classes réduites primaire, rénovation bâti) — à recouper avec la publication chiffrée du programme."
+  "_note": "Plan école détaillé sur TF1 (rémunération enseignants, classes réduites primaire, rénovation bâti) — à recouper avec la publication chiffrée du programme.",
+  "publics": [
+    {
+      "public": "Enseignants",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "revalorisation des rémunérations"
+    },
+    {
+      "public": "Élèves",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "moins d'élèves par classe en primaire, rénovation du bâti"
+    }
+  ]
 }

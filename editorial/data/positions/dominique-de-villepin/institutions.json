@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Audit 17/10/2026 : source remplacée par la chronique dédiée du chantier Institutions — doctrine complète (contient aussi une critique implicite de la méthode « dissolution + référendums » défendue par E. Philippe : « se croire de Gaulle et n'être que Coty »). Le chantier Fiscalité « Big Bang : la règle républicaine » (niches fiscales) relève de la fiche dette-déficits."
+  "_note": "Audit 17/10/2026 : source remplacée par la chronique dédiée du chantier Institutions — doctrine complète (contient aussi une critique implicite de la méthode « dissolution + référendums » défendue par E. Philippe : « se croire de Gaulle et n'être que Coty »). Le chantier Fiscalité « Big Bang : la règle républicaine » (niches fiscales) relève de la fiche dette-déficits.",
+  "publics": [
+    {
+      "public": "Citoyens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "président arbitre, refus des contournements de la Constitution"
+    }
+  ]
 }

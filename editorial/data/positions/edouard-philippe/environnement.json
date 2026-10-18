@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Position sécurité climatique conservée dans la page 'sûre' (Canadairs, réserves communales) — complément du même programme."
+  "_note": "Position sécurité climatique conservée dans la page 'sûre' (Canadairs, réserves communales) — complément du même programme.",
+  "publics": [
+    {
+      "public": "Filière nucléaire",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "8 EPR supplémentaires"
+    },
+    {
+      "public": "Ménages des territoires",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "adaptation : DATAR 2.0, fonds 2 Md€/an"
+    },
+    {
+      "public": "Importateurs carbonés",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "prix du carbone aux frontières européennes"
+    }
+  ]
 }

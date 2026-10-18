@@ -32,5 +32,19 @@
       "source_url": "https://www2.assemblee-nationale.fr/sycomore/fiche/19249"
     }
   ],
-  "_note": "Source complémentaire : rassemblementnational.fr/documents/projet/projet-la-defense.pdf (retrait commandement intégré OTAN, dialogue Russie, arrêt coopérations Allemagne)."
+  "_note": "Source complémentaire : rassemblementnational.fr/documents/projet/projet-la-defense.pdf (retrait commandement intégré OTAN, dialogue Russie, arrêt coopérations Allemagne).",
+  "publics": [
+    {
+      "public": "Armées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "budget défense porté à 55 Md€ en 2027"
+    },
+    {
+      "public": "Alliés (Allemagne, OTAN)",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "retrait du commandement intégré, coopérations rediscutées"
+    }
+  ]
 }

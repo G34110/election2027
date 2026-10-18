@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Ch. 8 sections liées : §3 « un emploi stable pour chacun », §5 « assurance-chômage protectrice », §6 « sécurité sociale professionnelle ». Sondage cité par la source : 87 % favorables (Harris, mai 2021)."
+  "_note": "Ch. 8 sections liées : §3 « un emploi stable pour chacun », §5 « assurance-chômage protectrice », §6 « sécurité sociale professionnelle ». Sondage cité par la source : 87 % favorables (Harris, mai 2021).",
+  "publics": [
+    {
+      "public": "Chômeurs de longue durée",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "garantie d'emploi rémunéré au SMIC revalorisé (volontariat)"
+    },
+    {
+      "public": "Chômeurs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "assurance-chômage « protectrice » rétablie"
+    }
+  ]
 }

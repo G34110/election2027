@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chronique doctrinale — dispositif détaillé attendu dans le programme. Voir aussi pouvoir-achat : « révolution du salaire net » (+200 €/mois) comme levier sur la valeur du travail."
+  "_note": "Chronique doctrinale — dispositif détaillé attendu dans le programme. Voir aussi pouvoir-achat : « révolution du salaire net » (+200 €/mois) comme levier sur la valeur du travail.",
+  "publics": [
+    {
+      "public": "Chômeurs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "droit au travail, fusion allocations-chômage et crédits de formation"
+    },
+    {
+      "public": "Actifs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "sens du travail remis au centre du pacte républicain"
+    }
+  ]
 }

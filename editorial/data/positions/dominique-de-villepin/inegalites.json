@@ -19,5 +19,13 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Chronique doctrinale — mesures concrètes non publiées. Évocation d'un « Parlement des pauvres » comme dispositif de représentation."
+  "_note": "Chronique doctrinale — mesures concrètes non publiées. Évocation d'un « Parlement des pauvres » comme dispositif de représentation.",
+  "publics": [
+    {
+      "public": "Personnes en pauvreté",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "9,5 M sous le seuil — pauvreté des travailleurs traitée structurellement"
+    }
+  ]
 }

@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Retraites (abrogation réforme 2023, 62 ans, convention citoyenne + référendum 18 mois) : documenté via 'Le chemin gaulliste' (24/05/2026) — verbatim page officielle à recouper. CNSA→caisse Sécu : source votons-2027 d'après LFH."
+  "_note": "Retraites (abrogation réforme 2023, 62 ans, convention citoyenne + référendum 18 mois) : documenté via 'Le chemin gaulliste' (24/05/2026) — verbatim page officielle à recouper. CNSA→caisse Sécu : source votons-2027 d'après LFH.",
+  "publics": [
+    {
+      "public": "Malades & usagers",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "logique de prévention, refus de la privatisation de la santé"
+    },
+    {
+      "public": "Personnes âgées dépendantes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "caisse de Sécurité sociale de l'autonomie"
+    }
+  ]
 }

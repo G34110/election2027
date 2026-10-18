@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Version web des chapitres en cours de réactualisation sur melenchon2027.fr — le document PDF A5 (02/2025) hébergé sur le domaine officiel fait foi pour ce volet."
+  "_note": "Version web des chapitres en cours de réactualisation sur melenchon2027.fr — le document PDF A5 (02/2025) hébergé sur le domaine officiel fait foi pour ce volet.",
+  "publics": [
+    {
+      "public": "Forces de sécurité",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "moyens humains plutôt que surveillance technologique"
+    },
+    {
+      "public": "Libertés publiques",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "sortie de « l'état d'urgence permanent »"
+    }
+  ]
 }

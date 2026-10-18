@@ -32,5 +32,19 @@
       "source_url": "https://www.info.gouv.fr/actualite/edouard-philippe-les-francais-ont-envie-d-une-transformation-en-profondeur"
     }
   ],
-  "_note": "Fil du temps riche : réforme universelle par points (2019-2020, avortée COVID) → retraite à 65 ans + capitalisation collective (2026). Évolution de position documentée — mérite une entrée fil_du_temps dédiée lors d'une prochaine passe."
+  "_note": "Fil du temps riche : réforme universelle par points (2019-2020, avortée COVID) → retraite à 65 ans + capitalisation collective (2026). Évolution de position documentée — mérite une entrée fil_du_temps dédiée lors d'une prochaine passe.",
+  "publics": [
+    {
+      "public": "Futurs retraités",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "65 ans progressif, 45 annuités en moins de 10 ans"
+    },
+    {
+      "public": "Épargnants retraite",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "capitalisation collective, plan d'épargne abondé 500 €"
+    }
+  ]
 }

@@ -19,5 +19,25 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Section §8 « police de proximité » non capturée par la Wayback (titre confirmé au sommaire du ch.7) — verbatim tiré de §7 (justice). Approche distincte : prévention et efficacité judiciaire plutôt que durcissement des peines."
+  "_note": "Section §8 « police de proximité » non capturée par la Wayback (titre confirmé au sommaire du ch.7) — verbatim tiré de §7 (justice). Approche distincte : prévention et efficacité judiciaire plutôt que durcissement des peines.",
+  "publics": [
+    {
+      "public": "Victimes & quartiers",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "police de proximité au service de la sûreté"
+    },
+    {
+      "public": "Policiers & justice",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "doublement des effectifs, moyens humains"
+    },
+    {
+      "public": "Détenus",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "régulation carcérale contraignante contre la surpopulation"
+    }
+  ]
 }

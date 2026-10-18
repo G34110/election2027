@@ -26,5 +26,19 @@
       "source_url": "https://www.vie-publique.fr/"
     }
   ],
-  "_note": "Audit 17/10/2026 : source remplacée (france2027 générique → chronique dédiée « moment européen », doctrine complète Europe/diplomatie)."
+  "_note": "Audit 17/10/2026 : source remplacée (france2027 générique → chronique dédiée « moment européen », doctrine complète Europe/diplomatie).",
+  "publics": [
+    {
+      "public": "Armées & défense",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "capacités de défense européenne (conseil de sécurité européen)"
+    },
+    {
+      "public": "Citoyens européens",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "autonomie stratégique face aux pressions extérieures"
+    }
+  ]
 }

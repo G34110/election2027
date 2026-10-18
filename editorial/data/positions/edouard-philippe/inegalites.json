@@ -18,5 +18,19 @@
     }
   },
   "fil_du_temps": [],
-  "actes_passes": []
+  "actes_passes": [],
+  "publics": [
+    {
+      "public": "Familles",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "allocation unique dès le 1er enfant, PTZ par naissance, temps partiel"
+    },
+    {
+      "public": "Classes moyennes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "IR supprimé les 3 premières années de l'enfant"
+    }
+  ]
 }

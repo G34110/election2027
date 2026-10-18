@@ -19,5 +19,19 @@
   },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Document d'orientations budgétaires 2027 — pas un chiffrage complet du programme (mention explicite). PDF non extractible automatiquement (anti-bot) — verbatim confirmé via indexation du document officiel."
+  "_note": "Document d'orientations budgétaires 2027 — pas un chiffrage complet du programme (mention explicite). PDF non extractible automatiquement (anti-bot) — verbatim confirmé via indexation du document officiel.",
+  "publics": [
+    {
+      "public": "Services publics & ménages",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "~80 Md€ de dépenses d'urgence financées"
+    },
+    {
+      "public": "Les plus riches",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "+100 Md€ de recettes « uniquement en faisant contribuer les plus riches »"
+    }
+  ]
 }
