@@ -17,6 +17,20 @@
       "verbatim": "Plus de 200 Md€ de cotisations basculés vers une CSG universelle : +200 € nets par mois en moyenne, +100 € au Smic."
     }
   },
+  "publics": [
+    {
+      "public": "Actifs salariés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "+200 € nets/mois en moyenne, +100 € au SMIC"
+    },
+    {
+      "public": "Retraités & revenus du patrimoine",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "la CSG universelle s'applique à tous les revenus, pensions et patrimoines compris"
+    }
+  ],
   "fil_du_temps": [],
   "actes_passes": [],
   "_note": "Page en 403 au fetch — verbatims extraits de la page officielle via indexation. Prop. 1 « révolution du salaire net » confirmée. Détail des 19 autres propositions à collecter manuellement."

@@ -17,6 +17,39 @@
       "verbatim": "Permettre aux entreprises une hausse des salaires de 10% (jusqu'à 3 smic) en exonérant cette augmentation de cotisations patronales."
     }
   },
+  "publics": [
+    {
+      "public": "Jeunes actifs (<30 ans)",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "IR à 0 pour les actifs de moins de 30 ans"
+    },
+    {
+      "public": "Actifs salariés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "hausse des salaires de 10 % exonérée de cotisations patronales (≤ 3 SMIC)"
+    },
+    {
+      "public": "Retraités",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "pensions réindexées sur l'inflation"
+    },
+    {
+      "public": "Familles",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "part fiscale complète dès le 2e enfant"
+    },
+    {
+      "public": "Ménages aisés",
+      "sens": "beneficie",
+      "fondement": "analyse_externe",
+      "detail": "TVA énergie non ciblée : gain ~60 % supérieur pour les ménages aisés (Asterès, Fondation Jean-Jaurès)",
+      "source_url": "https://asteres.fr/alerte-eco-baisse-de-la-tva-une-mesure-couteuse-et-inefficace-pour-donner-du-pouvoir-dachat-aux-menages-les-plus-modestes/"
+    }
+  ],
   "fil_du_temps": [],
   "actes_passes": [],
   "_note": "Source : page « Les 22 mesures » (corpus présidentielle 2022) toujours en ligne sur le site officiel RN — programme 2027 non encore publié, à re-sourcer à sa parution. Page compressée non extractible en direct, contenu vérifié via snapshot Wayback du 03/10/2026."

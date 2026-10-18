@@ -17,6 +17,26 @@
       "verbatim": "Garantir que le travail permette de vivre dignement. […] Protéger le pouvoir d'achat des ménages les plus modestes : agir sur les dépenses contraintes qui pèsent sur le quotidien."
     }
   },
+  "publics": [
+    {
+      "public": "Ménages modestes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "aides ciblées sur les dépenses contraintes (chèque énergie) plutôt que baisses générales de taxes"
+    },
+    {
+      "public": "Actifs salariés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "taxe « méga-héritages » (~15 Md€ annoncés) reversée sur les fiches de paie"
+    },
+    {
+      "public": "Très hauts patrimoines",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "taxation des méga-héritages"
+    }
+  ],
   "fil_du_temps": [],
   "actes_passes": [],
   "_note": "Chiffrage héritages (~15 Md€, 'les 1% des plus gros héritages') : déclaration TF1 reprise par Public Sénat — source primaire officielle à rattraper quand le programme chiffré sera publié (le site indique 'objectif chiffré à préciser')."

@@ -17,6 +17,26 @@
       "verbatim": "Porter immédiatement le SMIC mensuel à 1600 euros net et indexer les salaires sur l'inflation dans le privé et dans la fonction publique. […] Fixer un salaire maximal autorisé pour limiter l'écart de 1 à 20 entre le salaire le plus bas et le salaire le plus haut dans une entreprise."
     }
   },
+  "publics": [
+    {
+      "public": "Bas salaires",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "SMIC 1 600 € net immédiat"
+    },
+    {
+      "public": "Actifs salariés & fonctionnaires",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "indexation des salaires sur l'inflation, privé et fonction publique"
+    },
+    {
+      "public": "Hauts salaires",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "écart salarial plafonné de 1 à 20 dans l'entreprise"
+    }
+  ],
   "fil_du_temps": [
     {
       "date": "2024-06-14",

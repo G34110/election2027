@@ -17,6 +17,20 @@
       "verbatim": "Nous allons agir sur trois leviers. […] Nous y arriverons enfin en réduisant les charges salariales pour faire monter le salaire net. Nos dépenses sociales ne peuvent plus reposer autant sur les Français qui travaillent."
     }
   },
+  "publics": [
+    {
+      "public": "Actifs salariés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "réduction des charges salariales pour augmenter le net ; suppression du plafond d'heures sup"
+    },
+    {
+      "public": "Familles",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "livret « garde d'enfant » + 200 000 professionnels de la petite enfance d'ici 2030"
+    }
+  ],
   "fil_du_temps": [],
   "actes_passes": [],
   "_note": "Page enrichie depuis la v1 : les trois leviers sont décrits mais la hausse de salaire n'est pas chiffrée — statut 'orientee' conservé jusqu'au programme détaillé."

@@ -4,7 +4,12 @@
   "title": "Position candidat × thème",
   "description": "La cellule canonique : tout ce que le site sait sur la position d'un candidat sur un thème (idée #76)",
   "type": "object",
-  "required": ["candidat_id", "theme_id", "statut", "maj_le"],
+  "required": [
+    "candidat_id",
+    "theme_id",
+    "statut",
+    "maj_le"
+  ],
   "properties": {
     "candidat_id": {
       "type": "string",
@@ -18,10 +23,18 @@
     },
     "statut": {
       "type": "string",
-      "enum": ["sourcee", "non_sourcee", "attendue", "contradictoire"],
+      "enum": [
+        "sourcee",
+        "non_sourcee",
+        "attendue",
+        "contradictoire"
+      ],
       "description": "Enum de statut — le vide n'existe pas (#78)"
     },
-    "maj_le": { "type": "string", "format": "date" },
+    "maj_le": {
+      "type": "string",
+      "format": "date"
+    },
     "commit_ref": {
       "type": "string",
       "description": "Référence du commit de dernière modification (#84)"
@@ -33,7 +46,10 @@
     },
     "position_actuelle": {
       "type": "object",
-      "required": ["synthese", "source"],
+      "required": [
+        "synthese",
+        "source"
+      ],
       "properties": {
         "synthese": {
           "type": "string",
@@ -45,13 +61,20 @@
         },
         "type_mesure": {
           "type": "string",
-          "enum": ["chiffree", "orientee"],
+          "enum": [
+            "chiffree",
+            "orientee"
+          ],
           "description": "Badge objectif (#54)"
         },
         "source": {
           "type": "object",
           "description": "Triple ancrage obligatoire (#79)",
-          "required": ["url_live", "url_archive", "date_verification"],
+          "required": [
+            "url_live",
+            "url_archive",
+            "date_verification"
+          ],
           "properties": {
             "url_live": {
               "type": "string",
@@ -63,9 +86,17 @@
               "format": "uri",
               "description": "Snapshot web.archive.org (#73)"
             },
-            "titre": { "type": "string" },
-            "date_publication": { "type": "string", "format": "date" },
-            "date_verification": { "type": "string", "format": "date" },
+            "titre": {
+              "type": "string"
+            },
+            "date_publication": {
+              "type": "string",
+              "format": "date"
+            },
+            "date_verification": {
+              "type": "string",
+              "format": "date"
+            },
             "verbatim": {
               "type": "string",
               "description": "Citation exacte de la source primaire"
@@ -79,13 +110,30 @@
       "description": "Historique des positions — donnée, pas UI (#80)",
       "items": {
         "type": "object",
-        "required": ["date", "position", "source_url"],
+        "required": [
+          "date",
+          "position",
+          "source_url"
+        ],
         "properties": {
-          "date": { "type": "string", "format": "date" },
-          "position": { "type": "string" },
-          "verbatim": { "type": "string" },
-          "source_url": { "type": "string", "format": "uri" },
-          "contexte": { "type": "string", "description": "Contexte factuel neutre" }
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "position": {
+            "type": "string"
+          },
+          "verbatim": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "contexte": {
+            "type": "string",
+            "description": "Contexte factuel neutre"
+          }
         }
       }
     },
@@ -94,12 +142,60 @@
       "description": "Baromètre Promesse/Réalité (#4)",
       "items": {
         "type": "object",
-        "required": ["date", "acte", "source_url"],
+        "required": [
+          "date",
+          "acte",
+          "source_url"
+        ],
         "properties": {
-          "date": { "type": "string" },
-          "acte": { "type": "string" },
-          "mandat": { "type": "string" },
-          "source_url": { "type": "string", "format": "uri" }
+          "date": {
+            "type": "string"
+          },
+          "acte": {
+            "type": "string"
+          },
+          "mandat": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      }
+    },
+    "publics": {
+      "type": "array",
+      "description": "Publics impactés par les mesures — vocabulaire contrôlé ; sens 'beneficie' (bénéficiaire) ou 'contribue' (finance/subit) ; fondement 'mesure' (cible déclarée de la mesure) ou 'analyse_externe' (institut/économiste sourcé).",
+      "items": {
+        "type": "object",
+        "required": [
+          "public",
+          "sens",
+          "fondement"
+        ],
+        "properties": {
+          "public": {
+            "type": "string"
+          },
+          "sens": {
+            "enum": [
+              "beneficie",
+              "contribue"
+            ]
+          },
+          "fondement": {
+            "enum": [
+              "mesure",
+              "analyse_externe"
+            ]
+          },
+          "detail": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          }
         }
       }
     }

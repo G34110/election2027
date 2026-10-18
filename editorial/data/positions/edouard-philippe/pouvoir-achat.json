@@ -17,6 +17,20 @@
       "verbatim": "Faire que le travail supplémentaire paie : lorsqu'une entreprise décide, après discussion interne, de travailler plus longtemps, exonérer ces heures de cotisations sociales et d'impôt sur le revenu, soit environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine."
     }
   },
+  "publics": [
+    {
+      "public": "Actifs salariés",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "heures sup exonérées (~1 000 €/an au SMIC) ; zéro cotisation patronale au-delà de la 37e heure"
+    },
+    {
+      "public": "Entreprises",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "pacte fiscal : 50 Md€ de baisses d'impôts de production"
+    }
+  ],
   "fil_du_temps": [],
   "actes_passes": []
 }
