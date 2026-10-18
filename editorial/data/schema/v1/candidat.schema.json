@@ -4,66 +4,132 @@
   "title": "Candidat",
   "description": "Fiche candidat — carte d'identité politique (#14) + bandeau programme officiel (#75)",
   "type": "object",
-  "required": ["id", "nom", "statut", "liens_officiels"],
+  "required": [
+    "id",
+    "nom",
+    "statut",
+    "liens_officiels"
+  ],
   "properties": {
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
       "description": "Slug immuable (#81)"
     },
-    "nom": { "type": "string" },
-    "parti": { "type": "string" },
+    "nom": {
+      "type": "string"
+    },
+    "parti": {
+      "type": "string"
+    },
     "statut": {
       "type": "string",
-      "enum": ["pressenti", "declare", "retire", "remplace"],
+      "enum": [
+        "pressenti",
+        "declare",
+        "retire",
+        "remplace"
+      ],
       "description": "Cycle de vie gouverné (#83, Protocole §2.4)"
     },
     "role": {
       "type": "string",
-      "enum": ["concurrent", "reference"],
+      "enum": [
+        "concurrent",
+        "suivi",
+        "reference"
+      ],
       "default": "concurrent",
-      "description": "concurrent = top 5 gouverné par sondages | reference = 6e candidat fixe, référentiel transversal (Protocole §2.6)"
+      "description": "concurrent = sélection mécanique par sondages | suivi = candidat affiché hors sélection, retirable si non qualifié au second tour | reference = ancien statut, déprécié"
     },
     "remplace_par": {
       "type": "string",
       "description": "candidat_id du remplaçant si statut=remplace — filiation documentée (Protocole §2.4)"
     },
-    "photo_url": { "type": "string" },
+    "photo_url": {
+      "type": "string"
+    },
     "naissance": {
       "type": "object",
       "description": "Date et lieu de naissance — donnée publique de carte d'identité (#14)",
       "properties": {
-        "date": { "type": "string" },
-        "lieu": { "type": "string" }
+        "date": {
+          "type": "string"
+        },
+        "lieu": {
+          "type": "string"
+        }
       }
     },
     "liens_officiels": {
       "type": "object",
-      "required": ["parti_url", "derniere_verification"],
+      "required": [
+        "parti_url",
+        "derniere_verification"
+      ],
       "properties": {
-        "site_campagne": { "type": "string", "format": "uri" },
-        "parti_url": { "type": "string", "format": "uri" },
-        "programme_pdf": { "type": "string", "format": "uri" },
-        "programme_pdf_archive": { "type": "string", "format": "uri" },
-        "derniere_verification": { "type": "string", "format": "date" }
+        "site_campagne": {
+          "type": "string",
+          "format": "uri"
+        },
+        "parti_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "programme_pdf": {
+          "type": "string",
+          "format": "uri"
+        },
+        "programme_pdf_archive": {
+          "type": "string",
+          "format": "uri"
+        },
+        "derniere_verification": {
+          "type": "string",
+          "format": "date"
+        }
       }
     },
     "parcours": {
       "type": "object",
       "description": "Carte d'identité politique (#14)",
       "properties": {
-        "etudes": { "type": "array", "items": { "type": "string" } },
-        "militantisme": { "type": "array", "items": { "type": "string" } },
-        "experiences_pro": { "type": "array", "items": { "type": "string" } },
+        "etudes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "militantisme": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "experiences_pro": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
         "mandats": {
           "type": "array",
           "items": {
             "type": "object",
-            "required": ["fonction", "debut"],
+            "required": [
+              "fonction",
+              "debut"
+            ],
             "properties": {
-              "fonction": { "type": "string" },
-              "debut": { "type": "string" },
-              "fin": { "type": "string" }
+              "fonction": {
+                "type": "string"
+              },
+              "debut": {
+                "type": "string"
+              },
+              "fin": {
+                "type": "string"
+              }
             }
           }
         }

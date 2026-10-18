@@ -43,5 +43,5 @@ python -c "import json,glob; [json.load(open(f,encoding='utf-8')) for f in glob.
 ## Principes invariants
 
 - Toute position citée porte une **source primaire** (site officiel candidat/parti, source gouvernementale) — `statut: sourcee | attendue | non_sourcee | contradictoire`, jamais de cellule vide.
-- La colonne **Référence** (Villepin) apparaît en premier : première carte sur mobile, colonne de gauche sur desktop.
+- **Villepin est affiché comme les autres candidats** — aucun statut de « référence » visible (décision du 18/10/2026). Hors sélection mécanique des sondages, il reste affiché en suivi éditorial ; à l'automatisation, le retirer de la comparaison s'il n'est pas qualifié au second tour 2027.
 - Couleurs réservées à la donnée — aucun code couleur partisan.

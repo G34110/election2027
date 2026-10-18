@@ -3,7 +3,7 @@
   "nom": "Dominique de Villepin",
   "parti": "La France humaniste",
   "statut": "pressenti",
-  "role": "reference",
+  "role": "suivi",
   "remplace_par": null,
   "photo_url": "/assets/candidats/dominique-de-villepin.jpg",
   "naissance": {
@@ -100,5 +100,5 @@
       "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-je-me-bats-pour-etre-candidat-declare-dominique-de-villepin-qui-revendique-plusieurs-centaines-de-parrainages_8169629.html"
     ]
   },
-  "_note_collecte": "Candidat de RÉFÉRENCE (Protocole §2.6) — 6e colonne permanente, hors gouvernance du top 5. A déclaré 'Je veux être candidat' le 30/08/2026 (BFM) sans officialisation — statut pressenti. Parcours enrichi le 17/10/2026 d'après info.gouv.fr et interieur.gouv.fr : correction du poste Madagascar (direction des affaires africaines et malgaches, pas ambassade) ; ajout études détaillées, service militaire, moments clés. Jamais élu au suffrage universel — 3e PM de la Ve dans ce cas (après Pompidou et Barre)."
+  "_note_collecte": "Affiché comme les autres candidats — AUCUN statut de référence visible (décision du 18/10/2026). Règle d'automatisation : hors de la sélection mécanique des sondages, il reste affiché tant que suivi manuellement ; le retirer de la comparaison s'il n'est pas qualifié au second tour de la présidentielle 2027. A déclaré 'Je veux être candidat' le 30/08/2026 (BFM) — statut pressenti. Jamais élu au suffrage universel — 3e PM de la Ve dans ce cas (après Pompidou et Barre)."
 }
