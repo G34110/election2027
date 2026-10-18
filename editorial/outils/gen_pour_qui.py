@@ -32,6 +32,9 @@ ROWS_GRID = [g(a,c) for a,_ in AGES for c,_ in CLASSES]
 def canon(pub):
     """Retourne les lignes de la grille age x classe, ou [] si hors grille."""
     p = pub.lower()
+    # les publics migratoires ne sont ni un age ni une classe -> hors grille
+    if any(k in p for k in ['immigr', 'étranger', 'réfugié', 'asile', 'déplacés']):
+        return []
     # ultra-riches (actifs + retraites : le patrimoine concerne les deux)
     if any(k in p for k in ['très hauts patrimoines','les plus riches','méga','finance & hauts revenus']):
         return [g('A','tha'), g('R','tha')]
@@ -51,7 +54,7 @@ def canon(pub):
     if 'classes moyennes' in p:
         return [g('A','moy')]
     # populaires / bas revenus / précaires
-    if any(k in p for k in ['modeste','bas salaires','pauvreté','chômeur','demandeur','illettrisme','dépense sociale','redistribution']):
+    if any(k in p for k in ['modeste','bas salaires','pauvreté','chômeur','demandeurs d\'emploi','illettrisme','dépense sociale','redistribution']):
         return [g('A','pop')]
     # professions d'Etat rattachées a leur classe ordinaire
     if any(k in p for k in ['enseignant','magistrat','corps diplomatique','défenseurs']):
