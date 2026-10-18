@@ -28,10 +28,10 @@
   .intro { color:var(--encre-2); font-size:.92rem; max-width:70ch; margin-bottom:1.6rem; }
   h2 { font-size:1.15rem; margin:1.8rem 0 .6rem; padding-top:1.2rem; border-top:1px solid var(--filet); }
   h2:first-of-type { border-top:none; padding-top:0; }
-  h3 { font-size:.95rem; margin:1rem 0 .3rem; color:var(--accent); }
   p { font-size:.88rem; margin-bottom:.6rem; }
   ul { font-size:.88rem; margin:0 0 .8rem 1.2rem; }
-  li { margin-bottom:.3rem; }
+  li { margin-bottom:.35rem; }
+  .engagement { background:var(--surface); border:1px solid var(--filet); border-left:3px solid var(--accent); border-radius:6px; padding:.9rem 1.1rem; font-size:.9rem; margin:.8rem 0 1.2rem; }
   .statut { display:inline-block; font-size:.68rem; font-weight:700; border-radius:4px; padding:.1rem .5rem; }
   .statut.ok { color:var(--ok); background:#e9f4ee; }
   .statut.att { color:var(--attente); background:#f7ecd8; }
@@ -61,58 +61,62 @@
 <main class="wrap">
   <div class="fil-ariane"><a href="index.html">← Accueil</a> · Charte éditoriale</div>
   <h1>Méthode et charte éditoriale</h1>
-  <p class="intro">Comparer 2027 est un site citoyen et neutre : il met côte à côte les positions des candidats à l'élection présidentielle de 2027, sans jugement, sans notation et sans éditorialisation. Cette page décrit les règles qui gouvernent la sélection des candidats, le choix des thèmes, la qualité des sources et la manière dont les publics visés sont déterminés.</p>
+  <p class="intro">Comparer 2027 est un outil citoyen d'information, construit sur un principe simple : <strong>aucune position n'est publiée sans preuve</strong>. Chaque fiche est sourcée, datée et vérifiable par le lecteur — ce que cette charte engage formellement.</p>
 
-  <h2>1. Sélection des candidats</h2>
-  <p>Les candidats comparés sont choisis <strong>mécaniquement</strong>, selon un protocole de gouvernance documenté dans le dépôt du projet — pas à la discrétion de l'éditeur :</p>
+  <div class="engagement">
+    <strong>Nos engagements.</strong> Neutralité totale (aucune notation, aucun classement, aucun jugement) · Transparence (chaque affirmation renvoie à sa source) · Véracité (verbatim cité mot à mot, jamais reformulé ni extrapolé) · Traçabilité (toutes les données sont versionnées et l'historique des modifications est public).
+  </div>
+
+  <h2>1. Sélection des candidats : une règle, pas une préférence</h2>
+  <p>Les candidats comparés sont choisis <strong>mécaniquement</strong>, selon un protocole de gouvernance documenté dans le dépôt public du projet — jamais à la discrétion de l'éditeur :</p>
   <ul>
-    <li>critère principal : le positionnement dans les sondages publiés (baromètres Ipsos, Ifop, Odoxa…),</li>
-    <li>un candidat peut être suivi éditorialement en dehors de la sélection mécanique, à condition d'être affiché exactement comme les autres — aucune mise en avant,</li>
-    <li>tout candidat non qualifié au second tour est retiré de la comparaison par la même règle mécanique, sans décision éditoriale.</li>
+    <li>Le critère principal est le positionnement dans les sondages publiés (baromètres Ipsos, Ifop, Odoxa…).</li>
+    <li>Un candidat peut être suivi éditorialement hors de la sélection mécanique, à condition d'être présenté <strong>à l'identique</strong> des autres : même carte, même format, aucune mise en avant.</li>
+    <li>Tout candidat non qualifié au second tour est retiré de la comparaison par la même règle mécanique, sans décision éditoriale.</li>
   </ul>
   <p>Six candidats sont actuellement suivis : Dominique de Villepin, Marine Le Pen, Jean-Luc Mélenchon, Édouard Philippe, Raphaël Glucksmann, Gabriel Attal.</p>
 
-  <h2>2. Choix des thèmes</h2>
-  <p>Les douze thèmes proviennent du classement mécanique du baromètre Ipsos/BVA « La Tribune Dimanche » (octobre 2026) : pouvoir d'achat, protection sociale, dette et déficits, délinquance, environnement, immigration, crises internationales, inégalités, éducation, emploi/chômage, terrorisme, institutions. L'ordre d'affichage suit le classement du baromètre.</p>
+  <h2>2. Choix des thèmes : l'agenda des électeurs, pas le nôtre</h2>
+  <p>Les douze thèmes proviennent du classement du baromètre Ipsos/BVA « La Tribune Dimanche » (octobre 2026) — les préoccupations déclarées des Français, pas celles de la rédaction : pouvoir d'achat, protection sociale, dette et déficits, délinquance, environnement, immigration, crises internationales, inégalités, éducation, emploi/chômage, terrorisme, institutions. L'ordre d'affichage suit ce classement.</p>
 
-  <h2>3. Statuts des fiches</h2>
-  <p>Chaque couple candidat × thème porte un statut explicite — il est interdit de combler un vide par une position supposée :</p>
+  <h2>3. Statuts des fiches : le vide est assumé</h2>
+  <p>Chaque couple candidat × thème porte un statut explicite. <strong>Aucune cellule vide n'est jamais comblée par une position supposée ou extrapolée.</strong></p>
   <table>
     <thead><tr><th>Statut</th><th>Signification</th></tr></thead>
     <tbody>
-      <tr><td><span class="statut ok">sourcée</span></td><td>Position trouvée sur une source vérifiable : site officiel du candidat ou du parti, document public, déclaration datée.</td></tr>
-      <tr><td><span class="statut att">attendue</span></td><td>Aucune position détaillée publiée à ce jour sur ce thème. La cellule reste vide jusqu'à parution d'un programme — le vide est de l'information, pas un oubli.</td></tr>
-      <tr><td><span class="statut non">non sourcée</span></td><td>Des éléments existent dans la presse ou des déclarations rapportées, mais aucune source primaire ne permet de qualifier la position. Affichée comme telle.</td></tr>
+      <tr><td><span class="statut ok">sourcée</span></td><td>Position établie sur une source vérifiable : site officiel du candidat ou du parti, document public, déclaration datée.</td></tr>
+      <tr><td><span class="statut att">attendue</span></td><td>Aucune position détaillée publiée à ce jour. La cellule reste vide jusqu'à parution du programme — ce vide est une information honnête, pas un oubli.</td></tr>
+      <tr><td><span class="statut non">non sourcée</span></td><td>Des éléments existent dans la presse, mais aucune source primaire ne permet de qualifier la position. Affichée comme telle, sans combler.</td></tr>
     </tbody>
   </table>
 
-  <h2 id="sources">4. Règles sur les sources — le « mur des sources »</h2>
-  <p>Chaque fiche sourcée applique un <strong>triple ancrage</strong> :</p>
+  <h2 id="sources">4. Sources : le triple ancrage, gage de véracité</h2>
+  <p>Chaque fiche sourcée applique un <strong>triple ancrage</strong> — la garantie que ce que vous lisez correspond à ce que le candidat a réellement publié :</p>
   <ul>
-    <li><strong>URL en ligne</strong> — la page officielle où la position est publiée ;</li>
-    <li><strong>capture d'archive</strong> — une version horodatée (Wayback Machine) qui garantit la vérifiabilité même si la page officielle change ou disparaît ;</li>
-    <li><strong>date de vérification</strong> — le jour où le contenu a été relu.</li>
+    <li><strong>L'URL en ligne</strong> — la page officielle où la position est publiée.</li>
+    <li><strong>La capture d'archive</strong> — une version horodatée (Wayback Machine) qui rend la position vérifiable même si la page officielle est modifiée ou supprimée.</li>
+    <li><strong>La date de vérification</strong> — le jour où le contenu a été relu.</li>
   </ul>
-  <p>Ordre de préférence des sources : sites officiels de campagne et partis → documents publics (info.gouv.fr, vie-publique.fr, JO) → archives presse. Les verbatims cités dans les cartes sont extraits mot à mot des sources ; jamais reformulés.</p>
-  <p>Limites connues et assumées : certains sites officiels bloquent les lectures automatisées (réponse 403) tout en restant accessibles dans un navigateur ; dans ce cas la capture d'archive fait foi de référence.</p>
+  <p>Hiérarchie des sources : sites officiels de campagne et partis → documents publics (info.gouv.fr, vie-publique.fr, Journal officiel) → presse et analyses reconnues. <strong>Les verbatims des cartes sont cités mot à mot.</strong> Quand une reformulation est nécessaire, elle reste factuelle et dépourvue d'appréciation.</p>
+  <p><strong>Limites assumées</strong> : certains sites officiels bloquent les lectures automatisées (réponse 403) tout en restant accessibles dans un navigateur — dans ce cas, la capture d'archive fait foi de référence. Quand une source officielle évolue (programme « en cours de réactualisation »), c'est la dernière version archivée qui est citée.</p>
 
-  <h2>5. « Pour qui » : publics visés par les mesures</h2>
-  <p>Sous chaque carte, des étiquettes indiquent quels publics une mesure vise ou pénalise. Règles :</p>
+  <h2>5. « Pour qui » : des publics attribués sur preuves</h2>
+  <p>Sous chaque carte, des étiquettes indiquent les publics visés ou pénalisés par une mesure. Règles :</p>
   <ul>
-    <li>un public n'apparaît que s'il est la <strong>cible explicite d'une mesure sourcée</strong>, ou identifié par une <strong>analyse économique externe</strong> (institut, économiste) signalée par <sup>†</sup> et un lien ;</li>
-    <li>les puces pleines indiquent les bénéficiaires, les puces pointillées « pénalisés » ceux qui financent ou subissent la mesure ;</li>
-    <li>la page « <a href="pour-qui.html">Pour qui</a> » croise ces publics sur une grille <strong>âge × classe sociale</strong> (jeunes / actifs / retraités × classes populaires, moyennes, aisées, très hauts patrimoines). Les publics qui ne sont ni un âge ni une classe (entreprises, immigrés, professions, territoires…) apparaissent sur les cartes mais pas dans la grille ;</li>
-    <li>aucun public n'est attribué aux fiches <em>attendue</em> ou <em>non sourcée</em>.</li>
+    <li>Un public n'apparaît que s'il est la <strong>cible explicite d'une mesure sourcée</strong>, ou identifié par une <strong>analyse économique externe</strong> (institut, économiste) signalée par <sup>†</sup> et un lien.</li>
+    <li>Les puces pleines indiquent les bénéficiaires ; les puces pointillées « pénalisés » ceux qui financent ou subissent la mesure.</li>
+    <li>La page « <a href="pour-qui.html">Pour qui</a> » croise ces publics sur une grille <strong>âge × classe sociale</strong> (jeunes / actifs / retraités × classes populaires, moyennes, aisées, très hauts patrimoines). Les publics qui ne relèvent ni de l'âge ni de la classe (entreprises, immigrés, professions, territoires…) figurent sur les cartes mais pas dans la grille.</li>
+    <li>Aucun public n'est attribué aux fiches <em>attendue</em> ou <em>non sourcée</em>.</li>
   </ul>
 
-  <h2 id="journal">6. Journal des mises à jour</h2>
+  <h2 id="journal">6. Journal des mises à jour : la traçabilité</h2>
+  <p>Toutes les données éditoriales (positions, candidats, statuts, sources) sont versionnées en JSON dans le dépôt Git du projet — chaque modification est datée et auditable.</p>
   <ul class="journal">
-    <li><span class="d">18 octobre 2026</span> — Charte éditoriale publiée ; matrice « Pour qui » restructurée en grille âge × classe sociale ; chips réalignées sur les 12 pages thème.</li>
-    <li><span class="d">octobre 2026</span> — Dimension « Pour qui » déployée sur les 12 thèmes (64 fiches qualifiées) ; audit complet des 72 fiches : 64 sourcées, 6 attendues, 2 non sourcées ; archives Wayback horodatées ajoutées.</li>
-    <li><span class="d">octobre 2026</span> — 12 thèmes en ligne ; pages « parcours » des six candidats avec dates et lieux de naissance ; faits marquants sourcés pour chaque carrière.</li>
-    <li><span class="d">octobre 2026</span> — Lancement du projet : premières maquettes, protocole de gouvernance (sélection mécanique des candidats et des thèmes).</li>
+    <li><span class="d">18 octobre 2026</span> — Charte éditoriale publiée. Matrice « Pour qui » restructurée en grille âge × classe sociale ; résumés « Ce qu'il faut retenir » passés en listes à puces.</li>
+    <li><span class="d">Octobre 2026</span> — Dimension « Pour qui » déployée sur les 12 thèmes (64 fiches qualifiées). Audit complet des 72 fiches : 64 sourcées, 6 attendues, 2 non sourcées ; archives Wayback horodatées ajoutées.</li>
+    <li><span class="d">Octobre 2026</span> — 12 thèmes en ligne. Pages « parcours » des six candidats avec dates et lieux de naissance ; faits marquants sourcés pour chaque carrière.</li>
+    <li><span class="d">Octobre 2026</span> — Lancement du projet : premières maquettes et protocole de gouvernance.</li>
   </ul>
-  <p>Le détail de chaque modification est traçable dans l'historique Git du projet (données éditoriales versionnées en JSON).</p>
 </main>
 
 <footer>
