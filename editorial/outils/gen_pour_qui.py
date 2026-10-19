@@ -126,7 +126,8 @@ page = f'''<!DOCTYPE html>
   .fil-ariane {{ font-size:.75rem; color:var(--encre-2); margin-bottom:.6rem; }}
   .fil-ariane a {{ color:var(--accent); text-decoration:none; font-weight:600; }}
   .chapo h1 {{ font-size:1.6rem; margin-bottom:.3rem; }}
-  .resume3 {{ font-size:.9rem; color:var(--encre-2); max-width:75ch; }}
+  .resume3 {{ font-size:.9rem; color:var(--encre-2); max-width:1100px; }}
+  .resume3 + .resume3 {{ margin-top:.5rem; }}
   .bloc {{ max-width:1100px; margin:0 auto; padding:0 1rem 1.4rem; overflow-x:auto; }}
   table {{ border-collapse:collapse; width:100%; background:var(--surface); font-size:.8rem; }}
   th, td {{ border:1px solid var(--filet); padding:.55rem .6rem; text-align:left; vertical-align:top; }}
