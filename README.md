@@ -48,32 +48,27 @@ python -c "import json,glob; [json.load(open(f,encoding='utf-8')) for f in glob.
 
 ## Automatisation hebdomadaire (dimanche 18h)
 
-Le pipeline  est lancé par la tâche planifiée
-Windows « Comparer2027-MAJ-hebdo » (installation unique : Opration russie : la tche planifie "Comparer2027-MAJ-hebdo" a t cre.
-
-Tache "Comparer2027-MAJ-hebdo" installee : chaque dimanche a 18h00.
-Pour verifier : schtasks /query /tn "Comparer2027-MAJ-hebdo"
-Pour supprimer : schtasks /delete /tn "Comparer2027-MAJ-hebdo" /f
-Appuyez sur une touche pour continuer... ).
+Le pipeline `editorial/outils/pipeline_dimanche.py` est lancé par la tâche planifiée
+Windows « Comparer2027-MAJ-hebdo » (installation unique : `scripts/install_tache_hebdo.bat`).
 Chaque exécution :
 
-1. **Re-vérifie les sources** — re-télécharge chaque , compare le hash
-   au dernier état (). Changement détecté →
-   flag « revue éditoriale » dans .
+1. **Re-vérifie les sources** — re-télécharge chaque `url_live`, compare le hash
+   au dernier état (`editorial/data/etat_verif.json`). Changement détecté →
+   flag « revue éditoriale » dans `editorial/verif/verif-<date>.md`.
 2. **Surveille les index programmes** des candidats ayant des fiches
-   / → nouvelles positions possibles.
-3. **Cascade thèmes** — tout thème  de  obtient
-   automatiquement ses 6 fiches , sa maquette et sa tuile d'index
+   `attendue`/`non_sourcee` → nouvelles positions possibles.
+3. **Cascade thèmes** — tout thème `actif` de `editorial/data/themes/` obtient
+   automatiquement ses 6 fiches `attendue`, sa maquette et sa tuile d'index
    (un nouveau thème se propage donc seul). Le classement du baromètre
-   ( à renseigner) est surveillé : changement → signaler +
-   mettre à jour , le reste suit.
+   (`BAROMETRE_URL` à renseigner) est surveillé : changement → signaler +
+   mettre à jour `themes/`, le reste suit.
 4. **Règle de sélection candidats** — un candidat suivi absent du dernier
    sondage publié est signalé pour retrait (ex. Villepin hors second tour).
 5. **Timbres** — « Vérifié le » / « Mis à jour le » dans le footer des pages.
-6. **Journal** — entrée datée dans  si évolutions.
-7. **Regénère**  et les chips ; **commit + push** GitHub.
-8. **Déploie**  via FTP ( à la racine —
-   gitignoré, cf. ).
+6. **Journal** — entrée datée dans `charte.html#journal` si évolutions.
+7. **Regénère** `pour-qui.html` et les chips ; **commit + push** GitHub.
+8. **Déploie** `site/maquettes/` via FTP (`deploy.secrets.json` à la racine —
+   gitignoré, cf. `deploy.secrets.example.json`).
 
 Limite assumée : le pipeline **détecte et signale** les évolutions ; il ne
 rédige jamais une synthèse neutre — les sources modifiées attendent une
