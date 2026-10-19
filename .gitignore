@@ -1,16 +1,5 @@
-# Dépendances & build (futur site)
-node_modules/
-dist/
-build/
+# Identifiants de deploiement OVH — ne JAMAIS commiter
+deploy.secrets.json
 
-# Système / éditeur
-.DS_Store
-Thumbs.db
-*.log
-.env
-.env.*
-!.env.example
-
-# Brouillons locaux
-*.tmp
-~$*
+# Logs du pipeline hebdomadaire
+logs/
