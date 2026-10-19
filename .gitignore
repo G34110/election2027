@@ -3,3 +3,7 @@ deploy.secrets.json
 
 # Logs du pipeline hebdomadaire
 logs/
+
+# Cache Python
+__pycache__/
+*.pyc
