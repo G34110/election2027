@@ -336,5 +336,37 @@ def main():
         print('[pipeline] deploy.secrets.json absent -> deploiement FTP ignore '
               '(renseignez les identifiants OVH pour activer)')
 
+    # ── 9. rapport par mail ──
+    envoyer_rapport(rpath, checked, len(changes), len(errors), changes, errors)
+
+
+def envoyer_rapport(rpath, checked, nchanges, nerrors, changes, errors):
+    """Envoie le rapport hebdo par mail. Config dans deploy.secrets.json :
+    "mail": {"host":"ssl0.ovh.net","port":465,"user":"...","password":"...",
+             "from":"contact@cvbusiness.fr","to":"gillescaruso8@gmail.com"}"""
+    if not os.path.exists('deploy.secrets.json'):
+        print('[pipeline] pas de secrets -> mail ignore')
+        return
+    conf = json.load(open('deploy.secrets.json', encoding='utf-8')).get('mail')
+    if not conf or not conf.get('password'):
+        print('[pipeline] bloc "mail" absent des secrets -> mail ignore')
+        return
+    import smtplib, ssl
+    from email.mime.text import MIMEText
+    corps = open(rpath, encoding='utf-8').read()
+    sujet = f'Comparer 2027 — rapport hebdo {TODAY_FR} : {nchanges} évolution(s)'
+    msg = MIMEText(corps, 'plain', 'utf-8')
+    msg['Subject'] = sujet
+    msg['From'] = conf['from']
+    msg['To'] = conf['to']
+    try:
+        with smtplib.SMTP_SSL(conf['host'], conf.get('port', 465), timeout=20,
+                              context=ssl.create_default_context()) as s:
+            s.login(conf['user'], conf['password'])
+            s.sendmail(conf['from'], [conf['to']], msg.as_string())
+        print(f'[pipeline] rapport envoye a {conf["to"]}')
+    except Exception as e:
+        print(f'[pipeline] ECHEC envoi mail : {e}')
+
 if __name__ == '__main__':
     main()
