@@ -1,410 +1,480 @@
 {
   "sources": {
     "editorial/data/positions\\dominique-de-villepin\\crises-internationales.json": {
-      "hash": "b28b9aa8844300757759259c263e1351c5bd6a31ae8cae3a1dc27bd9d6b9f156",
+      "hash": "a1ecd0e45461c16cc76564162b48ed144a7b2f4af92114d4473459117d06f05d",
       "url": "https://lafrancehumaniste.fr/articles/moment-europeen-europe-souveraine.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 101376
+      "verif_le": "2026-10-31",
+      "taille": 102404
     },
     "editorial/data/positions\\dominique-de-villepin\\delinquance.json": {
       "hash": "6a467de6ed9d3d5721b7b1c82f95c82f1419b5ab52a320fe8609b3c102e0c511",
       "url": "https://lafrancehumaniste.fr/france2027",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 46896
     },
     "editorial/data/positions\\dominique-de-villepin\\dette-deficits.json": {
-      "hash": "b0e4354c29fe1f218b569089602be37233ab6914bdcec55f8bdbecc9f2ed1008",
+      "hash": "61d008ea4fffda2a9bb2de4c53a356228a795defbe0f62226d63e2185ced3a54",
       "url": "https://lafrancehumaniste.fr/articles/big-bang-la-regle-republicaine.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 55730
+      "verif_le": "2026-10-31",
+      "taille": 56579
     },
     "editorial/data/positions\\dominique-de-villepin\\education.json": {
-      "hash": "a36076cda41c7b61f64a6279380997c60043ca4946294a6d86cff0f1927ea65d",
+      "hash": "c4d93ed1f067252da852aa528669140042ebe6f6058c1586b11a10134ce7996b",
       "url": "https://lafrancehumaniste.fr/articles/refonder-lecole-pour-refaire-societe.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 66297
+      "verif_le": "2026-10-31",
+      "taille": 67260
     },
     "editorial/data/positions\\dominique-de-villepin\\emploi-chomage.json": {
-      "hash": "14dd7233805eea3ff4ece08e18601b9bb9f5bf1f96a39af553b689131bd9d24d",
+      "hash": "41848c4d93aab5e76949a64696d28213e1d881eacc0d65f22cc80151cb67c2db",
       "url": "https://lafrancehumaniste.fr/articles/un-nouveau-monde-du-travail.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 60547
+      "verif_le": "2026-10-31",
+      "taille": 61497
     },
     "editorial/data/positions\\dominique-de-villepin\\environnement.json": {
-      "hash": "d99b41070fb1a44d76f8021e8af428b0c22dec3298e16e01783eca175cd56ae1",
+      "hash": "0c795102552df70def9f513a3b9af4ca20f9486e18a4e598bbde4ed98c61c074",
       "url": "https://lafrancehumaniste.fr/articles/la-bifurcation-ecologique.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 64165
+      "verif_le": "2026-10-31",
+      "taille": 65146
     },
     "editorial/data/positions\\dominique-de-villepin\\immigration.json": {
-      "hash": "4d86b146d4a098fdd37cae42448f8f0e8a5947142a95d6ed1cea0c9641003a27",
+      "hash": "35c5fcf46332ff2760c284344089daf98025cd6ed691ba071b320198f9b60c67",
       "url": "https://lafrancehumaniste.fr/articles/la-france-face-au-piege-identitaire.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 47303
+      "verif_le": "2026-10-31",
+      "taille": 48259
     },
     "editorial/data/positions\\dominique-de-villepin\\inegalites.json": {
-      "hash": "48014ae4f9fcb38af7e29bfb525feba605ec19f106a674047b048408c7b28780",
+      "hash": "1a4a0dde8f9af5b922d79ce44ebda75adb7ebe3f35d4bcd803c641c95c6d76d8",
       "url": "https://lafrancehumaniste.fr/articles/le-scandale-de-la-pauvrete.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 54315
+      "verif_le": "2026-10-31",
+      "taille": 55247
     },
     "editorial/data/positions\\dominique-de-villepin\\institutions.json": {
-      "hash": "6016b2e9b8bf44d0f084fe5ddd66a30dff4e22bcc8929928d30b66965320e0bf",
+      "hash": "b0ddbc7b301d2de6f639cadc0b81cad38fc6ad61347f9b48a3a1d327f4256f24",
       "url": "https://lafrancehumaniste.fr/articles/chemin-gaulliste.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 53273
+      "verif_le": "2026-10-31",
+      "taille": 54147
     },
     "editorial/data/positions\\dominique-de-villepin\\pouvoir-achat.json": {
       "hash": "1eabed4f5d5baa5a2d91341a0d9fb580446ac15d609e8a8e4f1c36134f4fb9d4",
       "url": "https://lafrancehumaniste.fr/programme/economie.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 96732
     },
     "editorial/data/positions\\dominique-de-villepin\\protection-sociale.json": {
-      "hash": "a2e10b75465ad70ea74bc090bcd57c58a27883d62c28218ccbf389de8e830039",
+      "hash": "225a258cf72f95a127d260d2f3c98a9d221f0c8ffabfd05263eb0b31a453cc0e",
       "url": "https://lafrancehumaniste.fr/articles/protection-sociale.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 66783
+      "verif_le": "2026-10-31",
+      "taille": 67636
     },
     "editorial/data/positions\\dominique-de-villepin\\terrorisme.json": {
-      "hash": "f48c2226f04ddbc1a13638927ccb981866eb7d632e80e017b55ee62650f69a62",
+      "hash": "7738e2f2faf715169f6a13f6585a37901d9f9e71a9fcc915dd04c948b1500923",
       "url": "https://lafrancehumaniste.fr/articles/la-lutte-antiterroriste.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 45943
+      "verif_le": "2026-10-31",
+      "taille": 46828
     },
     "editorial/data/positions\\edouard-philippe\\crises-internationales.json": {
-      "hash": "95ac77ce142c5ea29db6874d37d64b69c2bbcb8f08165723d210641345dd3951",
+      "hash": "538e06f5ea82248145bf98b4ad57690bf696673ac404d98fb9904d6ea168046c",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 25348
     },
     "editorial/data/positions\\edouard-philippe\\delinquance.json": {
-      "hash": "95ac77ce142c5ea29db6874d37d64b69c2bbcb8f08165723d210641345dd3951",
+      "hash": "538e06f5ea82248145bf98b4ad57690bf696673ac404d98fb9904d6ea168046c",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 25348
     },
     "editorial/data/positions\\edouard-philippe\\dette-deficits.json": {
-      "hash": "cb0ac828c49fc9683cd79aee24798ee25c4ba63631de6bdad3b2244af5d887ab",
+      "hash": "75c258f20f97c41bffcbf408acfd12af65ee250fb8ac441afa4fe2ffdce0501a",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23265
     },
     "editorial/data/positions\\edouard-philippe\\education.json": {
-      "hash": "74ac8159ce8436e39b6e92c3d21ae01b10512e6ff1b89f186cfd75fa032a3c71",
+      "hash": "ade38e7bcf1606fa4df93e20d4f0d9306ce2965e332bd98a76b0f58b71f5c6cd",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23391
     },
     "editorial/data/positions\\edouard-philippe\\emploi-chomage.json": {
-      "hash": "cb0ac828c49fc9683cd79aee24798ee25c4ba63631de6bdad3b2244af5d887ab",
+      "hash": "75c258f20f97c41bffcbf408acfd12af65ee250fb8ac441afa4fe2ffdce0501a",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23265
     },
     "editorial/data/positions\\edouard-philippe\\environnement.json": {
-      "hash": "847f0a6d2192fab5c973425f274308fabfb1f7058be992c8ae00154ee7e43c5d",
+      "hash": "fd160392ea2df00a3b3fb5ce5815762147a091841d46092752e819b98ef417bb",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 22269
     },
     "editorial/data/positions\\edouard-philippe\\immigration.json": {
-      "hash": "95ac77ce142c5ea29db6874d37d64b69c2bbcb8f08165723d210641345dd3951",
+      "hash": "538e06f5ea82248145bf98b4ad57690bf696673ac404d98fb9904d6ea168046c",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 25348
     },
     "editorial/data/positions\\edouard-philippe\\inegalites.json": {
-      "hash": "74ac8159ce8436e39b6e92c3d21ae01b10512e6ff1b89f186cfd75fa032a3c71",
+      "hash": "ade38e7bcf1606fa4df93e20d4f0d9306ce2965e332bd98a76b0f58b71f5c6cd",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23391
     },
     "editorial/data/positions\\edouard-philippe\\institutions.json": {
-      "hash": "033c9f8295f25bdc5868ca5c9859d89b0dc0b4ed6f1b75f4064459feec1e9bad",
+      "hash": "b20ab1bd8ed59a3ecfedf8003bef03a666c966f7c986c8b5e8dc04bd2dfd141d",
       "url": "https://www.tf1info.fr/politique/ancien-premier-ministre-et-maire-du-havre-edouard-philippe-devoile-sa-feuille-de-route-en-cas-d-election-a-la-presidentielle-de-2027-2359655.html",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 359500
+      "verif_le": "2026-10-31",
+      "taille": 361850
     },
     "editorial/data/positions\\edouard-philippe\\pouvoir-achat.json": {
-      "hash": "cb0ac828c49fc9683cd79aee24798ee25c4ba63631de6bdad3b2244af5d887ab",
+      "hash": "75c258f20f97c41bffcbf408acfd12af65ee250fb8ac441afa4fe2ffdce0501a",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23265
     },
     "editorial/data/positions\\edouard-philippe\\protection-sociale.json": {
-      "hash": "cb0ac828c49fc9683cd79aee24798ee25c4ba63631de6bdad3b2244af5d887ab",
+      "hash": "75c258f20f97c41bffcbf408acfd12af65ee250fb8ac441afa4fe2ffdce0501a",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 23265
     },
     "editorial/data/positions\\edouard-philippe\\terrorisme.json": {
-      "hash": "95ac77ce142c5ea29db6874d37d64b69c2bbcb8f08165723d210641345dd3951",
+      "hash": "538e06f5ea82248145bf98b4ad57690bf696673ac404d98fb9904d6ea168046c",
       "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 25348
     },
     "editorial/data/positions\\gabriel-attal\\crises-internationales.json": {
-      "hash": "a6098afbb968396b0e3fc063eb556e32f467bded3975701dcaea83f0df21f35c",
+      "hash": "6604516734f5ed03764c31cb6c281c129bf7c8387f1ef3cb7e50af4397f8f18b",
       "url": "https://attalpresident.fr/programme/frontieres",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 206777
+      "verif_le": "2026-10-31",
+      "taille": 211859
     },
     "editorial/data/positions\\gabriel-attal\\dette-deficits.json": {
-      "hash": "6bc6a708003ebd358674956b0ddcbfe4dd8cb290538d681dd5612552fe893170",
+      "hash": "76884af13cf8eaf872af4f89d028735cd620c4aaa9623dcfc984574421f791f5",
       "url": "https://attalpresident.fr/programme/dette-de-letat",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 185581
     },
     "editorial/data/positions\\gabriel-attal\\education.json": {
-      "hash": "427ec82d2f8400bece9aab6256b5517f2da3c1c90d6a1d88fa3383e924f2cf30",
+      "hash": "704ac740c7f322954e1c846fed2fa5a8aab83042ea973cee968519da7d1e65fd",
       "url": "https://attalpresident.fr/programme/education",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 185774
+      "verif_le": "2026-10-31",
+      "taille": 190908
     },
     "editorial/data/positions\\gabriel-attal\\emploi-chomage.json": {
-      "hash": "07e8418818aa9ca84a821c0d21b054cb0ea823389ea1f0d14b1ee1f53097f9fa",
+      "hash": "06cd6c5c5ce55ba66968b1817040719dd8528797f70390402118326a67298ccf",
       "url": "https://attalpresident.fr/programme/travail-salaires",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 200945
+      "verif_le": "2026-10-31",
+      "taille": 206271
     },
     "editorial/data/positions\\gabriel-attal\\environnement.json": {
-      "hash": "129cea051c85b8ad3048a79f79546c96ef0acf7b574671c310a292a08e315df0",
+      "hash": "0d516955e63dd4be675282bad7176b30315d664a2b14a248927d3d44ef4a2a27",
       "url": "https://attalpresident.fr/programme/dette-ecologique",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 210161
     },
     "editorial/data/positions\\gabriel-attal\\immigration.json": {
-      "hash": "ffb922acc602c65fec1454fe8617bc4721ec02c8ff6c516e835843bc63c22d87",
+      "hash": "d1ae1813bc482926275ef130ff38c3c9b55f93de1dfd00e4145b2e264c2d8b48",
       "url": "https://attalpresident.fr/programme/frontieres",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 206777
+      "verif_le": "2026-10-31",
+      "taille": 211859
     },
     "editorial/data/positions\\gabriel-attal\\pouvoir-achat.json": {
-      "hash": "877101258609bcf1a0e020f4787bffa1b83eaa394225d38226e2d2fd5c86f111",
+      "hash": "5c5fc816772fbb772df487246d9440beb0a934d98e74ece4fb1e184fff651271",
       "url": "https://attalpresident.fr/programme/travail-salaires",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 200945
+      "verif_le": "2026-10-31",
+      "taille": 206271
     },
     "editorial/data/positions\\gabriel-attal\\protection-sociale.json": {
-      "hash": "f7f11a800d2e66649b7a7f54ec851f24191828395f212e00fe647c889f1d9c25",
+      "hash": "53780aa006bda04dc54d6fdbc89dc53810a86e2d26e657fb59fd0c13ee71abfa",
       "url": "https://attalpresident.fr/programme/travail-salaires",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 200945
+      "verif_le": "2026-10-31",
+      "taille": 206271
     },
     "editorial/data/positions\\jean-luc-melenchon\\dette-deficits.json": {
       "hash": "29bdddf516b86f4c8388c5f665ad35e8282e2baea7838fc605f0a7daf9456906",
       "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 4048830
     },
     "editorial/data/positions\\jean-luc-melenchon\\terrorisme.json": {
       "hash": "acb6dac39768830d5a4658c5616fb87e69cd2f018f173e0b2757ebf3eff8456e",
       "url": "https://melenchon2027.fr/wp-content/uploads/2025/02/A5-PROGRAMME-SITE.pdf",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 882569
     },
     "editorial/data/positions\\marine-le-pen\\crises-internationales.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\delinquance.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\dette-deficits.json": {
       "hash": "49b1bcf7ae6d17930c440d93814e6fe8c9ef16fc727ce71e752f4f35b57dd441",
       "url": "https://rassemblementnational.fr/documents/GRN-CONTRE-BUDGET-2026.pdf",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 893639
     },
     "editorial/data/positions\\marine-le-pen\\education.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\emploi-chomage.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\environnement.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\immigration.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\inegalites.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\institutions.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\pouvoir-achat.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\protection-sociale.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\marine-le-pen\\terrorisme.json": {
-      "hash": "4933a218c9d83dbfec683a996df2a8758a44e27053c6e60fbd6b3fd9e1384be3",
+      "hash": "981dfe83e43caca0f3c1902785e5d3ee46d15b2d065acee7eb34a27c80384cc8",
       "url": "https://rassemblementnational.fr/22-mesures",
       "http": 200,
-      "verif_le": "2026-10-19",
-      "taille": 123006
+      "verif_le": "2026-10-31",
+      "taille": 122317
     },
     "editorial/data/positions\\raphael-glucksmann\\crises-internationales.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\delinquance.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\dette-deficits.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\education.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\environnement.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\immigration.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\inegalites.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\institutions.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\pouvoir-achat.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
     },
     "editorial/data/positions\\raphael-glucksmann\\protection-sociale.json": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19",
+      "verif_le": "2026-10-31",
       "taille": 11377
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\crises-internationales.json": {
+      "hash": "3790c0a9b2148038499cd60e78fbfcabba1ea7b8c2aa66f3a871c62b453f1074",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\delinquance.json": {
+      "hash": "855a37ef5f9cac34d027f391508f392fb2797e9387fc8471fe0297741b7e0e1d",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre7/s7/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\education.json": {
+      "hash": "a2b55d8f204245debf778e64af5a3c662eefaa5a899846d16bbc6b6101cf65ac",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\emploi-chomage.json": {
+      "hash": "112cd7bab1b2492f2c75065a79107ed1826ed27c31e4ff274a3007fa0b06aa1a",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\environnement.json": {
+      "hash": "ea7338d0513d1326fa4aa424e8ec77a632e012061bbee96cb1cfbc54ee26c813",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\immigration.json": {
+      "hash": "6238845565a625e3729ed0daf996078d1159ce64a52e26d104b6aba323a948ba",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre16/s7/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\inegalites.json": {
+      "hash": "c37e30c4d3f7388fc6bdb790de743554ffbe0801c2a4156ed513abb32fba01b2",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\institutions.json": {
+      "hash": "475a46162ccb9d7898c4b779852f39eafd56a6912a2fb5ac0c119b7086adad40",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\pouvoir-achat.json": {
+      "hash": "defff235440a04083effb26f9d02b66da5cf1d58429e61d204f3743642de133c",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
+    },
+    "editorial/data/positions\\jean-luc-melenchon\\protection-sociale.json": {
+      "hash": "cc064c6d073c85b5e14ba8f9cf080a22f7095d1ff727d48fd64a738d3599e2d6",
+      "url": "https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+      "http": 200,
+      "verif_le": "2026-10-31",
+      "taille": 226771
     }
   },
   "index": {
     "gabriel-attal": {
-      "hash": "d6afdbe6cae5391a57a512d346984faa224bea27e079bb13999e5ff794ef1f69",
+      "hash": "0c305a5772e149b5f6ed398ae8d38b832ab949d0c37e703199633694701df51e",
       "url": "https://attalpresident.fr/programme",
       "http": 200,
-      "verif_le": "2026-10-19"
+      "verif_le": "2026-10-31"
     },
     "raphael-glucksmann": {
       "hash": "bd93936d36145f76f0a7d36217201b8294298a4871384a4b820b1ea528d12b0f",
       "url": "https://raphaelglucksmann.eu/programme.html",
       "http": 200,
-      "verif_le": "2026-10-19"
+      "verif_le": "2026-10-31"
     }
   }
 }
