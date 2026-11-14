@@ -2,29 +2,56 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "crises-internationales",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose de porter les réservistes de 45 000 à 250 000, le service militaire volontaire à 50 000 places par an, un plan munitions (700 000 obus/an à l'échelle allemande), la massification des drones tactiques et une nouvelle LPM « de la massification ».",
-    "mesure_phare": "250 000 réservistes — nouvelle LPM « de la massification »",
+    "synthese": "Le programme du 12 novembre 2026 prévoit une « loi de massification » des armées : réservistes portés de 45 000 à 250 000, service militaire volontaire passé de 3 000 à 50 000 places par an (avec un volet environnemental), production massive de drones tactiques, plan munitions visant 700 000 obus par an, Marine renforcée aux Antilles contre le narcotrafic, dissuasion nucléaire modernisée, au moins 1 % du PIB des pays européens de l'OTAN consacré à des équipements fabriqués en Europe et « un soutien plein à l'Ukraine ».",
+    "mesure_phare": "Massification des armées (250 000 réservistes, 50 000 volontaires/an) + soutien plein à l'Ukraine + armements européens",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/defense",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/defense",
+        "titre": "Défense — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. Un service militaire volontaire de 50 000 jeunes par an et un objectif de 250 000 réservistes. Des armements « made in Europe » : au moins 1 % de la richesse nationale des pays européens de l'OTAN consacrée à des équipements fabriqués en Europe. Un soutien plein à l'Ukraine."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "url_archive": "https://web.archive.org/web/20261005142406/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "titre": "Pour une France plus sûre — Massifier nos armées",
-      "date_verification": "2026-10-17",
-      "verbatim": "Porter le nombre de réservistes de 45 000 à 250 000 et le service militaire volontaire de 3 000 à 50 000 places par an."
+      "url_live": "https://www.edouardphilippe.fr/programme/defense",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/defense",
+      "titre": "Défense — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Une loi de massification de nos armées pour avoir plus de soldats, de réservistes, de munitions et de drones. Un service militaire volontaire de 50 000 jeunes par an et un objectif de 250 000 réservistes. Des armements « made in Europe » : au moins 1 % de la richesse nationale des pays européens de l'OTAN consacrée à des équipements fabriqués en Europe. Un soutien plein à l'Ukraine."
     }
   },
   "fil_du_temps": [],
   "actes_passes": [],
   "publics": [
     {
-      "public": "Réservistes & armées",
+      "public": "Jeunes",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "250 000 réservistes, service volontaire 50 000/an, munitions"
+      "detail": "50 000 places de service militaire volontaire par an, réserve élargie"
+    },
+    {
+      "public": "Armées & industriels de défense",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "massification, drones, munitions, préférence européenne"
+    },
+    {
+      "public": "Ukraine",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "soutien plein affiché"
+    },
+    {
+      "public": "Antilles & outre-mer",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "Marine renforcée contre le narcotrafic en mer"
     }
   ]
 }

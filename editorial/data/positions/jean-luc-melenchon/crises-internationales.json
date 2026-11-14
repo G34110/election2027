@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "crises-internationales",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Sortie du commandement intégré de l'OTAN puis de l'organisation — non-alignement — désarmement",
     "type_mesure": "orientee",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
-      "url_archive": "https://web.archive.org/web/20260826085650/https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre16/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 16 §1 « Assumer l'indépendance de la France dans le monde »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même. […] Sortir la France de l'isolement occidental et recommencer à parler au monde entier en refusant la doctrine du « choc des civilisations »."
     }
   },

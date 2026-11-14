@@ -1,12 +1,46 @@
 {
   "candidat_id": "gabriel-attal",
   "theme_id": "institutions",
-  "statut": "attendue",
-  "maj_le": "2026-10-17",
+  "statut": "sourcee",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "L'index du programme (consulté le 14 novembre 2026) contient un volet « Démocratie » : une journée référendaire par an pour que les Français tranchent les grandes orientations du pays, la facilitation des référendums locaux, et l'ouverture de l'accès aux hautes fonctions de l'État. Le candidat promet aussi de « remplacer le Code du travail par une Constitution du travail ».",
+    "mesure_phare": "Une journée référendaire par an + référendums locaux facilités",
+    "type_mesure": "orientee",
+    "sources": [
+      {
+        "url_live": "https://attalpresident.fr/programme",
+        "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+        "titre": "Le programme — Gabriel Attal 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Instaurer une journée référendaire par an pour que les Français tranchent les grandes orientations du pays. Faciliter les référendums locaux."
+      }
+    ],
+    "source": {
+      "url_live": "https://attalpresident.fr/programme",
+      "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+      "titre": "Le programme — Gabriel Attal 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Instaurer une journée référendaire par an pour que les Français tranchent les grandes orientations du pays. Faciliter les référendums locaux."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Aucun volet institutionnel publié dans les chantiers en ligne à ce jour — position à documenter dès publication."
+  "_note": "Aucun volet institutionnel publié dans les chantiers en ligne à ce jour — position à documenter dès publication.",
+  "publics": [
+    {
+      "public": "Citoyens & électeurs",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "journée référendaire annuelle, référendums locaux facilités"
+    },
+    {
+      "public": "Collectivités territoriales",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "référendums locaux facilités"
+    }
+  ]
 }

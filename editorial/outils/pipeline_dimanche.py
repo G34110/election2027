@@ -31,10 +31,10 @@ UA = {'User-Agent': 'Mozilla/5.0 (compatible; Comparer2027-verif/1.0)', 'Accept-
 
 # index programme surveille pour les fiches non sourcees
 PROG_INDEX = {
-    'dominique-de-villepin': 'https://lafrancehumaniste.fr/projet-france-2027.html',
+    'dominique-de-villepin': 'https://lafrancehumaniste.fr/france2027.html',
     'marine-le-pen': 'https://rassemblementnational.fr/22-mesures',
-    'jean-luc-melenchon': 'https://melenchon2027.fr/programme2025/livre/',
-    'edouard-philippe': 'https://www.edouardphilippe.fr/priorites',
+    'jean-luc-melenchon': 'https://melenchon2027.fr/programme/livre/',
+    'edouard-philippe': 'https://www.edouardphilippe.fr/programme',
     'raphael-glucksmann': 'https://raphaelglucksmann.eu/programme.html',
     'gabriel-attal': 'https://attalpresident.fr/programme',
 }
@@ -64,8 +64,19 @@ def fetch(url):
             raw = r.read()
             if r.headers.get('Content-Encoding') == 'gzip':
                 raw = gzip.decompress(raw)
-            # normalise les blancs pour limiter les faux positifs
-            norm = re.sub(rb'\s+', b' ', raw)
+            # hash sur le texte visible : scripts, styles, attributs et
+            # jetons dynamiques (CSRF, nonces, horodatages) exclus, sinon
+            # les pages dynamiques produisent des faux positifs systematiques
+            if raw[:5] == b'%PDF-' or b'<html' not in raw[:5000].lower():
+                norm = raw  # binaire (PDF...) : hash direct
+            else:
+                txt = raw.decode('utf-8', 'ignore')
+                txt = re.sub(r'<script[\s\S]*?</script>', ' ', txt)
+                txt = re.sub(r'<style[\s\S]*?</style>', ' ', txt)
+                txt = re.sub(r'<svg[\s\S]*?</svg>', ' ', txt)
+                txt = re.sub(r'<!--[\s\S]*?-->', ' ', txt)
+                txt = re.sub(r'<[^>]+>', ' ', txt)
+                norm = re.sub(r'\s+', ' ', txt).strip().encode('utf-8')
             return r.status, hashlib.sha256(norm).hexdigest(), len(raw)
     except urllib.error.HTTPError as e:
         return e.code, None, 0
@@ -216,25 +227,28 @@ def main():
     changes, errors, checked = [], [], 0
     themes_impacts = set()
 
-    # ── 1. fiches sourcee : re-verification des url_live ──
+    # ── 1. fiches sourcee : re-verification de toutes les url_live ──
     for path in sorted(glob.glob('editorial/data/positions/*/*.json')):
         d = json.load(open(path, encoding='utf-8'))
-        src = (d.get('position_actuelle') or {}).get('source') or {}
-        url = src.get('url_live')
-        if not url:
-            continue
-        checked += 1
-        code, h, taille = fetch(url)
-        prev = etat['sources'].get(path, {})
+        pos = d.get('position_actuelle') or {}
+        srcs = pos.get('sources') or ([pos['source']] if pos.get('source') else [])
         cid, theme = d['candidat_id'], d['theme_id']
-        if h is None:
-            errors.append((f'{cid}/{theme}', url, f'HTTP {code}'))
-            continue
-        if prev.get('hash') and prev['hash'] != h:
-            changes.append((f'{cid}/{theme}', url, 'contenu modifié'))
-            themes_impacts.add(theme)
-            rapport.append(f'- **{cid} / {theme}** : source modifiée → revue éditoriale requise ({url})')
-        etat['sources'][path] = {'hash': h, 'url': url, 'http': code, 'verif_le': TODAY_ISO, 'taille': taille}
+        for si, src in enumerate(srcs):
+            url = (src or {}).get('url_live')
+            if not url:
+                continue
+            checked += 1
+            key = path if si == 0 else f'{path}::src{si+1}'
+            code, h, taille = fetch(url)
+            prev = etat['sources'].get(key, {})
+            if h is None:
+                errors.append((f'{cid}/{theme}', url, f'HTTP {code}'))
+                continue
+            if prev.get('hash') and prev['hash'] != h:
+                changes.append((f'{cid}/{theme}', url, 'contenu modifié'))
+                themes_impacts.add(theme)
+                rapport.append(f'- **{cid} / {theme}** : source modifiée → revue éditoriale requise ({url})')
+            etat['sources'][key] = {'hash': h, 'url': url, 'http': code, 'verif_le': TODAY_ISO, 'taille': taille}
 
     # ── 2. fiches attendue/non_sourcee : surveillance des index ──
     watch = set()
@@ -313,7 +327,7 @@ def main():
         print('[pipeline] journal mis à jour')
 
     # ── 6. regen des fichiers derives ──
-    for gen in ('gen_pour_qui.py', 'gen_chips.py'):
+    for gen in ('gen_pour_qui.py', 'gen_chips.py', 'gen_actu.py'):
         subprocess.run([sys.executable, '-X', 'utf8', f'editorial/outils/{gen}'],
                        check=True, capture_output=True)
 

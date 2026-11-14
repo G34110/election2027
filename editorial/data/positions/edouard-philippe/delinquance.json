@@ -2,19 +2,35 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "delinquance",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose un arsenal pénal renforcé : « courtes peines » dès la première infraction, peines planchers pour les infractions graves, suppression du juge d'application des peines et pouvoir de sanction pénale pour les maires. Il propose aussi un « état d'urgence narco » contre le narcotrafic.",
-    "mesure_phare": "Peines planchers + suppression du juge d'application des peines + « état d'urgence narco »",
+    "synthese": "Le candidat publie le 12 novembre 2026 un volet sécurité complet : « état d'urgence narco » (interpellations nocturnes, gardes à vue étendues, reconnaissance faciale ciblée dans les zones touchées), rétablissement des peines planchers pour les atteintes aux personnes dépositaires de l'autorité publique, peines de prison courtes dès la première infraction (modèle des pays du Nord), suppression du juge d'application des peines, loi d'accélération de la construction de prisons, pouvoir de sanction renforcé des maires, amendes impayées prélevées sur les aides sociales, excuse de minorité levée pour le narcotrafic et comparution immédiate des mineurs.",
+    "mesure_phare": "« État d'urgence narco » + peines planchers + prison courte dès le premier délit + amendes prélevées sur les aides sociales",
     "type_mesure": "orientee",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/securite",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/securite",
+        "titre": "Sécurité — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Un « état d'urgence narco » qui donne des moyens exceptionnels dans les zones les plus touchées par le narcotrafic. L'expulsion immédiate des étrangers délinquants. Le prélèvement des amendes impayées sur les aides sociales."
+      },
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/justice",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/justice",
+        "titre": "Justice — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Le rétablissement des peines planchers. Des peines de prison courtes, dès la première infraction. La suppression du juge d'application des peines : une peine prononcée sera une peine exécutée. Une loi d'accélération de la construction de prisons."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "url_archive": "https://web.archive.org/web/20261005142406/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "titre": "Pour une France plus sûre — Rétablir l'autorité, la fermeté et l'efficacité de la Justice",
-      "date_verification": "2026-10-17",
-      "verbatim": "Mettre en place des courtes peines, en s'inspirant des pays du Nord qui condamnent dès la première infraction à une peine courte et dissuasive plutôt que d'enfermer trop tard et trop longtemps."
+      "url_live": "https://www.edouardphilippe.fr/programme/securite",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/securite",
+      "titre": "Sécurité — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Un « état d'urgence narco » qui donne des moyens exceptionnels dans les zones les plus touchées par le narcotrafic. L'expulsion immédiate des étrangers délinquants. Le prélèvement des amendes impayées sur les aides sociales."
     }
   },
   "fil_du_temps": [],
@@ -24,13 +40,31 @@
       "public": "Victimes",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "courtes peines dès la 1re infraction, arsenal pénal renforcé"
+      "detail": "peines réellement exécutées, devoir de redevabilité des juges envers les victimes"
     },
     {
       "public": "Délinquants",
       "sens": "contribue",
       "fondement": "mesure",
-      "detail": "peines planchers, suppression du juge d'application des peines"
+      "detail": "peines planchers, prison courte dès la 1re infraction, amendes prélevées sur prestations"
+    },
+    {
+      "public": "Trafiquants & narcotrafic",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "état d'urgence narco, fiche S financière, saisie des avoirs"
+    },
+    {
+      "public": "Forces de l'ordre",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "peines planchers pour atteintes aux personnes dépositaires de l'autorité publique"
+    },
+    {
+      "public": "Mineurs délinquants",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "excuse de minorité levée pour le narcotrafic, comparution immédiate"
     }
   ]
 }

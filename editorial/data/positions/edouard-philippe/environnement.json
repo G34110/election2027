@@ -2,19 +2,35 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "environnement",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose « une écologie à impact » : relance du nucléaire (8 EPR supplémentaires en plus des 6 prévus), prix du carbone aux frontières européennes, concentration sur fret/rénovation/grande industrie, capture de carbone, et adaptation via une « DATAR 2.0 » et un fonds unique de 2 Md€/an.",
-    "mesure_phare": "8 EPR supplémentaires — prix carbone aux frontières — fonds adaptation 2 Md€/an",
+    "synthese": "Le programme du 12 novembre 2026 défend une « écologie à impact » : relance du nucléaire avec 8 réacteurs EPR supplémentaires (14 au total avec les 6 déjà prévus), développement des renouvelables « là où elles sont efficaces », électrification massive des usages, prix du carbone aux frontières européennes, même aide pour une voiture électrique d'occasion que neuve. Côté adaptation : fonds de 2 milliards d'euros par an, climatisation des lieux accueillant des personnes fragiles, stockage de l'eau et réutilisation de 10 % des eaux usées, zéro surtransposition pour l'agriculture.",
+    "mesure_phare": "14 EPR + électrification massive + fonds d'adaptation climatique de 2 Md€/an",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/energie",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/energie",
+        "titre": "Énergie — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. Électrifier massivement nos usages pour sortir du pétrole et du gaz. Créer un prix du carbone aux frontières européennes. Édouard Philippe propose de lancer 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs."
+      },
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/adaptation-climatique",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/adaptation-climatique",
+        "titre": "Adaptation climatique — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Un fonds d'adaptation au changement climatique de 2 milliards d'euros par an. Stocker davantage l'eau et mieux la réutiliser. Zéro surtransposition normative pour l'agriculture française."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
-      "url_archive": "https://web.archive.org/web/20261015154005/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
-      "titre": "Pour une France plus conquérante — Pour une écologie à impact",
-      "date_verification": "2026-10-17",
-      "verbatim": "Assurer notre souveraineté énergétique en relançant le nucléaire (lancement de 8 EPR supplémentaires en plus des 6 déjà prévus), en développant les renouvelables et en électrifiant massivement nos usages."
+      "url_live": "https://www.edouardphilippe.fr/programme/energie",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/energie",
+      "titre": "Énergie — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Relancer le nucléaire et développer les renouvelables là où elles sont efficaces. Électrifier massivement nos usages pour sortir du pétrole et du gaz. Créer un prix du carbone aux frontières européennes. Édouard Philippe propose de lancer 8 EPR supplémentaires, en plus des 6 déjà prévus, soit 14 nouveaux réacteurs."
     }
   },
   "fil_du_temps": [],
@@ -22,22 +38,28 @@
   "_note": "Position sécurité climatique conservée dans la page 'sûre' (Canadairs, réserves communales) — complément du même programme.",
   "publics": [
     {
-      "public": "Filière nucléaire",
+      "public": "Générations futures",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "8 EPR supplémentaires"
+      "detail": "électricité décarbonée, électrification des usages, prix carbone aux frontières"
     },
     {
-      "public": "Ménages des territoires",
+      "public": "Retraités & personnes fragiles",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "adaptation : DATAR 2.0, fonds 2 Md€/an"
+      "detail": "climatisation EHPAD et logements sociaux, fonds adaptation 2 Md€/an"
     },
     {
-      "public": "Importateurs carbonés",
-      "sens": "contribue",
+      "public": "Agriculteurs",
+      "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "prix du carbone aux frontières européennes"
+      "detail": "zéro surtransposition normative, accélération du stockage de l'eau"
+    },
+    {
+      "public": "Actifs — classes populaires & moyennes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "même aide pour une voiture électrique d'occasion que neuve"
     }
   ]
 }

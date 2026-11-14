@@ -11,7 +11,7 @@ NEW = {
           <li><strong>Villepin</strong> — +200&nbsp;€ nets/mois via une CSG universelle <em>(chiffré)</em></li>
           <li><strong>Le Pen</strong> — hausse de 10&nbsp;% sans cotisations patronales <em>(chiffré, programme 2022)</em></li>
           <li><strong>Mélenchon</strong> — SMIC à 1&nbsp;600&nbsp;€ et indexation sur l'inflation <em>(chiffré)</em></li>
-          <li><strong>Philippe</strong> — heures supplémentaires exonérées <em>(chiffré)</em></li>
+          <li><strong>Philippe</strong> — +1&nbsp;000&nbsp;€/an au SMIC (37&nbsp;h) + IR supprimé 3&nbsp;ans pour jeunes parents <em>(chiffré, prog. 12/11)</em></li>
           <li><strong>Glucksmann</strong> — rémunération des actifs financée par la taxe « méga-héritages » <em>(montant annoncé)</em></li>
           <li><strong>Attal</strong> — « choc » par la productivité et les charges allégées <em>(non chiffré)</em></li>
         </ul>''',
@@ -20,7 +20,7 @@ NEW = {
           <li><strong>Villepin</strong> — abrogation de la réforme 2023 via convention citoyenne <em>(orienté)</em></li>
           <li><strong>Le Pen</strong> — 60 ans réservé aux carrières précoces <em>(chiffré)</em></li>
           <li><strong>Mélenchon</strong> — retour à 60 ans / 40 annuités <em>(chiffré)</em></li>
-          <li><strong>Philippe</strong> — 65 ans progressif <em>(chiffré)</em></li>
+          <li><strong>Philippe</strong> — 65 ans progressif + 45 annuités + capitalisation collective <em>(chiffré)</em></li>
           <li><strong>Attal</strong> — durée de cotisation plutôt que l'âge <em>(non chiffré)</em></li>
         </ul>
         Santé : « 100&nbsp;% Sécu » (Mélenchon), plan d'urgence de 20&nbsp;Md€ (Le Pen), services publics renforcés (Glucksmann — non chiffré).''',
@@ -33,14 +33,14 @@ NEW = {
           <li><strong>Glucksmann</strong> — justice fiscale <em>(non chiffré)</em></li>
           <li><strong>Attal</strong> — « zéro déficit en 10 ans » <em>(chiffré)</em></li>
         </ul>''',
-'delinquance': '''Durcissement des sanctions chez quatre candidats, intensités différentes :
+'delinquance': '''Durcissement des sanctions chez cinq candidats, intensités différentes :
         <ul>
           <li><strong>Villepin</strong> — alourdissement pour les crimes les plus violents <em>(non sourcé)</em></li>
           <li><strong>Le Pen</strong> — peines planchers + 85&nbsp;000 places de prison + doublement des magistrats <em>(chiffré)</em></li>
           <li><strong>Mélenchon</strong> — approche opposée : police de proximité + régulation carcérale <em>(orienté)</em></li>
-          <li><strong>Philippe</strong> — peines planchers + suppression du JAP + « pouvoir aux maires » <em>(chiffré)</em></li>
+          <li><strong>Philippe</strong> — « état d'urgence narco » + peines planchers + amendes prélevées sur les aides sociales <em>(chiffré)</em></li>
           <li><strong>Glucksmann</strong> — documenté mais non sourcé</li>
-          <li><strong>Attal</strong> — pas de chantier sécurité publié</li>
+          <li><strong>Attal</strong> — perpétuité réelle prédateurs sexuels + comparution immédiate des mineurs <em>(chiffré)</em></li>
         </ul>''',
 'environnement': '''Fracture nette sur l'énergie et la stratégie climatique :
         <ul>
@@ -56,7 +56,7 @@ NEW = {
           <li><strong>Villepin</strong> — refus du « piège identitaire », pas de mesures de politique migratoire publiées</li>
           <li><strong>Le Pen</strong> — référendum et « priorité nationale » <em>(chiffré)</em></li>
           <li><strong>Mélenchon</strong> — politique « humaniste et réaliste », régularisations et carte de séjour 10 ans</li>
-          <li><strong>Philippe</strong> — division par deux et quotas <em>(chiffré)</em></li>
+          <li><strong>Philippe</strong> — division par deux + moratoire regroupement familial + dénonciation accord 1968 <em>(chiffré)</em></li>
           <li><strong>Glucksmann</strong> — convention citoyenne</li>
           <li><strong>Attal</strong> — frontières comme enjeu de puissance, préférence travail à points</li>
         </ul>''',
@@ -74,9 +74,9 @@ NEW = {
           <li><strong>Villepin</strong> — lutte contre la pauvreté érigée en priorité politique</li>
           <li><strong>Le Pen</strong> — soutien aux familles : part fiscale, héritage désimposé <em>(chiffré)</em></li>
           <li><strong>Mélenchon</strong> — « révolution fiscale » et mise au pas de la finance <em>(chiffré)</em></li>
-          <li><strong>Philippe</strong> — nouvelle politique familiale chiffrée</li>
+          <li><strong>Philippe</strong> — IR supprimé 3&nbsp;ans (jeunes parents) + allocation 350&nbsp;€ dès le 1er enfant <em>(chiffré)</em></li>
           <li><strong>Glucksmann</strong> — réduction des inégalités « entre territoires et générations »</li>
-          <li><strong>Attal</strong> — pas de volet dédié publié</li>
+          <li><strong>Attal</strong> — aides ciblées plutôt que baisses de taxes + carte famille monoparentale</li>
         </ul>''',
 'education': '''Six approches sourcées :
         <ul>
@@ -92,32 +92,43 @@ NEW = {
           <li><strong>Villepin</strong> — « droit au travail » réhabilité, fusion allocations/formation</li>
           <li><strong>Le Pen</strong> — ciblage jeunes : IR à 0, chèque-formation <em>(chiffré)</em></li>
           <li><strong>Mélenchon</strong> — garantie d'emploi pour tout chômeur de longue durée <em>(chiffré)</em></li>
-          <li><strong>Philippe</strong> — indemnisation limitée à 12 mois <em>(chiffré)</em></li>
+          <li><strong>Philippe</strong> — chômage 12&nbsp;mois max avant 50&nbsp;ans + fin des 35&nbsp;h obligatoires <em>(chiffré)</em></li>
           <li><strong>Glucksmann</strong> — pas de volet chômage publié</li>
           <li><strong>Attal</strong> — nouvelle réforme affichant +100&nbsp;000 emplois <em>(annoncé)</em></li>
         </ul>''',
-'terrorisme': '''Quatre positions publiées, deux absentes :
+'terrorisme': '''Cinq positions publiées, une absente :
         <ul>
           <li><strong>Villepin</strong> — antiterrorisme « dans l'État de droit », prévention renforcée</li>
           <li><strong>Le Pen</strong> — éradication des « réseaux islamistes »</li>
           <li><strong>Mélenchon</strong> — nouvelle stratégie antiterroriste, sortie de « l'état d'urgence permanent »</li>
-          <li><strong>Philippe</strong> — lutte adossée à la guerre contre le narcotrafic</li>
+          <li><strong>Philippe</strong> — grands trafiquants jugés comme des terroristes + organisations fréristes éradiquées</li>
           <li><strong>Glucksmann, Attal</strong> — pas de volet antiterroriste publié à ce jour</li>
         </ul>''',
-'institutions': '''Deux changements de République et quatre réformes démocratiques :
+'institutions': '''Deux changements de République et cinq réformes démocratiques :
         <ul>
           <li><strong>Villepin</strong> — « le chemin gaulliste », Big Bang de la règle républicaine</li>
           <li><strong>Le Pen</strong> — RIC et proportionnelle</li>
           <li><strong>Mélenchon</strong> — 6e République par Assemblée constituante</li>
-          <li><strong>Philippe</strong> — méthode par dissolution et référendums adossés <em>(source secondaire)</em></li>
+          <li><strong>Philippe</strong> — règle d'or par référendum + CSM réformé <em>(source primaire)</em></li>
           <li><strong>Glucksmann</strong> — rénovation pour la lisibilité et les contre-pouvoirs</li>
-          <li><strong>Attal</strong> — pas de volet institutionnel publié</li>
+          <li><strong>Attal</strong> — journée référendaire annuelle + référendums locaux facilités</li>
         </ul>''',
 }
 
-RE = re.compile(r'<p class="resume3"><strong>Ce qu\'il faut retenir\.</strong>.*?</p>', re.S)
+# Structure valide : <div class="resume3"><p>intro</p><ul>...</ul></div>
+# (pas de <ul> a l'interieur d'un <p>)
+RE = re.compile(r'<div class="resume3"><p><strong>Ce qu\'il faut retenir\.</strong>[\s\S]*?</div>', re.S)
 CSS_ANCHOR = '.resume3 strong { color:var(--encre); font-weight:600; }'
 CSS_ADD = CSS_ANCHOR + '\n  .resume3 ul { margin:.4rem 0 .5rem 1.15rem; }\n  .resume3 li { margin-bottom:.3rem; }\n  .resume3 li strong { color:var(--encre); font-weight:600; }'
+
+def build(block):
+    intro, _, rest = block.partition('<ul>')
+    ul, _, tail = rest.partition('</ul>')
+    out = ('<div class="resume3"><p><strong>Ce qu\'il faut retenir.</strong> '
+           + intro.strip() + '</p>\n        <ul>' + ul + '</ul>')
+    if tail.strip():
+        out += '\n        <p>' + tail.strip() + '</p>'
+    return out + '</div>'
 
 for f in sorted(glob.glob('site/maquettes/theme-*.html')):
     theme = re.search(r'theme-([a-z-]+)\.html', f).group(1)
@@ -126,8 +137,6 @@ for f in sorted(glob.glob('site/maquettes/theme-*.html')):
         s = s.replace(CSS_ANCHOR, CSS_ADD, 1)
     block = NEW.get(theme)
     if block:
-        repl = '<div class="resume3"><p><strong>Ce qu\'il faut retenir.</strong> ' + block + '</p></div>'
-        s2, n = RE.subn(repl, s, count=1)
-        s = s2
+        s, n = RE.subn(build(block), s, count=1)
         print(f'{theme}: {"OK" if n else "!! non trouvé"}')
     open(f, 'w', encoding='utf-8').write(s)

@@ -2,33 +2,61 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "pouvoir-achat",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose de rééquilibrer le financement du modèle social « pour qu'il ne repose plus uniquement sur le travail » et augmenter le salaire net des actifs : heures supplémentaires exonérées de cotisations et d'impôt (environ 1 000 €/an au SMIC pour deux heures de plus par semaine), zéro cotisation patronale au-delà de la 37e heure, sortie des 35 heures décidée en entreprise, et un « pacte fiscal » de 50 Md€ de baisses d'impôts de production.",
-    "mesure_phare": "Travail supplémentaire exonéré (~1 000 €/an au SMIC) — zéro cotisation patronale au-delà de la 37e h — pacte fiscal 50 Md€",
+    "synthese": "Le programme du 12 novembre 2026 veut réduire l'écart brut/net en finançant autrement le modèle social : heures travaillées au-delà de 35 h exonérées de cotisations et d'impôt pour le salarié, zéro cotisation patronale au-delà de la 37e heure (+1 000 €/an pour un salarié au SMIC passant à 37 h), suppression de l'impôt sur le revenu des classes moyennes pendant les trois premières années de l'enfant (réduction de 3 000 €/an pour les familles plus aisées), allocation familiale unique de 350 € dès le premier enfant et prêt à taux zéro à chaque naissance.",
+    "mesure_phare": "Heures >35 h exonérées d'impôt et cotisations (+1 000 €/an au SMIC à 37 h) + IR supprimé 3 ans pour les jeunes parents des classes moyennes + allocation 350 € dès le 1er enfant",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/travail",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/travail",
+        "titre": "Travail et salaires — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Pour un salarié au SMIC, le passage à 37h constitue un gain de pouvoir d'achat de plus de 1 000 € par an. Les jeunes des classes moyennes qui travaillent et ont des enfants seront par ailleurs exemptés d'impôt sur le revenu pendant trois ans après la naissance."
+      },
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/famille",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/famille",
+        "titre": "Famille — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Verser une allocation familiale de 350 € par mois dès le premier enfant. Supprimer l'impôt sur le revenu des classes moyennes les trois premières années de l'enfant."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "url_archive": "https://web.archive.org/web/20261016072257/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "titre": "Pour une France plus prospère — Alléger la charge sur les actifs",
-      "date_verification": "2026-10-17",
-      "verbatim": "Faire que le travail supplémentaire paie : lorsqu'une entreprise décide, après discussion interne, de travailler plus longtemps, exonérer ces heures de cotisations sociales et d'impôt sur le revenu, soit environ 1 000 € de plus par an au SMIC pour deux heures de plus par semaine."
+      "url_live": "https://www.edouardphilippe.fr/programme/travail",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/travail",
+      "titre": "Travail et salaires — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Pour un salarié au SMIC, le passage à 37h constitue un gain de pouvoir d'achat de plus de 1 000 € par an. Les jeunes des classes moyennes qui travaillent et ont des enfants seront par ailleurs exemptés d'impôt sur le revenu pendant trois ans après la naissance."
     }
   },
   "publics": [
     {
-      "public": "Actifs salariés",
+      "public": "Actifs — classes populaires & moyennes",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "heures sup exonérées (~1 000 €/an au SMIC) ; zéro cotisation patronale au-delà de la 37e heure"
+      "detail": "heures >35 h défiscalisées, +1 000 €/an au SMIC à 37 h, IR supprimé 3 ans après naissance"
+    },
+    {
+      "public": "Jeunes & actifs — classes populaires & moyennes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "allocation familiale 350 € dès le 1er enfant, dégressive avec le revenu"
+    },
+    {
+      "public": "Actifs — classes aisées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "réduction d'impôt de 3 000 €/an pendant les 3 premières années de l'enfant"
     },
     {
       "public": "Entreprises",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "pacte fiscal : 50 Md€ de baisses d'impôts de production"
+      "detail": "zéro cotisation patronale au-delà de la 37e heure"
     }
   ],
   "fil_du_temps": [],

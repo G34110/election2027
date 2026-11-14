@@ -1,12 +1,52 @@
 {
   "candidat_id": "gabriel-attal",
   "theme_id": "inegalites",
-  "statut": "attendue",
-  "maj_le": "2026-10-17",
+  "statut": "sourcee",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "L'index du programme (consulté le 14 novembre 2026) privilégie les aides ciblées à la redistribution par l'impôt : « des aides directes ciblées plutôt que des baisses de taxes », une carte famille monoparentale, un bouclier tarifaire sur le prix de l'eau, la garantie de stabilité des prix de l'électricité sur cinq ans, et l'engagement d'aucune hausse d'impôts pendant cinq ans.",
+    "mesure_phare": "Aides directes ciblées + carte famille monoparentale + bouclier tarifaire sur l'eau — et aucune hausse d'impôts pendant 5 ans",
+    "type_mesure": "orientee",
+    "sources": [
+      {
+        "url_live": "https://attalpresident.fr/programme",
+        "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+        "titre": "Le programme — Gabriel Attal 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Des aides directes ciblées plutôt que des baisses de taxes. Créer une carte famille monoparentale. Instaurer un bouclier tarifaire sur le prix de l'eau. Aucune hausse d'impôts pendant 5 ans."
+      }
+    ],
+    "source": {
+      "url_live": "https://attalpresident.fr/programme",
+      "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+      "titre": "Le programme — Gabriel Attal 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Des aides directes ciblées plutôt que des baisses de taxes. Créer une carte famille monoparentale. Instaurer un bouclier tarifaire sur le prix de l'eau. Aucune hausse d'impôts pendant 5 ans."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Pas de chantier dédié aux inégalités publié à ce jour. Le chantier « Travail & salaires » aborde la redistribution par le travail (charges réduites, livret garde d'enfant) sans cadrer un volet inégalités/pauvreté."
+  "_note": "Pas de chantier dédié aux inégalités publié à ce jour. Le chantier « Travail & salaires » aborde la redistribution par le travail (charges réduites, livret garde d'enfant) sans cadrer un volet inégalités/pauvreté.",
+  "publics": [
+    {
+      "public": "Familles monoparentales",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "carte famille monoparentale"
+    },
+    {
+      "public": "Actifs & retraités — classes populaires & moyennes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "aides directes ciblées, bouclier tarifaire eau, prix électricité gelés 5 ans"
+    },
+    {
+      "public": "Actifs — classes aisées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "aucune hausse d'impôts pendant 5 ans"
+    }
+  ]
 }

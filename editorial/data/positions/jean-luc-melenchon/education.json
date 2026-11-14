@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "education",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Éradication de l'illettrisme d'ici 2027 — service public de la petite enfance — « école globale »",
     "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
-      "url_archive": "https://web.archive.org/web/20260519224946/https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre5/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 5 « Élever le niveau d'instruction » §1",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Éradiquer l'illettrisme pour les jeunes sortis du système scolaire et les adultes à l'horizon 2027."
     }
   },

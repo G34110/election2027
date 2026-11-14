@@ -150,10 +150,11 @@ page = f'''<!DOCTYPE html>
 <header class="entete">
   <a class="logo" href="index.html">Comparer <span>2027</span></a>
   <nav>
-    <a href="index.html">Thèmes</a>
-    <a href="index.html">Candidats</a>
-    <a href="#">Méthode</a>
-    <a href="#">Sources</a>
+    <a href="index.html#themes">Thèmes</a>
+    <a href="index.html#candidats">Candidats</a>
+    <a href="charte.html">Méthode</a>
+    <a href="charte.html#sources">Sources</a>
+    <a href="actualites.html">Actualités</a>
   </nav>
 </header>
 
@@ -183,7 +184,7 @@ page = f'''<!DOCTYPE html>
 <footer>
   <div class="wrap">
     <strong>Comparaison neutre.</strong> Aucun jugement éditorial — seules des positions sourcées, datées et vérifiables.
-    <br><a href="index.html">Retour à l'accueil</a> · <a href="#">Charte éditoriale</a>
+    <br><a href="index.html">Retour à l'accueil</a> · <a href="charte.html">Charte éditoriale</a>
     <br>Maquette v0.1 — projet en construction
   </div>
 </footer>

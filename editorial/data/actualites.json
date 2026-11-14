@@ -1,0 +1,136 @@
+{
+  "maj_le": "2026-11-14",
+  "actus_candidats": [
+    {
+      "candidat": "Édouard Philippe",
+      "parti": "Horizons",
+      "items": [
+        {
+          "date": "12 novembre 2026",
+          "texte": "Publication du programme complet « Avec Édouard 2027 » : 15 thématiques détaillées (sécurité, justice, immigration, retraites, école, finances publiques, énergie, défense…), le volet le plus documenté des six candidats suivis à cette date.",
+          "url": "https://www.edouardphilippe.fr/programme",
+          "source": "edouardphilippe.fr/programme"
+        }
+      ]
+    },
+    {
+      "candidat": "Raphaël Glucksmann",
+      "parti": "Place Publique / PS",
+      "items": [
+        {
+          "date": "11 octobre 2026",
+          "texte": "Vainqueur dès le premier tour de la primaire « Choisir 2027 » (PS, Place Publique, GRS) avec 66,17 % des voix (79 613 suffrages) : il devient le candidat de la gauche sociale-démocrate, devançant Olivier Faure (14,46 %), Ségolène Royal, Emmanuel Maurel et Jérôme Guedj.",
+          "url": "https://www.france24.com/fr/france/20261011-en-direct-primaire-sociale-d%C3%A9mocrate-qui-arrivera-en-t%C3%AAte-candidat-gauche-2027",
+          "source": "France 24 / Ouest-France"
+        }
+      ]
+    },
+    {
+      "candidat": "Marine Le Pen",
+      "parti": "Rassemblement National",
+      "items": [
+        {
+          "date": "7 juillet 2026",
+          "texte": "Déclare officiellement sa candidature au JT de 20H de TF1, quelques heures après la décision de la cour d'appel de Paris (un an de prison sous bracelet électronique et quinze mois d'inéligibilité, peine déjà exécutée). L'hypothèse Bardella est dès lors écartée.",
+          "url": "https://www.cnews.fr/france/2026-11-10/presidentielle-2027-qui-sont-les-candidats-en-lice-1621746",
+          "source": "CNEWS, recap. candidats du 10/11/2026"
+        },
+        {
+          "date": "novembre 2026",
+          "texte": "Le site rassemblementnational.fr passe derrière un pare-feu anti-robots (Sucuri) : la re-vérification automatique hebdomadaire de la page « 22 mesures » est suspendue jusqu'à nouvel ordre — la dernière version reste consultable sur l'archive web.archive.org.",
+          "url": "https://web.archive.org/web/2026/https://rassemblementnational.fr/22-mesures",
+          "source": "constat technique (vérification hebdo)"
+        }
+      ]
+    },
+    {
+      "candidat": "Gabriel Attal",
+      "parti": "Renaissance",
+      "items": [
+        {
+          "date": "octobre-novembre 2026",
+          "texte": "Le programme en ligne s'étoffe : aux quatre chantiers initiaux (école, travail & salaires, frontières, intelligence artificielle) s'ajoutent des mesures de justice et d'ordre public (perpétuité réelle pour les prédateurs sexuels, comparution immédiate des mineurs, 3 000 magistrats), de démocratie (journée référendaire annuelle), de dette, d'écologie et de défense.",
+          "url": "https://attalpresident.fr/programme",
+          "source": "attalpresident.fr/programme"
+        }
+      ]
+    },
+    {
+      "candidat": "Jean-Luc Mélenchon",
+      "parti": "La France Insoumise",
+      "items": [
+        {
+          "date": "novembre 2026",
+          "texte": "Le programme en ligne est restructuré : « L'Avenir en commun » passe d'une arborescence par chapitres numérotés à six « livres » thématiques (6e République, économie des besoins, sécurité sociale, bifurcation écologique, monde ordonné, goût du futur).",
+          "url": "https://melenchon2027.fr/programme/livre/",
+          "source": "melenchon2027.fr/programme/livre"
+        }
+      ]
+    },
+    {
+      "candidat": "Dominique de Villepin",
+      "parti": "La France humaniste",
+      "items": [
+        {
+          "date": "9 novembre 2026",
+          "texte": "Cité par Le Nouvel Obs parmi les personnalités qui « se préparent de façon visible » sans être officiellement déclarées. Son programme « France 2027 » est pourtant publié et testé dans les sondages — suivi anticipé maintenu selon la règle éditoriale §2.",
+          "url": "https://www.nouvelobs.com/politique/20261109.OBS119985/presidentielle-2027-quels-sont-les-31-candidats-actuellement-declares.html",
+          "source": "Le Nouvel Obs"
+        }
+      ]
+    }
+  ],
+  "non_declares": [
+    {
+      "nom": "Dominique de Villepin",
+      "etiquette": "La France humaniste — jamais officiellement déclaré",
+      "mesures": "Testé dans les intentions de vote : 3-4 % (Cluster17, sept. 2026) ; 12 % de « satisfaits » s'il devenait président (baromètre Ipsos, automne 2026).",
+      "note": "Particularité : présent dans cette comparaison car son mouvement publie un programme complet (lafrancehumaniste.fr) — suivi éditorial anticipé, règle §2."
+    },
+    {
+      "nom": "Jordan Bardella",
+      "etiquette": "Rassemblement National — hypothèse écartée",
+      "mesures": "33 % de « satisfaits » s'il devenait président (Ipsos) — le score le plus élevé mesuré ; 7 % des citations spontanées (Odoxa, mai 2025).",
+      "note": "A annoncé soutenir Marine Le Pen, déclarée le 7 juillet 2026 après l'appel de sa condamnation : sa propre candidature n'est plus d'actualité, mais son niveau d'adhésion reste le fait marquant."
+    },
+    {
+      "nom": "François Hollande",
+      "etiquette": "Parti socialiste — non déclaré",
+      "mesures": "18 % de « satisfaits » s'il devenait président (Ipsos) — devant plusieurs candidats déclarés ; cité spontanément (Odoxa).",
+      "note": "Ancien président (2012-2017), député de Corrèze ; n'a fait aucune annonce de candidature."
+    },
+    {
+      "nom": "Bernard Cazeneuve",
+      "etiquette": "La Convention — non déclaré",
+      "mesures": "11 % de « satisfaits » s'il devenait président (Ipsos) ; cité spontanément par les Français (Odoxa, mai 2025).",
+      "note": "Ancien Premier ministre (2016-2017) ; a créé le mouvement « La Convention » (2023) sans déclarer de candidature."
+    },
+    {
+      "nom": "Marion Maréchal",
+      "etiquette": "Identité-Libertés — non déclarée",
+      "mesures": "Présente dans le baromètre des personnalités Cluster17 (sept. 2026) et citée spontanément (Odoxa).",
+      "note": "Vice-présidente d'Identité-Libertés, députée européenne ; Éric Zemmour (Reconquête) est déjà candidat déclaré sur sa ligne politique."
+    },
+    {
+      "nom": "Laurent Wauquiez",
+      "etiquette": "Les Républicains — non déclaré",
+      "mesures": "9 % de « satisfaits » s'il devenait président (Ipsos) ; cité spontanément (Odoxa).",
+      "note": "Président de la région Auvergne-Rhône-Alpes ; l'investiture de Bruno Retailleau par les adhérents LR (73,8 %, avril 2026) verrouille son hypothèse."
+    }
+  ],
+  "declares_hors_selection": {
+    "note": "Candidats officiellement déclarés mais non retenus dans la comparaison (règle de sélection §2 : présence dans les sondages). Scores : OpinionWay pour Les Échos / Radio Classique, vague 3, 13-14 octobre 2026.",
+    "url_source": "https://www.opinion-way.com/wp-content/uploads/2026/10/OpinionWay-pour-Les-Echos-et-Radio-Classique-Barometre-Presitrack-2027-Vague-3-Octobre-2026.pdf",
+    "candidats": [
+      {"nom": "Bruno Retailleau", "parti": "Les Républicains", "statut": "Désigné par vote des adhérents (73,8 %, avril 2026)", "pct": 7},
+      {"nom": "Éric Zemmour", "parti": "Reconquête", "statut": "Déclaré", "pct": 4},
+      {"nom": "Marine Tondelier", "parti": "Les Écologistes", "statut": "Déclarée", "pct": 3},
+      {"nom": "Fabien Roussel", "parti": "PCF", "statut": "Déclaré", "pct": 3},
+      {"nom": "Nicolas Dupont-Aignan", "parti": "Debout la France", "statut": "Déclaré", "pct": 2},
+      {"nom": "Nathalie Arthaud", "parti": "Lutte Ouvrière", "statut": "Déclarée", "pct": 1},
+      {"nom": "David Lisnard", "parti": "Nouvelle Énergie", "statut": "Déclaré", "pct": null},
+      {"nom": "François Ruffin", "parti": "Debout !", "statut": "Déclaré", "pct": null},
+      {"nom": "et d'autres", "parti": "Philippot, Asselineau, Batho, Platret, Becht, Riner…", "statut": "≈ 37 candidats déclarés au 10/11/2026 (Courrier picard)", "pct": null}
+    ]
+  }
+}

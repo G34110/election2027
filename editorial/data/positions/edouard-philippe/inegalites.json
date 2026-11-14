@@ -2,35 +2,57 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "inegalites",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose une « nouvelle politique familiale » : allocation familiale unique dès le premier enfant (350€, dégressive selon revenu), suppression de l'impôt sur le revenu pendant les 3 premières années de l'enfant pour les classes moyennes, prêt à taux zéro par naissance et temps partiel parental à 80% payés 100% pendant 2 mois.",
-    "mesure_phare": "Allocation familiale unique 350€ — impôt 0 pendant 3 ans pour les classes moyennes",
+    "synthese": "Le programme du 12 novembre 2026 cible les classes moyennes et populaires : suppression de l'impôt sur le revenu pendant trois ans pour les jeunes parents des classes moyennes, allocation familiale unique de 350 € dès le premier enfant dégressive avec le revenu, aide identique pour voiture électrique d'occasion et neuve, et objectif de faire « sortir » les 3 millions de salariés « bloqués » au SMIC en rendant le travail supplémentaire rémunérateur. Pas de mesure de taxation des hauts revenus ou patrimoines : le programme exclut tout nouvel impôt pendant cinq ans.",
+    "mesure_phare": "IR supprimé 3 ans pour les jeunes parents des classes moyennes + allocation 350 € dès le 1er enfant — aucune taxation des très hauts patrimoines",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/famille",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/famille",
+        "titre": "Famille — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Supprimer l'impôt sur le revenu des classes moyennes les trois premières années de l'enfant. Verser une allocation familiale de 350 € par mois dès le premier enfant. Elle atteindra 350 € pour les plus modestes et sera dégressive avec le revenu."
+      },
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/travail",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/travail",
+        "titre": "Travail et salaires — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Il juge anormal que les exonérations de charges sur les bas salaires aient enfermé plus de 3 millions de Français au niveau du SMIC."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
-      "url_archive": "https://web.archive.org/web/20261016072815/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
-      "titre": "Pour une France plus attentive à ses enfants — Pour une nouvelle politique familiale",
-      "date_verification": "2026-10-17",
-      "verbatim": "Créer une allocation familiale unique dès le premier enfant, à hauteur de 350€, en fusionnant les dispositifs existants trop complexes et trop éparpillés, dégressive avec le revenu."
+      "url_live": "https://www.edouardphilippe.fr/programme/famille",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/famille",
+      "titre": "Famille — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Supprimer l'impôt sur le revenu des classes moyennes les trois premières années de l'enfant. Verser une allocation familiale de 350 € par mois dès le premier enfant. Elle atteindra 350 € pour les plus modestes et sera dégressive avec le revenu."
     }
   },
   "fil_du_temps": [],
   "actes_passes": [],
   "publics": [
     {
-      "public": "Familles",
+      "public": "Jeunes & actifs — classes populaires & moyennes",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "allocation unique dès le 1er enfant, PTZ par naissance, temps partiel"
+      "detail": "IR supprimé 3 ans après naissance, allocation 350 € dès le 1er enfant, bas salaires valorisés"
     },
     {
-      "public": "Classes moyennes",
+      "public": "Actifs — classes aisées",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "IR supprimé les 3 premières années de l'enfant"
+      "detail": "réduction d'impôt de 3 000 €/an pour jeunes enfants, aucun nouvel impôt"
+    },
+    {
+      "public": "Actifs & retraités — très hauts patrimoines",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "engagement de ne créer aucun nouvel impôt pendant 5 ans"
     }
   ]
 }

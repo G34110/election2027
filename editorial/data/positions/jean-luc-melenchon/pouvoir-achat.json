@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "pouvoir-achat",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "SMIC à 1 600 € net — indexation des salaires sur l'inflation — écart salarial limité de 1 à 20",
     "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
-      "url_archive": "https://web.archive.org/web/20260829202700/https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
+      "url_live": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre8/s4/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 8 : Augmenter les salaires et réduire les inégalités salariales dans l'entreprise",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Porter immédiatement le SMIC mensuel à 1600 euros net et indexer les salaires sur l'inflation dans le privé et dans la fonction publique. […] Fixer un salaire maximal autorisé pour limiter l'écart de 1 à 20 entre le salaire le plus bas et le salaire le plus haut dans une entreprise."
     }
   },

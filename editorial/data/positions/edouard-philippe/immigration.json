@@ -2,19 +2,28 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "immigration",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat affiche un objectif de division par deux de l'immigration : suspension du regroupement familial pour le quinquennat, quotas migratoires, liste annuelle de pays sûrs votée par le Parlement, fin de l'« asile à vie », dénonciation de l'accord franco-algérien de 1968 et suspension du droit du sol à Mayotte.",
-    "mesure_phare": "Diviser par deux l'immigration — quotas + suspension regroupement familial + droit du sol suspendu à Mayotte",
+    "synthese": "Le programme du 12 novembre 2026 vise à « diviser par deux l'immigration » : quotas pour choisir l'immigration de travail, moratoire sur le regroupement familial pendant tout le quinquennat, dénonciation de l'accord franco-algérien de 1968, utilisation des « centres de retour » européens à l'étranger, retour de la double peine pour les étrangers délinquants, liste des pays sûrs votée chaque année par le Parlement, suppression de l'asile à vie et « verrou Schengen » interdisant les régularisations massives unilatérales.",
+    "mesure_phare": "Immigration divisée par deux + moratoire sur le regroupement familial + dénonciation de l'accord de 1968 avec l'Algérie",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/immigration",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/immigration",
+        "titre": "Immigration — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Des quotas pour choisir l'immigration de travail. Un moratoire sur le regroupement familial. L'utilisation de « centres de retour » à l'étranger pour éloigner effectivement ceux qui n'ont rien à faire en France. La dénonciation de l'accord franco-algérien de 1968. Le retour de la double peine pour les étrangers délinquants."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "url_archive": "https://web.archive.org/web/20261005142406/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
-      "titre": "Pour une France plus sûre — Reprendre le contrôle de nos frontières",
-      "date_verification": "2026-10-17",
-      "verbatim": "Un objectif clair : diviser par deux l'immigration dans notre pays."
+      "url_live": "https://www.edouardphilippe.fr/programme/immigration",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/immigration",
+      "titre": "Immigration — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Des quotas pour choisir l'immigration de travail. Un moratoire sur le regroupement familial. L'utilisation de « centres de retour » à l'étranger pour éloigner effectivement ceux qui n'ont rien à faire en France. La dénonciation de l'accord franco-algérien de 1968. Le retour de la double peine pour les étrangers délinquants."
     }
   },
   "fil_du_temps": [],
@@ -28,16 +37,34 @@
   ],
   "publics": [
     {
-      "public": "Immigrés & demandeurs d'asile",
+      "public": "Étrangers délinquants",
       "sens": "contribue",
       "fondement": "mesure",
-      "detail": "division par deux : regroupement familial suspendu, quotas, fin de l'asile à vie"
+      "detail": "expulsion immédiate, perte des aides sociales, double peine"
     },
     {
-      "public": "Nationaux",
+      "public": "Demandeurs d'asile",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "pays sûrs votés annuellement, asile à vie supprimé, centres de retour"
+    },
+    {
+      "public": "Familles d'immigrés",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "moratoire sur le regroupement familial pendant le quinquennat"
+    },
+    {
+      "public": "Entreprises",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "priorité affichée sur les flux"
+      "detail": "quotas d'immigration de travail choisie selon les besoins"
+    },
+    {
+      "public": "Algériens",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "dénonciation de l'accord franco-algérien de 1968"
     }
   ]
 }

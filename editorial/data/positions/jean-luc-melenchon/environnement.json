@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "environnement",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "« Règle verte » dans la Constitution — −65 % d'émissions en 2030 — moratoire sur les grands projets",
     "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
-      "url_archive": "https://web.archive.org/web/20260905143519/https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre12/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 12 §1 « La bifurcation écologique pour une société de l'harmonie »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Inscrire dans la Constitution le principe de la « règle verte », selon laquelle on ne prélève pas davantage à la nature que ce qu'elle est en état de reconstituer. […] Relever les ambitions climatiques de la France avec pour objectif une baisse de 65 % des émissions en 2030 (au lieu de 50 % actuellement)."
     }
   },

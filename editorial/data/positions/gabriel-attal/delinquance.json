@@ -1,12 +1,64 @@
 {
   "candidat_id": "gabriel-attal",
   "theme_id": "delinquance",
-  "statut": "attendue",
-  "maj_le": "2026-10-17",
+  "statut": "sourcee",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
-  "position_actuelle": null,
+  "alerte_maj": true,
+  "position_actuelle": {
+    "synthese": "L'index du programme en ligne (consulté le 14 novembre 2026) détaille un volet « Justice » et « Sécurité et ordre public » : perpétuité réelle pour les prédateurs sexuels en série, imprescriptibilité des crimes sexuels sur mineurs, premiers actes d'enquête sous 48 heures et jugement en moins de trois mois pour les crimes sur mineurs, comparution immédiate des mineurs, punition systématique des dégradations y compris par des mineurs, barème national des sanctions scolaires avec conseil de discipline dès l'école primaire, délit de maintien illicite et amendes majorées pour les occupations illégales (gens du voyage), 3 000 magistrats et greffiers recrutés, interconnexion des fichiers police-justice-éducation, parquet national contre la pédocriminalité et délais de jugement accélérés par l'IA.",
+    "mesure_phare": "Perpétuité réelle pour prédateurs sexuels + comparution immédiate des mineurs + 3 000 magistrats et greffiers",
+    "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://attalpresident.fr/programme",
+        "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+        "titre": "Le programme — Gabriel Attal 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Instaurer la perpétuité réelle pour les prédateurs sexuels en série. Garantir les premiers actes d'enquête sous quarante-huit heures pour les crimes sur mineurs. Juger les crimes sur mineurs en moins de trois mois. Instaurer la comparution immédiate pour les mineurs. Recruter 3 000 magistrats et greffiers pour raccourcir les délais de jugement."
+      }
+    ],
+    "source": {
+      "url_live": "https://attalpresident.fr/programme",
+      "url_archive": "https://web.archive.org/web/20261114/https://attalpresident.fr/programme",
+      "titre": "Le programme — Gabriel Attal 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Instaurer la perpétuité réelle pour les prédateurs sexuels en série. Garantir les premiers actes d'enquête sous quarante-huit heures pour les crimes sur mineurs. Juger les crimes sur mineurs en moins de trois mois. Instaurer la comparution immédiate pour les mineurs. Recruter 3 000 magistrats et greffiers pour raccourcir les délais de jugement."
+    }
+  },
   "fil_du_temps": [],
   "actes_passes": [],
-  "_note": "Aucun chantier sécurité/délinquance publié sur attalpresident.fr — les quatre chantiers capitaux sont école, travail & salaires, frontières (puissance + immigration), IA. Le sujet sécurité intérieure n'y est pas traité : position à documenter dès publication."
+  "_note": "Aucun chantier sécurité/délinquance publié sur attalpresident.fr — les quatre chantiers capitaux sont école, travail & salaires, frontières (puissance + immigration), IA. Le sujet sécurité intérieure n'y est pas traité : position à documenter dès publication.",
+  "publics": [
+    {
+      "public": "Victimes",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "enquête sous 48 h, jugement <3 mois pour crimes sur mineurs, parquet national pédocriminalité"
+    },
+    {
+      "public": "Délinquants & mineurs délinquants",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "comparution immédiate des mineurs, dégradations punies systématiquement, perpétuité réelle"
+    },
+    {
+      "public": "Gens du voyage",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "délit de maintien illicite, amendes majorées, saisie des véhicules"
+    },
+    {
+      "public": "Magistrats & greffiers",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "3 000 recrutements annoncés"
+    },
+    {
+      "public": "Familles",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "protection de l'enfance renforcée, fichiers interconnectés"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "institutions",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Assemblée constituante et 6e République par référendum",
     "type_mesure": "orientee",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
-      "url_archive": "https://web.archive.org/web/20260829200304/https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre1/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 1 §1 « Réunir une Assemblée constituante pour passer à la 6e République »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Convoquer une Constituante pour passer à la 6e République […] Le projet de Constitution proposé par l'Assemblée constituante sera soumis à référendum après deux ans de travaux."
     }
   },

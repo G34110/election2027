@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "emploi-chomage",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Garantie d'emploi : emploi ≥ SMIC proposé à tout chômeur de longue durée (volontariat)",
     "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
-      "url_archive": "https://web.archive.org/web/20260829202703/https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre8/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 8 §1 « Établir la garantie d'emploi »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Créer une garantie d'emploi : tout chômeur de longue durée pourra se voir proposer d'être embauché au moins au SMIC revalorisé dans un secteur d'urgence."
     }
   },

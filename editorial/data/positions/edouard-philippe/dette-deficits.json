@@ -2,19 +2,28 @@
   "candidat_id": "edouard-philippe",
   "theme_id": "dette-deficits",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
-  "alerte_maj": false,
+  "alerte_maj": true,
   "position_actuelle": {
-    "synthese": "Le candidat propose d'inscrire une « règle d'or » de maîtrise des déficits dans la Constitution via référendum, de ramener le déficit de plus de 5% à 2% du PIB en fin de quinquennat, et de supprimer un tiers des départs à la retraite de fonctionnaires (plus de 250 000 postes).",
-    "mesure_phare": "Règle d'or constitutionnelle — déficit ramené à 2% du PIB — 250 000 postes de fonctionnaires en moins",
+    "synthese": "Le programme du 12 novembre 2026 prévoit une « règle d'or » budgétaire inscrite dans la Constitution et adoptée par référendum en début de quinquennat, un déficit ramené de plus de 5 % à environ 2 % du PIB en fin de mandat, l'engagement de ne créer aucun nouvel impôt ni aucune nouvelle norme pendant cinq ans, le non-remplacement d'un fonctionnaire sur trois (250 000 postes) et la fusion ou privatisation d'agences. L'effort est réparti : moitié dépenses sociales, quart État et collectivités, quart croissance.",
+    "mesure_phare": "Règle d'or par référendum + déficit à 2 % du PIB + zéro nouvel impôt pendant 5 ans + 250 000 postes de fonctionnaires non remplacés",
     "type_mesure": "chiffree",
+    "sources": [
+      {
+        "url_live": "https://www.edouardphilippe.fr/programme/comptes-publics",
+        "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/comptes-publics",
+        "titre": "Finances publiques — Le programme Avec Édouard 2027",
+        "date_verification": "2026-11-14",
+        "verbatim": "Inscrire dans la Constitution une « règle d'or » budgétaire adoptée par référendum dès le début du quinquennat. Ramener le déficit de plus de 5 % à 2 % de la richesse nationale à la fin du mandat. Ne créer aucun nouvel impôt pendant cinq ans. Ne pas remplacer 1 fonctionnaire sur 3, soit 250 000 postes en moins sur le quinquennat."
+      }
+    ],
     "source": {
-      "url_live": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "url_archive": "https://web.archive.org/web/20261016072257/https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
-      "titre": "Pour une France plus prospère — Rétablir nos comptes pour retrouver notre souveraineté",
-      "date_verification": "2026-10-17",
-      "verbatim": "Inscrire dans la Constitution une règle d'or de maîtrise des déficits via un référendum, et ramener le déficit de plus de 5% à 2% du PIB à la fin du quinquennat."
+      "url_live": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "url_archive": "https://web.archive.org/web/20261114/https://www.edouardphilippe.fr/programme/comptes-publics",
+      "titre": "Finances publiques — Le programme Avec Édouard 2027",
+      "date_verification": "2026-11-14",
+      "verbatim": "Inscrire dans la Constitution une « règle d'or » budgétaire adoptée par référendum dès le début du quinquennat. Ramener le déficit de plus de 5 % à 2 % de la richesse nationale à la fin du mandat. Ne créer aucun nouvel impôt pendant cinq ans. Ne pas remplacer 1 fonctionnaire sur 3, soit 250 000 postes en moins sur le quinquennat."
     }
   },
   "fil_du_temps": [],
@@ -37,13 +46,25 @@
       "public": "Générations futures",
       "sens": "beneficie",
       "fondement": "mesure",
-      "detail": "déficit ramené à 2 % du PIB en fin de quinquennat"
+      "detail": "règle d'or constitutionnelle, déficit ramené à ~2 % du PIB"
     },
     {
-      "public": "Fonctionnaires",
+      "public": "Actifs — classes moyennes & aisées",
+      "sens": "beneficie",
+      "fondement": "mesure",
+      "detail": "engagement de ne créer aucun nouvel impôt pendant 5 ans"
+    },
+    {
+      "public": "Fonction publique",
       "sens": "contribue",
       "fondement": "mesure",
-      "detail": "suppression d'un tiers des départs à la retraite (−250 000 postes)"
+      "detail": "250 000 postes non remplacés, agences fusionnées ou privatisées"
+    },
+    {
+      "public": "Bénéficiaires de prestations sociales",
+      "sens": "contribue",
+      "fondement": "mesure",
+      "detail": "la moitié de l'effort de redressement porte sur les dépenses sociales"
     }
   ]
 }

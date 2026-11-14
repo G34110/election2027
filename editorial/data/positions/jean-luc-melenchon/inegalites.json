@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "inegalites",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Mise au pas de la finance + « révolution fiscale » — écart salarial 1 à 20",
     "type_mesure": "orientee",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
-      "url_archive": "https://web.archive.org/web/20260905143642/https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
+      "url_live": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre6/s1/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 6 « Partage des richesses » §1 « Mettre au pas la finance »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Instaurer une taxe réelle sur les transactions financières. Séparer les banques d'affaires et de détail. Contrôler les mouvements de capitaux."
     }
   },

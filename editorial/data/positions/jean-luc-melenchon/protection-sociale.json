@@ -2,7 +2,7 @@
   "candidat_id": "jean-luc-melenchon",
   "theme_id": "protection-sociale",
   "statut": "sourcee",
-  "maj_le": "2026-10-17",
+  "maj_le": "2026-11-14",
   "commit_ref": "",
   "alerte_maj": true,
   "position_actuelle": {
@@ -10,10 +10,10 @@
     "mesure_phare": "Retraite à 60 ans / 40 annuités — pensions carrière complète ≥ SMIC — « 100 % Sécu » (soins prescrits remboursés à 100 %)",
     "type_mesure": "chiffree",
     "source": {
-      "url_live": "https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
-      "url_archive": "https://web.archive.org/web/20260907170933/https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
+      "url_live": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/",
+      "url_archive": "https://web.archive.org/web/20261114/https://melenchon2027.fr/programme2025/livre/chapitre8/s8/",
       "titre": "L'Avenir en commun (éd. 2025) — ch. 8 §8 « Garantir une retraite digne » + ch. 15 §2 « Faire passer la santé d'abord »",
-      "date_verification": "2026-10-17",
+      "date_verification": "2026-11-14",
       "verbatim": "Abroger la réforme d'Emmanuel Macron passant l'âge de départ à la retraite à 64 ans et restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations. […] Instaurer le « 100 % Sécu » en remboursant à 100 % les soins de santé prescrits et en intégrant les mutuelles dans la Sécurité sociale."
     }
   },
